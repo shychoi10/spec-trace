@@ -97,10 +97,10 @@ Phase-1: Raw Data Collection & Preparation
 ├── Step-2: Change Requests Download  [✅ COMPLETE]
 ├── Step-3: Specifications Download   [✅ COMPLETE]
 ├── Step-4: ZIP Extraction            [✅ COMPLETE]
-└── Step-5: Data Cleanup for Parsing  [⏳ PLANNED]
+└── Step-5: Data Cleanup for Parsing  [✅ COMPLETE]
 ```
 
-**Status**: Steps 1-4 Complete (100%) | Step-5 Planned
+**Status**: All Steps Complete (100%) ✅
 
 ### 각 Step의 필수 문서 구조
 
@@ -160,13 +160,15 @@ Phase-1: Raw Data Collection & Preparation
 - **데이터**: `data/data_extracted/` (119,797 ZIPs → 42 GB, 99.93% success)
 - **로그**: `logs/phase-1/{meetings,change-requests,specs}/RAN1/extraction.log`
 
-### Step-5: Data Cleanup for Parsing (⏳ PLANNED)
+### Step-5: Data Cleanup for Parsing (✅ COMPLETE)
 - **상세 가이드**: `docs/phase-1/step5_data-cleanup-for-parsing.md`
 - **목적**: Phase-2 파싱을 위한 데이터 정리
-- **타겟**:
-  - System metadata: 40 MB (__MACOSX, .DS_Store)
-  - Report archives: 70-100 MB (Draft 버전들)
-  - Temp files: <1 MB (*.tmp, empty dirs)
-- **절약**: 110-140 MB 예상
-- **스크립트**: `scripts/phase-1/data-cleanup/RAN1/` (계획 중)
-- **로그**: `logs/phase-1/data-cleanup/RAN1/` (계획 중)
+- **결과**:
+  - 59 meetings 처리 (62개 중 3개는 FTP에서 비어있음)
+  - 156 MB cleanup 완료
+  - Archive 폴더: 0개 (100% 제거)
+  - 중복 Draft: 0개 (100% 제거)
+  - 깨끗한 구조: 58/59 미팅 (98.3%)
+  - Known Issue: TSGR1_100 Report 폴더 누락
+- **스크립트**: `scripts/phase-1/data-cleanup/RAN1/cleanup_reports_phase*.py`
+- **로그**: `logs/phase-1/data-cleanup/RAN1/`

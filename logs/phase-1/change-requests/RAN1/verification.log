@@ -1,0 +1,99 @@
+================================================================================
+RAN1 Change Request Download Verification
+================================================================================
+Time: 2025-10-30 14:29:09
+================================================================================
+
+[Rel-15]
+  Total CRs: 204
+  WG TDocs: 154/197 (78%)
+  TSG TDocs: 151/204 (74%)
+  ⚠ Missing WG TDocs: 43
+  ⚠ Missing TSG TDocs: 53
+  ✓ Saved to data_raw/ChangeRequests/RAN1/Rel-15/metadata/download_status.csv
+
+[Rel-16]
+  Total CRs: 537
+  WG TDocs: 422/516 (81%)
+  TSG TDocs: 99/537 (18%)
+  ⚠ Missing WG TDocs: 94
+  ⚠ Missing TSG TDocs: 438
+  ✓ Saved to data_raw/ChangeRequests/RAN1/Rel-16/metadata/download_status.csv
+
+[Rel-17]
+  Total CRs: 564
+  WG TDocs: 437/559 (78%)
+  TSG TDocs: 256/564 (45%)
+  ⚠ Missing WG TDocs: 122
+  ⚠ Missing TSG TDocs: 308
+  ✓ Saved to data_raw/ChangeRequests/RAN1/Rel-17/metadata/download_status.csv
+
+[Rel-18]
+  Total CRs: 430
+  WG TDocs: 370/430 (86%)
+  TSG TDocs: 430/430 (100%)
+  ⚠ Missing WG TDocs: 60
+  ✓ Saved to data_raw/ChangeRequests/RAN1/Rel-18/metadata/download_status.csv
+
+[Rel-19]
+  Total CRs: 68
+  WG TDocs: 68/68 (100%)
+  TSG TDocs: 68/68 (100%)
+  ✓ All files downloaded successfully!
+  ✓ Saved to data_raw/ChangeRequests/RAN1/Rel-19/metadata/download_status.csv
+
+================================================================================
+Download Verification Summary
+================================================================================
+Total CRs: 1803
+
+WG TDocs:
+  Expected: 1770
+  Downloaded: 1451
+  Missing: 319
+  Success Rate: 81%
+
+TSG TDocs:
+  Expected: 1803
+  Downloaded: 1004
+  Missing: 799
+  Success Rate: 55%
+
+Total Files:
+  Expected: 3573
+  Downloaded: 2455
+  Missing: 1118
+
+================================================================================
+Missing Files Details
+================================================================================
+
+Missing WG TDocs (319):
+  - R1-1905682 (Spec: 38.211, CR: 0012)
+  - R1-1905666 (Spec: 38.211, CR: 0011)
+  - R1-1905654 (Spec: 38.211, CR: 0010)
+  - R1-2104007 (Spec: 38.212, CR: 0065)
+  - R1-2002906 (Spec: 38.212, CR: 0037)
+  - R1-1911611 (Spec: 38.212, CR: 0021)
+  - R1-1905910 (Spec: 38.212, CR: 0018)
+  - R1-1905870 (Spec: 38.212, CR: 0017)
+  - R1-1905787 (Spec: 38.212, CR: 0016)
+  - R1-1905744 (Spec: 38.212, CR: 0015)
+  ... and 309 more
+
+Missing TSG TDocs (799):
+  - RP-212958 (Spec: 38.211, CR: 0077)
+  - RP-211233 (Spec: 38.211, CR: 0073)
+  - RP-191281 (Spec: 38.211, CR: 0016)
+  - RP-191281 (Spec: 38.211, CR: 0015)
+  - RP-191281 (Spec: 38.211, CR: 0014)
+  - RP-191281 (Spec: 38.211, CR: 0012)
+  - RP-191281 (Spec: 38.211, CR: 0011)
+  - RP-191281 (Spec: 38.211, CR: 0010)
+  - RP-212958 (Spec: 38.212, CR: 0082)
+  - RP-212958 (Spec: 38.212, CR: 0079)
+  ... and 789 more
+
+================================================================================
+⚠ Some files are missing - re-run download script
+================================================================================

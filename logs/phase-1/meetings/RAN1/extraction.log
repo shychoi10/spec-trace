@@ -1,0 +1,41 @@
+2025-10-30 20:28:50,714 [INFO] ============================================================
+2025-10-30 20:28:50,714 [INFO] RAN1 Meetings Extraction
+2025-10-30 20:28:50,714 [INFO] ============================================================
+2025-10-30 20:28:50,714 [INFO] Source: data_raw/meetings/RAN1
+2025-10-30 20:28:50,714 [INFO] Destination: data_extracted/meetings/RAN1
+2025-10-30 20:28:50,714 [INFO] Workers: 8
+2025-10-30 20:28:50,714 [INFO] Target meeting: ALL
+2025-10-30 20:28:50,714 [INFO] Resume mode: False
+2025-10-30 20:28:50,715 [INFO] Dry run: False
+2025-10-30 20:28:50,715 [INFO] 
+2025-10-30 20:28:50,715 [INFO] Step 1: Scanning source directory...
+2025-10-30 20:28:50,744 [WARNING] RAR support not available, skipping: R1-1714838.rar
+2025-10-30 20:28:51,200 [WARNING] RAR support not available, skipping: R1-2208165.rar
+2025-10-30 20:28:51,259 [INFO] Found 119843 items:
+2025-10-30 20:28:51,259 [INFO]   - copy_file: 72
+2025-10-30 20:28:51,259 [INFO]   - extract_zip: 119766
+2025-10-30 20:28:51,259 [INFO]   - skip: 5
+2025-10-30 20:28:51,259 [INFO] 
+2025-10-30 20:28:51,259 [INFO] Step 2: Processing 119843 items with 8 workers...
+2025-10-30 20:31:01,289 [INFO] 
+2025-10-30 20:31:01,289 [INFO] ============================================================
+2025-10-30 20:31:01,289 [INFO] Extraction Complete!
+2025-10-30 20:31:01,289 [INFO] ============================================================
+2025-10-30 20:31:01,289 [INFO] ZIPs extracted: 119687
+2025-10-30 20:31:01,289 [INFO] Files copied: 72
+2025-10-30 20:31:01,289 [INFO] Skipped: 5
+2025-10-30 20:31:01,289 [INFO] Errors: 79
+2025-10-30 20:31:01,289 [INFO] Duration: 130.0 seconds
+2025-10-30 20:31:01,289 [INFO] 
+2025-10-30 20:31:01,289 [INFO] Errors encountered:
+2025-10-30 20:31:01,289 [INFO]   - data_raw/meetings/RAN1/TSGR1_84/Docs/R1-160281.zip: Corrupted ZIP file
+2025-10-30 20:31:01,289 [INFO]   - data_raw/meetings/RAN1/TSGR1_118/Docs/R1-2406107.zip: Corrupted ZIP file
+2025-10-30 20:31:01,289 [INFO]   - data_raw/meetings/RAN1/TSGR1_105-e/Docs/R1-2104881.zip: Corrupted ZIP file
+2025-10-30 20:31:01,289 [INFO]   - data_raw/meetings/RAN1/TSGR1_105-e/Docs/R1-2105682.zip: Unexpected error: That compression method is not supported
+2025-10-30 20:31:01,289 [INFO]   - data_raw/meetings/RAN1/TSGR1_105-e/Docs/R1-2104882.zip: Corrupted ZIP file
+2025-10-30 20:31:01,289 [INFO]   - data_raw/meetings/RAN1/TSGR1_105-e/Docs/R1-2106242.zip: Corrupted ZIP file
+2025-10-30 20:31:01,289 [INFO]   - data_raw/meetings/RAN1/TSGR1_120b/Docs/R1-2503045.zip: Corrupted ZIP file
+2025-10-30 20:31:01,289 [INFO]   - data_raw/meetings/RAN1/TSGR1_90/Docs/R1-1715052.zip: Corrupted ZIP file
+2025-10-30 20:31:01,289 [INFO]   - data_raw/meetings/RAN1/TSGR1_90/Docs/R1-1715243.zip: Corrupted ZIP file
+2025-10-30 20:31:01,289 [INFO]   - data_raw/meetings/RAN1/TSGR1_101-e/Docs/R1-2004391.zip: Unexpected error: That compression method is not supported
+2025-10-30 20:31:01,289 [INFO]   ... and 69 more (see log file)

@@ -1,0 +1,28 @@
+Download started at 2025-10-30 18:25:01.736910
+
+[2025-10-30 18:25:01] [INFO] Starting download process
+[2025-10-30 18:25:01] [INFO] Fetching version list from https://www.3gpp.org/ftp/specs/archive/38_series/38.211/
+[2025-10-30 18:25:03] [INFO] Found 189 versions, latest: j10
+[2025-10-30 18:25:03] [INFO] Downloading 38211-j10.zip from https://www.3gpp.org/ftp/specs/archive/38_series/38.211/38211-j10.zip
+[2025-10-30 18:25:16] [INFO] ✓ 38211-j10.zip downloaded successfully (1225 KB)
+[2025-10-30 18:25:16] [INFO] Fetching version list from https://www.3gpp.org/ftp/specs/archive/38_series/38.212/
+[2025-10-30 18:25:19] [INFO] Found 198 versions, latest: j10
+[2025-10-30 18:25:19] [INFO] Downloading 38212-j10.zip from https://www.3gpp.org/ftp/specs/archive/38_series/38.212/38212-j10.zip
+[2025-10-30 18:25:32] [INFO] ✓ 38212-j10.zip downloaded successfully (2082 KB)
+[2025-10-30 18:25:32] [INFO] Fetching version list from https://www.3gpp.org/ftp/specs/archive/38_series/38.213/
+[2025-10-30 18:25:35] [INFO] Found 219 versions, latest: j10
+[2025-10-30 18:25:35] [INFO] Downloading 38213-j10.zip from https://www.3gpp.org/ftp/specs/archive/38_series/38.213/38213-j10.zip
+[2025-10-30 18:25:51] [INFO] ✓ 38213-j10.zip downloaded successfully (1315 KB)
+[2025-10-30 18:25:51] [INFO] Fetching version list from https://www.3gpp.org/ftp/specs/archive/38_series/38.214/
+[2025-10-30 18:25:55] [INFO] Found 231 versions, latest: j10
+[2025-10-30 18:25:55] [INFO] Downloading 38214-j10.zip from https://www.3gpp.org/ftp/specs/archive/38_series/38.214/38214-j10.zip
+[2025-10-30 18:26:30] [INFO] ✓ 38214-j10.zip downloaded successfully (3059 KB)
+[2025-10-30 18:26:30] [INFO] Fetching version list from https://www.3gpp.org/ftp/specs/archive/38_series/38.215/
+[2025-10-30 18:26:32] [INFO] Found 132 versions, latest: j10
+[2025-10-30 18:26:32] [INFO] Downloading 38215-j10.zip from https://www.3gpp.org/ftp/specs/archive/38_series/38.215/38215-j10.zip
+[2025-10-30 18:26:34] [INFO] ✓ 38215-j10.zip downloaded successfully (170 KB)
+[2025-10-30 18:26:34] [INFO] Saving metadata to download_status.csv
+[2025-10-30 18:26:34] [INFO] ✓ Metadata saved to /home/sihyeon/workspace/spec-trace/data_raw/specs/RAN1/metadata/download_status.csv
+[2025-10-30 18:26:34] [INFO] 
+✓ All specs downloaded successfully!
+[2025-10-30 18:26:34] [INFO] Download process completed

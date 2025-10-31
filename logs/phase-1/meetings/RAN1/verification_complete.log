@@ -1,0 +1,461 @@
+================================================================================
+3GPP RAN1 Download Status Check
+================================================================================
+Time: 2025-10-30 11:07:09
+FTP: https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/
+Local: data_raw/meetings/RAN1
+================================================================================
+
+[1/3] Fetching meeting list from FTP...
+Total target meetings: 62
+
+[2/3] Checking each meeting...
+
+[1/62] TSGR1_100
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=34, Report=0
+  Local: Docs=34, Report=0
+  Status: COMPLETE
+
+[2/62] TSGR1_100_e
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=1277, Report=4
+  Local: Docs=1277, Report=4
+  Status: COMPLETE
+
+[3/62] TSGR1_100b
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=0, Report=0
+  Local: Docs=0, Report=0
+  Status: COMPLETE
+
+[4/62] TSGR1_100b_e
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=1684, Report=2
+  Local: Docs=1684, Report=2
+  Status: COMPLETE
+
+[5/62] TSGR1_101
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=0, Report=0
+  Local: Docs=0, Report=0
+  Status: COMPLETE
+
+[6/62] TSGR1_101-e
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=1929, Report=3
+  Local: Docs=1929, Report=3
+  Status: COMPLETE
+
+[7/62] TSGR1_102
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=0, Report=0
+  Local: Docs=0, Report=0
+  Status: COMPLETE
+
+[8/62] TSGR1_102-e
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=2269, Report=3
+  Local: Docs=2269, Report=3
+  Status: COMPLETE
+
+[9/62] TSGR1_103-e
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=2322, Report=3
+  Local: Docs=2322, Report=3
+  Status: COMPLETE
+
+[10/62] TSGR1_104-e
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=2250, Report=4
+  Local: Docs=2250, Report=4
+  Status: COMPLETE
+
+[11/62] TSGR1_104b-e
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=1853, Report=3
+  Local: Docs=1853, Report=3
+  Status: COMPLETE
+
+[12/62] TSGR1_105-e
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=2080, Report=3
+  Local: Docs=2080, Report=3
+  Status: COMPLETE
+
+[13/62] TSGR1_106-e
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=2279, Report=5
+  Local: Docs=2279, Report=5
+  Status: COMPLETE
+
+[14/62] TSGR1_106b-e
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=2003, Report=3
+  Local: Docs=2003, Report=3
+  Status: COMPLETE
+
+[15/62] TSGR1_107-e
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=2225, Report=2
+  Local: Docs=2225, Report=2
+  Status: COMPLETE
+
+[16/62] TSGR1_107b-e
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=832, Report=4
+  Local: Docs=832, Report=4
+  Status: COMPLETE
+
+[17/62] TSGR1_108-e
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=2145, Report=3
+  Local: Docs=2145, Report=3
+  Status: COMPLETE
+
+[18/62] TSGR1_109-e
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=2602, Report=4
+  Local: Docs=2602, Report=4
+  Status: COMPLETE
+
+[19/62] TSGR1_110
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=2581, Report=3
+  Local: Docs=2581, Report=3
+  Status: COMPLETE
+
+[20/62] TSGR1_110b-e
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=2456, Report=3
+  Local: Docs=2456, Report=3
+  Status: COMPLETE
+
+[21/62] TSGR1_111
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=2194, Report=3
+  Local: Docs=2194, Report=3
+  Status: COMPLETE
+
+[22/62] TSGR1_112
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=2236, Report=5
+  Local: Docs=2236, Report=5
+  Status: COMPLETE
+
+[23/62] TSGR1_112b-e
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=2018, Report=3
+  Local: Docs=2018, Report=3
+  Status: COMPLETE
+
+[24/62] TSGR1_113
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=2008, Report=3
+  Local: Docs=2008, Report=3
+  Status: COMPLETE
+
+[25/62] TSGR1_114
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=2416, Report=3
+  Local: Docs=2416, Report=3
+  Status: COMPLETE
+
+[26/62] TSGR1_114b
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=1952, Report=3
+  Local: Docs=1952, Report=3
+  Status: COMPLETE
+
+[27/62] TSGR1_115
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=2019, Report=4
+  Local: Docs=2019, Report=4
+  Status: COMPLETE
+
+[28/62] TSGR1_116
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=1900, Report=4
+  Local: Docs=1900, Report=4
+  Status: COMPLETE
+
+[29/62] TSGR1_116b
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=1865, Report=4
+  Local: Docs=1865, Report=4
+  Status: COMPLETE
+
+[30/62] TSGR1_117
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=1935, Report=3
+  Local: Docs=1935, Report=3
+  Status: COMPLETE
+
+[31/62] TSGR1_118
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=1780, Report=4
+  Local: Docs=1780, Report=4
+  Status: COMPLETE
+
+[32/62] TSGR1_118b
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=1725, Report=3
+  Local: Docs=1725, Report=3
+  Status: COMPLETE
+
+[33/62] TSGR1_119
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=1592, Report=3
+  Local: Docs=1592, Report=3
+  Status: COMPLETE
+
+[34/62] TSGR1_120
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=1659, Report=4
+  Local: Docs=1659, Report=4
+  Status: COMPLETE
+
+[35/62] TSGR1_120b
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=1490, Report=3
+  Local: Docs=1490, Report=3
+  Status: COMPLETE
+
+[36/62] TSGR1_121
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=1869, Report=3
+  Local: Docs=1869, Report=3
+  Status: COMPLETE
+
+[37/62] TSGR1_122
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=1581, Report=2
+  Local: Docs=1581, Report=2
+  Status: COMPLETE
+
+[38/62] TSGR1_122b
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=1535, Report=5
+  Local: Docs=1504, Report=5
+  Status: COMPLETE
+
+[39/62] TSGR1_84
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=1282, Report=4
+  Local: Docs=1283, Report=4
+  Status: COMPLETE
+
+[40/62] TSGR1_84b
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=1790, Report=3
+  Local: Docs=1790, Report=3
+  Status: COMPLETE
+
+[41/62] TSGR1_85
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=2030, Report=2
+  Local: Docs=2030, Report=2
+  Status: COMPLETE
+
+[42/62] TSGR1_86
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=2435, Report=3
+  Local: Docs=2435, Report=3
+  Status: COMPLETE
+
+[43/62] TSGR1_86b
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=2441, Report=2
+  Local: Docs=2441, Report=2
+  Status: COMPLETE
+
+[44/62] TSGR1_87
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=2653, Report=4
+  Local: Docs=2653, Report=4
+  Status: COMPLETE
+
+[45/62] TSGR1_88
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=2536, Report=2
+  Local: Docs=2536, Report=2
+  Status: COMPLETE
+
+[46/62] TSGR1_88b
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=2598, Report=3
+  Local: Docs=2598, Report=3
+  Status: COMPLETE
+
+[47/62] TSGR1_89
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=2877, Report=3
+  Local: Docs=2877, Report=3
+  Status: COMPLETE
+
+[48/62] TSGR1_90
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=3239, Report=3
+  Local: Docs=3239, Report=3
+  Status: COMPLETE
+
+[49/62] TSGR1_90b
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=2277, Report=3
+  Local: Docs=2277, Report=3
+  Status: COMPLETE
+
+[50/62] TSGR1_91
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=2362, Report=5
+  Local: Docs=2362, Report=5
+  Status: COMPLETE
+
+[51/62] TSGR1_92
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=2201, Report=4
+  Local: Docs=2201, Report=4
+  Status: COMPLETE
+
+[52/62] TSGR1_92b
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=2146, Report=3
+  Local: Docs=2146, Report=3
+  Status: COMPLETE
+
+[53/62] TSGR1_93
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=2127, Report=3
+  Local: Docs=2127, Report=3
+  Status: COMPLETE
+
+[54/62] TSGR1_94
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=2018, Report=3
+  Local: Docs=2018, Report=3
+  Status: COMPLETE
+
+[55/62] TSGR1_94b
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=1957, Report=3
+  Local: Docs=1957, Report=3
+  Status: COMPLETE
+
+[56/62] TSGR1_95
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=2228, Report=4
+  Local: Docs=2228, Report=4
+  Status: COMPLETE
+
+[57/62] TSGR1_96
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=2314, Report=4
+  Local: Docs=2314, Report=4
+  Status: COMPLETE
+
+[58/62] TSGR1_96b
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=2002, Report=3
+  Local: Docs=2002, Report=3
+  Status: COMPLETE
+
+[59/62] TSGR1_97
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=2010, Report=4
+  Local: Docs=2010, Report=4
+  Status: COMPLETE
+
+[60/62] TSGR1_98
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=1941, Report=5
+  Local: Docs=1930, Report=5
+  Status: COMPLETE
+
+[61/62] TSGR1_98b
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=1795, Report=3
+  Local: Docs=1795, Report=3
+  Status: COMPLETE
+
+[62/62] TSGR1_99
+  Checking Docs...
+  Checking Report...
+  FTP: Docs=1836, Report=3
+  Local: Docs=1836, Report=3
+  Status: COMPLETE
+
+[3/3] Generating report...
+
+================================================================================
+SUMMARY
+================================================================================
+Total Meetings: 62
+Complete: 62 (100%)
+Partial:  0 (0%)
+Missing:  0 (0%)
+
+Download needed: 0 meetings
+================================================================================
+
+Detailed log saved to: logs/phase-1/status_detailed.log

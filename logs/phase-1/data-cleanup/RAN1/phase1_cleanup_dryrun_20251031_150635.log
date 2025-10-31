@@ -1,0 +1,143 @@
+2025-10-31 15:06:35,299 - INFO - ================================================================================
+2025-10-31 15:06:35,299 - INFO - Phase-1 Step-5: Report Cleanup - Phase 1
+2025-10-31 15:06:35,299 - INFO - ================================================================================
+2025-10-31 15:06:35,299 - INFO - Mode: DRY-RUN (simulation)
+2025-10-31 15:06:35,299 - INFO - Data directory: /home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1
+2025-10-31 15:06:35,299 - INFO - Category A meetings: 26
+2025-10-31 15:06:35,299 - INFO - Category D meetings: 4
+2025-10-31 15:06:35,299 - INFO - Total meetings: 30
+2025-10-31 15:06:35,299 - INFO - 
+2025-10-31 15:06:35,299 - INFO - Processing Category A (Has Final, Archive = drafts only)...
+2025-10-31 15:06:35,299 - INFO - --------------------------------------------------------------------------------
+2025-10-31 15:06:35,299 - INFO - TSGR1_100b_e: Archive found - Size: 962.14 KB
+2025-10-31 15:06:35,299 - INFO - TSGR1_100b_e: Archive contents: ['Draft_Minutes_report_RAN1%23100b-e_v010']
+2025-10-31 15:06:35,299 - INFO - TSGR1_100b_e: [DRY-RUN] Would delete Archive (962.14 KB)
+2025-10-31 15:06:35,299 - INFO - 
+2025-10-31 15:06:35,299 - INFO - TSGR1_101-e: Archive found - Size: 2.48 MB
+2025-10-31 15:06:35,299 - INFO - TSGR1_101-e: Archive contents: ['Draft_Minutes_report_RAN1%23101-e_v010', 'Draft_Minutes_report_RAN1%23101-e_v020']
+2025-10-31 15:06:35,299 - INFO - TSGR1_101-e: [DRY-RUN] Would delete Archive (2.48 MB)
+2025-10-31 15:06:35,299 - INFO - 
+2025-10-31 15:06:35,300 - INFO - TSGR1_102-e: Archive found - Size: 2.64 MB
+2025-10-31 15:06:35,300 - INFO - TSGR1_102-e: Archive contents: ['Draft_Minutes_report_RAN1%23102-e_v020', 'Draft_Minutes_report_RAN1%23102-e_v010']
+2025-10-31 15:06:35,300 - INFO - TSGR1_102-e: [DRY-RUN] Would delete Archive (2.64 MB)
+2025-10-31 15:06:35,300 - INFO - 
+2025-10-31 15:06:35,300 - INFO - TSGR1_103-e: Archive found - Size: 4.37 MB
+2025-10-31 15:06:35,300 - INFO - TSGR1_103-e: Archive contents: ['Draft_Minutes_report_RAN1%23103-e_v010', 'Draft_Minutes_report_RAN1%23103-e_v020']
+2025-10-31 15:06:35,300 - INFO - TSGR1_103-e: [DRY-RUN] Would delete Archive (4.37 MB)
+2025-10-31 15:06:35,300 - INFO - 
+2025-10-31 15:06:35,300 - INFO - TSGR1_104-e: Archive found - Size: 4.42 MB
+2025-10-31 15:06:35,300 - INFO - TSGR1_104-e: Archive contents: ['Draft_Minutes_report_RAN1%23104-e_v030', 'Draft_Minutes_report_RAN1%23104-e_v010', 'Draft_Minutes_report_RAN1%23104-e_v020']
+2025-10-31 15:06:35,300 - INFO - TSGR1_104-e: [DRY-RUN] Would delete Archive (4.42 MB)
+2025-10-31 15:06:35,300 - INFO - 
+2025-10-31 15:06:35,300 - INFO - TSGR1_104b-e: Archive found - Size: 2.19 MB
+2025-10-31 15:06:35,300 - INFO - TSGR1_104b-e: Archive contents: ['Draft_Minutes_report_RAN1%23104bis-e_v010', 'Draft_Minutes_report_RAN1%23104bis-e_v020']
+2025-10-31 15:06:35,300 - INFO - TSGR1_104b-e: [DRY-RUN] Would delete Archive (2.19 MB)
+2025-10-31 15:06:35,300 - INFO - 
+2025-10-31 15:06:35,300 - INFO - TSGR1_105-e: Archive found - Size: 2.54 MB
+2025-10-31 15:06:35,300 - INFO - TSGR1_105-e: Archive contents: ['Draft_Minutes_report_RAN1%23105-e_v010', 'Draft_Minutes_report_RAN1%23105-e_v020']
+2025-10-31 15:06:35,300 - INFO - TSGR1_105-e: [DRY-RUN] Would delete Archive (2.54 MB)
+2025-10-31 15:06:35,300 - INFO - 
+2025-10-31 15:06:35,300 - WARNING - TSGR1_107: Meeting directory not found
+2025-10-31 15:06:35,300 - INFO - 
+2025-10-31 15:06:35,300 - INFO - TSGR1_107-e: Archive found - Size: 1.61 MB
+2025-10-31 15:06:35,300 - INFO - TSGR1_107-e: Archive contents: ['Draft_Minutes_report_RAN1%23107-e_v010']
+2025-10-31 15:06:35,300 - INFO - TSGR1_107-e: [DRY-RUN] Would delete Archive (1.61 MB)
+2025-10-31 15:06:35,300 - INFO - 
+2025-10-31 15:06:35,300 - WARNING - TSGR1_108: Meeting directory not found
+2025-10-31 15:06:35,300 - INFO - 
+2025-10-31 15:06:35,300 - INFO - TSGR1_110: Archive found - Size: 3.64 MB
+2025-10-31 15:06:35,300 - INFO - TSGR1_110: Archive contents: ['Draft_Minutes_report_RAN1%23110_v020', 'Draft_Minutes_report_RAN1%23110_v010']
+2025-10-31 15:06:35,300 - INFO - TSGR1_110: [DRY-RUN] Would delete Archive (3.64 MB)
+2025-10-31 15:06:35,300 - INFO - 
+2025-10-31 15:06:35,300 - WARNING - TSGR1_110b: Meeting directory not found
+2025-10-31 15:06:35,300 - INFO - 
+2025-10-31 15:06:35,300 - INFO - TSGR1_111: Archive found - Size: 2.32 MB
+2025-10-31 15:06:35,300 - INFO - TSGR1_111: Archive contents: ['Draft_Minutes_report_RAN1%23111_v010', 'Draft_Minutes_report_RAN1%23111_v020']
+2025-10-31 15:06:35,300 - INFO - TSGR1_111: [DRY-RUN] Would delete Archive (2.32 MB)
+2025-10-31 15:06:35,300 - INFO - 
+2025-10-31 15:06:35,301 - INFO - TSGR1_112: Archive found - Size: 6.98 MB
+2025-10-31 15:06:35,301 - INFO - TSGR1_112: Archive contents: ['Draft_Minutes_report_RAN1%23112_v040', 'Draft_Minutes_report_RAN1%23112_v030', 'Draft_Minutes_report_RAN1%23112_v020', 'Draft_Minutes_report_RAN1%23112_v010']
+2025-10-31 15:06:35,301 - INFO - TSGR1_112: [DRY-RUN] Would delete Archive (6.98 MB)
+2025-10-31 15:06:35,301 - INFO - 
+2025-10-31 15:06:35,301 - WARNING - TSGR1_112b: Meeting directory not found
+2025-10-31 15:06:35,301 - INFO - 
+2025-10-31 15:06:35,301 - INFO - TSGR1_113: Archive found - Size: 2.08 MB
+2025-10-31 15:06:35,301 - INFO - TSGR1_113: Archive contents: ['Draft_Minutes_report_RAN1%23113_v020', 'Draft_Minutes_report_RAN1%23113_v010']
+2025-10-31 15:06:35,301 - INFO - TSGR1_113: [DRY-RUN] Would delete Archive (2.08 MB)
+2025-10-31 15:06:35,301 - INFO - 
+2025-10-31 15:06:35,301 - INFO - TSGR1_114b: Archive found - Size: 2.21 MB
+2025-10-31 15:06:35,301 - INFO - TSGR1_114b: Archive contents: ['Draft_Minutes_report_RAN1%23114b_v010', 'Draft_Minutes_report_RAN1%23114b_v020']
+2025-10-31 15:06:35,301 - INFO - TSGR1_114b: [DRY-RUN] Would delete Archive (2.21 MB)
+2025-10-31 15:06:35,301 - INFO - 
+2025-10-31 15:06:35,301 - INFO - TSGR1_115: Archive found - Size: 5.21 MB
+2025-10-31 15:06:35,301 - INFO - TSGR1_115: Archive contents: ['Draft_Minutes_report_RAN1%23115_v010', 'Draft_Minutes_report_RAN1%23115_v020', 'Draft_Minutes_report_RAN1%23115_v030']
+2025-10-31 15:06:35,301 - INFO - TSGR1_115: [DRY-RUN] Would delete Archive (5.21 MB)
+2025-10-31 15:06:35,301 - INFO - 
+2025-10-31 15:06:35,301 - INFO - TSGR1_116: Archive found - Size: 3.70 MB
+2025-10-31 15:06:35,301 - INFO - TSGR1_116: Archive contents: ['Draft_Minutes_report_RAN1%23116_v030', 'Draft_Minutes_report_RAN1%23116_v010', 'Draft_Minutes_report_RAN1%23116_v020']
+2025-10-31 15:06:35,301 - INFO - TSGR1_116: [DRY-RUN] Would delete Archive (3.70 MB)
+2025-10-31 15:06:35,301 - INFO - 
+2025-10-31 15:06:35,301 - INFO - TSGR1_116b: Archive found - Size: 3.49 MB
+2025-10-31 15:06:35,301 - INFO - TSGR1_116b: Archive contents: ['Draft_Minutes_report_RAN1%23116b_v010', 'Draft_Minutes_report_RAN1%23116b_v020', 'Draft_Minutes_report_RAN1%23116b_v030']
+2025-10-31 15:06:35,301 - INFO - TSGR1_116b: [DRY-RUN] Would delete Archive (3.49 MB)
+2025-10-31 15:06:35,301 - INFO - 
+2025-10-31 15:06:35,301 - INFO - TSGR1_118: Archive found - Size: 3.93 MB
+2025-10-31 15:06:35,301 - INFO - TSGR1_118: Archive contents: ['Draft_Minutes_report_RAN1%23118_v010', 'Draft_Minutes_report_RAN1%23118_v030', 'Draft_Minutes_report_RAN1%23118_v020']
+2025-10-31 15:06:35,301 - INFO - TSGR1_118: [DRY-RUN] Would delete Archive (3.93 MB)
+2025-10-31 15:06:35,301 - INFO - 
+2025-10-31 15:06:35,301 - INFO - TSGR1_118b: Archive found - Size: 3.57 MB
+2025-10-31 15:06:35,301 - INFO - TSGR1_118b: Archive contents: ['Draft_Minutes_report_RAN1%23118b_v020', 'Draft_Minutes_report_RAN1%23118b_v010']
+2025-10-31 15:06:35,301 - INFO - TSGR1_118b: [DRY-RUN] Would delete Archive (3.57 MB)
+2025-10-31 15:06:35,301 - INFO - 
+2025-10-31 15:06:35,302 - INFO - TSGR1_120: Archive found - Size: 4.33 MB
+2025-10-31 15:06:35,302 - INFO - TSGR1_120: Archive contents: ['Draft_Minutes_report_RAN1%23120_v010', 'Draft_Minutes_report_RAN1%23120_v020', 'Draft_Minutes_report_RAN1%23120_v030']
+2025-10-31 15:06:35,302 - INFO - TSGR1_120: [DRY-RUN] Would delete Archive (4.33 MB)
+2025-10-31 15:06:35,302 - INFO - 
+2025-10-31 15:06:35,302 - INFO - TSGR1_120b: Archive found - Size: 1.86 MB
+2025-10-31 15:06:35,302 - INFO - TSGR1_120b: Archive contents: ['Draft_Minutes_report_RAN1%23120b_v020', 'Draft_Minutes_report_RAN1%23120b_v010']
+2025-10-31 15:06:35,302 - INFO - TSGR1_120b: [DRY-RUN] Would delete Archive (1.86 MB)
+2025-10-31 15:06:35,302 - INFO - 
+2025-10-31 15:06:35,302 - INFO - TSGR1_121: Archive found - Size: 3.76 MB
+2025-10-31 15:06:35,302 - INFO - TSGR1_121: Archive contents: ['Draft_Minutes_report_RAN1%23121_v020', 'Draft_Minutes_report_RAN1%23121_v010']
+2025-10-31 15:06:35,302 - INFO - TSGR1_121: [DRY-RUN] Would delete Archive (3.76 MB)
+2025-10-31 15:06:35,302 - INFO - 
+2025-10-31 15:06:35,302 - INFO - TSGR1_122: Archive found - Size: 904.33 KB
+2025-10-31 15:06:35,302 - INFO - TSGR1_122: Archive contents: ['Draft_Minutes_report_RAN1%23122_v010']
+2025-10-31 15:06:35,302 - INFO - TSGR1_122: [DRY-RUN] Would delete Archive (904.33 KB)
+2025-10-31 15:06:35,302 - INFO - 
+2025-10-31 15:06:35,302 - INFO - Processing Category D (No Final, has Draft v030)...
+2025-10-31 15:06:35,302 - INFO - --------------------------------------------------------------------------------
+2025-10-31 15:06:35,302 - INFO - TSGR1_109-e: Archive found - Size: 4.88 MB
+2025-10-31 15:06:35,302 - INFO - TSGR1_109-e: Archive contents: ['Draft_Minutes_report_RAN1%23109-e_v030', 'Draft_Minutes_report_RAN1%23109-e_v020', 'Draft_Minutes_report_RAN1%23109-e_v010']
+2025-10-31 15:06:35,302 - INFO - TSGR1_109-e: [DRY-RUN] Would delete Archive (4.88 MB)
+2025-10-31 15:06:35,302 - INFO - 
+2025-10-31 15:06:35,302 - INFO - TSGR1_114: Archive found - Size: 2.23 MB
+2025-10-31 15:06:35,302 - INFO - TSGR1_114: Archive contents: ['Draft_Minutes_report_RAN1%23114_v020', 'Draft_Minutes_report_RAN1%23114_v010']
+2025-10-31 15:06:35,302 - INFO - TSGR1_114: [DRY-RUN] Would delete Archive (2.23 MB)
+2025-10-31 15:06:35,302 - INFO - 
+2025-10-31 15:06:35,302 - INFO - TSGR1_117: Archive found - Size: 1.97 MB
+2025-10-31 15:06:35,302 - INFO - TSGR1_117: Archive contents: ['Draft_Minutes_report_RAN1%23117_v020', 'Draft_Minutes_report_RAN1%23117_v010']
+2025-10-31 15:06:35,302 - INFO - TSGR1_117: [DRY-RUN] Would delete Archive (1.97 MB)
+2025-10-31 15:06:35,302 - INFO - 
+2025-10-31 15:06:35,302 - INFO - TSGR1_119: Archive found - Size: 5.61 MB
+2025-10-31 15:06:35,302 - INFO - TSGR1_119: Archive contents: ['Draft_Minutes_report_RAN1%23119_v020', 'Draft_Minutes_report_RAN1%23119_v010']
+2025-10-31 15:06:35,302 - INFO - TSGR1_119: [DRY-RUN] Would delete Archive (5.61 MB)
+2025-10-31 15:06:35,302 - INFO - 
+2025-10-31 15:06:35,302 - INFO - ================================================================================
+2025-10-31 15:06:35,302 - INFO - SUMMARY
+2025-10-31 15:06:35,302 - INFO - ================================================================================
+2025-10-31 15:06:35,302 - INFO - Total meetings processed: 30
+2025-10-31 15:06:35,302 - INFO - Archives found: 26
+2025-10-31 15:06:35,302 - INFO - Successfully cleaned: 26
+2025-10-31 15:06:35,302 - INFO - Errors: 4
+2025-10-31 15:06:35,302 - INFO - Total savings: 83.82 MB
+2025-10-31 15:06:35,302 - INFO - 
+2025-10-31 15:06:35,302 - WARNING - Meetings with errors:
+2025-10-31 15:06:35,302 - WARNING -   - TSGR1_107: Meeting directory not found
+2025-10-31 15:06:35,302 - WARNING -   - TSGR1_108: Meeting directory not found
+2025-10-31 15:06:35,302 - WARNING -   - TSGR1_110b: Meeting directory not found
+2025-10-31 15:06:35,302 - WARNING -   - TSGR1_112b: Meeting directory not found
+2025-10-31 15:06:35,302 - INFO - 
+2025-10-31 15:06:35,302 - INFO - This was a DRY-RUN. No files were actually deleted.
+2025-10-31 15:06:35,302 - INFO - Run without --dry-run to perform actual cleanup.
+2025-10-31 15:06:35,303 - INFO - ================================================================================

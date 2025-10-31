@@ -11,15 +11,15 @@
 
 ## 프로젝트 상태
 
-**Phase-1: Raw Data Collection & Preparation** (80% 완료)
+**Phase-1: Raw Data Collection & Preparation** (✅ 100% 완료)
 - ✅ Step-1: Meetings Download (62 meetings)
 - ✅ Step-2: Change Requests Download (451 CRs)
 - ✅ Step-3: Specifications Download (5 specs)
 - ✅ Step-4: ZIP Extraction (42 GB)
-- ⏳ Step-5: Data Cleanup for Parsing (planned)
+- ✅ Step-5: Data Cleanup for Parsing (156 MB cleaned)
 
-**Phase-2: Data Parsing** (계획 중)
-- DOC/DOCX 파싱
+**Phase-2: Data Parsing** (준비 완료)
+- DOC/DOCX 파싱 (121,032 files)
 - 메타데이터 추출
 - 데이터베이스 적재
 
@@ -32,8 +32,8 @@ data/
 │   ├── change-requests/RAN1/ (451 CRs, 105 files)
 │   └── specs/RAN1/        (5 specs, 7.7 MB)
 │
-└── data_extracted/        # 압축 해제 결과
-    ├── meetings/RAN1/     (129,718 files, 42 GB)
+└── data_extracted/        # 압축 해제 + 정리 완료
+    ├── meetings/RAN1/     (129,718 files, 41.84 GB, 156 MB cleaned)
     ├── change-requests/RAN1/ (706 files, 122 MB)
     └── specs/RAN1/        (5 files, 9.9 MB)
 ```

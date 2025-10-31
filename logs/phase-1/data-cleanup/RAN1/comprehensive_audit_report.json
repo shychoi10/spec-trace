@@ -1,0 +1,2265 @@
+{
+  "total_meetings": 59,
+  "meetings_with_report": 58,
+  "meetings_without_report": [
+    "TSGR1_100"
+  ],
+  "detailed_inventory": {
+    "TSGR1_100_e": {
+      "meeting": "TSGR1_100_e",
+      "total_items": 1,
+      "folders": [
+        "Final_Minutes_report_RAN1%23100-e_v200"
+      ],
+      "files": [],
+      "structure": {
+        "Final_Minutes_report_RAN1%23100-e_v200": [
+          {
+            "path": "Final_Minutes_report_RAN1%23100-e_v200/Final_Minutes_report_RAN1#100-e_v200.docx",
+            "size": 704000
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23100-e_v200/TDoc_List_Meeting_RAN1#100-e(200420final).xlsx",
+            "size": 355016
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23100-e_v200/PartList_3GPPRAN1#100-e.csv",
+            "size": 49404
+          }
+        ]
+      }
+    },
+    "TSGR1_100b_e": {
+      "meeting": "TSGR1_100b_e",
+      "total_items": 1,
+      "folders": [
+        "Final_Minutes_report_RAN1%23100b-e_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Final_Minutes_report_RAN1%23100b-e_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%23100b-e_v100/Final_Minutes_report_RAN1#100b-e_v100.docx",
+            "size": 995537
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23100b-e_v100/PartList_3GPPRAN1#100-bis-e.csv",
+            "size": 86985
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23100b-e_v100/TDoc_List_Meeting_RAN1#100-bis-e(final_200522).xlsx",
+            "size": 438013
+          }
+        ]
+      }
+    },
+    "TSGR1_101-e": {
+      "meeting": "TSGR1_101-e",
+      "total_items": 1,
+      "folders": [
+        "Final_Minutes_report_RAN1%23101-e_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Final_Minutes_report_RAN1%23101-e_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%23101-e_v100/Final_Minutes_report_RAN1#101-e_v100.docx",
+            "size": 1025689
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23101-e_v100/3GPPRAN1#101-e_registered(final).xlsx",
+            "size": 73035
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23101-e_v100/TDoc_List_Meeting_RAN1#101-e(final).xlsx",
+            "size": 497740
+          }
+        ]
+      }
+    },
+    "TSGR1_102-e": {
+      "meeting": "TSGR1_102-e",
+      "total_items": 1,
+      "folders": [
+        "Final_Minutes_report_RAN1%23102-e_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Final_Minutes_report_RAN1%23102-e_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%23102-e_v100/Final_Minutes_report_RAN1#102-e_v100.docx",
+            "size": 1539955
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23102-e_v100/Registered_PartList_3GPPRAN1#102-e.xlsx",
+            "size": 82727
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23102-e_v100/TDoc_List_Meeting_RAN1#102-e(201022).xlsx",
+            "size": 586877
+          }
+        ]
+      }
+    },
+    "TSGR1_103-e": {
+      "meeting": "TSGR1_103-e",
+      "total_items": 1,
+      "folders": [
+        "Final_Minutes_report_RAN1%23103-e_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Final_Minutes_report_RAN1%23103-e_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%23103-e_v100/PartList_3GPPRAN1#103-e(registered_eom).xlsx",
+            "size": 83576
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23103-e_v100/TDoc_List_Meeting_RAN1#103-e(final).xlsx",
+            "size": 642998
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23103-e_v100/Final_Minutes_report_RAN1#103-e_v100.docx",
+            "size": 2291137
+          }
+        ]
+      }
+    },
+    "TSGR1_104-e": {
+      "meeting": "TSGR1_104-e",
+      "total_items": 1,
+      "folders": [
+        "Final_Minutes_report_RAN1%23104-e_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Final_Minutes_report_RAN1%23104-e_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%23104-e_v100/Final_Minutes_report_RAN1#104-e_v100.docx",
+            "size": 1081954
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23104-e_v100/TDoc_List_Meeting_RAN1#104-e(210310).xlsx",
+            "size": 617692
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23104-e_v100/PartList_3GPPRAN1#104-e(eom).xlsx",
+            "size": 88867
+          }
+        ]
+      }
+    },
+    "TSGR1_104b-e": {
+      "meeting": "TSGR1_104b-e",
+      "total_items": 1,
+      "folders": [
+        "Final_Minutes_report_RAN1%23104bis-e_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Final_Minutes_report_RAN1%23104bis-e_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%23104bis-e_v100/Final_Minutes_report_RAN1#104bis-e_v100.docx",
+            "size": 848936
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23104bis-e_v100/PartList_3GPPRAN1#104-bis-e(checked-in).xlsx",
+            "size": 87742
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23104bis-e_v100/TDoc_List_Meeting_RAN1#104-bis-e(final).xlsx",
+            "size": 505294
+          }
+        ]
+      }
+    },
+    "TSGR1_105-e": {
+      "meeting": "TSGR1_105-e",
+      "total_items": 1,
+      "folders": [
+        "Final_Minutes_report_RAN1%23105-e_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Final_Minutes_report_RAN1%23105-e_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%23105-e_v100/Final_Minutes_report_RAN1#105-e_v100.docx",
+            "size": 926895
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23105-e_v100/Readme-why-2-participants-lists.txt",
+            "size": 197
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23105-e_v100/TDoc_List_Meeting_RAN1#105-e(eom).xlsx",
+            "size": 593076
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23105-e_v100/PartList_3GPPRAN1#105-e(210517_15-00UTC).xlsx",
+            "size": 94851
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23105-e_v100/PartList_3GPPRAN1#105-e(eom).xlsx",
+            "size": 143028
+          }
+        ]
+      }
+    },
+    "TSGR1_106-e": {
+      "meeting": "TSGR1_106-e",
+      "total_items": 1,
+      "folders": [
+        "Final_Minutes_report_RAN1%23106-e_v300"
+      ],
+      "files": [],
+      "structure": {
+        "Final_Minutes_report_RAN1%23106-e_v300": [
+          {
+            "path": "Final_Minutes_report_RAN1%23106-e_v300/PartList_3GPPRAN1#106-e(eom).xlsx",
+            "size": 131994
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23106-e_v300/Final_Minutes_report_RAN1#106-e_v300.docx",
+            "size": 897091
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23106-e_v300/TDoc_List_Meeting_RAN1#106-e(final).xlsx",
+            "size": 605259
+          }
+        ]
+      }
+    },
+    "TSGR1_106b-e": {
+      "meeting": "TSGR1_106b-e",
+      "total_items": 2,
+      "folders": [
+        "Archive",
+        "Final_Minutes_report_RAN1%23106b-e_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Archive": [
+          {
+            "path": "Archive/Draft_Minutes_report_RAN1%23106b-e_v020/TDoc_List_Meeting_RAN1#106-bis-e(211101).xlsx",
+            "size": 517812
+          },
+          {
+            "path": "Archive/Draft_Minutes_report_RAN1%23106b-e_v020/Draft_Minutes_report_RAN1#106b-e_v020.docx",
+            "size": 850411
+          },
+          {
+            "path": "Archive/Draft_Minutes_report_RAN1%23106b-e_v020/PartList_3GPPRAN1#106-bis-e(eom).xlsx",
+            "size": 141261
+          },
+          {
+            "path": "Archive/Draft_Minutes_report_RAN1%23106b-e_v010/TDoc_List_Meeting_RAN1#106-bis-e(211028).xlsx",
+            "size": 517715
+          },
+          {
+            "path": "Archive/Draft_Minutes_report_RAN1%23106b-e_v010/PartList_3GPPRAN1#106-bis-e(eom).xlsx",
+            "size": 141261
+          },
+          {
+            "path": "Archive/Draft_Minutes_report_RAN1%23106b-e_v010/Draft_Minutes_report_RAN1#106b-e_v010.docx",
+            "size": 850174
+          }
+        ],
+        "Final_Minutes_report_RAN1%23106b-e_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%23106b-e_v100/TDoc_List_Meeting_RAN1#106-bis-e(211101).xlsx",
+            "size": 517812
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23106b-e_v100/Final_Minutes_report_RAN1#106b-e_v100.docx",
+            "size": 853294
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23106b-e_v100/PartList_3GPPRAN1#106-bis-e(eom).xlsx",
+            "size": 141261
+          }
+        ]
+      }
+    },
+    "TSGR1_107-e": {
+      "meeting": "TSGR1_107-e",
+      "total_items": 1,
+      "folders": [
+        "Final_Minutes_report_RAN1%23107-e_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Final_Minutes_report_RAN1%23107-e_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%23107-e_v100/TDoc_List_Meeting_RAN1#107-e(final).xlsx",
+            "size": 618562
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23107-e_v100/Final_Minutes_report_RAN1#107-e_v100.docx",
+            "size": 968009
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23107-e_v100/PartList_3GPPRAN1#107-e(eom).xlsx",
+            "size": 128924
+          }
+        ]
+      }
+    },
+    "TSGR1_107b-e": {
+      "meeting": "TSGR1_107b-e",
+      "total_items": 2,
+      "folders": [
+        "Archive",
+        "Final_Minutes_report_RAN1%23107b-e_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Archive": [
+          {
+            "path": "Archive/Draft_Minutes_report_RAN1%23107b-e_v010/Draft_Minutes_report_RAN1#107b-e_v010.docx",
+            "size": 533382
+          },
+          {
+            "path": "Archive/Draft_Minutes_report_RAN1%23107b-e_v011/Draft_Minutes_report_RAN1#107b-e_v011.docx",
+            "size": 673680
+          },
+          {
+            "path": "Archive/Draft_Minutes_report_RAN1%23107b-e_v020/TDoc_List_Meeting_RAN1#107-bis-e(220202).xlsx",
+            "size": 224325
+          },
+          {
+            "path": "Archive/Draft_Minutes_report_RAN1%23107b-e_v020/Draft_Minutes_report_RAN1#107b-e_v020.docx",
+            "size": 677296
+          },
+          {
+            "path": "Archive/Draft_Minutes_report_RAN1%23107b-e_v020/PartList_3GPPRAN1#107-bis-e(eom).xlsx",
+            "size": 126095
+          }
+        ],
+        "Final_Minutes_report_RAN1%23107b-e_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%23107b-e_v100/PartList_3GPPRAN1#107-bis-e(eom).xlsx",
+            "size": 126095
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23107b-e_v100/TDoc_List_Meeting_RAN1#107-bis-e(final).xlsx",
+            "size": 225004
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23107b-e_v100/Final_Minutes_report_RAN1#107b-e_v100.docx",
+            "size": 668246
+          }
+        ]
+      }
+    },
+    "TSGR1_108-e": {
+      "meeting": "TSGR1_108-e",
+      "total_items": 1,
+      "folders": [
+        "Final_Minutes_report_RAN1%23108-e_v200"
+      ],
+      "files": [],
+      "structure": {
+        "Final_Minutes_report_RAN1%23108-e_v200": [
+          {
+            "path": "Final_Minutes_report_RAN1%23108-e_v200/PartList_3GPPRAN1#108-e.xlsx",
+            "size": 120632
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23108-e_v200/TDoc_List_Meeting_RAN1#108-e(final).xlsx",
+            "size": 588447
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23108-e_v200/Final_Minutes_report_RAN1#108-e_v200.docx",
+            "size": 1128846
+          }
+        ]
+      }
+    },
+    "TSGR1_109-e": {
+      "meeting": "TSGR1_109-e",
+      "total_items": 1,
+      "folders": [
+        "Draft_Minutes_report_RAN1%23109-e_v030"
+      ],
+      "files": [],
+      "structure": {
+        "Draft_Minutes_report_RAN1%23109-e_v030": [
+          {
+            "path": "Draft_Minutes_report_RAN1%23109-e_v030/Draft_Minutes_report_RAN1#109-e_v030.docx",
+            "size": 1357525
+          },
+          {
+            "path": "Draft_Minutes_report_RAN1%23109-e_v030/PartList_3GPPRAN1#109-e(220520eom).xlsx",
+            "size": 168816
+          }
+        ]
+      }
+    },
+    "TSGR1_110": {
+      "meeting": "TSGR1_110",
+      "total_items": 1,
+      "folders": [
+        "Final_Minutes_report_RAN1%23110_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Final_Minutes_report_RAN1%23110_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%23110_v100/PartList_3GPPRAN1#110.xlsx",
+            "size": 163858
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23110_v100/TDoc_List_Meeting_RAN1#110(220921).xlsx",
+            "size": 731186
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23110_v100/Final_Minutes_report_RAN1#110_v100.docx",
+            "size": 1476287
+          }
+        ]
+      }
+    },
+    "TSGR1_110b-e": {
+      "meeting": "TSGR1_110b-e",
+      "total_items": 2,
+      "folders": [
+        "Archive",
+        "Final_Minutes_report_RAN1%23110b-e_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Archive": [
+          {
+            "path": "Archive/Draft_Minutes_report_RAN1%23110b-e_v020/Draft_Minutes_report_RAN1#110b-e_v020.docx",
+            "size": 1138775
+          },
+          {
+            "path": "Archive/Draft_Minutes_report_RAN1%23110b-e_v010/Draft_Minutes_report_RAN1#110b-e_v010.docx",
+            "size": 1110287
+          }
+        ],
+        "Final_Minutes_report_RAN1%23110b-e_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%23110b-e_v100/Final_Minutes_report_RAN1#110b-e_v100.docx",
+            "size": 1138817
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23110b-e_v100/PartList_3GPPRAN1#110-bis-e(eom).xlsx",
+            "size": 158316
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23110b-e_v100/TDoc_List_Meeting_RAN1#110-bis-e(221110).xlsx",
+            "size": 693724
+          }
+        ]
+      }
+    },
+    "TSGR1_111": {
+      "meeting": "TSGR1_111",
+      "total_items": 1,
+      "folders": [
+        "Final_Minutes_report_RAN1%23111_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Final_Minutes_report_RAN1%23111_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%23111_v100/Final_Minutes_report_RAN1#111_v100.docx",
+            "size": 1213165
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23111_v100/PartList_3GPPRAN1#111.csv",
+            "size": 405673
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23111_v100/TDoc_List_Meeting_RAN1#111.xlsx",
+            "size": 465912
+          }
+        ]
+      }
+    },
+    "TSGR1_112": {
+      "meeting": "TSGR1_112",
+      "total_items": 1,
+      "folders": [
+        "Final_Minutes_report_RAN1%23112_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Final_Minutes_report_RAN1%23112_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%23112_v100/TDoc_List_Meeting_RAN1#112.xlsx",
+            "size": 470664
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23112_v100/Final_Minutes_report_RAN1#112_v100.docx",
+            "size": 1627298
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23112_v100/PartList_3GPPRAN1#112_eom.csv",
+            "size": 327163
+          }
+        ]
+      }
+    },
+    "TSGR1_112b-e": {
+      "meeting": "TSGR1_112b-e",
+      "total_items": 2,
+      "folders": [
+        "Archive",
+        "Final_Minutes_report_RAN1%23112b-e_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Archive": [
+          {
+            "path": "Archive/Draft_Minutes_report_RAN1%23112b-e_v020/Draft_Minutes_report_RAN1#112b-e_v020.docx",
+            "size": 1187352
+          },
+          {
+            "path": "Archive/Draft_Minutes_report_RAN1%23112b-e_v010/Draft_Minutes_report_RAN1#112b-e_v010.docx",
+            "size": 1183424
+          }
+        ],
+        "Final_Minutes_report_RAN1%23112b-e_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%23112b-e_v100/TDoc_List_Meeting_RAN1#112-bis-e(230515).xlsx",
+            "size": 424437
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23112b-e_v100/PartList_3GPPRAN1#112-bis-e(eom).xlsx",
+            "size": 172634
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23112b-e_v100/Final_Minutes_report_RAN1#112b-e_v100.docx",
+            "size": 1188200
+          }
+        ]
+      }
+    },
+    "TSGR1_113": {
+      "meeting": "TSGR1_113",
+      "total_items": 1,
+      "folders": [
+        "Final_Minutes_report_RAN1%23113_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Final_Minutes_report_RAN1%23113_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%23113_v100/PartList_3GPPRAN1#113(eom).xlsx",
+            "size": 182254
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23113_v100/TDoc_List_Meeting_RAN1#113(Final).xlsx",
+            "size": 416126
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23113_v100/Final_Minutes_report_RAN1#113_v100.docx",
+            "size": 906392
+          }
+        ]
+      }
+    },
+    "TSGR1_114": {
+      "meeting": "TSGR1_114",
+      "total_items": 1,
+      "folders": [
+        "Draft_Minutes_report_RAN1%23114_v030"
+      ],
+      "files": [],
+      "structure": {
+        "Draft_Minutes_report_RAN1%23114_v030": [
+          {
+            "path": "Draft_Minutes_report_RAN1%23114_v030/Draft_Minutes_report_RAN1#114_v030.docx",
+            "size": 1094901
+          },
+          {
+            "path": "Draft_Minutes_report_RAN1%23114_v030/PartList_3GPPRAN1#114(eom).xlsx",
+            "size": 169480
+          }
+        ]
+      }
+    },
+    "TSGR1_114b": {
+      "meeting": "TSGR1_114b",
+      "total_items": 1,
+      "folders": [
+        "Final_Minutes_report_RAN1%23114b_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Final_Minutes_report_RAN1%23114b_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%23114b_v100/Final_Minutes_report_RAN1#114b_v100.docx",
+            "size": 1090075
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23114b_v100/PartList_3GPPRAN1#114-bis(eom).xlsx",
+            "size": 157356
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23114b_v100/TDoc_List_Meeting_RAN1#114-bis(final).xlsx",
+            "size": 407777
+          }
+        ]
+      }
+    },
+    "TSGR1_115": {
+      "meeting": "TSGR1_115",
+      "total_items": 1,
+      "folders": [
+        "Final_Minutes_report_RAN1%23115_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Final_Minutes_report_RAN1%23115_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%23115_v100/PartList_3GPPRAN1#115(eom).xlsx",
+            "size": 165031
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23115_v100/Final_Minutes_report_RAN1#115_v100.docx",
+            "size": 1306523
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23115_v100/TDoc_List_Meeting_RAN1#115(final).xlsx",
+            "size": 567840
+          }
+        ]
+      }
+    },
+    "TSGR1_116": {
+      "meeting": "TSGR1_116",
+      "total_items": 1,
+      "folders": [
+        "Final_Minutes_report_RAN1%23116_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Final_Minutes_report_RAN1%23116_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%23116_v100/Final_Minutes_report_RAN1#116_v100.docx",
+            "size": 1201511
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23116_v100/PartList_3GPPRAN1#116(eom).xlsx",
+            "size": 164168
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23116_v100/TDoc_List_Meeting_RAN1#116(final).xlsx",
+            "size": 407278
+          }
+        ]
+      }
+    },
+    "TSGR1_116b": {
+      "meeting": "TSGR1_116b",
+      "total_items": 1,
+      "folders": [
+        "Final_Minutes_report_RAN1%23116b_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Final_Minutes_report_RAN1%23116b_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%23116b_v100/TDoc_List_Meeting_RAN1#116-bis(final).xlsx",
+            "size": 398352
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23116b_v100/PartList_3GPPRAN1#116-bis(eom).xlsx",
+            "size": 169091
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23116b_v100/Final_Minutes_report_RAN1#116b_v100.docx",
+            "size": 1111542
+          }
+        ]
+      }
+    },
+    "TSGR1_117": {
+      "meeting": "TSGR1_117",
+      "total_items": 1,
+      "folders": [
+        "Draft_Minutes_report_RAN1%23117_v030"
+      ],
+      "files": [],
+      "structure": {
+        "Draft_Minutes_report_RAN1%23117_v030": [
+          {
+            "path": "Draft_Minutes_report_RAN1%23117_v030/Draft_Minutes_report_RAN1#117_v030.docx",
+            "size": 1054765
+          }
+        ]
+      }
+    },
+    "TSGR1_118": {
+      "meeting": "TSGR1_118",
+      "total_items": 1,
+      "folders": [
+        "Final_Minutes_report_RAN1%23118_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Final_Minutes_report_RAN1%23118_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%23118_v100/Final_Minutes_report_RAN1#118_v100.docx",
+            "size": 1290067
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23118_v100/TDoc_List_Meeting_RAN1#118(final).xlsx",
+            "size": 381229
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23118_v100/PartList_3GPPRAN1#118(eom).xlsx",
+            "size": 170069
+          }
+        ]
+      }
+    },
+    "TSGR1_118b": {
+      "meeting": "TSGR1_118b",
+      "total_items": 1,
+      "folders": [
+        "Final_Minutes_report_RAN1%23118b_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Final_Minutes_report_RAN1%23118b_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%23118b_v100/PartList_3GPPRAN1#118-bis(eom).csv",
+            "size": 326809
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23118b_v100/TDoc_List_Meeting_RAN1#118-bis(final).xlsx",
+            "size": 492068
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23118b_v100/Final_Minutes_report_RAN1#118b_v100.docx",
+            "size": 1719834
+          }
+        ]
+      }
+    },
+    "TSGR1_119": {
+      "meeting": "TSGR1_119",
+      "total_items": 1,
+      "folders": [
+        "Draft_Minutes_report_RAN1%23119_v030"
+      ],
+      "files": [],
+      "structure": {
+        "Draft_Minutes_report_RAN1%23119_v030": [
+          {
+            "path": "Draft_Minutes_report_RAN1%23119_v030/Draft_Minutes_report_RAN1#119_v030.docx",
+            "size": 2865276
+          },
+          {
+            "path": "Draft_Minutes_report_RAN1%23119_v030/PartList_3GPPRAN1#119(eom).xlsx",
+            "size": 166144
+          }
+        ]
+      }
+    },
+    "TSGR1_120": {
+      "meeting": "TSGR1_120",
+      "total_items": 1,
+      "folders": [
+        "Final_Minutes_report_RAN1%23120_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Final_Minutes_report_RAN1%23120_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%23120_v100/Final_Minutes_report_RAN1#120_v100.docx",
+            "size": 1095808
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23120_v100/PartList_3GPPRAN1#120(eom).xlsx",
+            "size": 172120
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23120_v100/TDoc_List_Meeting_RAN1#120(final).xlsx",
+            "size": 353108
+          }
+        ]
+      }
+    },
+    "TSGR1_120b": {
+      "meeting": "TSGR1_120b",
+      "total_items": 1,
+      "folders": [
+        "Final_Minutes_report_RAN1%23120b_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Final_Minutes_report_RAN1%23120b_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%23120b_v100/TDoc_List_Meeting_RAN1#120-bis(final).xlsx",
+            "size": 309822
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23120b_v100/Final_Minutes_report_RAN1#120b_v100.docx",
+            "size": 975857
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23120b_v100/PartList_3GPPRAN1#120-bis(eom).xlsx",
+            "size": 177457
+          }
+        ]
+      }
+    },
+    "TSGR1_121": {
+      "meeting": "TSGR1_121",
+      "total_items": 1,
+      "folders": [
+        "Final_Minutes_report_RAN1%23121_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Final_Minutes_report_RAN1%23121_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%23121_v100/PartList_3GPPRAN1#121(eom).xlsx",
+            "size": 169000
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23121_v100/Final_Minutes_report_RAN1#121_v100.docx",
+            "size": 1663915
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23121_v100/TDoc_List_Meeting_RAN1#121(final).xlsx",
+            "size": 527216
+          }
+        ]
+      }
+    },
+    "TSGR1_122": {
+      "meeting": "TSGR1_122",
+      "total_items": 1,
+      "folders": [
+        "Final_Minutes_report_RAN1%23122_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Final_Minutes_report_RAN1%23122_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%23122_v100/TDoc_List_Meeting_RAN1#122(Final).xlsx",
+            "size": 445456
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23122_v100/Final_Minutes_report_RAN1#122_v100.docx",
+            "size": 947428
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%23122_v100/PartList_3GPPRAN1#122(eom).xlsx",
+            "size": 236335
+          }
+        ]
+      }
+    },
+    "TSGR1_122b": {
+      "meeting": "TSGR1_122b",
+      "total_items": 3,
+      "folders": [
+        "Archive",
+        "R1_25XXXXX_Minutes_report_RAN1%23122bis_v100"
+      ],
+      "files": [
+        {
+          "name": "PartList_3GPPRAN1%23122-bis_17102025_R1_EOM.xlsx",
+          "size": 171840
+        }
+      ],
+      "structure": {
+        "Archive": [
+          {
+            "path": "Archive/PartList_3GPPRAN1%23122-bis_09102025_R1.xlsx",
+            "size": 164426
+          },
+          {
+            "path": "Archive/PartList_3GPPRAN1%23122-bis_06102025_R1.xlsx",
+            "size": 154587
+          },
+          {
+            "path": "Archive/PartList_3GPPRAN1%23122-bis_07102025_R1.xlsx",
+            "size": 155630
+          }
+        ],
+        "R1_25XXXXX_Minutes_report_RAN1%23122bis_v100": [
+          {
+            "path": "R1_25XXXXX_Minutes_report_RAN1%23122bis_v100/TDoc_List_Meeting_RAN1#122-bis_171025_R4_EOM.xlsx",
+            "size": 406597
+          },
+          {
+            "path": "R1_25XXXXX_Minutes_report_RAN1%23122bis_v100/PartList_3GPPRAN1#122-bis_17102025_R1_EOM.xlsx",
+            "size": 171840
+          },
+          {
+            "path": "R1_25XXXXX_Minutes_report_RAN1%23122bis_v100/R1_25XXXXX_Minutes_report_RAN1#122bis_v100.docx",
+            "size": 1877115
+          }
+        ]
+      }
+    },
+    "TSGR1_84": {
+      "meeting": "TSGR1_84",
+      "total_items": 1,
+      "folders": [
+        "Final_Minutes_report_RAN1%2384_v200"
+      ],
+      "files": [],
+      "structure": {
+        "Final_Minutes_report_RAN1%2384_v200": [
+          {
+            "path": "Final_Minutes_report_RAN1%2384_v200/Final_Minutes_report_RAN1#84_v200.docx",
+            "size": 729975
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2384_v200/TDoc_List_Meeting_RAN1#84 (final).xlsm",
+            "size": 339220
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2384_v200/3gppRAN1_84_signed.xls",
+            "size": 105984
+          }
+        ]
+      }
+    },
+    "TSGR1_84b": {
+      "meeting": "TSGR1_84b",
+      "total_items": 3,
+      "folders": [
+        "Draft_Minutes_report_RAN1%2384bis_v010",
+        "Draft_Minutes_report_RAN1%2384bis_v020",
+        "Final_Minutes_report_RAN1%2384bis_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Draft_Minutes_report_RAN1%2384bis_v010": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2384bis_v010/Draft_Minutes_report_RAN1#84bis_v010.docx",
+            "size": 615379
+          },
+          {
+            "path": "Draft_Minutes_report_RAN1%2384bis_v010/3gppran1_84BIS_signed.xls",
+            "size": 131072
+          }
+        ],
+        "Draft_Minutes_report_RAN1%2384bis_v020": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2384bis_v020/TDoc_List_Meeting_RAN1#84-BIS (160511).xlsm",
+            "size": 462506
+          },
+          {
+            "path": "Draft_Minutes_report_RAN1%2384bis_v020/Draft_Minutes_report_RAN1#84bis_v020.docx",
+            "size": 670902
+          },
+          {
+            "path": "Draft_Minutes_report_RAN1%2384bis_v020/3gppran1_84BIS_signed.xls",
+            "size": 130560
+          }
+        ],
+        "Final_Minutes_report_RAN1%2384bis_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%2384bis_v100/TDoc_List_Meeting_RAN1#84-BIS (final).xlsm",
+            "size": 451073
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2384bis_v100/3gppran1_84BIS_signed.xls",
+            "size": 130560
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2384bis_v100/Final_Minutes_report_RAN1#84bis_v100.docx",
+            "size": 682422
+          }
+        ]
+      }
+    },
+    "TSGR1_85": {
+      "meeting": "TSGR1_85",
+      "total_items": 2,
+      "folders": [
+        "Draft_Minutes_report_RAN1%2385_v010",
+        "Final_Minutes_report_RAN1%2385_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Draft_Minutes_report_RAN1%2385_v010": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2385_v010/Draft_Minutes_report_RAN1#85_v010.docx",
+            "size": 957098
+          }
+        ],
+        "Final_Minutes_report_RAN1%2385_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%2385_v100/3gppran1_85_signed.xls",
+            "size": 149504
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2385_v100/Final_Minutes_report_RAN1#85_v100.docx",
+            "size": 985004
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2385_v100/TDoc_List_Meeting_RAN1#85(160817final).xlsm",
+            "size": 494242
+          }
+        ]
+      }
+    },
+    "TSGR1_86": {
+      "meeting": "TSGR1_86",
+      "total_items": 3,
+      "folders": [
+        "Draft_Minutes_report_RAN1%2386_v010",
+        "Draft_Minutes_report_RAN1%2386_v020",
+        "Final_Minutes_report_RAN1%2386_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Draft_Minutes_report_RAN1%2386_v010": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2386_v010/Draft_Minutes_report_RAN1#86_v010.docx",
+            "size": 796201
+          }
+        ],
+        "Draft_Minutes_report_RAN1%2386_v020": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2386_v020/Draft_Minutes_report_RAN1#86_v020.docx",
+            "size": 827026
+          }
+        ],
+        "Final_Minutes_report_RAN1%2386_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%2386_v100/TDoc_List_Meeting_RAN1#86 (final).xlsm",
+            "size": 597244
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2386_v100/3GPPRAN1#86_signed.xlsx",
+            "size": 66194
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2386_v100/Final_Minutes_report_RAN1#86_v100.docx",
+            "size": 845988
+          }
+        ]
+      }
+    },
+    "TSGR1_86b": {
+      "meeting": "TSGR1_86b",
+      "total_items": 2,
+      "folders": [
+        "Draft_Minutes_report_RAN1%2386b_v010",
+        "Final_Minutes_report_RAN1%2386b_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Draft_Minutes_report_RAN1%2386b_v010": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2386b_v010/3GPPRAN1#86-BIS_signed.xlsx",
+            "size": 58003
+          },
+          {
+            "path": "Draft_Minutes_report_RAN1%2386b_v010/Draft_Minutes_report_RAN1#86b_v010.docx",
+            "size": 844463
+          }
+        ],
+        "Final_Minutes_report_RAN1%2386b_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%2386b_v100/3GPPRAN1#86-BIS_signed.xlsx",
+            "size": 58003
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2386b_v100/TDoc_List_Meeting_RAN1#86-BIS (final).xlsm",
+            "size": 598373
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2386b_v100/Final_Minutes_report_RAN1#86b_v100.docx",
+            "size": 834843
+          }
+        ]
+      }
+    },
+    "TSGR1_87": {
+      "meeting": "TSGR1_87",
+      "total_items": 4,
+      "folders": [
+        "Draft_Minutes_report_RAN1%2387_v010",
+        "Draft_Minutes_report_RAN1%2387_v011",
+        "Draft_Minutes_report_RAN1%2387_v020",
+        "Final_Minutes_report_RAN1%2387_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Draft_Minutes_report_RAN1%2387_v010": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2387_v010/3GPPRAN1#87_signed.xlsx",
+            "size": 73126
+          },
+          {
+            "path": "Draft_Minutes_report_RAN1%2387_v010/Draft_Minutes_report_RAN1#87_v010.docx",
+            "size": 1012086
+          }
+        ],
+        "Draft_Minutes_report_RAN1%2387_v011": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2387_v011/3GPPRAN1#87_signed.xlsx",
+            "size": 73154
+          },
+          {
+            "path": "Draft_Minutes_report_RAN1%2387_v011/Draft_Minutes_report_RAN1#87_v011.docx",
+            "size": 929783
+          }
+        ],
+        "Draft_Minutes_report_RAN1%2387_v020": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2387_v020/Draft_Minutes_report_RAN1#87_v020.docx",
+            "size": 922242
+          }
+        ],
+        "Final_Minutes_report_RAN1%2387_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%2387_v100/TDoc_List_Meeting_RAN1#87 (170208final).xlsm",
+            "size": 654828
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2387_v100/3GPPRAN1#87_signed.xlsx",
+            "size": 73154
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2387_v100/Final_Minutes_report_RAN1#87_v100.docx",
+            "size": 1002278
+          }
+        ]
+      }
+    },
+    "TSGR1_88": {
+      "meeting": "TSGR1_88",
+      "total_items": 2,
+      "folders": [
+        "Draft_Minutes_report_RAN1%2388_v010",
+        "Final_Minutes_report_RAN1%2388_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Draft_Minutes_report_RAN1%2388_v010": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2388_v010/Draft_Minutes_report_RAN1#88_v010.docx",
+            "size": 714299
+          }
+        ],
+        "Final_Minutes_report_RAN1%2388_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%2388_v100/Final_Minutes_report_RAN1#88_v100.docx",
+            "size": 770805
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2388_v100/3GPPRAN1#88_signed.xlsx",
+            "size": 68044
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2388_v100/TDoc_List_Meeting_RAN1#88 (170402final).xlsm",
+            "size": 587224
+          }
+        ]
+      }
+    },
+    "TSGR1_88b": {
+      "meeting": "TSGR1_88b",
+      "total_items": 3,
+      "folders": [
+        "Draft_Minutes_report_RAN1%2388b_v010",
+        "Draft_Minutes_report_RAN1%2388b_v020",
+        "Final_Minutes_report_RAN1%2388b_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Draft_Minutes_report_RAN1%2388b_v010": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2388b_v010/Draft_Minutes_report_RAN1#88b_v010.docx",
+            "size": 689351
+          }
+        ],
+        "Draft_Minutes_report_RAN1%2388b_v020": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2388b_v020/Draft_Minutes_report_RAN1#88b_v020.docx",
+            "size": 687269
+          }
+        ],
+        "Final_Minutes_report_RAN1%2388b_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%2388b_v100/3GPPRAN1#88-Bis_signed.xlsx",
+            "size": 68842
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2388b_v100/TDoc_List_Meeting_RAN1#88-Bis (final).xlsm",
+            "size": 628940
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2388b_v100/Final_Minutes_report_RAN1#88b_v100.docx",
+            "size": 742600
+          }
+        ]
+      }
+    },
+    "TSGR1_89": {
+      "meeting": "TSGR1_89",
+      "total_items": 3,
+      "folders": [
+        "Draft_Minutes_report_RAN1%2389_v010",
+        "Draft_Minutes_report_RAN1%2389_v020",
+        "Final_Minutes_report_RAN1%2389_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Draft_Minutes_report_RAN1%2389_v010": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2389_v010/Draft_Minutes_report_RAN1#89_v010.docx",
+            "size": 894017
+          }
+        ],
+        "Draft_Minutes_report_RAN1%2389_v020": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2389_v020/Draft_Minutes_report_RAN1#89_v020.docx",
+            "size": 907016
+          }
+        ],
+        "Final_Minutes_report_RAN1%2389_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%2389_v100/Final_Minutes_report_RAN1#89_v100.docx",
+            "size": 892136
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2389_v100/3GPPRAN1#89_signed.xlsx",
+            "size": 81893
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2389_v100/TDoc_List_Meeting_RAN1#89 (final).xlsm",
+            "size": 677957
+          }
+        ]
+      }
+    },
+    "TSGR1_90": {
+      "meeting": "TSGR1_90",
+      "total_items": 3,
+      "folders": [
+        "Draft_Minutes_report_RAN1%2390_v010",
+        "Draft_Minutes_report_RAN1%2390_v020",
+        "Final_Minutes_report_RAN1%2390_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Draft_Minutes_report_RAN1%2390_v010": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2390_v010/TDoc_List_Meeting_RAN1#90 (170825-eom).xlsm",
+            "size": 709592
+          },
+          {
+            "path": "Draft_Minutes_report_RAN1%2390_v010/Draft_Minutes_report_RAN1#90_v010.docx",
+            "size": 850565
+          }
+        ],
+        "Draft_Minutes_report_RAN1%2390_v020": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2390_v020/Draft_Minutes_report_RAN1#90_v020.docx",
+            "size": 830713
+          }
+        ],
+        "Final_Minutes_report_RAN1%2390_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%2390_v100/3GPPRAN1#90_signed.xlsx",
+            "size": 69792
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2390_v100/Final_Minutes_report_RAN1#90_v100.docx",
+            "size": 892943
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2390_v100/TDoc_List_Meeting_RAN1#90final.xlsm",
+            "size": 741497
+          }
+        ]
+      }
+    },
+    "TSGR1_90b": {
+      "meeting": "TSGR1_90b",
+      "total_items": 3,
+      "folders": [
+        "Draft_Minutes_report_RAN1%2390b_v010",
+        "Draft_Minutes_report_RAN1%2390b_v020",
+        "Final_Minutes_report_RAN1%2390b_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Draft_Minutes_report_RAN1%2390b_v010": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2390b_v010/3GPPRAN1#90-Bis_signed.xlsx",
+            "size": 65980
+          },
+          {
+            "path": "Draft_Minutes_report_RAN1%2390b_v010/Draft_Minutes_report_RAN1#90b_v010.docx",
+            "size": 910852
+          }
+        ],
+        "Draft_Minutes_report_RAN1%2390b_v020": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2390b_v020/Draft_Minutes_report_RAN1#90b_v020.docx",
+            "size": 1025403
+          }
+        ],
+        "Final_Minutes_report_RAN1%2390b_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%2390b_v100/Final_Minutes_report_RAN1#90b_v100.docx",
+            "size": 1032322
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2390b_v100/3GPPRAN1#90-Bis_signed.xlsx",
+            "size": 65980
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2390b_v100/TDoc_List_Meeting_RAN1#90-Bis (final).xlsx",
+            "size": 547284
+          }
+        ]
+      }
+    },
+    "TSGR1_91": {
+      "meeting": "TSGR1_91",
+      "total_items": 5,
+      "folders": [
+        "Draft_Minutes_report_RAN1%2391_v010",
+        "Draft_Minutes_report_RAN1%2391_v020",
+        "Draft_Minutes_report_RAN1%2391_v030",
+        "Draft_Minutes_report_RAN1%2391_v040",
+        "Final_Minutes_report_RAN1%2391_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Draft_Minutes_report_RAN1%2391_v010": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2391_v010/Draft_Minutes_report_RAN1#91_v010.docx",
+            "size": 1420809
+          }
+        ],
+        "Draft_Minutes_report_RAN1%2391_v020": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2391_v020/Draft_Minutes_report_RAN1#91_v020.docx",
+            "size": 1470585
+          }
+        ],
+        "Draft_Minutes_report_RAN1%2391_v030": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2391_v030/Draft_Minutes_report_RAN1#91_v030.docx",
+            "size": 1301332
+          }
+        ],
+        "Draft_Minutes_report_RAN1%2391_v040": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2391_v040/Draft_Minutes_report_RAN1#91_v040.docx",
+            "size": 1323628
+          }
+        ],
+        "Final_Minutes_report_RAN1%2391_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%2391_v100/3GPPRAN1#91_signed.xlsx",
+            "size": 65935
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2391_v100/TDoc_List_Meeting_RAN1#91(final).xlsx",
+            "size": 605890
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2391_v100/Final_Minutes_report_RAN1#91_v100.docx",
+            "size": 1327931
+          }
+        ]
+      }
+    },
+    "TSGR1_92": {
+      "meeting": "TSGR1_92",
+      "total_items": 4,
+      "folders": [
+        "Draft_Minutes_report_RAN1%2392_v010",
+        "Draft_Minutes_report_RAN1%2392_v020",
+        "Draft_Minutes_report_RAN1%2392_v030",
+        "Final_Minutes_report_RAN1%2392_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Draft_Minutes_report_RAN1%2392_v010": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2392_v010/Draft_Minutes_report_RAN1#92_v010.docx",
+            "size": 1683531
+          },
+          {
+            "path": "Draft_Minutes_report_RAN1%2392_v010/3GPPRAN1#92_signed.xlsx",
+            "size": 62128
+          }
+        ],
+        "Draft_Minutes_report_RAN1%2392_v020": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2392_v020/3GPPRAN1#92_signed.xlsx",
+            "size": 62128
+          },
+          {
+            "path": "Draft_Minutes_report_RAN1%2392_v020/Draft_Minutes_report_RAN1#92_v020.docx",
+            "size": 1686502
+          }
+        ],
+        "Draft_Minutes_report_RAN1%2392_v030": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2392_v030/Draft_Minutes_report_RAN1#92_v030.docx",
+            "size": 1722860
+          },
+          {
+            "path": "Draft_Minutes_report_RAN1%2392_v030/3GPPRAN1#92_signed.xlsx",
+            "size": 62128
+          }
+        ],
+        "Final_Minutes_report_RAN1%2392_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%2392_v100/3GPPRAN1#92_signed.xlsx",
+            "size": 62128
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2392_v100/TDoc_List_Meeting_RAN1#92(final).xlsx",
+            "size": 523255
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2392_v100/Final_Minutes_report_RAN1#92_v100.docx",
+            "size": 1724220
+          }
+        ]
+      }
+    },
+    "TSGR1_92b": {
+      "meeting": "TSGR1_92b",
+      "total_items": 3,
+      "folders": [
+        "Draft_Minutes_report_RAN1%2392b_v010",
+        "Draft_Minutes_report_RAN1%2392b_v020",
+        "Final_Minutes_report_RAN1%2392b_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Draft_Minutes_report_RAN1%2392b_v010": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2392b_v010/3GPPRAN1#92-Bis_signed.xlsx",
+            "size": 61928
+          },
+          {
+            "path": "Draft_Minutes_report_RAN1%2392b_v010/Draft_Minutes_report_RAN1#92b_v010.docm",
+            "size": 1366830
+          }
+        ],
+        "Draft_Minutes_report_RAN1%2392b_v020": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2392b_v020/Draft_Minutes_report_RAN1#92b_v020.docm",
+            "size": 1397161
+          }
+        ],
+        "Final_Minutes_report_RAN1%2392b_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%2392b_v100/3GPPRAN1#92-Bis_signed.xlsx",
+            "size": 61928
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2392b_v100/TDoc_List_Meeting_RAN1#92-Bis(final).xlsx",
+            "size": 522692
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2392b_v100/Final_Minutes_report_RAN1#92b_v100.docm",
+            "size": 1409515
+          }
+        ]
+      }
+    },
+    "TSGR1_93": {
+      "meeting": "TSGR1_93",
+      "total_items": 3,
+      "folders": [
+        "Draft_Minutes_report_RAN1%2393_v010",
+        "Draft_Minutes_report_RAN1%2393_v020",
+        "Final_Minutes_report_RAN1%2393_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Draft_Minutes_report_RAN1%2393_v010": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2393_v010/Draft_Minutes_report_RAN1#93_v010.docm",
+            "size": 1154329
+          },
+          {
+            "path": "Draft_Minutes_report_RAN1%2393_v010/3GPPRAN1#93_signed.xlsx",
+            "size": 67168
+          },
+          {
+            "path": "Draft_Minutes_report_RAN1%2393_v010/TDoc_List_Meeting_RAN1#93(180531).xlsx",
+            "size": 510132
+          }
+        ],
+        "Draft_Minutes_report_RAN1%2393_v020": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2393_v020/Draft_Minutes_report_RAN1#93_v020.docm",
+            "size": 1186023
+          },
+          {
+            "path": "Draft_Minutes_report_RAN1%2393_v020/3GPPRAN1#93_signed.xlsx",
+            "size": 67168
+          },
+          {
+            "path": "Draft_Minutes_report_RAN1%2393_v020/TDoc_List_Meeting_RAN1#93(180607).xlsx",
+            "size": 523651
+          }
+        ],
+        "Final_Minutes_report_RAN1%2393_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%2393_v100/TDoc_List_Meeting_RAN1#93(final).xlsx",
+            "size": 525424
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2393_v100/Final_Minutes_report_RAN1#93_v100.docm",
+            "size": 1187923
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2393_v100/3GPPRAN1#93_signed.xlsx",
+            "size": 67168
+          }
+        ]
+      }
+    },
+    "TSGR1_94": {
+      "meeting": "TSGR1_94",
+      "total_items": 3,
+      "folders": [
+        "Draft_Minutes_report_RAN1%2394_v010",
+        "Draft_Minutes_report_RAN1%2394_v020",
+        "Final_Minutes_report_RAN1%2394_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Draft_Minutes_report_RAN1%2394_v010": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2394_v010/Draft_Minutes_report_RAN1#94_v010.docm",
+            "size": 1395199
+          }
+        ],
+        "Draft_Minutes_report_RAN1%2394_v020": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2394_v020/3GPPRAN1#94_signed.xlsx",
+            "size": 70700
+          },
+          {
+            "path": "Draft_Minutes_report_RAN1%2394_v020/Draft_Minutes_report_RAN1#94_v020.docm",
+            "size": 1411831
+          },
+          {
+            "path": "Draft_Minutes_report_RAN1%2394_v020/TDoc_List_Meeting_RAN1#94(180907).xlsx",
+            "size": 497107
+          }
+        ],
+        "Final_Minutes_report_RAN1%2394_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%2394_v100/3GPPRAN1#94_signed.xlsx",
+            "size": 70667
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2394_v100/Final_Minutes_report_RAN1#94_v100.docm",
+            "size": 1430493
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2394_v100/TDoc_List_Meeting_RAN1#94(final).xlsx",
+            "size": 500769
+          }
+        ]
+      }
+    },
+    "TSGR1_94b": {
+      "meeting": "TSGR1_94b",
+      "total_items": 3,
+      "folders": [
+        "Draft_Minutes_report_RAN1%2394b_v010",
+        "Draft_Minutes_report_RAN1%2394b_v020",
+        "Final_Minutes_report_RAN1%2394b_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Draft_Minutes_report_RAN1%2394b_v010": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2394b_v010/3GPPRAN1#94-Bis_signed.xlsx",
+            "size": 68341
+          },
+          {
+            "path": "Draft_Minutes_report_RAN1%2394b_v010/TDoc_List_Meeting_RAN1#94-Bis(181012-eom).xlsx",
+            "size": 481332
+          },
+          {
+            "path": "Draft_Minutes_report_RAN1%2394b_v010/Draft_Minutes_report_RAN1#94b_v010.docx",
+            "size": 1095863
+          }
+        ],
+        "Draft_Minutes_report_RAN1%2394b_v020": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2394b_v020/Draft_Minutes_report_RAN1#94b_v020.docx",
+            "size": 1115759
+          }
+        ],
+        "Final_Minutes_report_RAN1%2394b_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%2394b_v100/3GPPRAN1#94-Bis_signed.xlsx",
+            "size": 68341
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2394b_v100/Final_Minutes_report_RAN1#94b_v100.docx",
+            "size": 1116504
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2394b_v100/TDoc_List_Meeting_RAN1#94-Bis(final).xlsx",
+            "size": 503484
+          }
+        ]
+      }
+    },
+    "TSGR1_95": {
+      "meeting": "TSGR1_95",
+      "total_items": 4,
+      "folders": [
+        "Draft_Minutes_report_RAN1%2395_v010",
+        "Draft_Minutes_report_RAN1%2395_v020",
+        "Draft_Minutes_report_RAN1%2395_v030",
+        "Final_Minutes_report_RAN1%2395_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Draft_Minutes_report_RAN1%2395_v010": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2395_v010/Draft_Minutes_report_RAN1#95_v010.docx",
+            "size": 987277
+          },
+          {
+            "path": "Draft_Minutes_report_RAN1%2395_v010/3GPPRAN1#95_signed.xlsx",
+            "size": 68322
+          },
+          {
+            "path": "Draft_Minutes_report_RAN1%2395_v010/TDoc_List_Meeting_RAN1#95(181123).xlsx",
+            "size": 567102
+          }
+        ],
+        "Draft_Minutes_report_RAN1%2395_v020": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2395_v020/Draft_Minutes_report_RAN1#95_v020.docx",
+            "size": 996135
+          },
+          {
+            "path": "Draft_Minutes_report_RAN1%2395_v020/TDoc_List_Meeting_RAN1#95(181205).xlsx",
+            "size": 579081
+          },
+          {
+            "path": "Draft_Minutes_report_RAN1%2395_v020/3GPPRAN1#95_signed.xlsx",
+            "size": 68322
+          }
+        ],
+        "Draft_Minutes_report_RAN1%2395_v030": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2395_v030/TDoc_List_Meeting_RAN1#95(final).xlsx",
+            "size": 578829
+          },
+          {
+            "path": "Draft_Minutes_report_RAN1%2395_v030/Draft_Minutes_report_RAN1#95_v030.docx",
+            "size": 1001881
+          },
+          {
+            "path": "Draft_Minutes_report_RAN1%2395_v030/3GPPRAN1#95_signed.xlsx",
+            "size": 68322
+          }
+        ],
+        "Final_Minutes_report_RAN1%2395_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%2395_v100/TDoc_List_Meeting_RAN1#95(final_190221).xlsx",
+            "size": 588011
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2395_v100/Final_Minutes_report_RAN1#95_v100.docx",
+            "size": 1004430
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2395_v100/3GPPRAN1#95_signed.xlsx",
+            "size": 68322
+          }
+        ]
+      }
+    },
+    "TSGR1_96": {
+      "meeting": "TSGR1_96",
+      "total_items": 1,
+      "folders": [
+        "Final_Minutes_report_RAN1%2396_v200"
+      ],
+      "files": [],
+      "structure": {
+        "Final_Minutes_report_RAN1%2396_v200": [
+          {
+            "path": "Final_Minutes_report_RAN1%2396_v200/Final_Minutes_report_RAN1#96_v200.docx",
+            "size": 1039271
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2396_v200/3GPPRAN1#96_signed.xlsx",
+            "size": 71931
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2396_v200/TDoc_List_Meeting_RAN1#96(final_190405).xlsx",
+            "size": 614351
+          }
+        ]
+      }
+    },
+    "TSGR1_96b": {
+      "meeting": "TSGR1_96b",
+      "total_items": 3,
+      "folders": [
+        "Draft_Minutes_report_RAN1%2396b_v010",
+        "Draft_Minutes_report_RAN1%2396b_v020",
+        "Final_Minutes_report_RAN1%2396b_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Draft_Minutes_report_RAN1%2396b_v010": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2396b_v010/Draft_Minutes_report_RAN1#96b_v010.docx",
+            "size": 805295
+          }
+        ],
+        "Draft_Minutes_report_RAN1%2396b_v020": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2396b_v020/Draft_Minutes_report_RAN1#96b_v020.docx",
+            "size": 809857
+          }
+        ],
+        "Final_Minutes_report_RAN1%2396b_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%2396b_v100/TDoc_List_Meeting_RAN1#96-Bis(final).xlsx",
+            "size": 516843
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2396b_v100/Final_Minutes_report_RAN1#96b_v100.docx",
+            "size": 810266
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2396b_v100/PartListsigned_3GPPRAN1#96-Bis.xlsx",
+            "size": 69743
+          }
+        ]
+      }
+    },
+    "TSGR1_97": {
+      "meeting": "TSGR1_97",
+      "total_items": 4,
+      "folders": [
+        "Draft_Minutes_report_RAN1%2397_v010",
+        "Draft_Minutes_report_RAN1%2397_v020",
+        "Draft_Minutes_report_RAN1%2397_v030",
+        "Final_Minutes_report_RAN1%2397_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Draft_Minutes_report_RAN1%2397_v010": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2397_v010/PartList_3GPPRAN1#97_signed.xlsx",
+            "size": 69293
+          },
+          {
+            "path": "Draft_Minutes_report_RAN1%2397_v010/Draft_Minutes_report_RAN1#97_v010.docx",
+            "size": 1175571
+          }
+        ],
+        "Draft_Minutes_report_RAN1%2397_v020": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2397_v020/PartList_3GPPRAN1#97_signed.xlsx",
+            "size": 69293
+          },
+          {
+            "path": "Draft_Minutes_report_RAN1%2397_v020/Draft_Minutes_report_RAN1#97_v020.docx",
+            "size": 1188469
+          }
+        ],
+        "Draft_Minutes_report_RAN1%2397_v030": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2397_v030/PartList_3GPPRAN1#97_signed.xlsx",
+            "size": 69293
+          },
+          {
+            "path": "Draft_Minutes_report_RAN1%2397_v030/Draft_Minutes_report_RAN1#97_v030.docx",
+            "size": 1188695
+          }
+        ],
+        "Final_Minutes_report_RAN1%2397_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%2397_v100/PartList_3GPPRAN1#97_signed.xlsx",
+            "size": 69293
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2397_v100/TDoc_List_Meeting_RAN1#97(final).xlsx",
+            "size": 514133
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2397_v100/Final_Minutes_report_RAN1#97_v100.docx",
+            "size": 1346080
+          }
+        ]
+      }
+    },
+    "TSGR1_98": {
+      "meeting": "TSGR1_98",
+      "total_items": 1,
+      "folders": [
+        "Final_Minutes_report_RAN1%2398_v200"
+      ],
+      "files": [],
+      "structure": {
+        "Final_Minutes_report_RAN1%2398_v200": [
+          {
+            "path": "Final_Minutes_report_RAN1%2398_v200/TDoc_List_Meeting_RAN1#98(final_v2).xlsx",
+            "size": 516838
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2398_v200/Final_Minutes_report_RAN1#98_v200.docx",
+            "size": 1071071
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2398_v200/PartList_3GPPRAN1#98(signed).csv",
+            "size": 79148
+          }
+        ]
+      }
+    },
+    "TSGR1_98b": {
+      "meeting": "TSGR1_98b",
+      "total_items": 1,
+      "folders": [
+        "Final_Minutes_report_RAN1%2398b_v200"
+      ],
+      "files": [],
+      "structure": {
+        "Final_Minutes_report_RAN1%2398b_v200": [
+          {
+            "path": "Final_Minutes_report_RAN1%2398b_v200/Signed_PartList_3GPPRAN1#98-Bis.xlsx",
+            "size": 72105
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2398b_v200/Final_Minutes_report_RAN1#98b_v200.docx",
+            "size": 915038
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2398b_v200/TDoc_List_Meeting_RAN1#98-Bis(191115final).xlsx",
+            "size": 485507
+          }
+        ]
+      }
+    },
+    "TSGR1_99": {
+      "meeting": "TSGR1_99",
+      "total_items": 3,
+      "folders": [
+        "Draft_Minutes_report_RAN1%2399_v010",
+        "Draft_Minutes_report_RAN1%2399_v020",
+        "Final_Minutes_report_RAN1%2399_v100"
+      ],
+      "files": [],
+      "structure": {
+        "Draft_Minutes_report_RAN1%2399_v010": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2399_v010/Draft_Minutes_report_RAN1#99_v010.docx",
+            "size": 984847
+          }
+        ],
+        "Draft_Minutes_report_RAN1%2399_v020": [
+          {
+            "path": "Draft_Minutes_report_RAN1%2399_v020/Draft_Minutes_report_RAN1#99_v020.docx",
+            "size": 1027655
+          }
+        ],
+        "Final_Minutes_report_RAN1%2399_v100": [
+          {
+            "path": "Final_Minutes_report_RAN1%2399_v100/Final_Minutes_report_RAN1#99_v100.docx",
+            "size": 1031438
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2399_v100/PartList_3GPPRAN1#99_signed.csv",
+            "size": 77468
+          },
+          {
+            "path": "Final_Minutes_report_RAN1%2399_v100/TDoc_List_Meeting_RAN1#99(200220-final).xlsx",
+            "size": 492593
+          }
+        ]
+      }
+    }
+  },
+  "unexpected_files": [
+    {
+      "meeting": "TSGR1_122b",
+      "path": "PartList_3GPPRAN1%23122-bis_17102025_R1_EOM.xlsx",
+      "size": 171840
+    },
+    {
+      "meeting": "TSGR1_122b",
+      "path": "R1_25XXXXX_Minutes_report_RAN1%23122bis_v100/TDoc_List_Meeting_RAN1#122-bis_171025_R4_EOM.xlsx",
+      "size": 406597
+    },
+    {
+      "meeting": "TSGR1_122b",
+      "path": "R1_25XXXXX_Minutes_report_RAN1%23122bis_v100/PartList_3GPPRAN1#122-bis_17102025_R1_EOM.xlsx",
+      "size": 171840
+    },
+    {
+      "meeting": "TSGR1_122b",
+      "path": "R1_25XXXXX_Minutes_report_RAN1%23122bis_v100/R1_25XXXXX_Minutes_report_RAN1#122bis_v100.docx",
+      "size": 1877115
+    }
+  ],
+  "partlist_files": [
+    {
+      "meeting": "TSGR1_100_e",
+      "path": "Final_Minutes_report_RAN1%23100-e_v200/PartList_3GPPRAN1#100-e.csv",
+      "size": 49404
+    },
+    {
+      "meeting": "TSGR1_100b_e",
+      "path": "Final_Minutes_report_RAN1%23100b-e_v100/PartList_3GPPRAN1#100-bis-e.csv",
+      "size": 86985
+    },
+    {
+      "meeting": "TSGR1_102-e",
+      "path": "Final_Minutes_report_RAN1%23102-e_v100/Registered_PartList_3GPPRAN1#102-e.xlsx",
+      "size": 82727
+    },
+    {
+      "meeting": "TSGR1_103-e",
+      "path": "Final_Minutes_report_RAN1%23103-e_v100/PartList_3GPPRAN1#103-e(registered_eom).xlsx",
+      "size": 83576
+    },
+    {
+      "meeting": "TSGR1_104-e",
+      "path": "Final_Minutes_report_RAN1%23104-e_v100/PartList_3GPPRAN1#104-e(eom).xlsx",
+      "size": 88867
+    },
+    {
+      "meeting": "TSGR1_104b-e",
+      "path": "Final_Minutes_report_RAN1%23104bis-e_v100/PartList_3GPPRAN1#104-bis-e(checked-in).xlsx",
+      "size": 87742
+    },
+    {
+      "meeting": "TSGR1_105-e",
+      "path": "Final_Minutes_report_RAN1%23105-e_v100/PartList_3GPPRAN1#105-e(210517_15-00UTC).xlsx",
+      "size": 94851
+    },
+    {
+      "meeting": "TSGR1_105-e",
+      "path": "Final_Minutes_report_RAN1%23105-e_v100/PartList_3GPPRAN1#105-e(eom).xlsx",
+      "size": 143028
+    },
+    {
+      "meeting": "TSGR1_106-e",
+      "path": "Final_Minutes_report_RAN1%23106-e_v300/PartList_3GPPRAN1#106-e(eom).xlsx",
+      "size": 131994
+    },
+    {
+      "meeting": "TSGR1_106b-e",
+      "path": "Archive/Draft_Minutes_report_RAN1%23106b-e_v020/PartList_3GPPRAN1#106-bis-e(eom).xlsx",
+      "size": 141261
+    },
+    {
+      "meeting": "TSGR1_106b-e",
+      "path": "Archive/Draft_Minutes_report_RAN1%23106b-e_v010/PartList_3GPPRAN1#106-bis-e(eom).xlsx",
+      "size": 141261
+    },
+    {
+      "meeting": "TSGR1_106b-e",
+      "path": "Final_Minutes_report_RAN1%23106b-e_v100/PartList_3GPPRAN1#106-bis-e(eom).xlsx",
+      "size": 141261
+    },
+    {
+      "meeting": "TSGR1_107-e",
+      "path": "Final_Minutes_report_RAN1%23107-e_v100/PartList_3GPPRAN1#107-e(eom).xlsx",
+      "size": 128924
+    },
+    {
+      "meeting": "TSGR1_107b-e",
+      "path": "Archive/Draft_Minutes_report_RAN1%23107b-e_v020/PartList_3GPPRAN1#107-bis-e(eom).xlsx",
+      "size": 126095
+    },
+    {
+      "meeting": "TSGR1_107b-e",
+      "path": "Final_Minutes_report_RAN1%23107b-e_v100/PartList_3GPPRAN1#107-bis-e(eom).xlsx",
+      "size": 126095
+    },
+    {
+      "meeting": "TSGR1_108-e",
+      "path": "Final_Minutes_report_RAN1%23108-e_v200/PartList_3GPPRAN1#108-e.xlsx",
+      "size": 120632
+    },
+    {
+      "meeting": "TSGR1_109-e",
+      "path": "Draft_Minutes_report_RAN1%23109-e_v030/PartList_3GPPRAN1#109-e(220520eom).xlsx",
+      "size": 168816
+    },
+    {
+      "meeting": "TSGR1_110",
+      "path": "Final_Minutes_report_RAN1%23110_v100/PartList_3GPPRAN1#110.xlsx",
+      "size": 163858
+    },
+    {
+      "meeting": "TSGR1_110b-e",
+      "path": "Final_Minutes_report_RAN1%23110b-e_v100/PartList_3GPPRAN1#110-bis-e(eom).xlsx",
+      "size": 158316
+    },
+    {
+      "meeting": "TSGR1_111",
+      "path": "Final_Minutes_report_RAN1%23111_v100/PartList_3GPPRAN1#111.csv",
+      "size": 405673
+    },
+    {
+      "meeting": "TSGR1_112",
+      "path": "Final_Minutes_report_RAN1%23112_v100/PartList_3GPPRAN1#112_eom.csv",
+      "size": 327163
+    },
+    {
+      "meeting": "TSGR1_112b-e",
+      "path": "Final_Minutes_report_RAN1%23112b-e_v100/PartList_3GPPRAN1#112-bis-e(eom).xlsx",
+      "size": 172634
+    },
+    {
+      "meeting": "TSGR1_113",
+      "path": "Final_Minutes_report_RAN1%23113_v100/PartList_3GPPRAN1#113(eom).xlsx",
+      "size": 182254
+    },
+    {
+      "meeting": "TSGR1_114",
+      "path": "Draft_Minutes_report_RAN1%23114_v030/PartList_3GPPRAN1#114(eom).xlsx",
+      "size": 169480
+    },
+    {
+      "meeting": "TSGR1_114b",
+      "path": "Final_Minutes_report_RAN1%23114b_v100/PartList_3GPPRAN1#114-bis(eom).xlsx",
+      "size": 157356
+    },
+    {
+      "meeting": "TSGR1_115",
+      "path": "Final_Minutes_report_RAN1%23115_v100/PartList_3GPPRAN1#115(eom).xlsx",
+      "size": 165031
+    },
+    {
+      "meeting": "TSGR1_116",
+      "path": "Final_Minutes_report_RAN1%23116_v100/PartList_3GPPRAN1#116(eom).xlsx",
+      "size": 164168
+    },
+    {
+      "meeting": "TSGR1_116b",
+      "path": "Final_Minutes_report_RAN1%23116b_v100/PartList_3GPPRAN1#116-bis(eom).xlsx",
+      "size": 169091
+    },
+    {
+      "meeting": "TSGR1_118",
+      "path": "Final_Minutes_report_RAN1%23118_v100/PartList_3GPPRAN1#118(eom).xlsx",
+      "size": 170069
+    },
+    {
+      "meeting": "TSGR1_118b",
+      "path": "Final_Minutes_report_RAN1%23118b_v100/PartList_3GPPRAN1#118-bis(eom).csv",
+      "size": 326809
+    },
+    {
+      "meeting": "TSGR1_119",
+      "path": "Draft_Minutes_report_RAN1%23119_v030/PartList_3GPPRAN1#119(eom).xlsx",
+      "size": 166144
+    },
+    {
+      "meeting": "TSGR1_120",
+      "path": "Final_Minutes_report_RAN1%23120_v100/PartList_3GPPRAN1#120(eom).xlsx",
+      "size": 172120
+    },
+    {
+      "meeting": "TSGR1_120b",
+      "path": "Final_Minutes_report_RAN1%23120b_v100/PartList_3GPPRAN1#120-bis(eom).xlsx",
+      "size": 177457
+    },
+    {
+      "meeting": "TSGR1_121",
+      "path": "Final_Minutes_report_RAN1%23121_v100/PartList_3GPPRAN1#121(eom).xlsx",
+      "size": 169000
+    },
+    {
+      "meeting": "TSGR1_122",
+      "path": "Final_Minutes_report_RAN1%23122_v100/PartList_3GPPRAN1#122(eom).xlsx",
+      "size": 236335
+    },
+    {
+      "meeting": "TSGR1_122b",
+      "path": "PartList_3GPPRAN1%23122-bis_17102025_R1_EOM.xlsx",
+      "size": 171840
+    },
+    {
+      "meeting": "TSGR1_122b",
+      "path": "R1_25XXXXX_Minutes_report_RAN1%23122bis_v100/PartList_3GPPRAN1#122-bis_17102025_R1_EOM.xlsx",
+      "size": 171840
+    },
+    {
+      "meeting": "TSGR1_122b",
+      "path": "Archive/PartList_3GPPRAN1%23122-bis_09102025_R1.xlsx",
+      "size": 164426
+    },
+    {
+      "meeting": "TSGR1_122b",
+      "path": "Archive/PartList_3GPPRAN1%23122-bis_06102025_R1.xlsx",
+      "size": 154587
+    },
+    {
+      "meeting": "TSGR1_122b",
+      "path": "Archive/PartList_3GPPRAN1%23122-bis_07102025_R1.xlsx",
+      "size": 155630
+    },
+    {
+      "meeting": "TSGR1_96b",
+      "path": "Final_Minutes_report_RAN1%2396b_v100/PartListsigned_3GPPRAN1#96-Bis.xlsx",
+      "size": 69743
+    },
+    {
+      "meeting": "TSGR1_97",
+      "path": "Draft_Minutes_report_RAN1%2397_v020/PartList_3GPPRAN1#97_signed.xlsx",
+      "size": 69293
+    },
+    {
+      "meeting": "TSGR1_97",
+      "path": "Final_Minutes_report_RAN1%2397_v100/PartList_3GPPRAN1#97_signed.xlsx",
+      "size": 69293
+    },
+    {
+      "meeting": "TSGR1_97",
+      "path": "Draft_Minutes_report_RAN1%2397_v010/PartList_3GPPRAN1#97_signed.xlsx",
+      "size": 69293
+    },
+    {
+      "meeting": "TSGR1_97",
+      "path": "Draft_Minutes_report_RAN1%2397_v030/PartList_3GPPRAN1#97_signed.xlsx",
+      "size": 69293
+    },
+    {
+      "meeting": "TSGR1_98",
+      "path": "Final_Minutes_report_RAN1%2398_v200/PartList_3GPPRAN1#98(signed).csv",
+      "size": 79148
+    },
+    {
+      "meeting": "TSGR1_98b",
+      "path": "Final_Minutes_report_RAN1%2398b_v200/Signed_PartList_3GPPRAN1#98-Bis.xlsx",
+      "size": 72105
+    },
+    {
+      "meeting": "TSGR1_99",
+      "path": "Final_Minutes_report_RAN1%2399_v100/PartList_3GPPRAN1#99_signed.csv",
+      "size": 77468
+    }
+  ],
+  "standalone_files": [
+    {
+      "meeting": "TSGR1_122b",
+      "file": "PartList_3GPPRAN1%23122-bis_17102025_R1_EOM.xlsx",
+      "size": 171840
+    }
+  ],
+  "unexpected_folders": [
+    {
+      "meeting": "TSGR1_122b",
+      "folder": "R1_25XXXXX_Minutes_report_RAN1%23122bis_v100"
+    }
+  ],
+  "archive_contents": {
+    "TSGR1_106b-e": [
+      {
+        "path": "Draft_Minutes_report_RAN1%23106b-e_v020/TDoc_List_Meeting_RAN1#106-bis-e(211101).xlsx",
+        "size": 517812
+      },
+      {
+        "path": "Draft_Minutes_report_RAN1%23106b-e_v020/Draft_Minutes_report_RAN1#106b-e_v020.docx",
+        "size": 850411
+      },
+      {
+        "path": "Draft_Minutes_report_RAN1%23106b-e_v020/PartList_3GPPRAN1#106-bis-e(eom).xlsx",
+        "size": 141261
+      },
+      {
+        "path": "Draft_Minutes_report_RAN1%23106b-e_v010/TDoc_List_Meeting_RAN1#106-bis-e(211028).xlsx",
+        "size": 517715
+      },
+      {
+        "path": "Draft_Minutes_report_RAN1%23106b-e_v010/PartList_3GPPRAN1#106-bis-e(eom).xlsx",
+        "size": 141261
+      },
+      {
+        "path": "Draft_Minutes_report_RAN1%23106b-e_v010/Draft_Minutes_report_RAN1#106b-e_v010.docx",
+        "size": 850174
+      }
+    ],
+    "TSGR1_107b-e": [
+      {
+        "path": "Draft_Minutes_report_RAN1%23107b-e_v010/Draft_Minutes_report_RAN1#107b-e_v010.docx",
+        "size": 533382
+      },
+      {
+        "path": "Draft_Minutes_report_RAN1%23107b-e_v011/Draft_Minutes_report_RAN1#107b-e_v011.docx",
+        "size": 673680
+      },
+      {
+        "path": "Draft_Minutes_report_RAN1%23107b-e_v020/TDoc_List_Meeting_RAN1#107-bis-e(220202).xlsx",
+        "size": 224325
+      },
+      {
+        "path": "Draft_Minutes_report_RAN1%23107b-e_v020/Draft_Minutes_report_RAN1#107b-e_v020.docx",
+        "size": 677296
+      },
+      {
+        "path": "Draft_Minutes_report_RAN1%23107b-e_v020/PartList_3GPPRAN1#107-bis-e(eom).xlsx",
+        "size": 126095
+      }
+    ],
+    "TSGR1_110b-e": [
+      {
+        "path": "Draft_Minutes_report_RAN1%23110b-e_v020/Draft_Minutes_report_RAN1#110b-e_v020.docx",
+        "size": 1138775
+      },
+      {
+        "path": "Draft_Minutes_report_RAN1%23110b-e_v010/Draft_Minutes_report_RAN1#110b-e_v010.docx",
+        "size": 1110287
+      }
+    ],
+    "TSGR1_112b-e": [
+      {
+        "path": "Draft_Minutes_report_RAN1%23112b-e_v020/Draft_Minutes_report_RAN1#112b-e_v020.docx",
+        "size": 1187352
+      },
+      {
+        "path": "Draft_Minutes_report_RAN1%23112b-e_v010/Draft_Minutes_report_RAN1#112b-e_v010.docx",
+        "size": 1183424
+      }
+    ],
+    "TSGR1_122b": [
+      {
+        "path": "PartList_3GPPRAN1%23122-bis_09102025_R1.xlsx",
+        "size": 164426
+      },
+      {
+        "path": "PartList_3GPPRAN1%23122-bis_06102025_R1.xlsx",
+        "size": 154587
+      },
+      {
+        "path": "PartList_3GPPRAN1%23122-bis_07102025_R1.xlsx",
+        "size": 155630
+      }
+    ]
+  },
+  "draft_only_meetings": [
+    "TSGR1_109-e",
+    "TSGR1_114",
+    "TSGR1_117",
+    "TSGR1_119"
+  ]
+}
