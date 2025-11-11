@@ -1,0 +1,135 @@
+================================================================================
+aria2c Download List Generator (TSG only)
+================================================================================
+Time: 2025-11-05 11:09:40
+================================================================================
+
+Parallel URL extraction for 5 releases...
+
+[Rel-16]
+[Rel-15]
+
+
+[Rel-17]
+
+[Rel-18]
+[Rel-19]
+
+  TSG TDocs to process: 21
+  Extracting FTP URLs in parallel (workers=30)...
+  TSG TDocs to process: 40
+  Extracting FTP URLs in parallel (workers=30)...
+  TSG TDocs to process: 181
+  Extracting FTP URLs in parallel (workers=30)...
+  TSG TDocs to process: 140
+  Extracting FTP URLs in parallel (workers=30)...
+  TSG TDocs to process: 206
+  Extracting FTP URLs in parallel (workers=30)...
+    ⚠ Failed to extract FTP URL: RP-252630
+    ⚠ Failed to extract FTP URL: RP-251837
+    ⚠ Failed to extract FTP URL: RP-201348
+    ⚠ Failed to extract FTP URL: RP-240518
+    ⚠ Failed to extract FTP URL: RP-200696
+  ✓ Extraction complete: 19 success, 2 failed
+  ✓ Rel-19 completed (19 URLs)
+    ⚠ Failed to extract FTP URL: RP-201809
+    ⚠ Failed to extract FTP URL: RP-200688
+    ⚠ Failed to extract FTP URL: RP-251562
+    ⚠ Failed to extract FTP URL: RP-200686
+    ⚠ Failed to extract FTP URL: RP-212969
+    ⚠ Failed to extract FTP URL: RP-233722
+    ⚠ Failed to extract FTP URL: RP-233718
+    ⚠ Failed to extract FTP URL: RP-232471
+    ⚠ Failed to extract FTP URL: RP-233705
+    ⚠ Failed to extract FTP URL: RP-233733
+    ⚠ Failed to extract FTP URL: RP-233707
+    ⚠ Failed to extract FTP URL: RP-233716
+    ⚠ Failed to extract FTP URL: RP-190449
+    ⚠ Failed to extract FTP URL: RP-192626
+    ⚠ Failed to extract FTP URL: RP-200181
+    ⚠ Failed to extract FTP URL: RP-212967
+    ⚠ Failed to extract FTP URL: RP-200694
+    ⚠ Failed to extract FTP URL: RP-200692
+    ⚠ Failed to extract FTP URL: RP-212966
+    ⚠ Failed to extract FTP URL: RP-191942
+    ⚠ Failed to extract FTP URL: RP-191283
+    ⚠ Failed to extract FTP URL: RP-181789
+    ⚠ Failed to extract FTP URL: RP-182071
+    ⚠ Failed to extract FTP URL: RP-220244
+    ⚠ Failed to extract FTP URL: RP-250231
+    ⚠ Failed to extract FTP URL: RP-192627
+    ⚠ Failed to extract FTP URL: RP-200687
+    ⚠ Failed to extract FTP URL: RP-232470
+    ⚠ Failed to extract FTP URL: RP-191943
+    ⚠ Failed to extract FTP URL: RP-191552
+    ⚠ Failed to extract FTP URL: RP-242932
+    ⚠ Failed to extract FTP URL: RP-232458
+    ⚠ Failed to extract FTP URL: RP-191284
+    ⚠ Failed to extract FTP URL: RP-241058
+    ⚠ Failed to extract FTP URL: RP-241064
+    ⚠ Failed to extract FTP URL: RP-200190
+    ⚠ Failed to extract FTP URL: RP-200187
+    ⚠ Failed to extract FTP URL: RP-232477
+    ⚠ Failed to extract FTP URL: RP-232480
+    ⚠ Failed to extract FTP URL: RP-200185
+    ⚠ Failed to extract FTP URL: RP-190425
+    ⚠ Failed to extract FTP URL: RP-232469
+    ⚠ Failed to extract FTP URL: RP-200194
+    ⚠ Failed to extract FTP URL: RP-240536
+    ⚠ Failed to extract FTP URL: RP-251562
+    ⚠ Failed to extract FTP URL: RP-200184
+    ⚠ Failed to extract FTP URL: RP-240515
+    ⚠ Failed to extract FTP URL: RP-240534
+    ⚠ Failed to extract FTP URL: RP-233728
+    ⚠ Failed to extract FTP URL: RP-251563
+    ⚠ Failed to extract FTP URL: RP-250227
+    ⚠ Failed to extract FTP URL: RP-250231
+    ⚠ Failed to extract FTP URL: RP-233703
+    ⚠ Failed to extract FTP URL: RP-233727
+    ⚠ Failed to extract FTP URL: RP-200192
+    ⚠ Failed to extract FTP URL: RP-190450
+    ⚠ Failed to extract FTP URL: RP-232531
+    Progress: 50/206 (35 success, 15 failed)
+    ⚠ Failed to extract FTP URL: RP-200186
+    ⚠ Failed to extract FTP URL: RP-190632
+    ⚠ Failed to extract FTP URL: RP-192645
+    ⚠ Failed to extract FTP URL: RP-232445
+    ⚠ Failed to extract FTP URL: RP-192628
+    ⚠ Failed to extract FTP URL: RP-191278
+  ✓ Extraction complete: 22 success, 18 failed
+  ✓ Rel-15 completed (22 URLs)
+    ⚠ Failed to extract FTP URL: RP-192643
+    ⚠ Failed to extract FTP URL: RP-192641
+    Progress: 50/181 (33 success, 17 failed)
+    ⚠ Failed to extract FTP URL: RP-192639
+    ⚠ Failed to extract FTP URL: RP-230453
+    ⚠ Failed to extract FTP URL: RP-230440
+    ⚠ Failed to extract FTP URL: RP-250234
+    ⚠ Failed to extract FTP URL: RP-230442
+    ⚠ Failed to extract FTP URL: RP-242213
+    Progress: 50/140 (31 success, 19 failed)
+    ⚠ Failed to extract FTP URL: RP-192638
+    ⚠ Failed to extract FTP URL: RP-230443
+    ⚠ Failed to extract FTP URL: RP-192637
+    Progress: 100/181 (80 success, 20 failed)
+    Progress: 100/206 (80 success, 20 failed)
+    Progress: 100/140 (81 success, 19 failed)
+  ✓ Extraction complete: 121 success, 19 failed
+  ✓ Rel-18 completed (121 URLs)
+    Progress: 150/181 (130 success, 20 failed)
+    Progress: 150/206 (130 success, 20 failed)
+  ✓ Extraction complete: 161 success, 20 failed
+  ✓ Rel-16 completed (161 URLs)
+    Progress: 200/206 (180 success, 20 failed)
+  ✓ Extraction complete: 186 success, 20 failed
+  ✓ Rel-17 completed (186 URLs)
+
+================================================================================
+Total TSG TDocs to download: 509
+================================================================================
+  ✓ Saved to logs/phase-1/change-requests/RAN1/aria2c_input_tsg.txt
+
+✓ Download list generated successfully!
+
+Next step:
+  python3 scripts/phase-1/change-requests/RAN1/03_download_with_aria2c.py

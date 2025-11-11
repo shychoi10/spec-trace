@@ -1,0 +1,119 @@
+{
+  "start_time": "2025-11-10T15:52:29.435941",
+  "end_time": "2025-11-10T16:18:30.260746",
+  "duration_seconds": 1560.824805,
+  "timeout_setting": 120,
+  "total_files": 13,
+  "success": 0,
+  "failed": 13,
+  "still_timeout": 13,
+  "success_rate": "0.0%",
+  "results": [
+    {
+      "filename": "R1-1721060-draft CR36213 EPDCCH SSC10.doc",
+      "input": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_91/Docs/R1-1721060/R1-1721060-draft CR36213 EPDCCH SSC10.doc",
+      "output": "/home/sihyeon/workspace/spec-trace/data/data_transformed/meetings/RAN1/TSGR1_91/Docs/R1-1721060/R1-1721060-draft CR36213 EPDCCH SSC10.docx",
+      "success": false,
+      "error": "TIMEOUT (120s) - process killed"
+    },
+    {
+      "filename": "R1-1721329 36213-e40_s06-s09_stti_fa2.doc",
+      "input": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_91/Docs/R1-1721329/R1-1721329 36213-e40_s06-s09_stti_fa2.doc",
+      "output": "/home/sihyeon/workspace/spec-trace/data/data_transformed/meetings/RAN1/TSGR1_91/Docs/R1-1721329/R1-1721329 36213-e40_s06-s09_stti_fa2.docx",
+      "success": false,
+      "error": "TIMEOUT (120s) - process killed"
+    },
+    {
+      "filename": "R1-1721341 38211-130 (with change marks).doc",
+      "input": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_91/Docs/R1-1721341/R1-1721341 38211-130 (with change marks).doc",
+      "output": "/home/sihyeon/workspace/spec-trace/data/data_transformed/meetings/RAN1/TSGR1_91/Docs/R1-1721341/R1-1721341 38211-130 (with change marks).docx",
+      "success": false,
+      "error": "TIMEOUT (120s) - process killed"
+    },
+    {
+      "filename": "R1-1721099.doc",
+      "input": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_91/Docs/R1-1721099/R1-1721099.doc",
+      "output": "/home/sihyeon/workspace/spec-trace/data/data_transformed/meetings/RAN1/TSGR1_91/Docs/R1-1721099/R1-1721099.docx",
+      "success": false,
+      "error": "TIMEOUT (120s) - process killed"
+    },
+    {
+      "filename": "R1-1721064-draft CR36213 EPDCCH SSC10.doc",
+      "input": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_91/Docs/R1-1721064/R1-1721064-draft CR36213 EPDCCH SSC10.doc",
+      "output": "/home/sihyeon/workspace/spec-trace/data/data_transformed/meetings/RAN1/TSGR1_91/Docs/R1-1721064/R1-1721064-draft CR36213 EPDCCH SSC10.docx",
+      "success": false,
+      "error": "TIMEOUT (120s) - process killed"
+    },
+    {
+      "filename": "36213-e40_s06-s09_FECOMP_f2.doc",
+      "input": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_91/Docs/R1-1721071/36213-e40_s06-s09_FECOMP_f2.doc",
+      "output": "/home/sihyeon/workspace/spec-trace/data/data_transformed/meetings/RAN1/TSGR1_91/Docs/R1-1721071/36213-e40_s06-s09_FECOMP_f2.docx",
+      "success": false,
+      "error": "TIMEOUT (120s) - process killed"
+    },
+    {
+      "filename": "R1-1801691-draft CR36213-symPUSCH-UpPts-r14 PHICH Assignment .doc",
+      "input": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_92/Docs/R1-1801691/R1-1801691-draft CR36213-symPUSCH-UpPts-r14 PHICH Assignment .doc",
+      "output": "/home/sihyeon/workspace/spec-trace/data/data_transformed/meetings/RAN1/TSGR1_92/Docs/R1-1801691/R1-1801691-draft CR36213-symPUSCH-UpPts-r14 PHICH Assignment .docx",
+      "success": false,
+      "error": "TIMEOUT (120s) - process killed"
+    },
+    {
+      "filename": "R1-1801692-draft CR36211-symPUSCH-UpPts-r14 PHICH Assignment.doc",
+      "input": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_92/Docs/R1-1801692/R1-1801692-draft CR36211-symPUSCH-UpPts-r14 PHICH Assignment.doc",
+      "output": "/home/sihyeon/workspace/spec-trace/data/data_transformed/meetings/RAN1/TSGR1_92/Docs/R1-1801692/R1-1801692-draft CR36211-symPUSCH-UpPts-r14 PHICH Assignment.docx",
+      "success": false,
+      "error": "TIMEOUT (120s) - process killed"
+    },
+    {
+      "filename": "R1-1803543 CR 38.211 after RAN1_92.doc",
+      "input": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_92/Docs/R1-1803543/R1-1803543 CR 38.211 after RAN1_92.doc",
+      "output": "/home/sihyeon/workspace/spec-trace/data/data_transformed/meetings/RAN1/TSGR1_92/Docs/R1-1803543/R1-1803543 CR 38.211 after RAN1_92.docx",
+      "success": false,
+      "error": "TIMEOUT (120s) - process killed"
+    },
+    {
+      "filename": "R1-1802986.doc",
+      "input": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_92/Docs/R1-1802986/R1-1802986.doc",
+      "output": "/home/sihyeon/workspace/spec-trace/data/data_transformed/meetings/RAN1/TSGR1_92/Docs/R1-1802986/R1-1802986.docx",
+      "success": false,
+      "error": "TIMEOUT (120s) - process killed"
+    },
+    {
+      "filename": "R1-1803185.doc",
+      "input": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_92/Docs/R1-1803185/R1-1803185.doc",
+      "output": "/home/sihyeon/workspace/spec-trace/data/data_transformed/meetings/RAN1/TSGR1_92/Docs/R1-1803185/R1-1803185.docx",
+      "success": false,
+      "error": "TIMEOUT (120s) - process killed"
+    },
+    {
+      "filename": "R1-1803186.doc",
+      "input": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_92/Docs/R1-1803186/R1-1803186.doc",
+      "output": "/home/sihyeon/workspace/spec-trace/data/data_transformed/meetings/RAN1/TSGR1_92/Docs/R1-1803186/R1-1803186.docx",
+      "success": false,
+      "error": "TIMEOUT (120s) - process killed"
+    },
+    {
+      "filename": "R1-1803179.doc",
+      "input": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_92/Docs/R1-1803179/R1-1803179.doc",
+      "output": "/home/sihyeon/workspace/spec-trace/data/data_transformed/meetings/RAN1/TSGR1_92/Docs/R1-1803179/R1-1803179.docx",
+      "success": false,
+      "error": "TIMEOUT (120s) - process killed"
+    }
+  ],
+  "still_timeout_files": [
+    "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_91/Docs/R1-1721060/R1-1721060-draft CR36213 EPDCCH SSC10.doc",
+    "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_91/Docs/R1-1721329/R1-1721329 36213-e40_s06-s09_stti_fa2.doc",
+    "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_91/Docs/R1-1721341/R1-1721341 38211-130 (with change marks).doc",
+    "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_91/Docs/R1-1721099/R1-1721099.doc",
+    "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_91/Docs/R1-1721064/R1-1721064-draft CR36213 EPDCCH SSC10.doc",
+    "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_91/Docs/R1-1721071/36213-e40_s06-s09_FECOMP_f2.doc",
+    "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_92/Docs/R1-1801691/R1-1801691-draft CR36213-symPUSCH-UpPts-r14 PHICH Assignment .doc",
+    "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_92/Docs/R1-1801692/R1-1801692-draft CR36211-symPUSCH-UpPts-r14 PHICH Assignment.doc",
+    "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_92/Docs/R1-1803543/R1-1803543 CR 38.211 after RAN1_92.doc",
+    "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_92/Docs/R1-1802986/R1-1802986.doc",
+    "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_92/Docs/R1-1803185/R1-1803185.doc",
+    "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_92/Docs/R1-1803186/R1-1803186.doc",
+    "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_92/Docs/R1-1803179/R1-1803179.doc"
+  ]
+}

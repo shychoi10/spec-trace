@@ -1,28 +1,36 @@
-Download started at 2025-10-30 18:25:01.736910
+Download started at 2025-11-05 13:58:54.454033
 
-[2025-10-30 18:25:01] [INFO] Starting download process
-[2025-10-30 18:25:01] [INFO] Fetching version list from https://www.3gpp.org/ftp/specs/archive/38_series/38.211/
-[2025-10-30 18:25:03] [INFO] Found 189 versions, latest: j10
-[2025-10-30 18:25:03] [INFO] Downloading 38211-j10.zip from https://www.3gpp.org/ftp/specs/archive/38_series/38.211/38211-j10.zip
-[2025-10-30 18:25:16] [INFO] ✓ 38211-j10.zip downloaded successfully (1225 KB)
-[2025-10-30 18:25:16] [INFO] Fetching version list from https://www.3gpp.org/ftp/specs/archive/38_series/38.212/
-[2025-10-30 18:25:19] [INFO] Found 198 versions, latest: j10
-[2025-10-30 18:25:19] [INFO] Downloading 38212-j10.zip from https://www.3gpp.org/ftp/specs/archive/38_series/38.212/38212-j10.zip
-[2025-10-30 18:25:32] [INFO] ✓ 38212-j10.zip downloaded successfully (2082 KB)
-[2025-10-30 18:25:32] [INFO] Fetching version list from https://www.3gpp.org/ftp/specs/archive/38_series/38.213/
-[2025-10-30 18:25:35] [INFO] Found 219 versions, latest: j10
-[2025-10-30 18:25:35] [INFO] Downloading 38213-j10.zip from https://www.3gpp.org/ftp/specs/archive/38_series/38.213/38213-j10.zip
-[2025-10-30 18:25:51] [INFO] ✓ 38213-j10.zip downloaded successfully (1315 KB)
-[2025-10-30 18:25:51] [INFO] Fetching version list from https://www.3gpp.org/ftp/specs/archive/38_series/38.214/
-[2025-10-30 18:25:55] [INFO] Found 231 versions, latest: j10
-[2025-10-30 18:25:55] [INFO] Downloading 38214-j10.zip from https://www.3gpp.org/ftp/specs/archive/38_series/38.214/38214-j10.zip
-[2025-10-30 18:26:30] [INFO] ✓ 38214-j10.zip downloaded successfully (3059 KB)
-[2025-10-30 18:26:30] [INFO] Fetching version list from https://www.3gpp.org/ftp/specs/archive/38_series/38.215/
-[2025-10-30 18:26:32] [INFO] Found 132 versions, latest: j10
-[2025-10-30 18:26:32] [INFO] Downloading 38215-j10.zip from https://www.3gpp.org/ftp/specs/archive/38_series/38.215/38215-j10.zip
-[2025-10-30 18:26:34] [INFO] ✓ 38215-j10.zip downloaded successfully (170 KB)
-[2025-10-30 18:26:34] [INFO] Saving metadata to download_status.csv
-[2025-10-30 18:26:34] [INFO] ✓ Metadata saved to /home/sihyeon/workspace/spec-trace/data_raw/specs/RAN1/metadata/download_status.csv
-[2025-10-30 18:26:34] [INFO] 
-✓ All specs downloaded successfully!
-[2025-10-30 18:26:34] [INFO] Download process completed
+[2025-11-05 13:58:54] [INFO] Starting download process
+[2025-11-05 13:58:54] [INFO] Fetching version list from https://www.3gpp.org/ftp/specs/archive/38_series/38.201/
+[2025-11-05 13:58:55] [INFO] Found 45 versions, latest: j00
+[2025-11-05 13:58:55] [INFO] Downloading 38201-j00.zip from https://www.3gpp.org/ftp/specs/archive/38_series/38.201/38201-j00.zip
+[2025-11-05 13:58:57] [ERROR] ✗ Error downloading 38201-j00.zip: [Errno 2] No such file or directory: '/home/sihyeon/workspace/spec-trace/scripts/data/data_raw/specs/RAN1/38.201/38201-j00.zip'
+[2025-11-05 13:58:57] [INFO] Fetching version list from https://www.3gpp.org/ftp/specs/archive/38_series/38.202/
+[2025-11-05 13:58:59] [INFO] Found 102 versions, latest: j00
+[2025-11-05 13:58:59] [INFO] Downloading 38202-j00.zip from https://www.3gpp.org/ftp/specs/archive/38_series/38.202/38202-j00.zip
+[2025-11-05 13:59:00] [ERROR] ✗ Error downloading 38202-j00.zip: [Errno 2] No such file or directory: '/home/sihyeon/workspace/spec-trace/scripts/data/data_raw/specs/RAN1/38.202/38202-j00.zip'
+[2025-11-05 13:59:00] [INFO] Fetching version list from https://www.3gpp.org/ftp/specs/archive/38_series/38.211/
+[2025-11-05 13:59:03] [INFO] Found 189 versions, latest: j10
+[2025-11-05 13:59:03] [INFO] Downloading 38211-j10.zip from https://www.3gpp.org/ftp/specs/archive/38_series/38.211/38211-j10.zip
+[2025-11-05 13:59:04] [ERROR] ✗ Error downloading 38211-j10.zip: [Errno 2] No such file or directory: '/home/sihyeon/workspace/spec-trace/scripts/data/data_raw/specs/RAN1/38.211/38211-j10.zip'
+[2025-11-05 13:59:04] [INFO] Fetching version list from https://www.3gpp.org/ftp/specs/archive/38_series/38.212/
+[2025-11-05 13:59:06] [INFO] Found 198 versions, latest: j10
+[2025-11-05 13:59:06] [INFO] Downloading 38212-j10.zip from https://www.3gpp.org/ftp/specs/archive/38_series/38.212/38212-j10.zip
+[2025-11-05 13:59:08] [ERROR] ✗ Error downloading 38212-j10.zip: [Errno 2] No such file or directory: '/home/sihyeon/workspace/spec-trace/scripts/data/data_raw/specs/RAN1/38.212/38212-j10.zip'
+[2025-11-05 13:59:08] [INFO] Fetching version list from https://www.3gpp.org/ftp/specs/archive/38_series/38.213/
+[2025-11-05 13:59:11] [INFO] Found 219 versions, latest: j10
+[2025-11-05 13:59:11] [INFO] Downloading 38213-j10.zip from https://www.3gpp.org/ftp/specs/archive/38_series/38.213/38213-j10.zip
+[2025-11-05 13:59:13] [ERROR] ✗ Error downloading 38213-j10.zip: [Errno 2] No such file or directory: '/home/sihyeon/workspace/spec-trace/scripts/data/data_raw/specs/RAN1/38.213/38213-j10.zip'
+[2025-11-05 13:59:13] [INFO] Fetching version list from https://www.3gpp.org/ftp/specs/archive/38_series/38.214/
+[2025-11-05 13:59:15] [INFO] Found 231 versions, latest: j10
+[2025-11-05 13:59:15] [INFO] Downloading 38214-j10.zip from https://www.3gpp.org/ftp/specs/archive/38_series/38.214/38214-j10.zip
+[2025-11-05 13:59:16] [ERROR] ✗ Error downloading 38214-j10.zip: [Errno 2] No such file or directory: '/home/sihyeon/workspace/spec-trace/scripts/data/data_raw/specs/RAN1/38.214/38214-j10.zip'
+[2025-11-05 13:59:16] [INFO] Fetching version list from https://www.3gpp.org/ftp/specs/archive/38_series/38.215/
+[2025-11-05 13:59:19] [INFO] Found 132 versions, latest: j10
+[2025-11-05 13:59:19] [INFO] Downloading 38215-j10.zip from https://www.3gpp.org/ftp/specs/archive/38_series/38.215/38215-j10.zip
+[2025-11-05 13:59:20] [ERROR] ✗ Error downloading 38215-j10.zip: [Errno 2] No such file or directory: '/home/sihyeon/workspace/spec-trace/scripts/data/data_raw/specs/RAN1/38.215/38215-j10.zip'
+[2025-11-05 13:59:20] [INFO] Fetching version list from https://www.3gpp.org/ftp/specs/archive/38_series/38.291/
+[2025-11-05 13:59:22] [INFO] Found 15 versions, latest: j10
+[2025-11-05 13:59:22] [INFO] Downloading 38291-j10.zip from https://www.3gpp.org/ftp/specs/archive/38_series/38.291/38291-j10.zip
+[2025-11-05 13:59:24] [ERROR] ✗ Error downloading 38291-j10.zip: [Errno 2] No such file or directory: '/home/sihyeon/workspace/spec-trace/scripts/data/data_raw/specs/RAN1/38.291/38291-j10.zip'
+[2025-11-05 13:59:24] [INFO] Saving metadata to download_status.csv

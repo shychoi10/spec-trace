@@ -1,0 +1,145 @@
+{
+  "start_time": "2025-11-10T18:05:07.052316",
+  "total_files": 13,
+  "success": 4,
+  "failed": 9,
+  "still_timeout": 4,
+  "results": [
+    {
+      "filename": "R1-1721060-draft CR36213 EPDCCH SSC10.doc",
+      "input": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_91/Docs/R1-1721060/R1-1721060-draft CR36213 EPDCCH SSC10.doc",
+      "output": "/home/sihyeon/workspace/spec-trace/data/data_transformed/meetings/RAN1/TSGR1_91/Docs/R1-1721060/R1-1721060-draft CR36213 EPDCCH SSC10.docx",
+      "size_mb": 0.28125,
+      "success": false,
+      "timeout_used": 120,
+      "elapsed_seconds": 37.1493661403656,
+      "error": "(process:199379): dconf-CRITICAL **: 18:05:07.151: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "filename": "R1-1721099.doc",
+      "input": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_91/Docs/R1-1721099/R1-1721099.doc",
+      "output": "/home/sihyeon/workspace/spec-trace/data/data_transformed/meetings/RAN1/TSGR1_91/Docs/R1-1721099/R1-1721099.docx",
+      "size_mb": 9.2822265625,
+      "success": true,
+      "timeout_used": 300,
+      "elapsed_seconds": 37.19517993927002,
+      "output_size_mb": 1.4288463592529297
+    },
+    {
+      "filename": "R1-1721064-draft CR36213 EPDCCH SSC10.doc",
+      "input": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_91/Docs/R1-1721064/R1-1721064-draft CR36213 EPDCCH SSC10.doc",
+      "output": "/home/sihyeon/workspace/spec-trace/data/data_transformed/meetings/RAN1/TSGR1_91/Docs/R1-1721064/R1-1721064-draft CR36213 EPDCCH SSC10.docx",
+      "size_mb": 0.28125,
+      "success": false,
+      "timeout_used": 120,
+      "elapsed_seconds": 120.02298545837402,
+      "error": "TIMEOUT (120s) - process killed",
+      "timeout_occurred": true
+    },
+    {
+      "filename": "36213-e40_s06-s09_FECOMP_f2.doc",
+      "input": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_91/Docs/R1-1721071/36213-e40_s06-s09_FECOMP_f2.doc",
+      "output": "/home/sihyeon/workspace/spec-trace/data/data_transformed/meetings/RAN1/TSGR1_91/Docs/R1-1721071/36213-e40_s06-s09_FECOMP_f2.docx",
+      "size_mb": 9.25732421875,
+      "success": false,
+      "timeout_used": 360,
+      "elapsed_seconds": 120.03054881095886,
+      "error": "(process:200392): dconf-CRITICAL **: 18:05:44.346: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "filename": "R1-1801691-draft CR36213-symPUSCH-UpPts-r14 PHICH Assignment .doc",
+      "input": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_92/Docs/R1-1801691/R1-1801691-draft CR36213-symPUSCH-UpPts-r14 PHICH Assignment .doc",
+      "output": "/home/sihyeon/workspace/spec-trace/data/data_transformed/meetings/RAN1/TSGR1_92/Docs/R1-1801691/R1-1801691-draft CR36213-symPUSCH-UpPts-r14 PHICH Assignment .docx",
+      "size_mb": 0.287109375,
+      "success": false,
+      "timeout_used": 120,
+      "elapsed_seconds": 120.02562141418457,
+      "error": "TIMEOUT (120s) - process killed",
+      "timeout_occurred": true
+    },
+    {
+      "filename": "R1-1801692-draft CR36211-symPUSCH-UpPts-r14 PHICH Assignment.doc",
+      "input": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_92/Docs/R1-1801692/R1-1801692-draft CR36211-symPUSCH-UpPts-r14 PHICH Assignment.doc",
+      "output": "/home/sihyeon/workspace/spec-trace/data/data_transformed/meetings/RAN1/TSGR1_92/Docs/R1-1801692/R1-1801692-draft CR36211-symPUSCH-UpPts-r14 PHICH Assignment.docx",
+      "size_mb": 0.30615234375,
+      "success": false,
+      "timeout_used": 120,
+      "elapsed_seconds": 120.02978730201721,
+      "error": "TIMEOUT (120s) - process killed",
+      "timeout_occurred": true
+    },
+    {
+      "filename": "R1-1721329 36213-e40_s06-s09_stti_fa2.doc",
+      "input": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_91/Docs/R1-1721329/R1-1721329 36213-e40_s06-s09_stti_fa2.doc",
+      "output": "/home/sihyeon/workspace/spec-trace/data/data_transformed/meetings/RAN1/TSGR1_91/Docs/R1-1721329/R1-1721329 36213-e40_s06-s09_stti_fa2.docx",
+      "size_mb": 9.82421875,
+      "success": false,
+      "timeout_used": 300,
+      "elapsed_seconds": 300.09962272644043,
+      "error": "TIMEOUT (300s) - process killed",
+      "timeout_occurred": true
+    },
+    {
+      "filename": "R1-1802986.doc",
+      "input": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_92/Docs/R1-1802986/R1-1802986.doc",
+      "output": "/home/sihyeon/workspace/spec-trace/data/data_transformed/meetings/RAN1/TSGR1_92/Docs/R1-1802986/R1-1802986.docx",
+      "size_mb": 9.646484375,
+      "success": false,
+      "timeout_used": 300,
+      "elapsed_seconds": 30.064331769943237,
+      "error": "(process:205794): dconf-CRITICAL **: 18:09:44.408: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "filename": "R1-1803543 CR 38.211 after RAN1_92.doc",
+      "input": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_92/Docs/R1-1803543/R1-1803543 CR 38.211 after RAN1_92.doc",
+      "output": "/home/sihyeon/workspace/spec-trace/data/data_transformed/meetings/RAN1/TSGR1_92/Docs/R1-1803543/R1-1803543 CR 38.211 after RAN1_92.docx",
+      "size_mb": 4.7890625,
+      "success": true,
+      "timeout_used": 300,
+      "elapsed_seconds": 30.15678334236145,
+      "output_size_mb": 0.5275163650512695
+    },
+    {
+      "filename": "R1-1803186.doc",
+      "input": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_92/Docs/R1-1803186/R1-1803186.doc",
+      "output": "/home/sihyeon/workspace/spec-trace/data/data_transformed/meetings/RAN1/TSGR1_92/Docs/R1-1803186/R1-1803186.docx",
+      "size_mb": 9.58544921875,
+      "success": false,
+      "timeout_used": 300,
+      "elapsed_seconds": 36.96745204925537,
+      "error": "(process:206690): dconf-CRITICAL **: 18:10:14.470: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "filename": "R1-1803185.doc",
+      "input": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_92/Docs/R1-1803185/R1-1803185.doc",
+      "output": "/home/sihyeon/workspace/spec-trace/data/data_transformed/meetings/RAN1/TSGR1_92/Docs/R1-1803185/R1-1803185.docx",
+      "size_mb": 9.58642578125,
+      "success": true,
+      "timeout_used": 300,
+      "elapsed_seconds": 44.23303580284119,
+      "output_size_mb": 1.4422426223754883
+    },
+    {
+      "filename": "R1-1721341 38211-130 (with change marks).doc",
+      "input": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_91/Docs/R1-1721341/R1-1721341 38211-130 (with change marks).doc",
+      "output": "/home/sihyeon/workspace/spec-trace/data/data_transformed/meetings/RAN1/TSGR1_91/Docs/R1-1721341/R1-1721341 38211-130 (with change marks).docx",
+      "size_mb": 4.2099609375,
+      "success": false,
+      "timeout_used": 420,
+      "elapsed_seconds": 381.60296869277954,
+      "error": "(process:199381): dconf-CRITICAL **: 18:05:07.154: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "filename": "R1-1803179.doc",
+      "input": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_92/Docs/R1-1803179/R1-1803179.doc",
+      "output": "/home/sihyeon/workspace/spec-trace/data/data_transformed/meetings/RAN1/TSGR1_92/Docs/R1-1803179/R1-1803179.docx",
+      "size_mb": 9.5849609375,
+      "success": true,
+      "timeout_used": 300,
+      "elapsed_seconds": 74.29277563095093,
+      "output_size_mb": 1.442265510559082
+    }
+  ],
+  "end_time": "2025-11-10T18:11:28.708247",
+  "elapsed_minutes": 6.360928161938985
+}

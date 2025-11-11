@@ -17,31 +17,26 @@ from datetime import datetime
 from urllib.parse import urljoin, urlencode
 
 
-# Release별 Work Item 매핑
+# Release별 매핑 (38.211-215만 필터링)
 RELEASES = {
     "Rel-15": {
         "release_code": "190",
-        "workitem": "750167",
         "specs": ["38.211", "38.212", "38.213", "38.214", "38.215"]
     },
     "Rel-16": {
         "release_code": "191",
-        "workitem": "800185",
         "specs": ["38.211", "38.212", "38.213", "38.214", "38.215"]
     },
     "Rel-17": {
         "release_code": "192",
-        "workitem": "860140",
         "specs": ["38.211", "38.212", "38.213", "38.214", "38.215"]
     },
     "Rel-18": {
         "release_code": "193",
-        "workitem": "940196",
         "specs": ["38.211", "38.212", "38.213", "38.214", "38.215"]
     },
     "Rel-19": {
         "release_code": "194",
-        "workitem": "1021093",
         "specs": ["38.211", "38.212", "38.213", "38.214", "38.215"]
     }
 }
@@ -54,16 +49,13 @@ HEADERS = {
 }
 
 
-def build_url(release_code, workitem, pageindex=0):
-    """CR Portal URL 생성 (workitem 기반)"""
+def build_url(release_code, pageindex=0):
+    """CR Portal URL 생성 (Release-based, 38.21x specnumber 필터링)"""
     params = {
         "q": "1",
         "specnumber": "38",  # 38.21x 필터링
         "release": release_code,
-        "wgstatus": "",
-        "tsgstatus": "2",  # approved
-        "meeting": "",
-        "workitem": workitem,
+        "tsgstatus": "2",  # approved only
         "pageindex": str(pageindex)
     }
     return f"{BASE_URL}?{urlencode(params)}"
@@ -139,10 +131,9 @@ def parse_cr_table(html_content):
         tsg_tdoc_url = tsg_tdoc_link['href'] if tsg_tdoc_link and tsg_tdoc_link.has_attr('href') else ''
 
         # TSG FTP URL 추출 (Portal URL에서)
-        tsg_ftp_url = ''
-        if tsg_tdoc_url:
-            tsg_ftp_url = extract_ftp_url_from_portal(tsg_tdoc_url)
-            time.sleep(0.5)  # Rate limiting
+        # NOTE: FTP URL 추출은 나중에 02_generate_download_urls.py에서 수행
+        # 크롤링 속도를 위해 skip
+        tsg_ftp_url = ''  # Will be filled in step 02
 
         cr_data = {
             'spec_number': cells[2].get_text(strip=True),
@@ -188,14 +179,14 @@ def get_total_pages(html_content):
     return 1
 
 
-def crawl_release(release_name, release_code, workitem):
-    """특정 Release의 모든 CR 크롤링 (workitem 기반)"""
-    print(f"  Crawling {release_name} (workitem: {workitem})...")
+def crawl_release(release_name, release_code):
+    """특정 Release의 모든 CR 크롤링 (Release-based, specnumber=38)"""
+    print(f"  Crawling {release_name} (release_code: {release_code})...")
 
     all_crs = []
 
     # 첫 페이지로 총 페이지 수 확인
-    url = build_url(release_code, workitem, pageindex=0)
+    url = build_url(release_code, pageindex=0)
     print(f"    URL: {url}")
 
     try:
@@ -208,7 +199,7 @@ def crawl_release(release_name, release_code, workitem):
         # 각 페이지 크롤링
         for page in range(total_pages):
             if page > 0:
-                url = build_url(release_code, workitem, pageindex=page)
+                url = build_url(release_code, pageindex=page)
                 response = requests.get(url, headers=HEADERS, timeout=30)
                 response.raise_for_status()
 
@@ -258,7 +249,7 @@ def main():
     print("3GPP RAN1 NR Change Request Portal Crawler")
     print("="*80)
     print(f"Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    print(f"Target: 38.21x specs (workitem-based filtering)")
+    print(f"Target: 38.211-215 specs (Release-based, specnumber=38 filtering)")
     print("="*80)
 
     for release_name, release_info in RELEASES.items():
@@ -266,14 +257,13 @@ def main():
         print(f"Crawling {release_name}")
         print(f"{'='*80}")
 
-        # Crawl
+        # Crawl (specnumber=38 already filters at URL level)
         cr_list = crawl_release(
             release_name,
-            release_info['release_code'],
-            release_info['workitem']
+            release_info['release_code']
         )
 
-        # 38.211-215만 필터링
+        # 38.211-215만 필터링 (추가 안전장치)
         filtered_crs = [
             cr for cr in cr_list
             if cr['spec_number'] in ['38.211', '38.212', '38.213', '38.214', '38.215']

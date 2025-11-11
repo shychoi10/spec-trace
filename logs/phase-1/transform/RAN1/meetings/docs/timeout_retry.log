@@ -1,0 +1,69 @@
+2025-11-10 15:52:29,435 - INFO - ================================================================================
+2025-11-10 15:52:29,435 - INFO - Phase-1 Step-6 Sub-step 4: Retry TIMEOUT DOC Files
+2025-11-10 15:52:29,435 - INFO - ================================================================================
+2025-11-10 15:52:29,436 - INFO - Loaded 13 timeout files from stats
+2025-11-10 15:52:29,436 - INFO - Found 13 timeout files to retry
+2025-11-10 15:52:29,436 - INFO - Target: 13 timeout DOC files
+2025-11-10 15:52:29,436 - INFO - Timeout: 120 seconds (extended from 30s)
+2025-11-10 15:52:29,436 - INFO - Start time: 2025-11-10 15:52:29.435941
+2025-11-10 15:52:29,436 - INFO - 
+2025-11-10 15:52:29,436 - INFO - [1/13] Converting: R1-1721060-draft CR36213 EPDCCH SSC10.doc
+2025-11-10 15:54:29,466 - INFO -   ✗ Failed: TIMEOUT (120s) - process killed
+2025-11-10 15:54:29,467 - INFO - [2/13] Converting: R1-1721329 36213-e40_s06-s09_stti_fa2.doc
+2025-11-10 15:56:29,486 - INFO -   ✗ Failed: TIMEOUT (120s) - process killed
+2025-11-10 15:56:29,486 - INFO - [3/13] Converting: R1-1721341 38211-130 (with change marks).doc
+2025-11-10 15:58:29,496 - INFO -   ✗ Failed: TIMEOUT (120s) - process killed
+2025-11-10 15:58:29,496 - INFO - [4/13] Converting: R1-1721099.doc
+2025-11-10 16:00:29,596 - INFO -   ✗ Failed: TIMEOUT (120s) - process killed
+2025-11-10 16:00:29,596 - INFO - [5/13] Converting: R1-1721064-draft CR36213 EPDCCH SSC10.doc
+2025-11-10 16:02:29,611 - INFO -   ✗ Failed: TIMEOUT (120s) - process killed
+2025-11-10 16:02:29,611 - INFO - [6/13] Converting: 36213-e40_s06-s09_FECOMP_f2.doc
+2025-11-10 16:04:29,712 - INFO -   ✗ Failed: TIMEOUT (120s) - process killed
+2025-11-10 16:04:29,712 - INFO - [7/13] Converting: R1-1801691-draft CR36213-symPUSCH-UpPts-r14 PHICH Assignment .doc
+2025-11-10 16:06:29,730 - INFO -   ✗ Failed: TIMEOUT (120s) - process killed
+2025-11-10 16:06:29,730 - INFO - [8/13] Converting: R1-1801692-draft CR36211-symPUSCH-UpPts-r14 PHICH Assignment.doc
+2025-11-10 16:08:29,828 - INFO -   ✗ Failed: TIMEOUT (120s) - process killed
+2025-11-10 16:08:29,828 - INFO - [9/13] Converting: R1-1803543 CR 38.211 after RAN1_92.doc
+2025-11-10 16:10:29,930 - INFO -   ✗ Failed: TIMEOUT (120s) - process killed
+2025-11-10 16:10:29,931 - INFO - [10/13] Converting: R1-1802986.doc
+2025-11-10 16:12:30,012 - INFO -   ✗ Failed: TIMEOUT (120s) - process killed
+2025-11-10 16:12:30,012 - INFO - [11/13] Converting: R1-1803185.doc
+2025-11-10 16:14:30,059 - INFO -   ✗ Failed: TIMEOUT (120s) - process killed
+2025-11-10 16:14:30,060 - INFO - [12/13] Converting: R1-1803186.doc
+2025-11-10 16:16:30,160 - INFO -   ✗ Failed: TIMEOUT (120s) - process killed
+2025-11-10 16:16:30,160 - INFO - [13/13] Converting: R1-1803179.doc
+2025-11-10 16:18:30,260 - INFO -   ✗ Failed: TIMEOUT (120s) - process killed
+2025-11-10 16:18:30,261 - INFO - 
+2025-11-10 16:18:30,261 - INFO - ================================================================================
+2025-11-10 16:18:30,261 - INFO - Retry Results Summary
+2025-11-10 16:18:30,261 - INFO - ================================================================================
+2025-11-10 16:18:30,261 - INFO - Total files: 13
+2025-11-10 16:18:30,261 - INFO - Success: 0 (0.0%)
+2025-11-10 16:18:30,261 - INFO - Failed: 13 (100.0%)
+2025-11-10 16:18:30,261 - INFO - Still timeout: 13
+2025-11-10 16:18:30,261 - INFO - Duration: 1560.8 seconds
+2025-11-10 16:18:30,261 - INFO - 
+2025-11-10 16:18:30,261 - WARNING - Files still timeout after 120s:
+2025-11-10 16:18:30,261 - WARNING -   - R1-1721060-draft CR36213 EPDCCH SSC10.doc
+2025-11-10 16:18:30,261 - WARNING -   - R1-1721329 36213-e40_s06-s09_stti_fa2.doc
+2025-11-10 16:18:30,261 - WARNING -   - R1-1721341 38211-130 (with change marks).doc
+2025-11-10 16:18:30,261 - WARNING -   - R1-1721099.doc
+2025-11-10 16:18:30,261 - WARNING -   - R1-1721064-draft CR36213 EPDCCH SSC10.doc
+2025-11-10 16:18:30,261 - WARNING -   - 36213-e40_s06-s09_FECOMP_f2.doc
+2025-11-10 16:18:30,261 - WARNING -   - R1-1801691-draft CR36213-symPUSCH-UpPts-r14 PHICH Assignment .doc
+2025-11-10 16:18:30,261 - WARNING -   - R1-1801692-draft CR36211-symPUSCH-UpPts-r14 PHICH Assignment.doc
+2025-11-10 16:18:30,261 - WARNING -   - R1-1803543 CR 38.211 after RAN1_92.doc
+2025-11-10 16:18:30,261 - WARNING -   - R1-1802986.doc
+2025-11-10 16:18:30,261 - WARNING -   - R1-1803185.doc
+2025-11-10 16:18:30,261 - WARNING -   - R1-1803186.doc
+2025-11-10 16:18:30,261 - WARNING -   - R1-1803179.doc
+2025-11-10 16:18:30,261 - WARNING - 
+2025-11-10 16:18:30,261 - WARNING - These files are extremely large LTE spec drafts
+2025-11-10 16:18:30,261 - WARNING - Consider manual conversion or skip them
+2025-11-10 16:18:30,261 - WARNING - 
+2025-11-10 16:18:30,261 - INFO - Report saved: /home/sihyeon/workspace/spec-trace/logs/phase-1/transform/RAN1/meetings/docs/timeout_retry_report.json
+2025-11-10 16:18:30,261 - INFO - Log saved: /home/sihyeon/workspace/spec-trace/logs/phase-1/transform/RAN1/meetings/docs/timeout_retry.log
+2025-11-10 16:18:30,261 - INFO - 
+2025-11-10 16:18:30,261 - INFO - ================================================================================
+2025-11-10 16:18:30,261 - INFO - Retry Complete!
+2025-11-10 16:18:30,261 - INFO - ================================================================================

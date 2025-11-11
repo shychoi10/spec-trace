@@ -20,13 +20,15 @@
 | Step | 설명 | 상태 | 결과 |
 |------|------|------|------|
 | **[Step-1](./step1_meetings-download.md)** | Meetings Download | ✅ | 62 meetings, 119,843 files |
-| **[Step-2](./step2_change-requests-download.md)** | Change Requests Download | ✅ | 451 CRs, 105 files |
-| **[Step-3](./step3_specifications-download.md)** | Specifications Download | ✅ | 5 specs, 7.7 MB |
+| **[Step-2](./step2_change-requests-download.md)** | Change Requests Download | ✅ | 1,845 CRs, 520 files, 82% coverage |
+| **[Step-3](./step3_specifications-download.md)** | Specifications Download | ✅ | 8 specs, 9.2 MB |
 | **[Step-4](./step4_extraction.md)** | ZIP Extraction | ✅ | 119,797 ZIPs → 42 GB |
 | **[Step-5](./step5_data-cleanup-for-parsing.md)** | Data Cleanup for Parsing | ✅ | 59 meetings, 156 MB cleanup |
+| **[Step-6](./step6_data-transformation-for-parsing.md)** | Data Transformation for Parsing | ✅ | Complete (All sub-steps done) |
 
-**Phase-1 Status**: 🎉 **All Steps Complete (100%)**
-**Next**: Phase-2 Parsing
+**Phase-1 Status**: 🚧 **In Progress (86%)** - 6/7 Steps Complete
+**Current**: Step-6 Complete, Step-7 Ready
+**Next**: Step-7 Parsing → Phase-2 DB Construction
 
 ---
 
@@ -40,16 +42,17 @@
 - ~2 hours (aria2c)
 
 **Change Requests** (Step-2):
-- 451 CRs (Rel-15 ~ 19)
-- 105 unique TSG TDoc files
-- 38.211-215 specs
-- ~1-2 hours (Portal + aria2c)
+- 1,845 CRs crawled (Rel-15 ~ 19, 5 releases)
+- 520 TSG TDoc files downloaded (509 unique + 11 hardlinks)
+- 1,476 CRs covered (80% success)
+- All 8 specs (38.201-202, 38.211-215, 38.291)
+- ~6 minutes (parallel URL extraction + aria2c)
 
 **Specifications** (Step-3):
-- 5 specs (38.211-215)
-- 7.7 MB
-- Version j10 (Rel-19)
-- ~1.5 minutes (Python requests)
+- 8 specs (Tier 1: 38.211-215, Tier 2: 38.201-202, Tier 4: 38.291)
+- 9.2 MB
+- Version j10 (Tier 1+4), j00 (Tier 2)
+- ~2 minutes (Python requests)
 
 ### 압축 해제 완료 (Step-4)
 
@@ -61,8 +64,8 @@
 
 **By Category**:
 - Meetings: 119,687 ZIPs → 129,718 files (42 GB)
-- Change Requests: 105 ZIPs → 706 files (122 MB)
-- Specifications: 5 ZIPs → 5 files (9.9 MB)
+- Change Requests: 520 ZIPs → ~3,000 files (estimated)
+- Specifications: 8 ZIPs → 8 files (9.2 MB)
 
 ### 데이터 정리 완료 (Step-5)
 
@@ -207,12 +210,13 @@ pip3 install requests beautifulsoup4
 | Step | 작업 | 파일 수 | 시간 | 방법 | 성공률 |
 |------|------|---------|------|------|--------|
 | 1 | Meetings DL | 119,843 | 2h | aria2c | 100% |
-| 2 | CRs DL | 105 | 1-2h | Portal+aria2c | 100% |
-| 3 | Specs DL | 5 | 1.5min | requests | 100% |
+| 2 | CRs DL | 520 files | 1-2h | Portal+aria2c | 100% |
+| 3 | Specs DL | 8 specs | 1.5min | requests | 100% |
 | 4 | Extraction | 119,797 ZIPs | 2-3min | unzip (8 threads) | 99.93% |
 | 5 | Cleanup | 5,000+ items | ~10min | rm+find | 100% |
+| 6 | Transform | 23,413 DOCs | 1-2h | LibreOffice (8 workers) | ~99% |
 
-**Total Time**: ~3-4 hours (Steps 1-5)
+**Total Time**: ~5-6 hours (Steps 1-6)
 
 ---
 
@@ -253,5 +257,5 @@ pip3 install requests beautifulsoup4
 
 ---
 
-**Last Updated**: 2025-10-31
-**Phase-1 Status**: All Steps Complete ✅ (100%)
+**Last Updated**: 2025-11-07
+**Phase-1 Status**: 6/7 Steps Complete (86%) - Step-7 Ready

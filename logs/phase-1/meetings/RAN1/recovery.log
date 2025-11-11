@@ -1,0 +1,82 @@
+================================================================================
+Phase-1 Step-4-4: Extraction Failure Recovery
+================================================================================
+Log file: /home/sihyeon/workspace/spec-trace/logs/phase-1/meetings/RAN1/extraction.log
+Started: 2025-11-07 14:26:31
+================================================================================
+================================================================================
+Phase A: Parsing extraction.log
+================================================================================
+
+Found 10 failures:
+  - Corrupted ZIPs: 8
+  - Unsupported compression: 2
+  - Other: 0
+
+Unsupported compression files (7zip recovery):
+  - R1-2105682.zip (TSGR1_105-e/Docs)
+  - R1-2004391.zip (TSGR1_101-e/Docs)
+
+================================================================================
+Phase B: 7zip Recovery (Unsupported Compression)
+================================================================================
+
+Attempting recovery on 2 files...
+
+  Attempting 7zip extraction: R1-2105682.zip
+    Source: /home/sihyeon/workspace/spec-trace/data_raw/meetings/RAN1/TSGR1_105-e/Docs/R1-2105682.zip
+    Output: /home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_105-e/Docs/R1-2105682
+    ❌ Failed: 
+ERROR: No such file or directory
+/home/sihyeon/workspace/spec-trace/data_raw/meetings/RAN1/TSGR1_105-e/Docs/R1-2105682.zip
+
+
+
+System ERROR:
+Unknown error -2147024894
+
+
+  Attempting 7zip extraction: R1-2004391.zip
+    Source: /home/sihyeon/workspace/spec-trace/data_raw/meetings/RAN1/TSGR1_101-e/Docs/R1-2004391.zip
+    Output: /home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_101-e/Docs/R1-2004391
+    ❌ Failed: 
+ERROR: No such file or directory
+/home/sihyeon/workspace/spec-trace/data_raw/meetings/RAN1/TSGR1_101-e/Docs/R1-2004391.zip
+
+
+
+System ERROR:
+Unknown error -2147024894
+
+
+================================================================================
+Phase C: Corrupted ZIPs Report (Redownload Needed)
+================================================================================
+
+Found 8 corrupted ZIPs (0.06% of total)
+These require redownload from 3GPP FTP (low priority)
+
+Affected meetings: 5
+  - TSGR1_105-e: 3 files
+  - TSGR1_118: 1 files
+  - TSGR1_120b: 1 files
+  - TSGR1_84: 1 files
+  - TSGR1_90: 2 files
+
+💾 Report saved: /home/sihyeon/workspace/spec-trace/logs/phase-1/meetings/RAN1/recovery_report.json
+
+================================================================================
+RECOVERY SUMMARY
+================================================================================
+Total failures: 10
+  - Corrupted ZIPs: 8 (redownload needed)
+  - Unsupported compression: 2
+
+7zip Recovery:
+  - Attempts: 2
+  - Success: 0
+  - Failed: 2
+
+Duration: 0.0s
+Report: /home/sihyeon/workspace/spec-trace/logs/phase-1/meetings/RAN1/recovery_report.json
+================================================================================

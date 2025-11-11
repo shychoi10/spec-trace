@@ -1,0 +1,897 @@
+================================================================================
+Phase-1 Step-6-1: Transform ALL Meetings (Docs + Report) - COMPLETE
+================================================================================
+Target: 52 meetings (ALL)
+Folders: Docs + Report (Report was missing before!)
+Mode: Sequential with robust timeout
+Resume: File-level (skip already converted)
+================================================================================
+✅ LibreOffice found: /usr/bin/soffice
+
+🧹 Cleaning up any stuck LibreOffice processes...
+
+📊 Found 52 meetings
+⏰ Started at: 13:50:50
+⏱️  Estimated: 10-15 minutes (most files already converted)
+
+================================================================================
+📂 Processing: TSGR1_100
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 32 (13 DOC + 19 DOCX)
+      ✅ Docs: 32 files (19 copied, 13 converted, 19 skipped)
+
+================================================================================
+📂 Processing: TSGR1_100_e
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 1332 (126 DOC + 1206 DOCX)
+      Progress: 1300/1332 (1206 copied, 93 converted, 1206 skipped)
+      ✅ Docs: 1332 files (1206 copied, 125 converted, 1206 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_100b_e
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 1743 (200 DOC + 1543 DOCX)
+      Progress: 1600/1743 (1543 copied, 56 converted, 1543 skipped)
+      Progress: 1700/1743 (1543 copied, 154 converted, 1543 skipped)
+      ✅ Docs: 1743 files (1543 copied, 197 converted, 1543 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_101-e
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 1985 (242 DOC + 1743 DOCX)
+      Progress: 1800/1985 (1743 copied, 54 converted, 1743 skipped)
+      Progress: 1900/1985 (1743 copied, 154 converted, 1743 skipped)
+      ✅ Docs: 1985 files (1743 copied, 239 converted, 1743 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_102-e
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 2372 (261 DOC + 2111 DOCX)
+      Progress: 2200/2372 (2111 copied, 89 converted, 2111 skipped)
+      Progress: 2300/2372 (2111 copied, 189 converted, 2111 skipped)
+      ✅ Docs: 2372 files (2111 copied, 261 converted, 2111 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_103-e
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 2499 (272 DOC + 2227 DOCX)
+      Progress: 2300/2499 (2227 copied, 72 converted, 2227 skipped)
+      Progress: 2400/2499 (2227 copied, 171 converted, 2227 skipped)
+      ✅ Docs: 2499 files (2227 copied, 268 converted, 2227 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_104-e
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 2333 (232 DOC + 2101 DOCX)
+      Progress: 2200/2333 (2101 copied, 99 converted, 2101 skipped)
+      Progress: 2300/2333 (2101 copied, 198 converted, 2101 skipped)
+      ✅ Docs: 2333 files (2101 copied, 230 converted, 2101 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_104b-e
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 1909 (170 DOC + 1739 DOCX)
+      Progress: 1800/1909 (1739 copied, 61 converted, 1739 skipped)
+      Progress: 1900/1909 (1739 copied, 161 converted, 1739 skipped)
+      ✅ Docs: 1909 files (1739 copied, 170 converted, 1739 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_105-e
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 2175 (189 DOC + 1986 DOCX)
+      Progress: 2000/2175 (1986 copied, 13 converted, 1986 skipped)
+      Progress: 2100/2175 (1986 copied, 110 converted, 1986 skipped)
+      ✅ Docs: 2175 files (1986 copied, 185 converted, 1986 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_106-e
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 2389 (176 DOC + 2213 DOCX)
+      Progress: 2300/2389 (2213 copied, 86 converted, 2213 skipped)
+      ✅ Docs: 2389 files (2213 copied, 173 converted, 2213 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+✓ Progress: 10/52 meetings (19.2%)
+⏰ Time: 13:51:10
+================================================================================
+
+
+================================================================================
+📂 Processing: TSGR1_106b-e
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 2071 (159 DOC + 1912 DOCX)
+      Progress: 2000/2071 (1912 copied, 87 converted, 1912 skipped)
+      ✅ Docs: 2071 files (1912 copied, 156 converted, 1912 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_107-e
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 2317 (150 DOC + 2167 DOCX)
+      Progress: 2200/2317 (2167 copied, 33 converted, 2167 skipped)
+      Progress: 2300/2317 (2167 copied, 131 converted, 2167 skipped)
+      ✅ Docs: 2317 files (2167 copied, 148 converted, 2167 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_107b-e
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 841 (57 DOC + 784 DOCX)
+      Progress: 800/841 (784 copied, 16 converted, 784 skipped)
+      ✅ Docs: 841 files (784 copied, 57 converted, 784 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_108-e
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 2203 (136 DOC + 2067 DOCX)
+      Progress: 2100/2203 (2067 copied, 33 converted, 2067 skipped)
+      Progress: 2200/2203 (2067 copied, 133 converted, 2067 skipped)
+      ✅ Docs: 2203 files (2067 copied, 136 converted, 2067 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_109-e
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 2724 (168 DOC + 2556 DOCX)
+      Progress: 2600/2724 (2556 copied, 44 converted, 2556 skipped)
+      Progress: 2700/2724 (2556 copied, 143 converted, 2556 skipped)
+      ✅ Docs: 2724 files (2556 copied, 167 converted, 2556 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_110
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 2713 (135 DOC + 2578 DOCX)
+      Progress: 2600/2713 (2578 copied, 21 converted, 2578 skipped)
+      Progress: 2700/2713 (2578 copied, 118 converted, 2578 skipped)
+      ✅ Docs: 2713 files (2578 copied, 130 converted, 2578 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_110b-e
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 2587 (125 DOC + 2462 DOCX)
+      Progress: 2500/2587 (2462 copied, 36 converted, 2462 skipped)
+      ✅ Docs: 2587 files (2462 copied, 116 converted, 2462 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_111
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 2341 (112 DOC + 2229 DOCX)
+      Progress: 2300/2341 (2229 copied, 66 converted, 2229 skipped)
+      ✅ Docs: 2341 files (2229 copied, 104 converted, 2229 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_112
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 2393 (104 DOC + 2289 DOCX)
+      Progress: 2300/2393 (2289 copied, 11 converted, 2289 skipped)
+      ✅ Docs: 2393 files (2289 copied, 99 converted, 2289 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_112b-e
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 2152 (84 DOC + 2068 DOCX)
+      Progress: 2100/2152 (2068 copied, 30 converted, 2068 skipped)
+      ✅ Docs: 2152 files (2068 copied, 81 converted, 2068 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+✓ Progress: 20/52 meetings (38.5%)
+⏰ Time: 13:51:44
+================================================================================
+
+
+================================================================================
+📂 Processing: TSGR1_113
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 2171 (90 DOC + 2081 DOCX)
+      Progress: 2100/2171 (2081 copied, 18 converted, 2081 skipped)
+      ✅ Docs: 2171 files (2081 copied, 85 converted, 2081 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_114
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 2625 (94 DOC + 2531 DOCX)
+      Progress: 2600/2625 (2531 copied, 67 converted, 2531 skipped)
+      ✅ Docs: 2625 files (2531 copied, 91 converted, 2531 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_114b
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 2082 (67 DOC + 2015 DOCX)
+      ✅ Docs: 2082 files (2015 copied, 62 converted, 2015 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_115
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 2184 (73 DOC + 2111 DOCX)
+      ✅ Docs: 2184 files (2111 copied, 70 converted, 2111 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_116
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 2040 (77 DOC + 1963 DOCX)
+      Progress: 2000/2040 (1963 copied, 37 converted, 1963 skipped)
+      ✅ Docs: 2040 files (1963 copied, 77 converted, 1963 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_117
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 2039 (66 DOC + 1973 DOCX)
+      Progress: 2000/2039 (1973 copied, 27 converted, 1973 skipped)
+      ✅ Docs: 2039 files (1973 copied, 66 converted, 1973 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_118
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 1913 (52 DOC + 1861 DOCX)
+      Progress: 1900/1913 (1861 copied, 38 converted, 1861 skipped)
+      ✅ Docs: 1913 files (1861 copied, 51 converted, 1861 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_119
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 1724 (47 DOC + 1677 DOCX)
+      Progress: 1700/1724 (1677 copied, 23 converted, 1677 skipped)
+      ✅ Docs: 1724 files (1677 copied, 47 converted, 1677 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_120
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 1761 (52 DOC + 1709 DOCX)
+      ✅ Docs: 1761 files (1709 copied, 52 converted, 1709 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_121
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 1984 (46 DOC + 1938 DOCX)
+      ✅ Docs: 1984 files (1938 copied, 46 converted, 1938 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+✓ Progress: 30/52 meetings (57.7%)
+⏰ Time: 13:52:01
+================================================================================
+
+
+================================================================================
+📂 Processing: TSGR1_122
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 1695 (31 DOC + 1664 DOCX)
+      ✅ Docs: 1695 files (1664 copied, 31 converted, 1664 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_84
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 1148 (827 DOC + 321 DOCX)
+      Progress: 400/1148 (321 copied, 78 converted, 321 skipped)
+      Progress: 500/1148 (321 copied, 178 converted, 321 skipped)
+      Progress: 600/1148 (321 copied, 278 converted, 321 skipped)
+      Progress: 700/1148 (321 copied, 378 converted, 321 skipped)
+      Progress: 800/1148 (321 copied, 477 converted, 321 skipped)
+      Progress: 900/1148 (321 copied, 577 converted, 321 skipped)
+      Progress: 1000/1148 (321 copied, 677 converted, 321 skipped)
+      Progress: 1100/1148 (321 copied, 777 converted, 321 skipped)
+      ✅ Docs: 1148 files (321 copied, 825 converted, 321 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_84b
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 1552 (967 DOC + 585 DOCX)
+      Progress: 600/1552 (585 copied, 15 converted, 585 skipped)
+      Progress: 700/1552 (585 copied, 115 converted, 585 skipped)
+      Progress: 800/1552 (585 copied, 215 converted, 585 skipped)
+      Progress: 900/1552 (585 copied, 315 converted, 585 skipped)
+      Progress: 1000/1552 (585 copied, 414 converted, 585 skipped)
+      Progress: 1100/1552 (585 copied, 514 converted, 585 skipped)
+      Progress: 1200/1552 (585 copied, 614 converted, 585 skipped)
+      Progress: 1300/1552 (585 copied, 714 converted, 585 skipped)
+      Progress: 1400/1552 (585 copied, 813 converted, 585 skipped)
+      Progress: 1500/1552 (585 copied, 913 converted, 585 skipped)
+      ✅ Docs: 1552 files (585 copied, 965 converted, 585 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_85
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 1693 (1037 DOC + 656 DOCX)
+      Progress: 700/1693 (656 copied, 44 converted, 656 skipped)
+      Progress: 800/1693 (656 copied, 143 converted, 656 skipped)
+      Progress: 900/1693 (656 copied, 242 converted, 656 skipped)
+      Progress: 1000/1693 (656 copied, 342 converted, 656 skipped)
+      Progress: 1100/1693 (656 copied, 442 converted, 656 skipped)
+      Progress: 1200/1693 (656 copied, 542 converted, 656 skipped)
+      Progress: 1300/1693 (656 copied, 642 converted, 656 skipped)
+      Progress: 1400/1693 (656 copied, 742 converted, 656 skipped)
+      Progress: 1500/1693 (656 copied, 842 converted, 656 skipped)
+      Progress: 1600/1693 (656 copied, 942 converted, 656 skipped)
+      ✅ Docs: 1693 files (656 copied, 1035 converted, 656 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_86b
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 2056 (1160 DOC + 896 DOCX)
+      Progress: 900/2056 (896 copied, 4 converted, 896 skipped)
+      Progress: 1000/2056 (896 copied, 104 converted, 896 skipped)
+      Progress: 1100/2056 (896 copied, 204 converted, 896 skipped)
+      Progress: 1200/2056 (896 copied, 304 converted, 896 skipped)
+      Progress: 1300/2056 (896 copied, 404 converted, 896 skipped)
+      Progress: 1400/2056 (896 copied, 503 converted, 896 skipped)
+      Progress: 1500/2056 (896 copied, 603 converted, 896 skipped)
+      Progress: 1600/2056 (896 copied, 702 converted, 896 skipped)
+      Progress: 1700/2056 (896 copied, 802 converted, 896 skipped)
+      Progress: 1800/2056 (896 copied, 902 converted, 896 skipped)
+      Progress: 1900/2056 (896 copied, 1002 converted, 896 skipped)
+      Progress: 2000/2056 (896 copied, 1102 converted, 896 skipped)
+      ✅ Docs: 2056 files (896 copied, 1158 converted, 896 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_87
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 2258 (1256 DOC + 1002 DOCX)
+      Progress: 1100/2258 (1002 copied, 98 converted, 1002 skipped)
+      Progress: 1200/2258 (1002 copied, 197 converted, 1002 skipped)
+      Progress: 1300/2258 (1002 copied, 296 converted, 1002 skipped)
+      Progress: 1400/2258 (1002 copied, 395 converted, 1002 skipped)
+      Progress: 1500/2258 (1002 copied, 494 converted, 1002 skipped)
+      Progress: 1600/2258 (1002 copied, 594 converted, 1002 skipped)
+      Progress: 1700/2258 (1002 copied, 694 converted, 1002 skipped)
+      Progress: 1800/2258 (1002 copied, 793 converted, 1002 skipped)
+      Progress: 1900/2258 (1002 copied, 893 converted, 1002 skipped)
+      Progress: 2000/2258 (1002 copied, 993 converted, 1002 skipped)
+      Progress: 2100/2258 (1002 copied, 1093 converted, 1002 skipped)
+      Progress: 2200/2258 (1002 copied, 1190 converted, 1002 skipped)
+      ✅ Docs: 2258 files (1002 copied, 1248 converted, 1002 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_88
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 2177 (1166 DOC + 1011 DOCX)
+      Progress: 1100/2177 (1011 copied, 89 converted, 1011 skipped)
+      Progress: 1200/2177 (1011 copied, 189 converted, 1011 skipped)
+      Progress: 1300/2177 (1011 copied, 289 converted, 1011 skipped)
+      Progress: 1400/2177 (1011 copied, 389 converted, 1011 skipped)
+      Progress: 1500/2177 (1011 copied, 489 converted, 1011 skipped)
+      Progress: 1600/2177 (1011 copied, 588 converted, 1011 skipped)
+      Progress: 1700/2177 (1011 copied, 687 converted, 1011 skipped)
+      Progress: 1800/2177 (1011 copied, 786 converted, 1011 skipped)
+      Progress: 1900/2177 (1011 copied, 886 converted, 1011 skipped)
+      Progress: 2000/2177 (1011 copied, 986 converted, 1011 skipped)
+      Progress: 2100/2177 (1011 copied, 1086 converted, 1011 skipped)
+      ✅ Docs: 2177 files (1011 copied, 1162 converted, 1011 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_89
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 2521 (1200 DOC + 1321 DOCX)
+      Progress: 1400/2521 (1321 copied, 78 converted, 1321 skipped)
+      Progress: 1500/2521 (1321 copied, 178 converted, 1321 skipped)
+      Progress: 1600/2521 (1321 copied, 278 converted, 1321 skipped)
+      Progress: 1700/2521 (1321 copied, 378 converted, 1321 skipped)
+      Progress: 1800/2521 (1321 copied, 478 converted, 1321 skipped)
+      Progress: 1900/2521 (1321 copied, 578 converted, 1321 skipped)
+      Progress: 2000/2521 (1321 copied, 678 converted, 1321 skipped)
+      Progress: 2100/2521 (1321 copied, 778 converted, 1321 skipped)
+      Progress: 2200/2521 (1321 copied, 878 converted, 1321 skipped)
+      Progress: 2300/2521 (1321 copied, 978 converted, 1321 skipped)
+      Progress: 2400/2521 (1321 copied, 1077 converted, 1321 skipped)
+      Progress: 2500/2521 (1321 copied, 1177 converted, 1321 skipped)
+      ✅ Docs: 2521 files (1321 copied, 1198 converted, 1321 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_90b
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 2137 (887 DOC + 1250 DOCX)
+      Progress: 1300/2137 (1250 copied, 50 converted, 1250 skipped)
+      Progress: 1400/2137 (1250 copied, 150 converted, 1250 skipped)
+      Progress: 1500/2137 (1250 copied, 250 converted, 1250 skipped)
+      Progress: 1600/2137 (1250 copied, 350 converted, 1250 skipped)
+      Progress: 1700/2137 (1250 copied, 450 converted, 1250 skipped)
+      Progress: 1800/2137 (1250 copied, 550 converted, 1250 skipped)
+      Progress: 1900/2137 (1250 copied, 650 converted, 1250 skipped)
+      Progress: 2000/2137 (1250 copied, 750 converted, 1250 skipped)
+      Progress: 2100/2137 (1250 copied, 848 converted, 1250 skipped)
+      ✅ Docs: 2137 files (1250 copied, 885 converted, 1250 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_91
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 2176 (909 DOC + 1267 DOCX)
+      Progress: 1300/2176 (1267 copied, 33 converted, 1267 skipped)
+      Progress: 1400/2176 (1267 copied, 132 converted, 1267 skipped)
+      Progress: 1500/2176 (1267 copied, 232 converted, 1267 skipped)
+      ⚠️  TIMEOUT: R1-1721060-draft CR36213 EPDCCH SSC10.doc
+      Progress: 1600/2176 (1267 copied, 331 converted, 1267 skipped)
+      Progress: 1700/2176 (1267 copied, 431 converted, 1267 skipped)
+      ⚠️  TIMEOUT: R1-1721329 36213-e40_s06-s09_stti_fa2.doc
+      Progress: 1800/2176 (1267 copied, 529 converted, 1267 skipped)
+      ⚠️  TIMEOUT: R1-1721341 38211-130 (with change marks).doc
+      Progress: 1900/2176 (1267 copied, 627 converted, 1267 skipped)
+      Progress: 2000/2176 (1267 copied, 727 converted, 1267 skipped)
+      ⚠️  TIMEOUT: R1-1721099.doc
+      ⚠️  TIMEOUT: R1-1721064-draft CR36213 EPDCCH SSC10.doc
+      Progress: 2100/2176 (1267 copied, 825 converted, 1267 skipped)
+      ⚠️  TIMEOUT: 36213-e40_s06-s09_FECOMP_f2.doc
+      ✅ Docs: 2176 files (1267 copied, 899 converted, 1267 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+✓ Progress: 40/52 meetings (76.9%)
+⏰ Time: 14:08:42
+================================================================================
+
+
+================================================================================
+📂 Processing: TSGR1_92
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 2118 (846 DOC + 1272 DOCX)
+      Progress: 1300/2118 (1272 copied, 28 converted, 1272 skipped)
+      ⚠️  TIMEOUT: R1-1801691-draft CR36213-symPUSCH-UpPts-r14 PHICH Assignment .doc
+      Progress: 1400/2118 (1272 copied, 127 converted, 1272 skipped)
+      ⚠️  TIMEOUT: R1-1801692-draft CR36211-symPUSCH-UpPts-r14 PHICH Assignment.doc
+      ⚠️  TIMEOUT: R1-1803543 CR 38.211 after RAN1_92.doc
+      ⚠️  TIMEOUT: R1-1802986.doc
+      Progress: 1500/2118 (1272 copied, 224 converted, 1272 skipped)
+      Progress: 1600/2118 (1272 copied, 324 converted, 1272 skipped)
+      ⚠️  TIMEOUT: R1-1803185.doc
+      ⚠️  TIMEOUT: R1-1803186.doc
+      Progress: 1700/2118 (1272 copied, 422 converted, 1272 skipped)
+      Progress: 1800/2118 (1272 copied, 522 converted, 1272 skipped)
+      Progress: 1900/2118 (1272 copied, 622 converted, 1272 skipped)
+      Progress: 2000/2118 (1272 copied, 722 converted, 1272 skipped)
+      Progress: 2100/2118 (1272 copied, 822 converted, 1272 skipped)
+      ⚠️  TIMEOUT: R1-1803179.doc
+      ✅ Docs: 2118 files (1272 copied, 838 converted, 1272 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_92b
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 2104 (730 DOC + 1374 DOCX)
+      Progress: 1400/2104 (1374 copied, 26 converted, 1374 skipped)
+      Progress: 1500/2104 (1374 copied, 126 converted, 1374 skipped)
+      Progress: 1600/2104 (1374 copied, 226 converted, 1374 skipped)
+      Progress: 1700/2104 (1374 copied, 326 converted, 1374 skipped)
+      Progress: 1800/2104 (1374 copied, 424 converted, 1374 skipped)
+      Progress: 1900/2104 (1374 copied, 524 converted, 1374 skipped)
+      Progress: 2000/2104 (1374 copied, 624 converted, 1374 skipped)
+      Progress: 2100/2104 (1374 copied, 724 converted, 1374 skipped)
+      ✅ Docs: 2104 files (1374 copied, 728 converted, 1374 skipped)
+
+   📂 Processing: Report/
+      (empty)
+
+================================================================================
+📂 Processing: TSGR1_93
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 2082 (656 DOC + 1426 DOCX)
+      Progress: 1500/2082 (1426 copied, 74 converted, 1426 skipped)
+      Progress: 1600/2082 (1426 copied, 174 converted, 1426 skipped)
+      Progress: 1700/2082 (1426 copied, 274 converted, 1426 skipped)
+      Progress: 1800/2082 (1426 copied, 373 converted, 1426 skipped)
+      Progress: 1900/2082 (1426 copied, 473 converted, 1426 skipped)
+      Progress: 2000/2082 (1426 copied, 573 converted, 1426 skipped)
+      ✅ Docs: 2082 files (1426 copied, 655 converted, 1426 skipped)
+
+   📂 Processing: Report/
+      (empty)
+
+================================================================================
+📂 Processing: TSGR1_94
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 2033 (619 DOC + 1414 DOCX)
+      Progress: 1500/2033 (1414 copied, 86 converted, 1414 skipped)
+      Progress: 1600/2033 (1414 copied, 186 converted, 1414 skipped)
+      Progress: 1700/2033 (1414 copied, 285 converted, 1414 skipped)
+      Progress: 1800/2033 (1414 copied, 385 converted, 1414 skipped)
+      Progress: 1900/2033 (1414 copied, 485 converted, 1414 skipped)
+      Progress: 2000/2033 (1414 copied, 584 converted, 1414 skipped)
+      ✅ Docs: 2033 files (1414 copied, 617 converted, 1414 skipped)
+
+   📂 Processing: Report/
+      (empty)
+
+================================================================================
+📂 Processing: TSGR1_94b
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 1957 (552 DOC + 1405 DOCX)
+      Progress: 1500/1957 (1405 copied, 94 converted, 1405 skipped)
+      Progress: 1600/1957 (1405 copied, 193 converted, 1405 skipped)
+      Progress: 1700/1957 (1405 copied, 293 converted, 1405 skipped)
+      Progress: 1800/1957 (1405 copied, 391 converted, 1405 skipped)
+      Progress: 1900/1957 (1405 copied, 491 converted, 1405 skipped)
+      ✅ Docs: 1957 files (1405 copied, 547 converted, 1405 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_95
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 2535 (636 DOC + 1899 DOCX)
+      Progress: 1900/2535 (1899 copied, 1 converted, 1899 skipped)
+      Progress: 2000/2535 (1899 copied, 101 converted, 1899 skipped)
+      Progress: 2100/2535 (1899 copied, 200 converted, 1899 skipped)
+      Progress: 2200/2535 (1899 copied, 300 converted, 1899 skipped)
+      Progress: 2300/2535 (1899 copied, 399 converted, 1899 skipped)
+      Progress: 2400/2535 (1899 copied, 498 converted, 1899 skipped)
+      Progress: 2500/2535 (1899 copied, 598 converted, 1899 skipped)
+      ✅ Docs: 2535 files (1899 copied, 633 converted, 1899 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_96
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 2354 (530 DOC + 1824 DOCX)
+      Progress: 1900/2354 (1824 copied, 75 converted, 1824 skipped)
+      Progress: 2000/2354 (1824 copied, 175 converted, 1824 skipped)
+      Progress: 2100/2354 (1824 copied, 273 converted, 1824 skipped)
+      Progress: 2200/2354 (1824 copied, 372 converted, 1824 skipped)
+      Progress: 2300/2354 (1824 copied, 472 converted, 1824 skipped)
+      ✅ Docs: 2354 files (1824 copied, 526 converted, 1824 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_96b
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 2035 (372 DOC + 1663 DOCX)
+      Progress: 1700/2035 (1663 copied, 36 converted, 1663 skipped)
+      Progress: 1800/2035 (1663 copied, 135 converted, 1663 skipped)
+      Progress: 1900/2035 (1663 copied, 234 converted, 1663 skipped)
+      Progress: 2000/2035 (1663 copied, 334 converted, 1663 skipped)
+      ✅ Docs: 2035 files (1663 copied, 369 converted, 1663 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_97
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 2013 (362 DOC + 1651 DOCX)
+      Progress: 1700/2013 (1651 copied, 49 converted, 1651 skipped)
+      Progress: 1800/2013 (1651 copied, 149 converted, 1651 skipped)
+      Progress: 1900/2013 (1651 copied, 249 converted, 1651 skipped)
+      Progress: 2000/2013 (1651 copied, 349 converted, 1651 skipped)
+      ✅ Docs: 2013 files (1651 copied, 362 converted, 1651 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_98
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 1969 (315 DOC + 1654 DOCX)
+      Progress: 1700/1969 (1654 copied, 46 converted, 1654 skipped)
+      Progress: 1800/1969 (1654 copied, 146 converted, 1654 skipped)
+      Progress: 1900/1969 (1654 copied, 245 converted, 1654 skipped)
+      ✅ Docs: 1969 files (1654 copied, 313 converted, 1654 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+✓ Progress: 50/52 meetings (96.2%)
+⏰ Time: 14:45:26
+================================================================================
+
+
+================================================================================
+📂 Processing: TSGR1_98b
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 1858 (312 DOC + 1546 DOCX)
+      Progress: 1600/1858 (1546 copied, 53 converted, 1546 skipped)
+      Progress: 1700/1858 (1546 copied, 150 converted, 1546 skipped)
+      Progress: 1800/1858 (1546 copied, 249 converted, 1546 skipped)
+      ✅ Docs: 1858 files (1546 copied, 306 converted, 1546 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📂 Processing: TSGR1_99
+================================================================================
+
+   📂 Processing: Docs/
+      Total: 1896 (274 DOC + 1622 DOCX)
+      Progress: 1700/1896 (1622 copied, 78 converted, 1622 skipped)
+      Progress: 1800/1896 (1622 copied, 177 converted, 1622 skipped)
+      ✅ Docs: 1896 files (1622 copied, 273 converted, 1622 skipped)
+
+   📂 Processing: Report/
+      Total: 1 (0 DOC + 1 DOCX)
+      ✅ Report: 1 files (1 copied, 0 converted, 0 skipped)
+
+================================================================================
+📊 TRANSFORMATION SUMMARY
+================================================================================
+Total files processed: 106049
+  DOCX copied: 86630
+  DOC converted: 19275
+  Skipped (already done): 103533
+  Errors: 0
+  Conversion errors: 144
+  ⚠️  Timeout files: 13
+
+Duration: 3442.2s (57.4min)
+⏰ Completed: 14:48:12
+
+💾 Stats: /home/sihyeon/workspace/spec-trace/logs/phase-1/transform/RAN1/meetings/docs/transform_complete_stats.json
+📁 Output: /home/sihyeon/workspace/spec-trace/data/data_transformed/meetings/RAN1
+
+⚠️  TIMEOUT FILES (13):
+   - R1-1721060-draft CR36213 EPDCCH SSC10.doc
+   - R1-1721329 36213-e40_s06-s09_stti_fa2.doc
+   - R1-1721341 38211-130 (with change marks).doc
+   - R1-1721099.doc
+   - R1-1721064-draft CR36213 EPDCCH SSC10.doc
+   - 36213-e40_s06-s09_FECOMP_f2.doc
+   - R1-1801691-draft CR36213-symPUSCH-UpPts-r14 PHICH Assignment .doc
+   - R1-1801692-draft CR36211-symPUSCH-UpPts-r14 PHICH Assignment.doc
+   - R1-1803543 CR 38.211 after RAN1_92.doc
+   - R1-1802986.doc
+   ... +3 more
+================================================================================

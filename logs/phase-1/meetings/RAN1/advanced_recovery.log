@@ -1,0 +1,213 @@
+2025-11-10 15:51:13,496 - INFO - ================================================================================
+2025-11-10 15:51:13,496 - INFO - Phase-1 Step-4 Sub-step 6: Advanced Multi-tool ZIP Recovery
+2025-11-10 15:51:13,496 - INFO - ================================================================================
+2025-11-10 15:51:13,496 - INFO - Loaded 44 failed ZIPs from report
+2025-11-10 15:51:13,496 - INFO - Target: 44 failed ZIPs
+2025-11-10 15:51:13,496 - INFO - Workers: 8
+2025-11-10 15:51:13,496 - INFO - Start time: 2025-11-10 15:51:13.496415
+2025-11-10 15:51:13,496 - INFO - 
+2025-11-10 15:51:13,506 - INFO - unrar available: False
+2025-11-10 15:51:13,506 - WARNING - unrar not installed - RAR files will not be recovered
+2025-11-10 15:51:13,506 - INFO - 
+2025-11-10 15:51:13,512 - INFO - Processing: TSGR1_100_e/Docs/R1-2000165.zip
+2025-11-10 15:51:13,512 - INFO - Processing: TSGR1_104b-e/Docs/R1-2103795.zip
+2025-11-10 15:51:13,512 - INFO - Processing: TSGR1_105-e/Docs/R1-2106242.zip
+2025-11-10 15:51:13,512 - INFO - Processing: TSGR1_106-e/Docs/R1-2107735.zip
+2025-11-10 15:51:13,512 - INFO - Processing: TSGR1_106-e/Docs/R1-2108077.zip
+2025-11-10 15:51:13,513 - INFO - Processing: TSGR1_106b-e/Docs/R1-2110427.zip
+2025-11-10 15:51:13,513 - INFO - Processing: TSGR1_107-e/Docs/R1-2110805.zip
+2025-11-10 15:51:13,513 - INFO - Processing: TSGR1_109-e/Docs/R1-2205330.zip
+2025-11-10 15:51:13,514 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,514 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,515 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,515 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,515 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,515 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,515 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,515 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,518 - INFO -   ✗ 7z failed: No files extracted
+2025-11-10 15:51:13,518 - INFO -   ✗ 7z failed: No files extracted
+2025-11-10 15:51:13,518 - INFO -   ✗ All recovery methods failed
+2025-11-10 15:51:13,518 - INFO -   ✗ All recovery methods failed
+2025-11-10 15:51:13,518 - INFO - Processing: TSGR1_109-e/Docs/R1-2205390.zip
+2025-11-10 15:51:13,518 - INFO - Processing: TSGR1_110/Docs/R1-2207608.zip
+2025-11-10 15:51:13,519 - INFO -   ✓ 7z succeeded: 1 files extracted
+2025-11-10 15:51:13,519 - INFO - Processing: TSGR1_110/Docs/R1-2207628.zip
+2025-11-10 15:51:13,519 - INFO - Processing: TSGR1_110b-e/Docs/R1-2209510.zip
+2025-11-10 15:51:13,519 - INFO - Progress: 1/44 (2%) - Success: 0, Failed: 1
+2025-11-10 15:51:13,520 - INFO - Progress: 2/44 (4%) - Success: 0, Failed: 2
+2025-11-10 15:51:13,520 - INFO - Progress: 3/44 (6%) - Success: 1, Failed: 2
+2025-11-10 15:51:13,520 - INFO - Progress: 4/44 (9%) - Success: 1, Failed: 3
+2025-11-10 15:51:13,520 - INFO -   ✓ 7z succeeded: 1 files extracted
+2025-11-10 15:51:13,520 - INFO -   ✓ 7z succeeded: 1 files extracted
+2025-11-10 15:51:13,520 - INFO -   ✓ 7z succeeded: 1 files extracted
+2025-11-10 15:51:13,520 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,520 - INFO - Processing: TSGR1_111/Docs/R1-2212591.zip
+2025-11-10 15:51:13,520 - INFO - Processing: TSGR1_112/Docs/R1-2302132.zip
+2025-11-10 15:51:13,520 - INFO - Processing: TSGR1_112b-e/Docs/R1-2303340.zip
+2025-11-10 15:51:13,521 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,521 - INFO - Progress: 5/44 (11%) - Success: 2, Failed: 3
+2025-11-10 15:51:13,521 - INFO - Progress: 6/44 (13%) - Success: 3, Failed: 3
+2025-11-10 15:51:13,521 - INFO - Progress: 7/44 (15%) - Success: 4, Failed: 3
+2025-11-10 15:51:13,521 - INFO -   ✓ 7z succeeded: 1 files extracted
+2025-11-10 15:51:13,521 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,521 - INFO - Processing: TSGR1_113/Docs/R1-2305977.zip
+2025-11-10 15:51:13,521 - INFO - Progress: 8/44 (18%) - Success: 5, Failed: 3
+2025-11-10 15:51:13,522 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,522 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,522 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,523 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,524 - INFO -   ✗ 7z failed: No files extracted
+2025-11-10 15:51:13,524 - INFO -   ✗ All recovery methods failed
+2025-11-10 15:51:13,524 - INFO - Processing: TSGR1_118/Docs/R1-2406107.zip
+2025-11-10 15:51:13,524 - INFO - Progress: 9/44 (20%) - Success: 5, Failed: 4
+2025-11-10 15:51:13,525 - INFO -   ✓ 7z succeeded: 1 files extracted
+2025-11-10 15:51:13,525 - INFO - Processing: TSGR1_119/Docs/R1-2410655.zip
+2025-11-10 15:51:13,525 - INFO -   ✗ 7z failed: No files extracted
+2025-11-10 15:51:13,525 - INFO -   ✗ All recovery methods failed
+2025-11-10 15:51:13,525 - INFO - Processing: TSGR1_119/Docs/R1-2410926.zip
+2025-11-10 15:51:13,525 - INFO -   ✗ 7z failed: No files extracted
+2025-11-10 15:51:13,525 - INFO -   ✗ All recovery methods failed
+2025-11-10 15:51:13,525 - INFO - Processing: TSGR1_120b/Docs/R1-2501956.zip
+2025-11-10 15:51:13,526 - INFO - Progress: 10/44 (22%) - Success: 6, Failed: 4
+2025-11-10 15:51:13,526 - INFO - Progress: 11/44 (25%) - Success: 6, Failed: 5
+2025-11-10 15:51:13,526 - INFO - Progress: 12/44 (27%) - Success: 6, Failed: 6
+2025-11-10 15:51:13,526 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,526 - INFO -   ✓ 7z succeeded: 5 files extracted
+2025-11-10 15:51:13,527 - INFO - Processing: TSGR1_120b/Docs/R1-2503045.zip
+2025-11-10 15:51:13,527 - INFO -   ✓ 7z succeeded: 1 files extracted
+2025-11-10 15:51:13,527 - INFO - Progress: 13/44 (29%) - Success: 7, Failed: 6
+2025-11-10 15:51:13,527 - INFO - Processing: TSGR1_121/Docs/R1-2504834.zip
+2025-11-10 15:51:13,527 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,527 - INFO - Progress: 14/44 (31%) - Success: 8, Failed: 6
+2025-11-10 15:51:13,527 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,527 - INFO -   ✓ 7z succeeded: 1 files extracted
+2025-11-10 15:51:13,528 - INFO - Processing: TSGR1_84/Docs/R1-160281.zip
+2025-11-10 15:51:13,528 - INFO - Progress: 15/44 (34%) - Success: 9, Failed: 6
+2025-11-10 15:51:13,528 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,529 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,530 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,530 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,530 - INFO -   ✗ 7z failed: No files extracted
+2025-11-10 15:51:13,530 - INFO -   ✗ All recovery methods failed
+2025-11-10 15:51:13,530 - INFO - Processing: TSGR1_90/Docs/R1-1714489.zip
+2025-11-10 15:51:13,531 - INFO - Progress: 16/44 (36%) - Success: 9, Failed: 7
+2025-11-10 15:51:13,532 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,535 - INFO -   ✓ 7z succeeded: 1 files extracted
+2025-11-10 15:51:13,535 - INFO - Processing: TSGR1_90/Docs/R1-1715052.zip
+2025-11-10 15:51:13,535 - INFO -   ✓ 7z succeeded: 1 files extracted
+2025-11-10 15:51:13,536 - INFO - Progress: 17/44 (38%) - Success: 10, Failed: 7
+2025-11-10 15:51:13,536 - INFO - Processing: TSGR1_90/Docs/R1-1715243.zip
+2025-11-10 15:51:13,536 - INFO -   ✗ 7z failed: No files extracted
+2025-11-10 15:51:13,536 - INFO - Progress: 18/44 (40%) - Success: 11, Failed: 7
+2025-11-10 15:51:13,536 - INFO -   ✗ All recovery methods failed
+2025-11-10 15:51:13,536 - INFO - Processing: TSGR1_90b/Docs/R1-1718798.zip
+2025-11-10 15:51:13,538 - INFO - Progress: 19/44 (43%) - Success: 11, Failed: 8
+2025-11-10 15:51:13,538 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,538 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,538 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,543 - INFO -   ✓ 7z succeeded: 1 files extracted
+2025-11-10 15:51:13,543 - INFO -   ✓ 7z succeeded: 1 files extracted
+2025-11-10 15:51:13,543 - INFO - Processing: TSGR1_90b/Docs/R1-1718898.zip
+2025-11-10 15:51:13,543 - INFO - Processing: TSGR1_90b/Docs/R1-1718951.zip
+2025-11-10 15:51:13,543 - INFO - Progress: 20/44 (45%) - Success: 12, Failed: 8
+2025-11-10 15:51:13,543 - INFO - Progress: 21/44 (47%) - Success: 13, Failed: 8
+2025-11-10 15:51:13,545 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,545 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,546 - INFO -   ✓ 7z succeeded: 1 files extracted
+2025-11-10 15:51:13,546 - INFO - Processing: TSGR1_91/Docs/R1-1721430.zip
+2025-11-10 15:51:13,547 - INFO - Progress: 22/44 (50%) - Success: 14, Failed: 8
+2025-11-10 15:51:13,548 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,549 - INFO -   ✗ 7z failed: No files extracted
+2025-11-10 15:51:13,549 - INFO -   ✗ All recovery methods failed
+2025-11-10 15:51:13,550 - INFO - Processing: TSGR1_92b/Docs/R1-1804963.zip
+2025-11-10 15:51:13,550 - INFO -   ✓ 7z succeeded: 1 files extracted
+2025-11-10 15:51:13,550 - INFO - Processing: TSGR1_93/Docs/R1-1807179.zip
+2025-11-10 15:51:13,550 - INFO - Progress: 23/44 (52%) - Success: 14, Failed: 9
+2025-11-10 15:51:13,550 - INFO - Progress: 24/44 (54%) - Success: 15, Failed: 9
+2025-11-10 15:51:13,551 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,551 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,554 - INFO -   ✓ 7z succeeded: 1 files extracted
+2025-11-10 15:51:13,554 - INFO - Processing: TSGR1_94b/Docs/R1-1811092.zip
+2025-11-10 15:51:13,555 - INFO - Progress: 25/44 (56%) - Success: 16, Failed: 9
+2025-11-10 15:51:13,555 - INFO -   ✓ 7z succeeded: 1 files extracted
+2025-11-10 15:51:13,555 - INFO -   ✓ 7z succeeded: 1 files extracted
+2025-11-10 15:51:13,556 - INFO - Processing: TSGR1_94b/Docs/R1-1811093.zip
+2025-11-10 15:51:13,556 - INFO - Progress: 26/44 (59%) - Success: 17, Failed: 9
+2025-11-10 15:51:13,556 - INFO - Processing: TSGR1_94b/Docs/R1-1811094.zip
+2025-11-10 15:51:13,556 - INFO - Progress: 27/44 (61%) - Success: 18, Failed: 9
+2025-11-10 15:51:13,557 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,557 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,557 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,561 - INFO -   ✓ 7z succeeded: 1 files extracted
+2025-11-10 15:51:13,561 - INFO - Processing: TSGR1_95/Docs/R1-1812725.zip
+2025-11-10 15:51:13,561 - INFO -   ✓ 7z succeeded: 1 files extracted
+2025-11-10 15:51:13,561 - INFO - Progress: 28/44 (63%) - Success: 19, Failed: 9
+2025-11-10 15:51:13,561 - INFO - Processing: TSGR1_95/Docs/R1-1813387.zip
+2025-11-10 15:51:13,562 - INFO -   ✓ 7z succeeded: 1 files extracted
+2025-11-10 15:51:13,562 - INFO - Processing: TSGR1_95/Docs/R1-1813388.zip
+2025-11-10 15:51:13,563 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,563 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,563 - INFO - Progress: 29/44 (65%) - Success: 20, Failed: 9
+2025-11-10 15:51:13,563 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,563 - INFO - Progress: 30/44 (68%) - Success: 21, Failed: 9
+2025-11-10 15:51:13,566 - INFO -   ✗ 7z failed: No files extracted
+2025-11-10 15:51:13,566 - INFO -   ✗ All recovery methods failed
+2025-11-10 15:51:13,566 - INFO - Processing: TSGR1_96/Docs/R1-1901999.zip
+2025-11-10 15:51:13,566 - INFO - Processing: TSGR1_96/Docs/R1-1902000.zip
+2025-11-10 15:51:13,567 - INFO - Processing: TSGR1_96/Docs/R1-1903457.zip
+2025-11-10 15:51:13,567 - INFO -   ✓ 7z succeeded: 1 files extracted
+2025-11-10 15:51:13,567 - INFO - Progress: 31/44 (70%) - Success: 21, Failed: 10
+2025-11-10 15:51:13,567 - INFO - Progress: 32/44 (72%) - Success: 21, Failed: 11
+2025-11-10 15:51:13,567 - INFO - Progress: 33/44 (75%) - Success: 21, Failed: 12
+2025-11-10 15:51:13,567 - INFO - Processing: TSGR1_96b/Docs/R1-1905644.zip
+2025-11-10 15:51:13,567 - INFO - Processing: TSGR1_97/Docs/R1-1907449.zip
+2025-11-10 15:51:13,568 - INFO -   ✓ 7z succeeded: 1 files extracted
+2025-11-10 15:51:13,568 - INFO - Processing: TSGR1_98/Docs/R1-1908291.zip
+2025-11-10 15:51:13,568 - INFO - Progress: 34/44 (77%) - Success: 22, Failed: 12
+2025-11-10 15:51:13,568 - INFO - Progress: 35/44 (79%) - Success: 22, Failed: 13
+2025-11-10 15:51:13,568 - INFO - Progress: 36/44 (81%) - Success: 23, Failed: 13
+2025-11-10 15:51:13,569 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,569 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,569 - INFO -   Trying 7z (tolerant mode)...
+2025-11-10 15:51:13,572 - INFO -   ✓ 7z succeeded: 1 files extracted
+2025-11-10 15:51:13,573 - INFO - Progress: 37/44 (84%) - Success: 24, Failed: 13
+2025-11-10 15:51:13,573 - INFO -   ✗ 7z failed: No files extracted
+2025-11-10 15:51:13,573 - INFO -   ✗ 7z failed: No files extracted
+2025-11-10 15:51:13,573 - INFO -   ✗ All recovery methods failed
+2025-11-10 15:51:13,573 - INFO -   ✗ All recovery methods failed
+2025-11-10 15:51:13,573 - INFO - Progress: 38/44 (86%) - Success: 24, Failed: 14
+2025-11-10 15:51:13,573 - INFO - Progress: 39/44 (88%) - Success: 24, Failed: 15
+2025-11-10 15:51:13,579 - INFO -   ✓ 7z succeeded: 3 files extracted
+2025-11-10 15:51:13,579 - INFO - Progress: 40/44 (90%) - Success: 25, Failed: 15
+2025-11-10 15:51:13,597 - INFO -   ✓ 7z succeeded: 1 files extracted
+2025-11-10 15:51:13,598 - INFO - Progress: 41/44 (93%) - Success: 26, Failed: 15
+2025-11-10 15:51:13,619 - INFO -   ✓ 7z succeeded: 1 files extracted
+2025-11-10 15:51:13,619 - INFO - Progress: 42/44 (95%) - Success: 27, Failed: 15
+2025-11-10 15:51:13,739 - INFO -   ✓ 7z succeeded: 1 files extracted
+2025-11-10 15:51:13,739 - INFO - Progress: 43/44 (97%) - Success: 28, Failed: 15
+2025-11-10 15:51:13,751 - INFO -   ✓ 7z succeeded: 1 files extracted
+2025-11-10 15:51:13,752 - INFO - Progress: 44/44 (100%) - Success: 29, Failed: 15
+2025-11-10 15:51:13,754 - INFO - 
+2025-11-10 15:51:13,754 - INFO - ================================================================================
+2025-11-10 15:51:13,754 - INFO - Recovery Results Summary
+2025-11-10 15:51:13,754 - INFO - ================================================================================
+2025-11-10 15:51:13,754 - INFO - Total attempts: 44
+2025-11-10 15:51:13,754 - INFO - Success: 29 (65.9%)
+2025-11-10 15:51:13,754 - INFO - Failed: 15 (34.1%)
+2025-11-10 15:51:13,754 - INFO - Files recovered: 35
+2025-11-10 15:51:13,754 - INFO - Duration: 0.3 seconds
+2025-11-10 15:51:13,754 - INFO - 
+2025-11-10 15:51:13,754 - INFO - Tool Statistics:
+2025-11-10 15:51:13,754 - INFO -   7z: 29 ZIPs, 35 files
+2025-11-10 15:51:13,754 - INFO - 
+2025-11-10 15:51:13,754 - INFO - Failure Reasons:
+2025-11-10 15:51:13,754 - INFO -   Empty archive: ['TSGR1_106-e/Docs/R1-2108077.zip', 'TSGR1_109-e/Docs/R1-2205330.zip', 'TSGR1_110/Docs/R1-2207608.zip', 'TSGR1_112/Docs/R1-2302132.zip', 'TSGR1_109-e/Docs/R1-2205390.zip', 'TSGR1_120b/Docs/R1-2501956.zip', 'TSGR1_90/Docs/R1-1714489.zip', 'TSGR1_90b/Docs/R1-1718951.zip', 'TSGR1_95/Docs/R1-1812725.zip', 'TSGR1_98/Docs/R1-1908291.zip', 'TSGR1_97/Docs/R1-1907449.zip'] ZIPs
+2025-11-10 15:51:13,754 - INFO -   Zero byte file: ['TSGR1_110/Docs/R1-2207628.zip', 'TSGR1_96/Docs/R1-1901999.zip', 'TSGR1_96/Docs/R1-1902000.zip', 'TSGR1_96b/Docs/R1-1905644.zip'] ZIPs
+2025-11-10 15:51:13,754 - INFO - 
+2025-11-10 15:51:13,754 - INFO - Report saved: /home/sihyeon/workspace/spec-trace/logs/phase-1/meetings/RAN1/advanced_recovery_report.json
+2025-11-10 15:51:13,754 - INFO - Log saved: /home/sihyeon/workspace/spec-trace/logs/phase-1/meetings/RAN1/advanced_recovery.log
+2025-11-10 15:51:13,754 - INFO - 
+2025-11-10 15:51:13,754 - INFO - ================================================================================
+2025-11-10 15:51:13,754 - INFO - Recovery Complete!
+2025-11-10 15:51:13,754 - INFO - ================================================================================

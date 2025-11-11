@@ -1,0 +1,482 @@
+{
+  "start_time": "2025-11-10T15:51:13.496415",
+  "end_time": "2025-11-10T15:51:13.754231",
+  "duration_seconds": 0.257816,
+  "total_attempts": 44,
+  "success": 29,
+  "failed": 15,
+  "success_rate": "65.9%",
+  "total_files_recovered": 35,
+  "unrar_available": false,
+  "tool_statistics": {
+    "7z": {
+      "count": 29,
+      "files": 35
+    }
+  },
+  "failure_reasons": {
+    "Empty archive": 11,
+    "Zero byte file": 4
+  },
+  "success_details": [
+    {
+      "zip": "TSGR1_100_e/Docs/R1-2000165.zip",
+      "success": true,
+      "tool": "7z",
+      "files": 1,
+      "file_size": 73728,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_100_e/Docs/R1-2000165.zip: Zip archive data, at least v2.0 to extract, compression method=deflate",
+      "returncode": 2,
+      "original_error": "7zip failed: \nERRORS:\nUnexpected end of archive\n\nERROR: Data Error : R1-2000165(R2-1916597).docx\n"
+    },
+    {
+      "zip": "TSGR1_106b-e/Docs/R1-2110427.zip",
+      "success": true,
+      "tool": "7z",
+      "files": 1,
+      "file_size": 327680,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_106b-e/Docs/R1-2110427.zip: Zip archive data, at least v2.0 to extract, compression method=deflate",
+      "returncode": 2,
+      "original_error": "7zip failed: \nERRORS:\nUnexpected end of archive\n\nERROR: Data Error : R1-2110427 Summary#5 - Enhancements for IIOT URLLC on Unlicensed Band - v096_Apple_Moderator.docx\n"
+    },
+    {
+      "zip": "TSGR1_104b-e/Docs/R1-2103795.zip",
+      "success": true,
+      "tool": "7z",
+      "files": 1,
+      "file_size": 72371,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_104b-e/Docs/R1-2103795.zip: Zip archive data, at least v2.0 to extract, compression method=deflate",
+      "returncode": 2,
+      "original_error": "7zip failed: \nERRORS:\nHeaders Error\nUnconfirmed start of archive\n\nERROR: Data Error : R1-2103795-AI7.2.4-QoS-summary1.docx\n"
+    },
+    {
+      "zip": "TSGR1_107-e/Docs/R1-2110805.zip",
+      "success": true,
+      "tool": "7z",
+      "files": 1,
+      "file_size": 245760,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_107-e/Docs/R1-2110805.zip: Zip archive data, at least v2.0 to extract, compression method=deflate",
+      "returncode": 2,
+      "original_error": "7zip failed: \nERRORS:\nUnexpected end of archive\n\nERROR: Data Error : R1-2110805.docx\n"
+    },
+    {
+      "zip": "TSGR1_105-e/Docs/R1-2106242.zip",
+      "success": true,
+      "tool": "7z",
+      "files": 1,
+      "file_size": 327680,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_105-e/Docs/R1-2106242.zip: Zip archive data, at least v2.0 to extract, compression method=deflate",
+      "returncode": 2,
+      "original_error": "7zip failed: \nERRORS:\nUnexpected end of archive\n\nERROR: Data Error : R1-2106242.docx\n"
+    },
+    {
+      "zip": "TSGR1_110b-e/Docs/R1-2209510.zip",
+      "success": true,
+      "tool": "7z",
+      "files": 1,
+      "file_size": 83205,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_110b-e/Docs/R1-2209510.zip: RAR archive data, v5",
+      "returncode": 2,
+      "original_error": "7zip failed: ERROR: Unsupported Method : R1-2209510 Evaluation of AIML for Positioning Accuracy Enhancement.docx\n"
+    },
+    {
+      "zip": "TSGR1_112b-e/Docs/R1-2303340.zip",
+      "success": true,
+      "tool": "7z",
+      "files": 5,
+      "file_size": 575597,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_112b-e/Docs/R1-2303340.zip: RAR archive data, v5",
+      "returncode": 2,
+      "original_error": "7zip failed: ERROR: Unsupported Method : Pos-Supervised-NoLabelErr-Train-Test-Different-Setting.xlsx\nERROR: Unsupported Method : Pos-Supervised-NoLabelErr-Train-Test-Same-Setting.xlsx\nERROR: Unsupported Method : P"
+    },
+    {
+      "zip": "TSGR1_111/Docs/R1-2212591.zip",
+      "success": true,
+      "tool": "7z",
+      "files": 1,
+      "file_size": 114688,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_111/Docs/R1-2212591.zip: Zip archive data, at least v2.0 to extract, compression method=deflate",
+      "returncode": 2,
+      "original_error": "7zip failed: \nERRORS:\nUnexpected end of archive\n\nERROR: Data Error : R1-2212591_Feature lead summary #0 for AI in BM .docx\n"
+    },
+    {
+      "zip": "TSGR1_113/Docs/R1-2305977.zip",
+      "success": true,
+      "tool": "7z",
+      "files": 1,
+      "file_size": 105120,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_113/Docs/R1-2305977.zip: Zip archive data, at least v2.0 to extract, compression method=deflate",
+      "returncode": 2,
+      "original_error": "7zip failed: \nERRORS:\nUnexpected end of archive\n\nERROR: Data Error : First FL summary of AI 9.12.2.docx\n"
+    },
+    {
+      "zip": "TSGR1_84/Docs/R1-160281.zip",
+      "success": true,
+      "tool": "7z",
+      "files": 1,
+      "file_size": 344064,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_84/Docs/R1-160281.zip: Zip archive data, at least v2.0 to extract, compression method=deflate",
+      "returncode": 2,
+      "original_error": "7zip failed: \nERRORS:\nUnexpected end of archive\n\nERROR: Data Error : R1-160281.doc\n"
+    },
+    {
+      "zip": "TSGR1_120b/Docs/R1-2503045.zip",
+      "success": true,
+      "tool": "7z",
+      "files": 1,
+      "file_size": 294912,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_120b/Docs/R1-2503045.zip: Zip archive data, at least v2.0 to extract, compression method=deflate",
+      "returncode": 2,
+      "original_error": "7zip failed: \nERRORS:\nUnexpected end of archive\n\nERROR: Data Error : R1-2503045.docx\n"
+    },
+    {
+      "zip": "TSGR1_90b/Docs/R1-1718798.zip",
+      "success": true,
+      "tool": "7z",
+      "files": 1,
+      "file_size": 25728,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_90b/Docs/R1-1718798.zip: Zip archive data, at least v2.0 to extract, compression method=deflate",
+      "returncode": 2,
+      "original_error": "7zip failed: \nERRORS:\nUnexpected end of archive\n\nERROR: Data Error : R1-1718798 Summary CW2L Mapping V2.docx\n"
+    },
+    {
+      "zip": "TSGR1_90/Docs/R1-1715243.zip",
+      "success": true,
+      "tool": "7z",
+      "files": 1,
+      "file_size": 8192,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_90/Docs/R1-1715243.zip: Zip archive data, at least v2.0 to extract, compression method=deflate",
+      "returncode": 2,
+      "original_error": "7zip failed: \nERRORS:\nUnexpected end of archive\n\nERROR: Data Error : R1-1715243 Design goal for CCE-REG interleaving.pptx\n"
+    },
+    {
+      "zip": "TSGR1_90/Docs/R1-1715052.zip",
+      "success": true,
+      "tool": "7z",
+      "files": 1,
+      "file_size": 524288,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_90/Docs/R1-1715052.zip: Zip archive data, at least v2.0 to extract, compression method=deflate",
+      "returncode": 2,
+      "original_error": "7zip failed: \nERRORS:\nUnexpected end of archive\n\nERROR: Data Error : R1-1715052 Rate-matching scheme for control channel.docx\n"
+    },
+    {
+      "zip": "TSGR1_90b/Docs/R1-1718898.zip",
+      "success": true,
+      "tool": "7z",
+      "files": 1,
+      "file_size": 20440,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_90b/Docs/R1-1718898.zip: Zip archive data, at least v2.0 to extract, compression method=deflate",
+      "returncode": 2,
+      "original_error": "7zip failed: \nERRORS:\nUnexpected end of archive\n\nERROR: Data Error : R1-1718898.docx\n"
+    },
+    {
+      "zip": "TSGR1_91/Docs/R1-1721430.zip",
+      "success": true,
+      "tool": "7z",
+      "files": 1,
+      "file_size": 43800,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_91/Docs/R1-1721430.zip: Zip archive data, at least v2.0 to extract, compression method=deflate",
+      "returncode": 2,
+      "original_error": "7zip failed: \nERRORS:\nUnexpected end of archive\n\nERROR: Data Error : R1-1721430.doc\n"
+    },
+    {
+      "zip": "TSGR1_92b/Docs/R1-1804963.zip",
+      "success": true,
+      "tool": "7z",
+      "files": 1,
+      "file_size": 66551,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_92b/Docs/R1-1804963.zip: RAR archive data, v4, os: Win32",
+      "returncode": 2,
+      "original_error": "7zip failed: ERROR: Unsupported Method : R1-1804963_Disscussion on UL multiplexing of transmissions with different reliability requirements.doc\n"
+    },
+    {
+      "zip": "TSGR1_93/Docs/R1-1807179.zip",
+      "success": true,
+      "tool": "7z",
+      "files": 1,
+      "file_size": 22955,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_93/Docs/R1-1807179.zip: RAR archive data, v4, os: Win32",
+      "returncode": 2,
+      "original_error": "7zip failed: ERROR: Unsupported Method : R1-1807179_Remaining issues on CSI reporting .doc\n"
+    },
+    {
+      "zip": "TSGR1_94b/Docs/R1-1811092.zip",
+      "success": true,
+      "tool": "7z",
+      "files": 1,
+      "file_size": 23077,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_94b/Docs/R1-1811092.zip: RAR archive data, v4, os: Win32",
+      "returncode": 2,
+      "original_error": "7zip failed: ERROR: Unsupported Method : R1-1811092_Discussion on support of unicast, groupcast and broadcast in NR V2X.doc\n"
+    },
+    {
+      "zip": "TSGR1_94b/Docs/R1-1811094.zip",
+      "success": true,
+      "tool": "7z",
+      "files": 1,
+      "file_size": 78971,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_94b/Docs/R1-1811094.zip: RAR archive data, v4, os: Win32",
+      "returncode": 2,
+      "original_error": "7zip failed: ERROR: Unsupported Method : R1-1811094_Discussion on UL inter UE Tx multiplexing.doc\n"
+    },
+    {
+      "zip": "TSGR1_94b/Docs/R1-1811093.zip",
+      "success": true,
+      "tool": "7z",
+      "files": 1,
+      "file_size": 22973,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_94b/Docs/R1-1811093.zip: RAR archive data, v4, os: Win32",
+      "returncode": 2,
+      "original_error": "7zip failed: ERROR: Unsupported Method : R1-1811093_Discussion on the resource allocation for NR-V2X.doc\n"
+    },
+    {
+      "zip": "TSGR1_95/Docs/R1-1813387.zip",
+      "success": true,
+      "tool": "7z",
+      "files": 1,
+      "file_size": 21907,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_95/Docs/R1-1813387.zip: RAR archive data, v4, os: Win32",
+      "returncode": 2,
+      "original_error": "7zip failed: ERROR: Unsupported Method : R1-1813387_Discussion on CSI enhancement for MU-MIMO.doc\n"
+    },
+    {
+      "zip": "TSGR1_95/Docs/R1-1813388.zip",
+      "success": true,
+      "tool": "7z",
+      "files": 1,
+      "file_size": 80084,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_95/Docs/R1-1813388.zip: RAR archive data, v4, os: Win32",
+      "returncode": 2,
+      "original_error": "7zip failed: ERROR: Unsupported Method : R1-1813388_Views on inter-UE Prioritization and Multiplexing of UL Transmission.doc\n"
+    },
+    {
+      "zip": "TSGR1_96/Docs/R1-1903457.zip",
+      "success": true,
+      "tool": "7z",
+      "files": 1,
+      "file_size": 445737,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_96/Docs/R1-1903457.zip: Zip archive data, at least v2.0 to extract, compression method=deflate",
+      "returncode": 2,
+      "original_error": "7zip failed: ERROR: Wrong password : R1-1903457.docx\n"
+    },
+    {
+      "zip": "TSGR1_106-e/Docs/R1-2107735.zip",
+      "success": true,
+      "tool": "7z",
+      "files": 3,
+      "file_size": 14909440,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_106-e/Docs/R1-2107735.zip: Zip archive data, at least v2.0 to extract, compression method=deflate",
+      "returncode": 2,
+      "original_error": "7zip failed: \nERRORS:\nUnexpected end of archive\n\nERROR: Data Error : R1-2107735 Rel-17 URLLC UCI multiplexing design v3.docx\n"
+    },
+    {
+      "zip": "TSGR1_118/Docs/R1-2406107.zip",
+      "success": true,
+      "tool": "7z",
+      "files": 1,
+      "file_size": 15876096,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_118/Docs/R1-2406107.zip: Zip archive data, at least v2.0 to extract, compression method=deflate",
+      "returncode": 2,
+      "original_error": "7zip failed: \nERRORS:\nUnexpected end of archive\n\nERROR: Data Error : R1-2406107.docx\n"
+    },
+    {
+      "zip": "TSGR1_119/Docs/R1-2410655.zip",
+      "success": true,
+      "tool": "7z",
+      "files": 1,
+      "file_size": 112427008,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_119/Docs/R1-2410655.zip: Zip archive data, at least v2.0 to extract, compression method=deflate",
+      "returncode": 2,
+      "original_error": "7zip failed: \nERRORS:\nUnexpected end of archive\n\nERROR: Data Error : R1-2410655-FR3ChannelModeling.docx\n"
+    },
+    {
+      "zip": "TSGR1_121/Docs/R1-2504834.zip",
+      "success": true,
+      "tool": "7z",
+      "files": 1,
+      "file_size": 208732160,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_121/Docs/R1-2504834.zip: Zip archive data, at least v2.0 to extract, compression method=deflate",
+      "returncode": 2,
+      "original_error": "7zip failed: \nERRORS:\nUnexpected end of archive\n\n"
+    },
+    {
+      "zip": "TSGR1_119/Docs/R1-2410926.zip",
+      "success": true,
+      "tool": "7z",
+      "files": 1,
+      "file_size": 53477376,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_119/Docs/R1-2410926.zip: Zip archive data, at least v2.0 to extract, compression method=deflate",
+      "returncode": 2,
+      "original_error": "7zip failed: \nERRORS:\nUnexpected end of archive\n\nERROR: Data Error : R1-2410926 The Sharp Sound Man - final.mp4\n"
+    }
+  ],
+  "failed_details": [
+    {
+      "zip": "TSGR1_106-e/Docs/R1-2108077.zip",
+      "success": false,
+      "tool": "all_failed",
+      "files": 0,
+      "file_size": 22,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_106-e/Docs/R1-2108077.zip: Zip archive data (empty)",
+      "error": "No files extracted",
+      "original_error": "7zip succeeded but no files extracted"
+    },
+    {
+      "zip": "TSGR1_109-e/Docs/R1-2205330.zip",
+      "success": false,
+      "tool": "all_failed",
+      "files": 0,
+      "file_size": 22,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_109-e/Docs/R1-2205330.zip: Zip archive data (empty)",
+      "error": "No files extracted",
+      "original_error": "7zip succeeded but no files extracted"
+    },
+    {
+      "zip": "TSGR1_110/Docs/R1-2207628.zip",
+      "success": false,
+      "tool": "none",
+      "files": 0,
+      "error": "Zero byte file",
+      "file_size": 0,
+      "original_error": "7zip failed: ERROR: /home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_110/Docs/R1-2207628.zip\nCan not open the file as archive\n\n"
+    },
+    {
+      "zip": "TSGR1_110/Docs/R1-2207608.zip",
+      "success": false,
+      "tool": "all_failed",
+      "files": 0,
+      "file_size": 22,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_110/Docs/R1-2207608.zip: Zip archive data (empty)",
+      "error": "No files extracted",
+      "original_error": "7zip succeeded but no files extracted"
+    },
+    {
+      "zip": "TSGR1_112/Docs/R1-2302132.zip",
+      "success": false,
+      "tool": "all_failed",
+      "files": 0,
+      "file_size": 22,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_112/Docs/R1-2302132.zip: Zip archive data (empty)",
+      "error": "No files extracted",
+      "original_error": "7zip succeeded but no files extracted"
+    },
+    {
+      "zip": "TSGR1_109-e/Docs/R1-2205390.zip",
+      "success": false,
+      "tool": "all_failed",
+      "files": 0,
+      "file_size": 22,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_109-e/Docs/R1-2205390.zip: Zip archive data (empty)",
+      "error": "No files extracted",
+      "original_error": "7zip succeeded but no files extracted"
+    },
+    {
+      "zip": "TSGR1_120b/Docs/R1-2501956.zip",
+      "success": false,
+      "tool": "all_failed",
+      "files": 0,
+      "file_size": 22,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_120b/Docs/R1-2501956.zip: Zip archive data (empty)",
+      "error": "No files extracted",
+      "original_error": "7zip succeeded but no files extracted"
+    },
+    {
+      "zip": "TSGR1_90/Docs/R1-1714489.zip",
+      "success": false,
+      "tool": "all_failed",
+      "files": 0,
+      "file_size": 22,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_90/Docs/R1-1714489.zip: Zip archive data (empty)",
+      "error": "No files extracted",
+      "original_error": "7zip succeeded but no files extracted"
+    },
+    {
+      "zip": "TSGR1_90b/Docs/R1-1718951.zip",
+      "success": false,
+      "tool": "all_failed",
+      "files": 0,
+      "file_size": 22,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_90b/Docs/R1-1718951.zip: Zip archive data (empty)",
+      "error": "No files extracted",
+      "original_error": "7zip succeeded but no files extracted"
+    },
+    {
+      "zip": "TSGR1_95/Docs/R1-1812725.zip",
+      "success": false,
+      "tool": "all_failed",
+      "files": 0,
+      "file_size": 22,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_95/Docs/R1-1812725.zip: Zip archive data (empty)",
+      "error": "No files extracted",
+      "original_error": "7zip succeeded but no files extracted"
+    },
+    {
+      "zip": "TSGR1_96/Docs/R1-1901999.zip",
+      "success": false,
+      "tool": "none",
+      "files": 0,
+      "error": "Zero byte file",
+      "file_size": 0,
+      "original_error": "7zip failed: ERROR: /home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_96/Docs/R1-1901999.zip\nCan not open the file as archive\n\n"
+    },
+    {
+      "zip": "TSGR1_96/Docs/R1-1902000.zip",
+      "success": false,
+      "tool": "none",
+      "files": 0,
+      "error": "Zero byte file",
+      "file_size": 0,
+      "original_error": "7zip failed: ERROR: /home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_96/Docs/R1-1902000.zip\nCan not open the file as archive\n\n"
+    },
+    {
+      "zip": "TSGR1_96b/Docs/R1-1905644.zip",
+      "success": false,
+      "tool": "none",
+      "files": 0,
+      "error": "Zero byte file",
+      "file_size": 0,
+      "original_error": "7zip failed: ERROR: /home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_96b/Docs/R1-1905644.zip\nCan not open the file as archive\n\n"
+    },
+    {
+      "zip": "TSGR1_98/Docs/R1-1908291.zip",
+      "success": false,
+      "tool": "all_failed",
+      "files": 0,
+      "file_size": 22,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_98/Docs/R1-1908291.zip: Zip archive data (empty)",
+      "error": "No files extracted",
+      "original_error": "7zip succeeded but no files extracted"
+    },
+    {
+      "zip": "TSGR1_97/Docs/R1-1907449.zip",
+      "success": false,
+      "tool": "all_failed",
+      "files": 0,
+      "file_size": 22,
+      "file_type": "/home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_97/Docs/R1-1907449.zip: Zip archive data (empty)",
+      "error": "No files extracted",
+      "original_error": "7zip succeeded but no files extracted"
+    }
+  ],
+  "failure_breakdown": {
+    "Empty archive": [
+      "TSGR1_106-e/Docs/R1-2108077.zip",
+      "TSGR1_109-e/Docs/R1-2205330.zip",
+      "TSGR1_110/Docs/R1-2207608.zip",
+      "TSGR1_112/Docs/R1-2302132.zip",
+      "TSGR1_109-e/Docs/R1-2205390.zip",
+      "TSGR1_120b/Docs/R1-2501956.zip",
+      "TSGR1_90/Docs/R1-1714489.zip",
+      "TSGR1_90b/Docs/R1-1718951.zip",
+      "TSGR1_95/Docs/R1-1812725.zip",
+      "TSGR1_98/Docs/R1-1908291.zip",
+      "TSGR1_97/Docs/R1-1907449.zip"
+    ],
+    "Zero byte file": [
+      "TSGR1_110/Docs/R1-2207628.zip",
+      "TSGR1_96/Docs/R1-1901999.zip",
+      "TSGR1_96/Docs/R1-1902000.zip",
+      "TSGR1_96b/Docs/R1-1905644.zip"
+    ]
+  }
+}

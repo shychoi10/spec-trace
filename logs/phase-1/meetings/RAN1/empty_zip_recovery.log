@@ -1,0 +1,386 @@
+Empty ZIP Recovery Log
+Started: 2025-11-07T15:15:20.778885
+================================================================================
+
+[1/88] TSGR1_100_e/Docs/R1-2000165.zip
+  FAILED: 7zip failed: 
+ERRORS:
+Unexpected end of archive
+
+ERROR: Data Error : R1-2000165(R2-1916597).docx
+
+
+[2/88] TSGR1_100_e/Docs/R1-2000919.zip
+  SUCCESS: 1 files
+
+[3/88] TSGR1_100_e/Docs/R1-2000921.zip
+  SUCCESS: 1 files
+
+[4/88] TSGR1_100b_e/Docs/R1-2002442.zip
+  SUCCESS: 1 files
+
+[5/88] TSGR1_100b_e/Docs/R1-2002444.zip
+  SUCCESS: 1 files
+
+[6/88] TSGR1_100b_e/Docs/R1-2002445.zip
+  SUCCESS: 1 files
+
+[7/88] TSGR1_101-e/Docs/R1-2004389.zip
+  SUCCESS: 1 files
+
+[8/88] TSGR1_101-e/Docs/R1-2004391.zip
+  SUCCESS: 1 files
+
+[9/88] TSGR1_101-e/Docs/R1-2004392.zip
+  SUCCESS: 1 files
+
+[10/88] TSGR1_101-e/Docs/R1-2004393.zip
+  SUCCESS: 1 files
+
+[11/88] TSGR1_103-e/Docs/R1-2009183.zip
+  SUCCESS: 1 files
+
+[12/88] TSGR1_103-e/Docs/R1-2009185.zip
+  SUCCESS: 1 files
+
+[13/88] TSGR1_103-e/Docs/R1-2009198.zip
+  SUCCESS: 1 files
+
+[14/88] TSGR1_104-e/Docs/R1-2101585.zip
+  SUCCESS: 1 files
+
+[15/88] TSGR1_104-e/Docs/R1-2101613.zip
+  SUCCESS: 1 files
+
+[16/88] TSGR1_104-e/Docs/R1-2101615.zip
+  SUCCESS: 1 files
+
+[17/88] TSGR1_104-e/Docs/R1-2101635.zip
+  SUCCESS: 1 files
+
+[18/88] TSGR1_104-e/Docs/R1-2101636.zip
+  SUCCESS: 1 files
+
+[19/88] TSGR1_104b-e/Docs/R1-2102672.zip
+  SUCCESS: 1 files
+
+[20/88] TSGR1_104b-e/Docs/R1-2102673.zip
+  SUCCESS: 1 files
+
+[21/88] TSGR1_104b-e/Docs/R1-2103558.zip
+  SUCCESS: 1 files
+
+[22/88] TSGR1_104b-e/Docs/R1-2103575.zip
+  SUCCESS: 1 files
+
+[23/88] TSGR1_104b-e/Docs/R1-2103577.zip
+  SUCCESS: 1 files
+
+[24/88] TSGR1_104b-e/Docs/R1-2103598.zip
+  SUCCESS: 1 files
+
+[25/88] TSGR1_104b-e/Docs/R1-2103599.zip
+  SUCCESS: 1 files
+
+[26/88] TSGR1_104b-e/Docs/R1-2103795.zip
+  FAILED: 7zip failed: 
+ERRORS:
+Headers Error
+Unconfirmed start of archive
+
+ERROR: Data Error : R1-2103795-AI7.2.4-QoS-summary1.docx
+
+
+[27/88] TSGR1_105-e/Docs/R1-2104881.zip
+  SUCCESS: 1 files
+
+[28/88] TSGR1_105-e/Docs/R1-2104882.zip
+  SUCCESS: 1 files
+
+[29/88] TSGR1_105-e/Docs/R1-2105682.zip
+  SUCCESS: 1 files
+
+[30/88] TSGR1_105-e/Docs/R1-2106242.zip
+  FAILED: 7zip failed: 
+ERRORS:
+Unexpected end of archive
+
+ERROR: Data Error : R1-2106242.docx
+
+
+[31/88] TSGR1_106-e/Docs/R1-2107735.zip
+  FAILED: 7zip failed: 
+ERRORS:
+Unexpected end of archive
+
+ERROR: Data Error : R1-2107735 Rel-17 URLLC UCI multiplexing design v3.docx
+
+
+[32/88] TSGR1_106-e/Docs/R1-2108077.zip
+  FAILED: 7zip succeeded but no files extracted
+
+[33/88] TSGR1_106b-e/Docs/R1-2108841.zip
+  SUCCESS: 1 files
+
+[34/88] TSGR1_106b-e/Docs/R1-2108842.zip
+  SUCCESS: 1 files
+
+[35/88] TSGR1_106b-e/Docs/R1-2108844.zip
+  SUCCESS: 1 files
+
+[36/88] TSGR1_106b-e/Docs/R1-2109671.zip
+  SUCCESS: 1 files
+
+[37/88] TSGR1_106b-e/Docs/R1-2109672.zip
+  SUCCESS: 1 files
+
+[38/88] TSGR1_106b-e/Docs/R1-2109674.zip
+  SUCCESS: 1 files
+
+[39/88] TSGR1_106b-e/Docs/R1-2109706.zip
+  SUCCESS: 1 files
+
+[40/88] TSGR1_106b-e/Docs/R1-2109708.zip
+  SUCCESS: 1 files
+
+[41/88] TSGR1_106b-e/Docs/R1-2110427.zip
+  FAILED: 7zip failed: 
+ERRORS:
+Unexpected end of archive
+
+ERROR: Data Error : R1-2110427 Summary#5 - Enhancements for IIOT URLLC on Unlicensed Band - v096_Apple_Moderator.docx
+
+
+[42/88] TSGR1_107-e/Docs/R1-2110805.zip
+  FAILED: 7zip failed: 
+ERRORS:
+Unexpected end of archive
+
+ERROR: Data Error : R1-2110805.docx
+
+
+[43/88] TSGR1_107-e/Docs/R1-2112102.zip
+  SUCCESS: 1 files
+
+[44/88] TSGR1_107-e/Docs/R1-2112103.zip
+  SUCCESS: 1 files
+
+[45/88] TSGR1_107-e/Docs/R1-2112134.zip
+  SUCCESS: 1 files
+
+[46/88] TSGR1_109-e/Docs/R1-2205330.zip
+  FAILED: 7zip succeeded but no files extracted
+
+[47/88] TSGR1_109-e/Docs/R1-2205390.zip
+  FAILED: 7zip succeeded but no files extracted
+
+[48/88] TSGR1_110/Docs/R1-2207608.zip
+  FAILED: 7zip succeeded but no files extracted
+
+[49/88] TSGR1_110/Docs/R1-2207628.zip
+  FAILED: 7zip failed: ERROR: /home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_110/Docs/R1-2207628.zip
+Can not open the file as archive
+
+
+
+[50/88] TSGR1_110b-e/Docs/R1-2209510.zip
+  FAILED: 7zip failed: ERROR: Unsupported Method : R1-2209510 Evaluation of AIML for Positioning Accuracy Enhancement.docx
+
+
+[51/88] TSGR1_110b-e/Docs/R1-2209913.zip
+  SUCCESS: 1 files
+
+[52/88] TSGR1_110b-e/Docs/R1-2209914.zip
+  SUCCESS: 1 files
+
+[53/88] TSGR1_110b-e/Docs/R1-2209920.zip
+  SUCCESS: 1 files
+
+[54/88] TSGR1_111/Docs/R1-2212591.zip
+  FAILED: 7zip failed: 
+ERRORS:
+Unexpected end of archive
+
+ERROR: Data Error : R1-2212591_Feature lead summary #0 for AI in BM .docx
+
+
+[55/88] TSGR1_112/Docs/R1-2302132.zip
+  FAILED: 7zip succeeded but no files extracted
+
+[56/88] TSGR1_112b-e/Docs/R1-2303340.zip
+  FAILED: 7zip failed: ERROR: Unsupported Method : Pos-Supervised-NoLabelErr-Train-Test-Different-Setting.xlsx
+ERROR: Unsupported Method : Pos-Supervised-NoLabelErr-Train-Test-Same-Setting.xlsx
+ERROR: Unsupported Method : P
+
+[57/88] TSGR1_113/Docs/R1-2305977.zip
+  FAILED: 7zip failed: 
+ERRORS:
+Unexpected end of archive
+
+ERROR: Data Error : First FL summary of AI 9.12.2.docx
+
+
+[58/88] TSGR1_118/Docs/R1-2406107.zip
+  FAILED: 7zip failed: 
+ERRORS:
+Unexpected end of archive
+
+ERROR: Data Error : R1-2406107.docx
+
+
+[59/88] TSGR1_119/Docs/R1-2410655.zip
+  FAILED: 7zip failed: 
+ERRORS:
+Unexpected end of archive
+
+ERROR: Data Error : R1-2410655-FR3ChannelModeling.docx
+
+
+[60/88] TSGR1_119/Docs/R1-2410926.zip
+  FAILED: 7zip failed: 
+ERRORS:
+Unexpected end of archive
+
+ERROR: Data Error : R1-2410926 The Sharp Sound Man - final.mp4
+
+
+[61/88] TSGR1_120b/Docs/R1-2501956.zip
+  FAILED: 7zip succeeded but no files extracted
+
+[62/88] TSGR1_120b/Docs/R1-2503045.zip
+  FAILED: 7zip failed: 
+ERRORS:
+Unexpected end of archive
+
+ERROR: Data Error : R1-2503045.docx
+
+
+[63/88] TSGR1_121/Docs/R1-2504834.zip
+  FAILED: 7zip failed: 
+ERRORS:
+Unexpected end of archive
+
+
+
+[64/88] TSGR1_84/Docs/R1-160281.zip
+  FAILED: 7zip failed: 
+ERRORS:
+Unexpected end of archive
+
+ERROR: Data Error : R1-160281.doc
+
+
+[65/88] TSGR1_90/Docs/R1-1714489.zip
+  FAILED: 7zip succeeded but no files extracted
+
+[66/88] TSGR1_90/Docs/R1-1715052.zip
+  FAILED: 7zip failed: 
+ERRORS:
+Unexpected end of archive
+
+ERROR: Data Error : R1-1715052 Rate-matching scheme for control channel.docx
+
+
+[67/88] TSGR1_90/Docs/R1-1715243.zip
+  FAILED: 7zip failed: 
+ERRORS:
+Unexpected end of archive
+
+ERROR: Data Error : R1-1715243 Design goal for CCE-REG interleaving.pptx
+
+
+[68/88] TSGR1_90b/Docs/R1-1718798.zip
+  FAILED: 7zip failed: 
+ERRORS:
+Unexpected end of archive
+
+ERROR: Data Error : R1-1718798 Summary CW2L Mapping V2.docx
+
+
+[69/88] TSGR1_90b/Docs/R1-1718898.zip
+  FAILED: 7zip failed: 
+ERRORS:
+Unexpected end of archive
+
+ERROR: Data Error : R1-1718898.docx
+
+
+[70/88] TSGR1_90b/Docs/R1-1718951.zip
+  FAILED: 7zip succeeded but no files extracted
+
+[71/88] TSGR1_91/Docs/R1-1719594.zip
+  SUCCESS: 1 files
+
+[72/88] TSGR1_91/Docs/R1-1721430.zip
+  FAILED: 7zip failed: 
+ERRORS:
+Unexpected end of archive
+
+ERROR: Data Error : R1-1721430.doc
+
+
+[73/88] TSGR1_92b/Docs/R1-1804963.zip
+  FAILED: 7zip failed: ERROR: Unsupported Method : R1-1804963_Disscussion on UL multiplexing of transmissions with different reliability requirements.doc
+
+
+[74/88] TSGR1_93/Docs/R1-1807179.zip
+  FAILED: 7zip failed: ERROR: Unsupported Method : R1-1807179_Remaining issues on CSI reporting .doc
+
+
+[75/88] TSGR1_94b/Docs/R1-1811092.zip
+  FAILED: 7zip failed: ERROR: Unsupported Method : R1-1811092_Discussion on support of unicast, groupcast and broadcast in NR V2X.doc
+
+
+[76/88] TSGR1_94b/Docs/R1-1811093.zip
+  FAILED: 7zip failed: ERROR: Unsupported Method : R1-1811093_Discussion on the resource allocation for NR-V2X.doc
+
+
+[77/88] TSGR1_94b/Docs/R1-1811094.zip
+  FAILED: 7zip failed: ERROR: Unsupported Method : R1-1811094_Discussion on UL inter UE Tx multiplexing.doc
+
+
+[78/88] TSGR1_95/Docs/R1-1812725.zip
+  FAILED: 7zip succeeded but no files extracted
+
+[79/88] TSGR1_95/Docs/R1-1813387.zip
+  FAILED: 7zip failed: ERROR: Unsupported Method : R1-1813387_Discussion on CSI enhancement for MU-MIMO.doc
+
+
+[80/88] TSGR1_95/Docs/R1-1813388.zip
+  FAILED: 7zip failed: ERROR: Unsupported Method : R1-1813388_Views on inter-UE Prioritization and Multiplexing of UL Transmission.doc
+
+
+[81/88] TSGR1_96/Docs/R1-1901999.zip
+  FAILED: 7zip failed: ERROR: /home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_96/Docs/R1-1901999.zip
+Can not open the file as archive
+
+
+
+[82/88] TSGR1_96/Docs/R1-1902000.zip
+  FAILED: 7zip failed: ERROR: /home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_96/Docs/R1-1902000.zip
+Can not open the file as archive
+
+
+
+[83/88] TSGR1_96/Docs/R1-1903457.zip
+  FAILED: 7zip failed: ERROR: Wrong password : R1-1903457.docx
+
+
+[84/88] TSGR1_96b/Docs/R1-1905644.zip
+  FAILED: 7zip failed: ERROR: /home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_96b/Docs/R1-1905644.zip
+Can not open the file as archive
+
+
+
+[85/88] TSGR1_97/Docs/R1-1907449.zip
+  FAILED: 7zip succeeded but no files extracted
+
+[86/88] TSGR1_98/Docs/R1-1908291.zip
+  FAILED: 7zip succeeded but no files extracted
+
+[87/88] TSGR1_99/Docs/R1-1912131.zip
+  SUCCESS: 1 files
+
+[88/88] TSGR1_99/Docs/R1-1912885.zip
+  SUCCESS: 1 files
+

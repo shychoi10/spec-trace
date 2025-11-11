@@ -1,0 +1,365 @@
+{
+  "start_time": "2025-11-07T15:15:20.778732",
+  "total_attempts": 88,
+  "success": 44,
+  "failed": 44,
+  "recovered_files": 44,
+  "success_details": [
+    {
+      "zip": "TSGR1_100_e/Docs/R1-2000919.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_100_e/Docs/R1-2000921.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_100b_e/Docs/R1-2002442.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_100b_e/Docs/R1-2002444.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_100b_e/Docs/R1-2002445.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_101-e/Docs/R1-2004389.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_101-e/Docs/R1-2004391.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_101-e/Docs/R1-2004392.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_101-e/Docs/R1-2004393.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_103-e/Docs/R1-2009183.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_103-e/Docs/R1-2009185.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_103-e/Docs/R1-2009198.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_104-e/Docs/R1-2101585.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_104-e/Docs/R1-2101613.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_104-e/Docs/R1-2101615.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_104-e/Docs/R1-2101635.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_104-e/Docs/R1-2101636.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_104b-e/Docs/R1-2102672.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_104b-e/Docs/R1-2102673.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_104b-e/Docs/R1-2103558.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_104b-e/Docs/R1-2103575.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_104b-e/Docs/R1-2103577.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_104b-e/Docs/R1-2103598.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_104b-e/Docs/R1-2103599.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_105-e/Docs/R1-2104881.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_105-e/Docs/R1-2104882.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_105-e/Docs/R1-2105682.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_106b-e/Docs/R1-2108841.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_106b-e/Docs/R1-2108842.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_106b-e/Docs/R1-2108844.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_106b-e/Docs/R1-2109671.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_106b-e/Docs/R1-2109672.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_106b-e/Docs/R1-2109674.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_106b-e/Docs/R1-2109706.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_106b-e/Docs/R1-2109708.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_107-e/Docs/R1-2112102.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_107-e/Docs/R1-2112103.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_107-e/Docs/R1-2112134.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_110b-e/Docs/R1-2209913.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_110b-e/Docs/R1-2209914.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_110b-e/Docs/R1-2209920.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_91/Docs/R1-1719594.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_99/Docs/R1-1912131.zip",
+      "files": 1
+    },
+    {
+      "zip": "TSGR1_99/Docs/R1-1912885.zip",
+      "files": 1
+    }
+  ],
+  "failed_details": [
+    {
+      "zip": "TSGR1_100_e/Docs/R1-2000165.zip",
+      "error": "7zip failed: \nERRORS:\nUnexpected end of archive\n\nERROR: Data Error : R1-2000165(R2-1916597).docx\n"
+    },
+    {
+      "zip": "TSGR1_104b-e/Docs/R1-2103795.zip",
+      "error": "7zip failed: \nERRORS:\nHeaders Error\nUnconfirmed start of archive\n\nERROR: Data Error : R1-2103795-AI7.2.4-QoS-summary1.docx\n"
+    },
+    {
+      "zip": "TSGR1_105-e/Docs/R1-2106242.zip",
+      "error": "7zip failed: \nERRORS:\nUnexpected end of archive\n\nERROR: Data Error : R1-2106242.docx\n"
+    },
+    {
+      "zip": "TSGR1_106-e/Docs/R1-2107735.zip",
+      "error": "7zip failed: \nERRORS:\nUnexpected end of archive\n\nERROR: Data Error : R1-2107735 Rel-17 URLLC UCI multiplexing design v3.docx\n"
+    },
+    {
+      "zip": "TSGR1_106-e/Docs/R1-2108077.zip",
+      "error": "7zip succeeded but no files extracted"
+    },
+    {
+      "zip": "TSGR1_106b-e/Docs/R1-2110427.zip",
+      "error": "7zip failed: \nERRORS:\nUnexpected end of archive\n\nERROR: Data Error : R1-2110427 Summary#5 - Enhancements for IIOT URLLC on Unlicensed Band - v096_Apple_Moderator.docx\n"
+    },
+    {
+      "zip": "TSGR1_107-e/Docs/R1-2110805.zip",
+      "error": "7zip failed: \nERRORS:\nUnexpected end of archive\n\nERROR: Data Error : R1-2110805.docx\n"
+    },
+    {
+      "zip": "TSGR1_109-e/Docs/R1-2205330.zip",
+      "error": "7zip succeeded but no files extracted"
+    },
+    {
+      "zip": "TSGR1_109-e/Docs/R1-2205390.zip",
+      "error": "7zip succeeded but no files extracted"
+    },
+    {
+      "zip": "TSGR1_110/Docs/R1-2207608.zip",
+      "error": "7zip succeeded but no files extracted"
+    },
+    {
+      "zip": "TSGR1_110/Docs/R1-2207628.zip",
+      "error": "7zip failed: ERROR: /home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_110/Docs/R1-2207628.zip\nCan not open the file as archive\n\n"
+    },
+    {
+      "zip": "TSGR1_110b-e/Docs/R1-2209510.zip",
+      "error": "7zip failed: ERROR: Unsupported Method : R1-2209510 Evaluation of AIML for Positioning Accuracy Enhancement.docx\n"
+    },
+    {
+      "zip": "TSGR1_111/Docs/R1-2212591.zip",
+      "error": "7zip failed: \nERRORS:\nUnexpected end of archive\n\nERROR: Data Error : R1-2212591_Feature lead summary #0 for AI in BM .docx\n"
+    },
+    {
+      "zip": "TSGR1_112/Docs/R1-2302132.zip",
+      "error": "7zip succeeded but no files extracted"
+    },
+    {
+      "zip": "TSGR1_112b-e/Docs/R1-2303340.zip",
+      "error": "7zip failed: ERROR: Unsupported Method : Pos-Supervised-NoLabelErr-Train-Test-Different-Setting.xlsx\nERROR: Unsupported Method : Pos-Supervised-NoLabelErr-Train-Test-Same-Setting.xlsx\nERROR: Unsupported Method : P"
+    },
+    {
+      "zip": "TSGR1_113/Docs/R1-2305977.zip",
+      "error": "7zip failed: \nERRORS:\nUnexpected end of archive\n\nERROR: Data Error : First FL summary of AI 9.12.2.docx\n"
+    },
+    {
+      "zip": "TSGR1_118/Docs/R1-2406107.zip",
+      "error": "7zip failed: \nERRORS:\nUnexpected end of archive\n\nERROR: Data Error : R1-2406107.docx\n"
+    },
+    {
+      "zip": "TSGR1_119/Docs/R1-2410655.zip",
+      "error": "7zip failed: \nERRORS:\nUnexpected end of archive\n\nERROR: Data Error : R1-2410655-FR3ChannelModeling.docx\n"
+    },
+    {
+      "zip": "TSGR1_119/Docs/R1-2410926.zip",
+      "error": "7zip failed: \nERRORS:\nUnexpected end of archive\n\nERROR: Data Error : R1-2410926 The Sharp Sound Man - final.mp4\n"
+    },
+    {
+      "zip": "TSGR1_120b/Docs/R1-2501956.zip",
+      "error": "7zip succeeded but no files extracted"
+    },
+    {
+      "zip": "TSGR1_120b/Docs/R1-2503045.zip",
+      "error": "7zip failed: \nERRORS:\nUnexpected end of archive\n\nERROR: Data Error : R1-2503045.docx\n"
+    },
+    {
+      "zip": "TSGR1_121/Docs/R1-2504834.zip",
+      "error": "7zip failed: \nERRORS:\nUnexpected end of archive\n\n"
+    },
+    {
+      "zip": "TSGR1_84/Docs/R1-160281.zip",
+      "error": "7zip failed: \nERRORS:\nUnexpected end of archive\n\nERROR: Data Error : R1-160281.doc\n"
+    },
+    {
+      "zip": "TSGR1_90/Docs/R1-1714489.zip",
+      "error": "7zip succeeded but no files extracted"
+    },
+    {
+      "zip": "TSGR1_90/Docs/R1-1715052.zip",
+      "error": "7zip failed: \nERRORS:\nUnexpected end of archive\n\nERROR: Data Error : R1-1715052 Rate-matching scheme for control channel.docx\n"
+    },
+    {
+      "zip": "TSGR1_90/Docs/R1-1715243.zip",
+      "error": "7zip failed: \nERRORS:\nUnexpected end of archive\n\nERROR: Data Error : R1-1715243 Design goal for CCE-REG interleaving.pptx\n"
+    },
+    {
+      "zip": "TSGR1_90b/Docs/R1-1718798.zip",
+      "error": "7zip failed: \nERRORS:\nUnexpected end of archive\n\nERROR: Data Error : R1-1718798 Summary CW2L Mapping V2.docx\n"
+    },
+    {
+      "zip": "TSGR1_90b/Docs/R1-1718898.zip",
+      "error": "7zip failed: \nERRORS:\nUnexpected end of archive\n\nERROR: Data Error : R1-1718898.docx\n"
+    },
+    {
+      "zip": "TSGR1_90b/Docs/R1-1718951.zip",
+      "error": "7zip succeeded but no files extracted"
+    },
+    {
+      "zip": "TSGR1_91/Docs/R1-1721430.zip",
+      "error": "7zip failed: \nERRORS:\nUnexpected end of archive\n\nERROR: Data Error : R1-1721430.doc\n"
+    },
+    {
+      "zip": "TSGR1_92b/Docs/R1-1804963.zip",
+      "error": "7zip failed: ERROR: Unsupported Method : R1-1804963_Disscussion on UL multiplexing of transmissions with different reliability requirements.doc\n"
+    },
+    {
+      "zip": "TSGR1_93/Docs/R1-1807179.zip",
+      "error": "7zip failed: ERROR: Unsupported Method : R1-1807179_Remaining issues on CSI reporting .doc\n"
+    },
+    {
+      "zip": "TSGR1_94b/Docs/R1-1811092.zip",
+      "error": "7zip failed: ERROR: Unsupported Method : R1-1811092_Discussion on support of unicast, groupcast and broadcast in NR V2X.doc\n"
+    },
+    {
+      "zip": "TSGR1_94b/Docs/R1-1811093.zip",
+      "error": "7zip failed: ERROR: Unsupported Method : R1-1811093_Discussion on the resource allocation for NR-V2X.doc\n"
+    },
+    {
+      "zip": "TSGR1_94b/Docs/R1-1811094.zip",
+      "error": "7zip failed: ERROR: Unsupported Method : R1-1811094_Discussion on UL inter UE Tx multiplexing.doc\n"
+    },
+    {
+      "zip": "TSGR1_95/Docs/R1-1812725.zip",
+      "error": "7zip succeeded but no files extracted"
+    },
+    {
+      "zip": "TSGR1_95/Docs/R1-1813387.zip",
+      "error": "7zip failed: ERROR: Unsupported Method : R1-1813387_Discussion on CSI enhancement for MU-MIMO.doc\n"
+    },
+    {
+      "zip": "TSGR1_95/Docs/R1-1813388.zip",
+      "error": "7zip failed: ERROR: Unsupported Method : R1-1813388_Views on inter-UE Prioritization and Multiplexing of UL Transmission.doc\n"
+    },
+    {
+      "zip": "TSGR1_96/Docs/R1-1901999.zip",
+      "error": "7zip failed: ERROR: /home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_96/Docs/R1-1901999.zip\nCan not open the file as archive\n\n"
+    },
+    {
+      "zip": "TSGR1_96/Docs/R1-1902000.zip",
+      "error": "7zip failed: ERROR: /home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_96/Docs/R1-1902000.zip\nCan not open the file as archive\n\n"
+    },
+    {
+      "zip": "TSGR1_96/Docs/R1-1903457.zip",
+      "error": "7zip failed: ERROR: Wrong password : R1-1903457.docx\n"
+    },
+    {
+      "zip": "TSGR1_96b/Docs/R1-1905644.zip",
+      "error": "7zip failed: ERROR: /home/sihyeon/workspace/spec-trace/data/data_raw/meetings/RAN1/TSGR1_96b/Docs/R1-1905644.zip\nCan not open the file as archive\n\n"
+    },
+    {
+      "zip": "TSGR1_97/Docs/R1-1907449.zip",
+      "error": "7zip succeeded but no files extracted"
+    },
+    {
+      "zip": "TSGR1_98/Docs/R1-1908291.zip",
+      "error": "7zip succeeded but no files extracted"
+    }
+  ],
+  "end_time": "2025-11-07T15:15:21.966727",
+  "duration_seconds": 1.187995
+}

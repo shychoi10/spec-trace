@@ -1,0 +1,25 @@
+{
+  "start_time": "2025-11-07T14:26:31.454286",
+  "total_failures": 10,
+  "corrupted_zips": [
+    "R1-160281.zip",
+    "R1-2406107.zip",
+    "R1-2104881.zip",
+    "R1-2104882.zip",
+    "R1-2106242.zip",
+    "R1-2503045.zip",
+    "R1-1715052.zip",
+    "R1-1715243.zip"
+  ],
+  "unsupported_compression": [
+    "R1-2105682.zip",
+    "R1-2004391.zip"
+  ],
+  "recovery_attempts": 2,
+  "recovery_success": 0,
+  "recovery_failed": 2,
+  "end_time": "2025-11-07T14:26:31.460096",
+  "duration_seconds": 0.00581,
+  "corrupted_count": 8,
+  "unsupported_count": 2
+}

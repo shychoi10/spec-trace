@@ -1,0 +1,13 @@
+{
+  "start_time": "2025-11-10T17:30:51.579547",
+  "total_files": 8,
+  "docx_copied": 7,
+  "doc_converted": 0,
+  "errors": [
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/specs/RAN1/38.201/38201-j00.doc",
+      "error": "Timeout (60s)"
+    }
+  ],
+  "end_time": "2025-11-10T17:31:51.644430"
+}

@@ -1,0 +1,495 @@
+{
+  "start_time": "2025-11-07T15:05:09.430761",
+  "total_zips": 119743,
+  "extracted_folders": 119524,
+  "missing_folders": 32,
+  "empty_folders": 88,
+  "intentional_cleanup": 99,
+  "true_failures": 120,
+  "missing_details": [
+    {
+      "zip": "TSGR1_100_e/Report/Archive/Final_Minutes_report_RAN1%23100-e_v100.zip",
+      "reason": "Folder not found"
+    },
+    {
+      "zip": "TSGR1_106-e/Report/Archive/Final_Minutes_report_RAN1%23106-e_v100.zip",
+      "reason": "Folder not found"
+    },
+    {
+      "zip": "TSGR1_106-e/Report/Archive/Final_Minutes_report_RAN1%23106-e_v200.zip",
+      "reason": "Folder not found"
+    },
+    {
+      "zip": "TSGR1_108-e/Report/Archive/Final_Minutes_report_RAN1%23108-e_v100.zip",
+      "reason": "Folder not found"
+    },
+    {
+      "zip": "TSGR1_116b/Report/Archive/Draft_Minutes_report_RAN1%23116b_v010.zip",
+      "reason": "Folder not found"
+    },
+    {
+      "zip": "TSGR1_116b/Report/Archive/Draft_Minutes_report_RAN1%23116b_v020.zip",
+      "reason": "Folder not found"
+    },
+    {
+      "zip": "TSGR1_116b/Report/Archive/Draft_Minutes_report_RAN1%23116b_v030.zip",
+      "reason": "Folder not found"
+    },
+    {
+      "zip": "TSGR1_118b/Report/Archive/Draft_Minutes_report_RAN1%23118b_v010.zip",
+      "reason": "Folder not found"
+    },
+    {
+      "zip": "TSGR1_118b/Report/Archive/Draft_Minutes_report_RAN1%23118b_v020.zip",
+      "reason": "Folder not found"
+    },
+    {
+      "zip": "TSGR1_120b/Report/Archive/Draft_Minutes_report_RAN1%23120b_v010.zip",
+      "reason": "Folder not found"
+    },
+    {
+      "zip": "TSGR1_120b/Report/Archive/Draft_Minutes_report_RAN1%23120b_v020.zip",
+      "reason": "Folder not found"
+    },
+    {
+      "zip": "TSGR1_84/Report/Final_Minutes_report_RAN1%2384_v100.zip",
+      "reason": "Folder not found"
+    },
+    {
+      "zip": "TSGR1_86/Report/Draft_Minutes_report_RAN1%2386_v010.zip",
+      "reason": "Folder not found"
+    },
+    {
+      "zip": "TSGR1_86/Report/Draft_Minutes_report_RAN1%2386_v020.zip",
+      "reason": "Folder not found"
+    },
+    {
+      "zip": "TSGR1_88b/Report/Draft_Minutes_report_RAN1%2388b_v010.zip",
+      "reason": "Folder not found"
+    },
+    {
+      "zip": "TSGR1_88b/Report/Draft_Minutes_report_RAN1%2388b_v020.zip",
+      "reason": "Folder not found"
+    },
+    {
+      "zip": "TSGR1_90/Report/Draft_Minutes_report_RAN1%2390_v010.zip",
+      "reason": "Folder not found"
+    },
+    {
+      "zip": "TSGR1_90/Report/Draft_Minutes_report_RAN1%2390_v020.zip",
+      "reason": "Folder not found"
+    },
+    {
+      "zip": "TSGR1_94/Report/Draft_Minutes_report_RAN1%2394_v010.zip",
+      "reason": "Folder not found"
+    },
+    {
+      "zip": "TSGR1_94/Report/Draft_Minutes_report_RAN1%2394_v020.zip",
+      "reason": "Folder not found"
+    },
+    {
+      "zip": "TSGR1_95/Report/Draft_Minutes_report_RAN1%2395_v010.zip",
+      "reason": "Folder not found"
+    },
+    {
+      "zip": "TSGR1_95/Report/Draft_Minutes_report_RAN1%2395_v020.zip",
+      "reason": "Folder not found"
+    },
+    {
+      "zip": "TSGR1_95/Report/Draft_Minutes_report_RAN1%2395_v030.zip",
+      "reason": "Folder not found"
+    },
+    {
+      "zip": "TSGR1_96/Report/Final_Minutes_report_RAN1%2396_v100.zip",
+      "reason": "Folder not found"
+    },
+    {
+      "zip": "TSGR1_96b/Report/Draft_Minutes_report_RAN1%2396b_v010.zip",
+      "reason": "Folder not found"
+    },
+    {
+      "zip": "TSGR1_96b/Report/Draft_Minutes_report_RAN1%2396b_v020.zip",
+      "reason": "Folder not found"
+    },
+    {
+      "zip": "TSGR1_97/Report/Draft_Minutes_report_RAN1%2397_v010.zip",
+      "reason": "Folder not found"
+    },
+    {
+      "zip": "TSGR1_97/Report/Draft_Minutes_report_RAN1%2397_v020.zip",
+      "reason": "Folder not found"
+    },
+    {
+      "zip": "TSGR1_97/Report/Draft_Minutes_report_RAN1%2397_v030.zip",
+      "reason": "Folder not found"
+    },
+    {
+      "zip": "TSGR1_98/Report/Final_Minutes_report_RAN1%2398_v100.zip",
+      "reason": "Folder not found"
+    },
+    {
+      "zip": "TSGR1_98b/Report/Draft_Minutes_report_RAN1%2398b_v010.zip",
+      "reason": "Folder not found"
+    },
+    {
+      "zip": "TSGR1_98b/Report/Final_Minutes_report_RAN1%2398b_v100.zip",
+      "reason": "Folder not found"
+    }
+  ],
+  "empty_details": [
+    {
+      "zip": "TSGR1_100_e/Docs/R1-2000165.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_100_e/Docs/R1-2000919.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_100_e/Docs/R1-2000921.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_100b_e/Docs/R1-2002442.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_100b_e/Docs/R1-2002444.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_100b_e/Docs/R1-2002445.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_101-e/Docs/R1-2004389.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_101-e/Docs/R1-2004391.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_101-e/Docs/R1-2004392.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_101-e/Docs/R1-2004393.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_103-e/Docs/R1-2009183.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_103-e/Docs/R1-2009185.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_103-e/Docs/R1-2009198.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_104-e/Docs/R1-2101585.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_104-e/Docs/R1-2101613.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_104-e/Docs/R1-2101615.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_104-e/Docs/R1-2101635.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_104-e/Docs/R1-2101636.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_104b-e/Docs/R1-2102672.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_104b-e/Docs/R1-2102673.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_104b-e/Docs/R1-2103558.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_104b-e/Docs/R1-2103575.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_104b-e/Docs/R1-2103577.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_104b-e/Docs/R1-2103598.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_104b-e/Docs/R1-2103599.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_104b-e/Docs/R1-2103795.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_105-e/Docs/R1-2104881.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_105-e/Docs/R1-2104882.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_105-e/Docs/R1-2105682.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_105-e/Docs/R1-2106242.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_106-e/Docs/R1-2107735.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_106-e/Docs/R1-2108077.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_106b-e/Docs/R1-2108841.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_106b-e/Docs/R1-2108842.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_106b-e/Docs/R1-2108844.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_106b-e/Docs/R1-2109671.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_106b-e/Docs/R1-2109672.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_106b-e/Docs/R1-2109674.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_106b-e/Docs/R1-2109706.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_106b-e/Docs/R1-2109708.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_106b-e/Docs/R1-2110427.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_107-e/Docs/R1-2110805.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_107-e/Docs/R1-2112102.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_107-e/Docs/R1-2112103.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_107-e/Docs/R1-2112134.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_109-e/Docs/R1-2205330.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_109-e/Docs/R1-2205390.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_110/Docs/R1-2207608.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_110/Docs/R1-2207628.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_110b-e/Docs/R1-2209510.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_110b-e/Docs/R1-2209913.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_110b-e/Docs/R1-2209914.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_110b-e/Docs/R1-2209920.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_111/Docs/R1-2212591.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_112/Docs/R1-2302132.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_112b-e/Docs/R1-2303340.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_113/Docs/R1-2305977.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_118/Docs/R1-2406107.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_119/Docs/R1-2410655.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_119/Docs/R1-2410926.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_120b/Docs/R1-2501956.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_120b/Docs/R1-2503045.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_121/Docs/R1-2504834.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_84/Docs/R1-160281.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_90/Docs/R1-1714489.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_90/Docs/R1-1715052.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_90/Docs/R1-1715243.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_90b/Docs/R1-1718798.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_90b/Docs/R1-1718898.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_90b/Docs/R1-1718951.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_91/Docs/R1-1719594.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_91/Docs/R1-1721430.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_92b/Docs/R1-1804963.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_93/Docs/R1-1807179.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_94b/Docs/R1-1811092.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_94b/Docs/R1-1811093.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_94b/Docs/R1-1811094.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_95/Docs/R1-1812725.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_95/Docs/R1-1813387.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_95/Docs/R1-1813388.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_96/Docs/R1-1901999.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_96/Docs/R1-1902000.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_96/Docs/R1-1903457.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_96b/Docs/R1-1905644.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_97/Docs/R1-1907449.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_98/Docs/R1-1908291.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_99/Docs/R1-1912131.zip",
+      "reason": "Folder exists but empty"
+    },
+    {
+      "zip": "TSGR1_99/Docs/R1-1912885.zip",
+      "reason": "Folder exists but empty"
+    }
+  ],
+  "end_time": "2025-11-07T15:05:11.294275",
+  "success_rate": "99.82%"
+}

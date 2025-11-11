@@ -1,0 +1,1292 @@
+{
+  "start_time": "2025-11-10T17:41:30.692356",
+  "total_files": 2629,
+  "docx_copied": 2115,
+  "doc_converted": 194,
+  "skipped_already_converted": 0,
+  "errors": [
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-15/TSG/RP-180200/RP-180200_cover.doc",
+      "error": "(process:144501): dconf-CRITICAL **: 17:41:30.852: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-15/TSG/RP-180200/38214_CR0001_(Rel-15)_R1-1803555.doc",
+      "error": "(process:144496): dconf-CRITICAL **: 17:41:30.857: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-15/TSG/RP-181172/38202_CR0002r1_(Rel-15)_R1-1807954.doc",
+      "error": "(process:144510): dconf-CRITICAL **: 17:41:30.871: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-15/TSG/RP-180200/38202_CR0001_(Rel-15)_R1-1803551.doc",
+      "error": "(process:144490): dconf-CRITICAL **: 17:41:30.853: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-15/TSG/RP-180200/38212_CR0001_(Rel-15)_R1-1803553.doc",
+      "error": "(process:144495): dconf-CRITICAL **: 17:41:30.852: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-15/TSG/RP-181172/RP-181172_cover.doc",
+      "error": "(process:145562): dconf-CRITICAL **: 17:42:05.538: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-15/TSG/RP-182523/RP-182523_cover.doc",
+      "error": "(process:145671): dconf-CRITICAL **: 17:42:05.596: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-15/TSG/RP-182523/38215_CR0005r3_(Rel-15)_R1-1814403.doc",
+      "error": "(process:145673): dconf-CRITICAL **: 17:42:05.602: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-15/TSG/RP-181257/38202_CR0003_(Rel-15)_R1-1807961.doc",
+      "error": "(process:145603): dconf-CRITICAL **: 17:42:05.545: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-15/TSG/RP-182523/38202_CR0005_(Rel-15)_R1-1814391.doc",
+      "error": "(process:145651): dconf-CRITICAL **: 17:42:05.569: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-15/TSG/RP-190448/RP-190448_cover.doc",
+      "error": "(process:146439): dconf-CRITICAL **: 17:42:29.383: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-15/TSG/RP-191940/RP-191940_cover.doc",
+      "error": "(process:146516): dconf-CRITICAL **: 17:42:29.435: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-15/TSG/RP-181257/RP-181257_cover.doc",
+      "error": "(process:145654): dconf-CRITICAL **: 17:42:05.564: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-15/TSG/RP-201803/RP-201803_cover.doc",
+      "error": "(process:146845): dconf-CRITICAL **: 17:42:31.289: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-15/TSG/RP-191281/RP-191281_cover.doc",
+      "error": "(process:146493): dconf-CRITICAL **: 17:42:29.407: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-15/TSG/RP-192625/RP-192625_cover.doc",
+      "error": "(process:146688): dconf-CRITICAL **: 17:42:30.398: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-15/TSG/RP-191282/RP-191282_cover.doc",
+      "error": "(process:146509): dconf-CRITICAL **: 17:42:29.420: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-15/TSG/RP-202379/RP-202379_cover.doc",
+      "error": "(process:147039): dconf-CRITICAL **: 17:42:33.333: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-15/TSG/RP-211233/RP-211233_cover.doc",
+      "error": "(process:147043): dconf-CRITICAL **: 17:42:33.341: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-192636/RP-192636_cover.doc",
+      "error": "(process:147345): dconf-CRITICAL **: 17:42:35.408: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-192642/RP-192642_cover.doc",
+      "error": "(process:147522): dconf-CRITICAL **: 17:42:36.282: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-192634/RP-192634_cover.doc",
+      "error": "(process:147319): dconf-CRITICAL **: 17:42:35.365: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-192635/RP-192635_cover.doc",
+      "error": "(process:147335): dconf-CRITICAL **: 17:42:35.386: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-15/TSG/RP-221596/RP-221596_cover.doc",
+      "error": "(process:147321): dconf-CRITICAL **: 17:42:35.368: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-200191/RP-200191_cover.doc",
+      "error": "(process:147754): dconf-CRITICAL **: 17:42:37.224: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-200183/RP-200183_cover.doc",
+      "error": "(process:147752): dconf-CRITICAL **: 17:42:37.223: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-200683/RP-200683_cover.doc",
+      "error": "(process:148265): dconf-CRITICAL **: 17:42:39.898: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-200188/RP-200188_cover.doc",
+      "error": "(process:147734): dconf-CRITICAL **: 17:42:37.208: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:147815): dconf-CRITICAL **: 17:42:37.403: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:147912): dconf-CRITICAL **: 17:42:37.606: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-15/TSG/RP-211841/RP-211841_cover.doc",
+      "error": "(process:147140): dconf-CRITICAL **: 17:42:34.211: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:147923): dconf-CRITICAL **: 17:42:37.755: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:147938): dconf-CRITICAL **: 17:42:37.941: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:147989): dconf-CRITICAL **: 17:42:38.117: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-15/TSG/RP-212958/RP-212958_cover.doc",
+      "error": "(process:147138): dconf-CRITICAL **: 17:42:34.211: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-200689/RP-200689_cover.doc",
+      "error": "(process:148288): dconf-CRITICAL **: 17:42:39.931: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-200695/RP-200695_cover.doc",
+      "error": "(process:148575): dconf-CRITICAL **: 17:42:41.725: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-200706/RP-200706_cover.doc",
+      "error": "(process:148606): dconf-CRITICAL **: 17:42:41.771: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-200685/RP-200685_cover.doc",
+      "error": "(process:148283): dconf-CRITICAL **: 17:42:39.920: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-201806/RP-201806_cover.doc",
+      "error": "(process:148950): dconf-CRITICAL **: 17:42:43.608: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-201805/RP-201805_cover.doc",
+      "error": "(process:148839): dconf-CRITICAL **: 17:42:42.750: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-201803/RP-201803_cover.doc",
+      "error": "(process:148835): dconf-CRITICAL **: 17:42:42.741: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-201812/RP-201812_cover.doc",
+      "error": "(process:149242): dconf-CRITICAL **: 17:42:45.461: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-201810/RP-201810_cover.doc",
+      "error": "(process:149128): dconf-CRITICAL **: 17:42:44.587: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-201811/RP-201811_cover.doc",
+      "error": "(process:149130): dconf-CRITICAL **: 17:42:44.590: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-202379/RP-202379_cover.doc",
+      "error": "(process:149483): dconf-CRITICAL **: 17:42:47.319: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-202381/RP-202381_cover.doc",
+      "error": "(process:149645): dconf-CRITICAL **: 17:42:48.220: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-201824/RP-201824_cover.doc",
+      "error": "(process:149479): dconf-CRITICAL **: 17:42:47.304: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-201813/RP-201813_cover.doc",
+      "error": "(process:149452): dconf-CRITICAL **: 17:42:47.274: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-201814/RP-201814_cover.doc",
+      "error": "(process:149450): dconf-CRITICAL **: 17:42:47.275: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-200697/RP-200697_cover.doc",
+      "error": "(process:148583): dconf-CRITICAL **: 17:42:41.728: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-202383/RP-202383_cover.doc",
+      "error": "(process:150032): dconf-CRITICAL **: 17:42:50.006: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-202385/38214_CR0136_(Rel-16)_R1-2009457.doc",
+      "error": "(process:150079): dconf-CRITICAL **: 17:42:50.045: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-202385/38214_CR0139_(Rel-16)_R1-2009506.doc",
+      "error": "(process:150087): dconf-CRITICAL **: 17:42:50.061: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-202385/38213_CR0148_(Rel-16)_R1-2009458.doc",
+      "error": "(process:150065): dconf-CRITICAL **: 17:42:50.024: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-202385/RP-202385_cover.doc",
+      "error": "(process:150291): dconf-CRITICAL **: 17:42:51.926: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-202385/38214_CR0146_(Rel-16)_R1-2009686.doc",
+      "error": "(process:150289): dconf-CRITICAL **: 17:42:51.920: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-202387/RP-202387_cover.doc",
+      "error": "(process:150412): dconf-CRITICAL **: 17:42:52.817: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-202388/RP-202388_cover.doc",
+      "error": "(process:150410): dconf-CRITICAL **: 17:42:52.814: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-202395/RP-202395_cover.doc",
+      "error": "(process:150665): dconf-CRITICAL **: 17:42:54.555: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-210047/RP-210047_cover.doc",
+      "error": "(process:150736): dconf-CRITICAL **: 17:42:54.605: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-210049/RP-210049_cover.doc",
+      "error": "(process:150741): dconf-CRITICAL **: 17:42:54.619: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-202401/RP-202401_cover.doc",
+      "error": "(process:150680): dconf-CRITICAL **: 17:42:54.556: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-210051/RP-210051_cover.doc",
+      "error": "(process:150944): dconf-CRITICAL **: 17:42:56.376: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-210050/RP-210050_cover.doc",
+      "error": "(process:150942): dconf-CRITICAL **: 17:42:56.375: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-210053/RP-210053_cover.doc",
+      "error": "(process:151045): dconf-CRITICAL **: 17:42:57.237: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-210052/RP-210052_cover.doc",
+      "error": "(process:151047): dconf-CRITICAL **: 17:42:57.235: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-210055/RP-210055_cover.doc",
+      "error": "(process:151297): dconf-CRITICAL **: 17:42:58.984: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-211234/RP-211234_cover.doc",
+      "error": "(process:151377): dconf-CRITICAL **: 17:42:59.034: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-210054/RP-210054_cover.doc",
+      "error": "(process:151140): dconf-CRITICAL **: 17:42:58.089: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-211235/RP-211235_cover.doc",
+      "error": "(process:151375): dconf-CRITICAL **: 17:42:59.034: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-210058/RP-210058_cover.doc",
+      "error": "(process:151300): dconf-CRITICAL **: 17:42:58.990: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-211237/RP-211237_cover.doc",
+      "error": "(process:151734): dconf-CRITICAL **: 17:43:00.837: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-211238/RP-211238_cover.doc",
+      "error": "(process:151784): dconf-CRITICAL **: 17:43:00.887: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-210059/RP-210059_cover.doc",
+      "error": "(process:151339): dconf-CRITICAL **: 17:42:59.002: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-211240/RP-211240_cover.doc",
+      "error": "(process:151786): dconf-CRITICAL **: 17:43:00.885: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-211239/RP-211239_cover.doc",
+      "error": "(process:151780): dconf-CRITICAL **: 17:43:00.878: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-211248/RP-211248_cover.doc",
+      "error": "(process:152108): dconf-CRITICAL **: 17:43:02.697: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-211842/RP-211842_cover.doc",
+      "error": "(process:152194): dconf-CRITICAL **: 17:43:02.746: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-211841/RP-211841_cover.doc",
+      "error": "(process:152197): dconf-CRITICAL **: 17:43:02.752: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-211251/RP-211251_cover.doc",
+      "error": "(process:152188): dconf-CRITICAL **: 17:43:02.733: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-211250/RP-211250_cover.doc",
+      "error": "(process:152126): dconf-CRITICAL **: 17:43:02.699: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-211845/RP-211845_cover.doc",
+      "error": "(process:152464): dconf-CRITICAL **: 17:43:04.552: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-211850/RP-211850_cover.doc",
+      "error": "(process:152537): dconf-CRITICAL **: 17:43:04.594: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-212958/RP-212958_cover.doc",
+      "error": "(process:152545): dconf-CRITICAL **: 17:43:04.603: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-211847/RP-211847_cover.doc",
+      "error": "(process:152540): dconf-CRITICAL **: 17:43:04.591: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-211844/RP-211844_cover.doc",
+      "error": "(process:152493): dconf-CRITICAL **: 17:43:04.561: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-212961/RP-212961_cover.doc",
+      "error": "(process:152844): dconf-CRITICAL **: 17:43:06.391: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-213238/RP-213238_cover.doc",
+      "error": "(process:152877): dconf-CRITICAL **: 17:43:06.431: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-220244/RP-220244_cover.doc",
+      "error": "(process:152887): dconf-CRITICAL **: 17:43:06.449: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-212964/RP-212964_cover.doc",
+      "error": "(process:152875): dconf-CRITICAL **: 17:43:06.430: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-220245/RP-220245_cover.doc",
+      "error": "(process:153085): dconf-CRITICAL **: 17:43:08.235: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-220247/RP-220247_cover.doc",
+      "error": "(process:153087): dconf-CRITICAL **: 17:43:08.231: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-220249/RP-220249_cover.doc",
+      "error": "(process:153169): dconf-CRITICAL **: 17:43:09.095: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-220248/RP-220248_cover.doc",
+      "error": "(process:153164): dconf-CRITICAL **: 17:43:09.098: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-220272/RP-220272_cover.doc",
+      "error": "(process:153441): dconf-CRITICAL **: 17:43:10.849: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-221599/RP-221599_cover.doc",
+      "error": "(process:153506): dconf-CRITICAL **: 17:43:10.889: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-220269/RP-220269_cover.doc",
+      "error": "(process:153276): dconf-CRITICAL **: 17:43:09.962: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-221598/RP-221598_cover.doc",
+      "error": "(process:153475): dconf-CRITICAL **: 17:43:10.853: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-222397/RP-222397_cover.doc",
+      "error": "(process:153806): dconf-CRITICAL **: 17:43:12.680: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-221620/RP-221620_cover.doc",
+      "error": "(process:153804): dconf-CRITICAL **: 17:43:12.680: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-222399/RP-222399_cover.doc",
+      "error": "(process:153978): dconf-CRITICAL **: 17:43:13.520: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-222417/RP-222417_cover.doc",
+      "error": "(process:153980): dconf-CRITICAL **: 17:43:13.517: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-222850/RP-222850_cover.doc",
+      "error": "(process:154253): dconf-CRITICAL **: 17:43:15.263: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-222867/RP-222867_cover.doc",
+      "error": "(process:154300): dconf-CRITICAL **: 17:43:15.301: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-222419/RP-222419_cover.doc",
+      "error": "(process:154073): dconf-CRITICAL **: 17:43:14.373: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-231227/RP-231227_cover.doc",
+      "error": "(process:154641): dconf-CRITICAL **: 17:43:17.118: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-230445/RP-230445_cover.doc",
+      "error": "(process:154521): dconf-CRITICAL **: 17:43:16.239: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-230454/RP-230454_cover.doc",
+      "error": "(process:154523): dconf-CRITICAL **: 17:43:16.242: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-231230/RP-231230_cover.doc",
+      "error": "(process:154819): dconf-CRITICAL **: 17:43:18.081: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:154848): dconf-CRITICAL **: 17:43:18.261: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:154862): dconf-CRITICAL **: 17:43:18.429: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:154872): dconf-CRITICAL **: 17:43:18.601: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:154882): dconf-CRITICAL **: 17:43:18.776: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:154932): dconf-CRITICAL **: 17:43:18.948: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-231231/RP-231231_cover.doc",
+      "error": "(process:154821): dconf-CRITICAL **: 17:43:18.081: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-231228/RP-231228_cover.doc",
+      "error": "(process:154817): dconf-CRITICAL **: 17:43:18.082: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-232452/RP-232452_cover.doc",
+      "error": "(process:155097): dconf-CRITICAL **: 17:43:19.900: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:155138): dconf-CRITICAL **: 17:43:20.082: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:155152): dconf-CRITICAL **: 17:43:20.251: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:155162): dconf-CRITICAL **: 17:43:20.422: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:155172): dconf-CRITICAL **: 17:43:20.593: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:155220): dconf-CRITICAL **: 17:43:20.764: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-233726/RP-233726_cover.doc",
+      "error": "(process:155110): dconf-CRITICAL **: 17:43:19.921: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-233703/RP-233703_cover.doc",
+      "error": "(process:155102): dconf-CRITICAL **: 17:43:19.905: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-240536/RP-240536_cover.doc",
+      "error": "(process:155529): dconf-CRITICAL **: 17:43:22.610: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-240533/RP-240533_cover.doc",
+      "error": "(process:155410): dconf-CRITICAL **: 17:43:21.750: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-240532/RP-240532_cover.doc",
+      "error": "(process:155402): dconf-CRITICAL **: 17:43:21.726: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-222851/RP-222851_cover.doc",
+      "error": "(process:154276): dconf-CRITICAL **: 17:43:15.272: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-222849/RP-222849_cover.doc",
+      "error": "(process:154254): dconf-CRITICAL **: 17:43:15.275: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-16/TSG/RP-241064/RP-241064_cover.doc",
+      "error": "(process:155938): dconf-CRITICAL **: 17:43:24.416: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-212973/RP-212973_cover.doc",
+      "error": "(process:155992): dconf-CRITICAL **: 17:43:24.468: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-212972/RP-212972_cover.doc",
+      "error": "(process:155990): dconf-CRITICAL **: 17:43:24.469: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-212970/RP-212970_cover.doc",
+      "error": "(process:155979): dconf-CRITICAL **: 17:43:24.443: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-212971/RP-212971_cover.doc",
+      "error": "(process:155984): dconf-CRITICAL **: 17:43:24.458: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-212979/RP-212979_cover.doc",
+      "error": "(process:156255): dconf-CRITICAL **: 17:43:26.291: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-212982/RP-212982_cover.doc",
+      "error": "(process:156333): dconf-CRITICAL **: 17:43:26.350: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-212983/RP-212983_cover.doc",
+      "error": "(process:156336): dconf-CRITICAL **: 17:43:26.353: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\nterminate called after throwing an instance of 'com::sun::star::deployment::DeploymentException'\nUnspecified Application Error"
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-220247/RP-220247_cover.doc",
+      "error": "(process:156659): dconf-CRITICAL **: 17:43:28.166: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-213524/RP-213524_cover.doc",
+      "error": "(process:156536): dconf-CRITICAL **: 17:43:27.281: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-220245/RP-220245_cover.doc",
+      "error": "(process:156538): dconf-CRITICAL **: 17:43:27.283: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-220252/RP-220252_cover.doc",
+      "error": "(process:156934): dconf-CRITICAL **: 17:43:29.978: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-212980/RP-212980_cover.doc",
+      "error": "(process:156323): dconf-CRITICAL **: 17:43:26.332: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-220256/RP-220256_cover.doc",
+      "error": "(process:157209): dconf-CRITICAL **: 17:43:31.837: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-220254/RP-220254_cover.doc",
+      "error": "(process:157096): dconf-CRITICAL **: 17:43:31.033: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-212981/RP-212981_cover.doc",
+      "error": "(process:156318): dconf-CRITICAL **: 17:43:26.324: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:157148): dconf-CRITICAL **: 17:43:31.505: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:157159): dconf-CRITICAL **: 17:43:31.676: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-220263/RP-220263_cover.doc",
+      "error": "(process:157455): dconf-CRITICAL **: 17:43:33.623: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-220250/RP-220250_cover.doc",
+      "error": "(process:156791): dconf-CRITICAL **: 17:43:29.114: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:157072): dconf-CRITICAL **: 17:43:31.009: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:157122): dconf-CRITICAL **: 17:43:31.189: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:157137): dconf-CRITICAL **: 17:43:31.357: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-220270/RP-220270_cover.doc",
+      "error": "(process:158130): dconf-CRITICAL **: 17:43:37.162: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-220264/RP-220264_cover.doc",
+      "error": "(process:157453): dconf-CRITICAL **: 17:43:33.620: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-220257/RP-220257_cover.doc",
+      "error": "(process:157416): dconf-CRITICAL **: 17:43:33.584: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-220267/RP-220267_cover.doc",
+      "error": "(process:157810): dconf-CRITICAL **: 17:43:35.389: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:158020): dconf-CRITICAL **: 17:43:36.686: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:158031): dconf-CRITICAL **: 17:43:36.862: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-220261/RP-220261_cover.doc",
+      "error": "(process:157412): dconf-CRITICAL **: 17:43:33.583: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:157486): dconf-CRITICAL **: 17:43:33.774: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:157544): dconf-CRITICAL **: 17:43:33.953: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:157555): dconf-CRITICAL **: 17:43:34.125: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:157572): dconf-CRITICAL **: 17:43:34.301: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:157608): dconf-CRITICAL **: 17:43:34.473: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:157649): dconf-CRITICAL **: 17:43:34.647: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:157693): dconf-CRITICAL **: 17:43:34.826: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:157740): dconf-CRITICAL **: 17:43:35.009: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:157750): dconf-CRITICAL **: 17:43:35.177: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:157795): dconf-CRITICAL **: 17:43:35.359: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:157826): dconf-CRITICAL **: 17:43:35.538: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:157851): dconf-CRITICAL **: 17:43:35.719: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:157867): dconf-CRITICAL **: 17:43:35.899: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:157922): dconf-CRITICAL **: 17:43:36.070: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:157979): dconf-CRITICAL **: 17:43:36.244: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:158046): dconf-CRITICAL **: 17:43:37.008: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:158135): dconf-CRITICAL **: 17:43:37.184: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-220273/RP-220273_cover.doc",
+      "error": "(process:158394): dconf-CRITICAL **: 17:43:38.951: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-221600/RP-221600_cover.doc",
+      "error": "(process:158439): dconf-CRITICAL **: 17:43:38.984: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-221604/RP-221604_cover.doc",
+      "error": "(process:158689): dconf-CRITICAL **: 17:43:40.799: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-221599/RP-221599_cover.doc",
+      "error": "(process:158421): dconf-CRITICAL **: 17:43:38.961: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-220271/RP-220271_cover.doc",
+      "error": "(process:158133): dconf-CRITICAL **: 17:43:37.168: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:158531): dconf-CRITICAL **: 17:43:39.985: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:158541): dconf-CRITICAL **: 17:43:40.158: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:158552): dconf-CRITICAL **: 17:43:40.328: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-221611/RP-221611_cover.doc",
+      "error": "(process:159021): dconf-CRITICAL **: 17:43:42.651: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-221597/RP-221597_cover.doc",
+      "error": "(process:158413): dconf-CRITICAL **: 17:43:38.952: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:158569): dconf-CRITICAL **: 17:43:40.484: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:158579): dconf-CRITICAL **: 17:43:40.656: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:158711): dconf-CRITICAL **: 17:43:40.838: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-221607/RP-221607_cover.doc",
+      "error": "(process:158871): dconf-CRITICAL **: 17:43:41.772: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-221617/RP-221617_cover.doc",
+      "error": "(process:159273): dconf-CRITICAL **: 17:43:44.504: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-221619/RP-221619_cover.doc",
+      "error": "(process:159579): dconf-CRITICAL **: 17:43:46.290: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-221616/RP-221616_cover.doc",
+      "error": "(process:159263): dconf-CRITICAL **: 17:43:44.483: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-221613/RP-221613_cover.doc",
+      "error": "(process:159220): dconf-CRITICAL **: 17:43:44.456: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-222398/RP-222398_cover.doc",
+      "error": "(process:159822): dconf-CRITICAL **: 17:43:47.167: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:159858): dconf-CRITICAL **: 17:43:47.360: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:159913): dconf-CRITICAL **: 17:43:47.539: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:159925): dconf-CRITICAL **: 17:43:47.702: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:159935): dconf-CRITICAL **: 17:43:47.880: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:159985): dconf-CRITICAL **: 17:43:48.054: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-222400/RP-222400_cover.doc",
+      "error": "(process:159829): dconf-CRITICAL **: 17:43:47.191: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-222397/RP-222397_cover.doc",
+      "error": "(process:159818): dconf-CRITICAL **: 17:43:47.169: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-222403/RP-222403_cover.doc",
+      "error": "(process:160118): dconf-CRITICAL **: 17:43:49.016: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:160147): dconf-CRITICAL **: 17:43:49.199: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:160160): dconf-CRITICAL **: 17:43:49.369: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:160171): dconf-CRITICAL **: 17:43:49.549: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:160181): dconf-CRITICAL **: 17:43:49.720: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:160267): dconf-CRITICAL **: 17:43:49.890: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-221603/RP-221603_cover.doc",
+      "error": "(process:158684): dconf-CRITICAL **: 17:43:40.800: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-222402/RP-222402_cover.doc",
+      "error": "(process:160124): dconf-CRITICAL **: 17:43:49.024: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-221605/RP-221605_cover.doc",
+      "error": "(process:158709): dconf-CRITICAL **: 17:43:40.839: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-221620/RP-221620_cover.doc",
+      "error": "(process:159581): dconf-CRITICAL **: 17:43:46.291: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-222411/RP-222411_cover.doc",
+      "error": "(process:160526): dconf-CRITICAL **: 17:43:51.713: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-222414/RP-222414_cover.doc",
+      "error": "(process:160586): dconf-CRITICAL **: 17:43:51.764: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-222421/RP-222421_cover.doc",
+      "error": "(process:160879): dconf-CRITICAL **: 17:43:53.591: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-222417/RP-222417_cover.doc",
+      "error": "(process:160757): dconf-CRITICAL **: 17:43:52.771: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-222419/RP-222419_cover.doc",
+      "error": "(process:160759): dconf-CRITICAL **: 17:43:52.770: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-222415/RP-222415_cover.doc",
+      "error": "(process:160592): dconf-CRITICAL **: 17:43:51.777: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:160739): dconf-CRITICAL **: 17:43:52.743: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:160797): dconf-CRITICAL **: 17:43:52.929: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:160807): dconf-CRITICAL **: 17:43:53.096: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-222410/RP-222410_cover.doc",
+      "error": "(process:160537): dconf-CRITICAL **: 17:43:51.720: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-222850/RP-222850_cover.doc",
+      "error": "(process:161116): dconf-CRITICAL **: 17:43:55.406: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-222852/RP-222852_cover.doc",
+      "error": "(process:161195): dconf-CRITICAL **: 17:43:55.456: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-222853/RP-222853_cover.doc",
+      "error": "(process:161189): dconf-CRITICAL **: 17:43:55.447: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:161427): dconf-CRITICAL **: 17:43:56.938: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:161448): dconf-CRITICAL **: 17:43:57.108: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:161499): dconf-CRITICAL **: 17:43:57.283: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-222855/RP-222855_cover.doc",
+      "error": "(process:161375): dconf-CRITICAL **: 17:43:56.459: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-222862/RP-222862_cover.doc",
+      "error": "(process:161716): dconf-CRITICAL **: 17:43:58.317: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-222859/RP-222859_cover.doc",
+      "error": "(process:161718): dconf-CRITICAL **: 17:43:58.318: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-222854/RP-222854_cover.doc",
+      "error": "(process:161200): dconf-CRITICAL **: 17:43:55.467: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:161353): dconf-CRITICAL **: 17:43:56.433: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:161402): dconf-CRITICAL **: 17:43:56.607: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:161416): dconf-CRITICAL **: 17:43:56.782: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-222856/RP-222856_cover.doc",
+      "error": "(process:161372): dconf-CRITICAL **: 17:43:56.450: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:161696): dconf-CRITICAL **: 17:43:58.289: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:161746): dconf-CRITICAL **: 17:43:58.477: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:161764): dconf-CRITICAL **: 17:43:58.662: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-222851/RP-222851_cover.doc",
+      "error": "(process:161184): dconf-CRITICAL **: 17:43:55.441: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-222865/RP-222865_cover.doc",
+      "error": "(process:162114): dconf-CRITICAL **: 17:44:00.821: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-222868/RP-222868_cover.doc",
+      "error": "(process:162175): dconf-CRITICAL **: 17:44:00.870: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-230439/RP-230439_cover.doc",
+      "error": "(process:162437): dconf-CRITICAL **: 17:44:02.714: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-222869/RP-222869_cover.doc",
+      "error": "(process:162172): dconf-CRITICAL **: 17:44:00.854: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-222871/RP-222871_cover.doc",
+      "error": "(process:162176): dconf-CRITICAL **: 17:44:00.869: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-230450/RP-230450_cover.doc",
+      "error": "(process:162728): dconf-CRITICAL **: 17:44:04.625: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-230454/RP-230454_cover.doc",
+      "error": "(process:163004): dconf-CRITICAL **: 17:44:06.390: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-230445/RP-230445_cover.doc",
+      "error": "(process:162689): dconf-CRITICAL **: 17:44:04.583: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-230441/RP-230441_cover.doc",
+      "error": "(process:162443): dconf-CRITICAL **: 17:44:02.720: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-230444/RP-230444_cover.doc",
+      "error": "(process:162467): dconf-CRITICAL **: 17:44:02.758: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-231220/RP-231220_cover.doc",
+      "error": "(process:163236): dconf-CRITICAL **: 17:44:08.171: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-231224/RP-231224_cover.doc",
+      "error": "(process:163266): dconf-CRITICAL **: 17:44:08.205: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-230452/RP-230452_cover.doc",
+      "error": "(process:162893): dconf-CRITICAL **: 17:44:05.487: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-231226/RP-231226_cover.doc",
+      "error": "(process:163424): dconf-CRITICAL **: 17:44:09.142: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:163488): dconf-CRITICAL **: 17:44:09.331: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:163541): dconf-CRITICAL **: 17:44:09.511: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:163556): dconf-CRITICAL **: 17:44:09.678: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:163570): dconf-CRITICAL **: 17:44:09.860: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:163657): dconf-CRITICAL **: 17:44:10.045: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-231223/RP-231223_cover.doc",
+      "error": "(process:163261): dconf-CRITICAL **: 17:44:08.189: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-231227/RP-231227_cover.doc",
+      "error": "(process:163426): dconf-CRITICAL **: 17:44:09.148: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-231229/RP-231229_cover.doc",
+      "error": "(process:163659): dconf-CRITICAL **: 17:44:10.056: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-231221/RP-231221_cover.doc",
+      "error": "(process:163258): dconf-CRITICAL **: 17:44:08.189: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-231232/RP-231232_cover.doc",
+      "error": "(process:164003): dconf-CRITICAL **: 17:44:11.882: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-232448/RP-232448_cover.doc",
+      "error": "(process:164029): dconf-CRITICAL **: 17:44:11.911: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-232447/RP-232447_cover.doc",
+      "error": "(process:164026): dconf-CRITICAL **: 17:44:11.908: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-232449/RP-232449_cover.doc",
+      "error": "(process:164042): dconf-CRITICAL **: 17:44:11.939: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-231231/RP-231231_cover.doc",
+      "error": "(process:164009): dconf-CRITICAL **: 17:44:11.887: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-232451/RP-232451_cover.doc",
+      "error": "(process:164331): dconf-CRITICAL **: 17:44:13.748: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-233697/RP-233697_cover.doc",
+      "error": "(process:164371): dconf-CRITICAL **: 17:44:13.787: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-232457/RP-232457_cover.doc",
+      "error": "(process:164369): dconf-CRITICAL **: 17:44:13.788: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-232455/RP-232455_cover.doc",
+      "error": "(process:164364): dconf-CRITICAL **: 17:44:13.775: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-232456/RP-232456_cover.doc",
+      "error": "(process:164367): dconf-CRITICAL **: 17:44:13.780: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-233700/RP-233700_cover.doc",
+      "error": "(process:164646): dconf-CRITICAL **: 17:44:15.610: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-233702/RP-233702_cover.doc",
+      "error": "(process:164713): dconf-CRITICAL **: 17:44:15.647: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-233704/RP-233704_cover.doc",
+      "error": "(process:164719): dconf-CRITICAL **: 17:44:15.658: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-233730/RP-233730_cover.doc",
+      "error": "(process:165050): dconf-CRITICAL **: 17:44:17.484: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-233728/RP-233728_cover.doc",
+      "error": "(process:164931): dconf-CRITICAL **: 17:44:16.624: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-233727/RP-233727_cover.doc",
+      "error": "(process:164933): dconf-CRITICAL **: 17:44:16.622: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-233703/RP-233703_cover.doc",
+      "error": "(process:164715): dconf-CRITICAL **: 17:44:15.643: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-233734/RP-233734_cover.doc",
+      "error": "(process:165212): dconf-CRITICAL **: 17:44:19.293: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-233732/RP-233732_cover.doc",
+      "error": "(process:165218): dconf-CRITICAL **: 17:44:19.293: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-233736/RP-233736_cover.doc",
+      "error": "(process:165316): dconf-CRITICAL **: 17:44:20.148: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-240515/RP-240515_cover.doc",
+      "error": "(process:165314): dconf-CRITICAL **: 17:44:20.151: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-240532/RP-240532_cover.doc",
+      "error": "(process:165724): dconf-CRITICAL **: 17:44:21.852: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-240536/RP-240536_cover.doc",
+      "error": "(process:165801): dconf-CRITICAL **: 17:44:21.907: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-240541/RP-240541_cover.doc",
+      "error": "(process:166039): dconf-CRITICAL **: 17:44:23.713: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-240535/RP-240535_cover.doc",
+      "error": "(process:165794): dconf-CRITICAL **: 17:44:21.901: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-241071/RP-241071_cover.doc",
+      "error": "(process:166365): dconf-CRITICAL **: 17:44:25.581: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-241059/RP-241059_cover.doc",
+      "error": "(process:166071): dconf-CRITICAL **: 17:44:23.757: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:166302): dconf-CRITICAL **: 17:44:25.244: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:166313): dconf-CRITICAL **: 17:44:25.415: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-241065/RP-241065_cover.doc",
+      "error": "(process:166245): dconf-CRITICAL **: 17:44:24.765: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-242214/RP-242214_cover.doc",
+      "error": "(process:166600): dconf-CRITICAL **: 17:44:27.387: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-242216/RP-242216_cover.doc",
+      "error": "(process:166837): dconf-CRITICAL **: 17:44:29.102: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-242212/RP-242212_cover.doc",
+      "error": "(process:166597): dconf-CRITICAL **: 17:44:27.386: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-241073/RP-241073_cover.doc",
+      "error": "(process:166561): dconf-CRITICAL **: 17:44:27.353: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-250223/RP-250223_cover.doc",
+      "error": "(process:167148): dconf-CRITICAL **: 17:44:30.908: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-241058/RP-241058_cover.doc",
+      "error": "(process:166052): dconf-CRITICAL **: 17:44:23.730: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-242927/RP-242927_cover.doc",
+      "error": "(process:167005): dconf-CRITICAL **: 17:44:30.066: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-242924/RP-242924_cover.doc",
+      "error": "(process:166998): dconf-CRITICAL **: 17:44:30.046: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:167032): dconf-CRITICAL **: 17:44:30.229: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:167042): dconf-CRITICAL **: 17:44:30.402: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:167052): dconf-CRITICAL **: 17:44:30.574: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:167062): dconf-CRITICAL **: 17:44:30.745: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:167150): dconf-CRITICAL **: 17:44:30.921: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-251574/RP-251574_cover.doc",
+      "error": "(process:167422): dconf-CRITICAL **: 17:44:32.696: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-232478/RP-232478_cover.doc",
+      "error": "(process:167774): dconf-CRITICAL **: 17:44:34.492: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-232472/RP-232472_cover.doc",
+      "error": "(process:167574): dconf-CRITICAL **: 17:44:33.517: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-232473/RP-232473_cover.doc",
+      "error": "(process:167601): dconf-CRITICAL **: 17:44:33.558: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-232479/RP-232479_cover.doc",
+      "error": "(process:167977): dconf-CRITICAL **: 17:44:35.360: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-17/TSG/RP-251575/RP-251575_cover.doc",
+      "error": "(process:167424): dconf-CRITICAL **: 17:44:32.703: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-232474/RP-232474_cover.doc",
+      "error": "(process:167772): dconf-CRITICAL **: 17:44:34.489: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-232483/RP-232483_cover.doc",
+      "error": "(process:167982): dconf-CRITICAL **: 17:44:35.373: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-233699/RP-233699_cover.doc",
+      "error": "(process:168185): dconf-CRITICAL **: 17:44:37.165: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-233698/RP-233698_cover.doc",
+      "error": "(process:168187): dconf-CRITICAL **: 17:44:37.165: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-233706/RP-233706_cover.doc",
+      "error": "(process:168503): dconf-CRITICAL **: 17:44:39.734: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-233702/RP-233702_cover.doc",
+      "error": "(process:168375): dconf-CRITICAL **: 17:44:38.859: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-233708/RP-233708_cover.doc",
+      "error": "(process:168501): dconf-CRITICAL **: 17:44:39.724: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-233703/RP-233703_cover.doc",
+      "error": "(process:168497): dconf-CRITICAL **: 17:44:39.719: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-233704/RP-233704_cover.doc",
+      "error": "(process:168499): dconf-CRITICAL **: 17:44:39.718: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-233710/RP-233710_cover.doc",
+      "error": "(process:168777): dconf-CRITICAL **: 17:44:41.442: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-233721/RP-233721_cover.doc",
+      "error": "(process:168857): dconf-CRITICAL **: 17:44:41.490: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-233726/RP-233726_cover.doc",
+      "error": "(process:169110): dconf-CRITICAL **: 17:44:43.279: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-233719/RP-233719_cover.doc",
+      "error": "(process:168849): dconf-CRITICAL **: 17:44:41.478: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-233720/RP-233720_cover.doc",
+      "error": "(process:168853): dconf-CRITICAL **: 17:44:41.486: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-233729/RP-233729_cover.doc",
+      "error": "(process:169132): dconf-CRITICAL **: 17:44:43.317: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-233728/RP-233728_cover.doc",
+      "error": "(process:169114): dconf-CRITICAL **: 17:44:43.280: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-233734/RP-233734_cover.doc",
+      "error": "(process:169543): dconf-CRITICAL **: 17:44:45.047: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-233736/RP-233736_cover.doc",
+      "error": "(process:169612): dconf-CRITICAL **: 17:44:45.096: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-240520/RP-240520_cover.doc",
+      "error": "(process:169916): dconf-CRITICAL **: 17:44:46.924: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-233732/RP-233732_cover.doc",
+      "error": "(process:169567): dconf-CRITICAL **: 17:44:45.057: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:169846): dconf-CRITICAL **: 17:44:46.573: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:169863): dconf-CRITICAL **: 17:44:46.749: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-240519/RP-240519_cover.doc",
+      "error": "(process:169789): dconf-CRITICAL **: 17:44:46.093: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-233737/RP-233737_cover.doc",
+      "error": "(process:169610): dconf-CRITICAL **: 17:44:45.085: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-233735/RP-233735_cover.doc",
+      "error": "(process:169602): dconf-CRITICAL **: 17:44:45.075: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-240521/RP-240521_cover.doc",
+      "error": "(process:170143): dconf-CRITICAL **: 17:44:48.680: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-240525/RP-240525_cover.doc",
+      "error": "(process:170212): dconf-CRITICAL **: 17:44:48.721: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-240528/RP-240528_cover.doc",
+      "error": "(process:170220): dconf-CRITICAL **: 17:44:48.735: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-240523/RP-240523_cover.doc",
+      "error": "(process:170180): dconf-CRITICAL **: 17:44:48.688: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-240530/RP-240530_cover.doc",
+      "error": "(process:170410): dconf-CRITICAL **: 17:44:50.489: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-240531/RP-240531_cover.doc",
+      "error": "(process:170409): dconf-CRITICAL **: 17:44:50.489: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-240538/RP-240538_cover.doc",
+      "error": "(process:170749): dconf-CRITICAL **: 17:44:53.016: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-240534/RP-240534_cover.doc",
+      "error": "(process:170614): dconf-CRITICAL **: 17:44:52.157: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-241058/RP-241058_cover.doc",
+      "error": "(process:171053): dconf-CRITICAL **: 17:44:54.757: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-240542/RP-240542_cover.doc",
+      "error": "(process:170923): dconf-CRITICAL **: 17:44:53.885: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-240540/RP-240540_cover.doc",
+      "error": "(process:170919): dconf-CRITICAL **: 17:44:53.881: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-240537/RP-240537_cover.doc",
+      "error": "(process:170748): dconf-CRITICAL **: 17:44:53.014: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-240536/RP-240536_cover.doc",
+      "error": "(process:170742): dconf-CRITICAL **: 17:44:53.014: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-241061/RP-241061_cover.doc",
+      "error": "(process:171445): dconf-CRITICAL **: 17:44:56.488: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-241065/RP-241065_cover.doc",
+      "error": "(process:171501): dconf-CRITICAL **: 17:44:56.530: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-241064/RP-241064_cover.doc",
+      "error": "(process:171508): dconf-CRITICAL **: 17:44:56.542: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-241063/RP-241063_cover.doc",
+      "error": "(process:171495): dconf-CRITICAL **: 17:44:56.516: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-241060/RP-241060_cover.doc",
+      "error": "(process:171453): dconf-CRITICAL **: 17:44:56.490: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-241066/RP-241066_cover.doc",
+      "error": "(process:171758): dconf-CRITICAL **: 17:44:58.318: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-241070/RP-241070_cover.doc",
+      "error": "(process:171834): dconf-CRITICAL **: 17:44:58.359: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-241062/RP-241062_cover.doc",
+      "error": "(process:171499): dconf-CRITICAL **: 17:44:56.521: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-241069/RP-241069_cover.doc",
+      "error": "(process:171838): dconf-CRITICAL **: 17:44:58.358: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-241067/RP-241067_cover.doc",
+      "error": "(process:171777): dconf-CRITICAL **: 17:44:58.321: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-241073/RP-241073_cover.doc",
+      "error": "(process:172097): dconf-CRITICAL **: 17:45:00.173: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-242204/RP-242204_cover.doc",
+      "error": "(process:172167): dconf-CRITICAL **: 17:45:00.210: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-241071/RP-241071_cover.doc",
+      "error": "(process:171827): dconf-CRITICAL **: 17:44:58.352: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-242211/RP-242211_cover.doc",
+      "error": "(process:172498): dconf-CRITICAL **: 17:45:01.979: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-241076/RP-241076_cover.doc",
+      "error": "(process:172091): dconf-CRITICAL **: 17:45:00.177: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-242203/RP-242203_cover.doc",
+      "error": "(process:172163): dconf-CRITICAL **: 17:45:00.209: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:172704): dconf-CRITICAL **: 17:45:03.508: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:172714): dconf-CRITICAL **: 17:45:03.681: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:172765): dconf-CRITICAL **: 17:45:03.851: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-242214/RP-242214_cover.doc",
+      "error": "(process:172646): dconf-CRITICAL **: 17:45:03.028: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-242924/RP-242924_cover.doc",
+      "error": "(process:172988): dconf-CRITICAL **: 17:45:05.681: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-242215/RP-242215_cover.doc",
+      "error": "(process:172644): dconf-CRITICAL **: 17:45:03.025: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:172825): dconf-CRITICAL **: 17:45:04.866: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:172853): dconf-CRITICAL **: 17:45:05.047: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:172863): dconf-CRITICAL **: 17:45:05.222: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-242208/RP-242208_cover.doc",
+      "error": "(process:172349): dconf-CRITICAL **: 17:45:01.137: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:172624): dconf-CRITICAL **: 17:45:02.999: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:172675): dconf-CRITICAL **: 17:45:03.187: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:172692): dconf-CRITICAL **: 17:45:03.366: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-242925/RP-242925_cover.doc",
+      "error": "(process:173022): dconf-CRITICAL **: 17:45:05.722: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-242205/RP-242205_cover.doc",
+      "error": "(process:172165): dconf-CRITICAL **: 17:45:00.209: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:172880): dconf-CRITICAL **: 17:45:05.366: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:172891): dconf-CRITICAL **: 17:45:05.537: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly.\n\n(process:173020): dconf-CRITICAL **: 17:45:05.725: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-242927/RP-242927_cover.doc",
+      "error": "(process:173398): dconf-CRITICAL **: 17:45:07.487: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-242932/RP-242932_cover.doc",
+      "error": "(process:173454): dconf-CRITICAL **: 17:45:07.538: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-242218/RP-242218_cover.doc",
+      "error": "(process:173000): dconf-CRITICAL **: 17:45:05.687: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-242929/RP-242929_cover.doc",
+      "error": "(process:173447): dconf-CRITICAL **: 17:45:07.522: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-242931/RP-242931_cover.doc",
+      "error": "(process:173449): dconf-CRITICAL **: 17:45:07.537: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-250223/RP-250223_cover.doc",
+      "error": "(process:173764): dconf-CRITICAL **: 17:45:09.321: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-250228/RP-250228_cover.doc",
+      "error": "(process:173818): dconf-CRITICAL **: 17:45:09.360: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-250229/RP-250229_cover.doc",
+      "error": "(process:173824): dconf-CRITICAL **: 17:45:09.374: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-250225/RP-250225_cover.doc",
+      "error": "(process:173812): dconf-CRITICAL **: 17:45:09.351: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-250230/RP-250230_cover.doc",
+      "error": "(process:174027): dconf-CRITICAL **: 17:45:11.120: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-250232/RP-250232_cover.doc",
+      "error": "(process:174031): dconf-CRITICAL **: 17:45:11.121: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-251564/RP-251564_cover.doc",
+      "error": "(process:174132): dconf-CRITICAL **: 17:45:11.961: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-251573/RP-251573_cover.doc",
+      "error": "(process:174130): dconf-CRITICAL **: 17:45:11.958: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-251575/RP-251575_cover.doc",
+      "error": "(process:174363): dconf-CRITICAL **: 17:45:13.658: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-19/TSG/RP-251572/RP-251572_cover.doc",
+      "error": "(process:174463): dconf-CRITICAL **: 17:45:13.714: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-19/TSG/RP-251577/RP-251577_cover.doc",
+      "error": "(process:174467): dconf-CRITICAL **: 17:45:13.724: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-251581/RP-251581_cover.doc",
+      "error": "(process:174432): dconf-CRITICAL **: 17:45:13.690: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-19/TSG/RP-251571/RP-251571_cover.doc",
+      "error": "(process:174465): dconf-CRITICAL **: 17:45:13.713: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-19/TSG/RP-251580/RP-251580_cover.doc",
+      "error": "(process:174742): dconf-CRITICAL **: 17:45:15.453: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-19/TSG/RP-251588/RP-251588_cover.doc",
+      "error": "(process:174805): dconf-CRITICAL **: 17:45:15.497: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-18/TSG/RP-251584/RP-251584_cover.doc",
+      "error": "(process:174404): dconf-CRITICAL **: 17:45:13.677: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-19/TSG/RP-251836/RP-251836_cover.doc",
+      "error": "(process:174803): dconf-CRITICAL **: 17:45:15.492: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-19/TSG/RP-251583/RP-251583_cover.doc",
+      "error": "(process:174800): dconf-CRITICAL **: 17:45:15.485: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-19/TSG/RP-252629/RP-252629_cover.doc",
+      "error": "(process:175106): dconf-CRITICAL **: 17:45:17.270: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-19/TSG/RP-252632/RP-252632_cover.doc",
+      "error": "(process:175149): dconf-CRITICAL **: 17:45:17.299: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-19/TSG/RP-252637/RP-252637_cover.doc",
+      "error": "(process:175432): dconf-CRITICAL **: 17:45:19.041: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-19/TSG/RP-252631/RP-252631_cover.doc",
+      "error": "(process:175148): dconf-CRITICAL **: 17:45:17.297: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/change-requests/RAN1/Rel-19/TSG/RP-252633/RP-252633_cover.doc",
+      "error": "(process:175145): dconf-CRITICAL **: 17:45:17.299: unable to create directory '/run/user/1000/dconf': Permission denied.  dconf will not work properly."
+    }
+  ],
+  "timeout_files": [],
+  "end_time": "2025-11-10T17:45:22.590892",
+  "elapsed_minutes": 3.8643548250198365
+}

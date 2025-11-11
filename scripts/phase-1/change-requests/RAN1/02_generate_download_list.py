@@ -14,7 +14,7 @@ import time
 import requests
 from pathlib import Path
 from datetime import datetime
-from concurrent.futures import ThreadPoolExecutor, as_completed
+from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor, as_completed
 
 
 # Release별 매핑 정보
@@ -194,9 +194,21 @@ def main():
 
     all_tsg_urls = []
 
-    for release in RELEASES:
-        tsg_urls = generate_aria2c_input(release)
-        all_tsg_urls.extend(tsg_urls)
+    # Release별 병렬 URL 추출 (5개 프로세스)
+    print(f"\nParallel URL extraction for {len(RELEASES)} releases...")
+
+    with ProcessPoolExecutor(max_workers=5) as executor:
+        futures = {executor.submit(generate_aria2c_input, release, 30): release
+                   for release in RELEASES}
+
+        for future in as_completed(futures):
+            release = futures[future]
+            try:
+                tsg_urls = future.result()
+                all_tsg_urls.extend(tsg_urls)
+                print(f"  ✓ {release} completed ({len(tsg_urls)} URLs)")
+            except Exception as e:
+                print(f"  ✗ {release} failed: {e}")
 
     print(f"\n{'='*80}")
     print(f"Total TSG TDocs to download: {len(all_tsg_urls)}")

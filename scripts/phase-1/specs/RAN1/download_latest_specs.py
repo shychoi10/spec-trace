@@ -2,7 +2,7 @@
 """
 3GPP RAN1 NR Physical Layer Specifications Downloader
 
-5개 NR 물리계층 spec(38.211-215)의 최신 버전을 다운로드
+8개 NR 물리계층 spec(38.201, 38.202, 38.211-215, 38.291)의 최신 버전을 다운로드
 
 Usage:
     python3 scripts/phase-1/specs/RAN1/download_latest_specs.py
@@ -20,7 +20,7 @@ from bs4 import BeautifulSoup
 
 
 # 프로젝트 루트 경로
-PROJECT_ROOT = Path(__file__).parent.parent.parent.parent
+PROJECT_ROOT = Path(__file__).parent.parent.parent.parent.parent
 DATA_DIR = PROJECT_ROOT / "data/data_raw/specs/RAN1"
 LOGS_DIR = PROJECT_ROOT / "logs/phase-1/specs/RAN1"
 METADATA_FILE = DATA_DIR / "metadata/download_status.csv"
@@ -28,11 +28,14 @@ LOG_FILE = LOGS_DIR / "download.log"
 
 # Target specifications
 SPECS = {
+    "38.201": "NR Physical layer - General description",
+    "38.202": "NR Services provided by the physical layer",
     "38.211": "Physical channels and modulation",
     "38.212": "Multiplexing and channel coding",
     "38.213": "Physical layer procedures for control",
     "38.214": "Physical layer procedures for data",
-    "38.215": "Physical layer measurements"
+    "38.215": "Physical layer measurements",
+    "38.291": "NR Ambient IoT Physical layer"
 }
 
 FTP_BASE = "https://www.3gpp.org/ftp/specs/archive/38_series"
@@ -226,7 +229,7 @@ def main():
     print("="*80)
     print("3GPP RAN1 NR Physical Layer Specifications Downloader")
     print("="*80)
-    print(f"Target: 5 specs (38.211-215)")
+    print(f"Target: 8 specs (38.201, 38.202, 38.211-215, 38.291)")
     print(f"Strategy: Auto-detect and download latest version")
     print(f"Output: {DATA_DIR}")
     print("="*80)

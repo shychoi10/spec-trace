@@ -1,6 +1,6 @@
 # Phase 1, Step 1: Download RAN1 Meetings from 3GPP FTP
 
-> **Quick Reference**: See [`data_raw/meetings/RAN1/CLAUDE.md`](../../data_raw/meetings/RAN1/CLAUDE.md) for meeting list (TSGR1_84 to TSGR1_122b)
+> **Quick Reference**: See [`data/data_raw/meetings/RAN1/CLAUDE.md`](../../data/data_raw/meetings/RAN1/CLAUDE.md) for meeting list (TSGR1_84 to TSGR1_122b)
 
 ## Objective
 
@@ -67,17 +67,17 @@ sudo apt install -y aria2
 Scan FTP server and create list of missing files:
 
 ```bash
-python3 scripts/ran1-meetings/generate_download_list.py
+python3 scripts/phase-1/meetings/RAN1/01_generate_download_list.py
 ```
 
 **What it does**:
-- Reads target meeting list from `data_raw/meetings/RAN1/CLAUDE.md`
+- Reads target meeting list from `data/data_raw/meetings/RAN1/CLAUDE.md`
 - Scans all 62 meetings on FTP recursively
 - Compares with local files (URL-based, not file count)
-- Generates `logs/ran1-meetings/aria2c_input.txt`
+- Generates `logs/phase-1/meetings/RAN1/aria2c_input.txt`
 
 **Output**:
-- aria2c input file: `logs/ran1-meetings/aria2c_input.txt`
+- aria2c input file: `logs/phase-1/meetings/RAN1/aria2c_input.txt`
 - Time: ~30-40 minutes
 
 ### Step 2: Download with aria2c
@@ -85,14 +85,14 @@ python3 scripts/ran1-meetings/generate_download_list.py
 Execute batch download:
 
 ```bash
-python3 scripts/ran1-meetings/download_with_aria2c.py
+python3 scripts/phase-1/meetings/RAN1/02_download_with_aria2c.py
 ```
 
 **What it does**:
 - Checks if aria2c is installed
 - Validates aria2c_input.txt exists
 - Runs aria2c with optimized settings
-- Logs to `logs/ran1-meetings/aria2c_download.log`
+- Logs to `logs/phase-1/meetings/RAN1/aria2c_download.log`
 
 **aria2c Settings** (optimized for speed + stability):
 ```
@@ -112,14 +112,14 @@ python3 scripts/ran1-meetings/download_with_aria2c.py
 Verify all files downloaded correctly:
 
 ```bash
-python3 scripts/ran1-meetings/verify_status.py
+python3 scripts/phase-1/meetings/RAN1/04_verify_status.py
 ```
 
 **What it does**:
 - Checks each meeting on FTP server
 - Compares FTP file counts vs local
 - Categorizes: COMPLETE / PARTIAL / MISSING
-- Saves report to `logs/ran1-meetings/verification_complete.log`
+- Saves report to `logs/phase-1/meetings/RAN1/verification_complete.log`
 
 **Time**: ~30-40 minutes
 
@@ -185,19 +185,19 @@ Three meetings are intentionally empty on FTP:
 
 ## Scripts
 
-All scripts located in `scripts/ran1-meetings/`:
+All scripts located in `scripts/phase-1/meetings/RAN1/`:
 
-1. **generate_download_list.py** - Create aria2c input file
+1. **01_generate_download_list.py** - Create aria2c input file
    - Scans FTP for all files
    - Compares with local files
    - Generates download list
 
-2. **download_with_aria2c.py** - Execute aria2c download
+2. **02_download_with_aria2c.py** - Execute aria2c download
    - Validates prerequisites
    - Runs aria2c with optimal settings
    - Handles errors gracefully
 
-3. **verify_status.py** - Verify completion
+3. **04_verify_status.py** - Verify completion
    - Checks FTP vs local for each meeting
    - Generates detailed report
    - Identifies any issues
@@ -208,7 +208,7 @@ All scripts located in `scripts/ran1-meetings/`:
 
 1. **aria2c >> urllib**: Much faster, more reliable
 2. **URL comparison >> file counting**: 100% accurate
-3. **Single unified script**: generate_download_list.py does everything
+3. **Single unified script**: 01_generate_download_list.py does everything
 4. **Zero-byte detection**: Catches partial/failed downloads
 
 ### What Didn't Work
@@ -234,26 +234,26 @@ sudo apt install -y aria2
 ```
 
 ### Issue: aria2c_input.txt not found
-**Solution**: Run generate_download_list.py first
+**Solution**: Run 01_generate_download_list.py first
 ```bash
-python3 scripts/ran1-meetings/generate_download_list.py
+python3 scripts/phase-1/meetings/RAN1/01_generate_download_list.py
 ```
 
 ### Issue: Download interrupted
-**Solution**: Just re-run download_with_aria2c.py
+**Solution**: Just re-run 02_download_with_aria2c.py
 - aria2c automatically resumes from where it left off
 - `--continue=true` flag handles this
 
 ### Issue: Verification shows PARTIAL
 **Solution**: Re-generate download list and download again
 ```bash
-python3 scripts/ran1-meetings/generate_download_list.py
-python3 scripts/ran1-meetings/download_with_aria2c.py
+python3 scripts/phase-1/meetings/RAN1/01_generate_download_list.py
+python3 scripts/phase-1/meetings/RAN1/02_download_with_aria2c.py
 ```
 
 ## Logs
 
-All logs stored in `logs/ran1-meetings/`:
+All logs stored in `logs/phase-1/meetings/RAN1/`:
 
 - `aria2c_input.txt` (9MB) - Complete download list (URL + destination)
 - `verification_complete.log` (9KB) - Final verification report
@@ -261,6 +261,6 @@ All logs stored in `logs/ran1-meetings/`:
 
 ## References
 
-- Download spec: `data_raw/meetings/RAN1/CLAUDE.md`
+- Download spec: `data/data_raw/meetings/RAN1/CLAUDE.md`
 - FTP source: https://www.3gpp.org/ftp/tsg_ran/WG1_RL1/
 - Local storage: `data_raw/meetings/RAN1/`

@@ -1,0 +1,1729 @@
+{
+  "start_time": "2025-11-07T14:30:17.179548",
+  "meetings_total": 59,
+  "meetings_verified": 18,
+  "extracted": {
+    "docs_folders": 59,
+    "report_folders": 58,
+    "doc_files": 23304,
+    "docx_files": 96891,
+    "total_files": 120195
+  },
+  "transformed": {
+    "docs_folders": 59,
+    "report_folders": 40,
+    "docx_files": 119161,
+    "total_files": 119161
+  },
+  "missing_folders": [
+    "TSGR1_116b/Report",
+    "TSGR1_118b/Report",
+    "TSGR1_120b/Report",
+    "TSGR1_122b/Report",
+    "TSGR1_86/Report",
+    "TSGR1_88b/Report",
+    "TSGR1_90/Report",
+    "TSGR1_92b/Report",
+    "TSGR1_93/Report",
+    "TSGR1_94/Report",
+    "TSGR1_94b/Report",
+    "TSGR1_95/Report",
+    "TSGR1_96/Report",
+    "TSGR1_96b/Report",
+    "TSGR1_97/Report",
+    "TSGR1_98/Report",
+    "TSGR1_98b/Report",
+    "TSGR1_99/Report"
+  ],
+  "file_count_mismatches": [
+    {
+      "meeting": "TSGR1_100_e",
+      "folder": "Docs",
+      "expected": 1332,
+      "actual": 1331,
+      "missing": 1
+    },
+    {
+      "meeting": "TSGR1_100b_e",
+      "folder": "Docs",
+      "expected": 1743,
+      "actual": 1741,
+      "missing": 2
+    },
+    {
+      "meeting": "TSGR1_103-e",
+      "folder": "Docs",
+      "expected": 2499,
+      "actual": 2497,
+      "missing": 2
+    },
+    {
+      "meeting": "TSGR1_104-e",
+      "folder": "Docs",
+      "expected": 2333,
+      "actual": 2331,
+      "missing": 2
+    },
+    {
+      "meeting": "TSGR1_105-e",
+      "folder": "Docs",
+      "expected": 2175,
+      "actual": 2172,
+      "missing": 3
+    },
+    {
+      "meeting": "TSGR1_106-e",
+      "folder": "Docs",
+      "expected": 2389,
+      "actual": 2387,
+      "missing": 2
+    },
+    {
+      "meeting": "TSGR1_110",
+      "folder": "Docs",
+      "expected": 2713,
+      "actual": 2710,
+      "missing": 3
+    },
+    {
+      "meeting": "TSGR1_110b-e",
+      "folder": "Docs",
+      "expected": 2587,
+      "actual": 2580,
+      "missing": 7
+    },
+    {
+      "meeting": "TSGR1_111",
+      "folder": "Docs",
+      "expected": 2341,
+      "actual": 2335,
+      "missing": 6
+    },
+    {
+      "meeting": "TSGR1_112",
+      "folder": "Docs",
+      "expected": 2393,
+      "actual": 2390,
+      "missing": 3
+    },
+    {
+      "meeting": "TSGR1_112b-e",
+      "folder": "Docs",
+      "expected": 2152,
+      "actual": 2150,
+      "missing": 2
+    },
+    {
+      "meeting": "TSGR1_113",
+      "folder": "Docs",
+      "expected": 2171,
+      "actual": 2167,
+      "missing": 4
+    },
+    {
+      "meeting": "TSGR1_114",
+      "folder": "Docs",
+      "expected": 2625,
+      "actual": 2623,
+      "missing": 2
+    },
+    {
+      "meeting": "TSGR1_114b",
+      "folder": "Docs",
+      "expected": 2082,
+      "actual": 2078,
+      "missing": 4
+    },
+    {
+      "meeting": "TSGR1_115",
+      "folder": "Docs",
+      "expected": 2184,
+      "actual": 2183,
+      "missing": 1
+    },
+    {
+      "meeting": "TSGR1_84b",
+      "folder": "Docs",
+      "expected": 1552,
+      "actual": 1551,
+      "missing": 1
+    },
+    {
+      "meeting": "TSGR1_85",
+      "folder": "Docs",
+      "expected": 1693,
+      "actual": 1692,
+      "missing": 1
+    },
+    {
+      "meeting": "TSGR1_86b",
+      "folder": "Docs",
+      "expected": 2056,
+      "actual": 2055,
+      "missing": 1
+    },
+    {
+      "meeting": "TSGR1_87",
+      "folder": "Docs",
+      "expected": 2258,
+      "actual": 2253,
+      "missing": 5
+    },
+    {
+      "meeting": "TSGR1_88",
+      "folder": "Docs",
+      "expected": 2177,
+      "actual": 2176,
+      "missing": 1
+    },
+    {
+      "meeting": "TSGR1_90b",
+      "folder": "Docs",
+      "expected": 2137,
+      "actual": 2136,
+      "missing": 1
+    },
+    {
+      "meeting": "TSGR1_91",
+      "folder": "Docs",
+      "expected": 2176,
+      "actual": 2167,
+      "missing": 9
+    },
+    {
+      "meeting": "TSGR1_92",
+      "folder": "Docs",
+      "expected": 2118,
+      "actual": 2112,
+      "missing": 6
+    },
+    {
+      "meeting": "TSGR1_92b",
+      "folder": "Docs",
+      "expected": 2104,
+      "actual": 1700,
+      "missing": 404
+    },
+    {
+      "meeting": "TSGR1_93",
+      "folder": "Docs",
+      "expected": 2082,
+      "actual": 1675,
+      "missing": 407
+    },
+    {
+      "meeting": "TSGR1_94b",
+      "folder": "Docs",
+      "expected": 1957,
+      "actual": 1954,
+      "missing": 3
+    },
+    {
+      "meeting": "TSGR1_96",
+      "folder": "Docs",
+      "expected": 2354,
+      "actual": 2353,
+      "missing": 1
+    },
+    {
+      "meeting": "TSGR1_96b",
+      "folder": "Docs",
+      "expected": 2035,
+      "actual": 2034,
+      "missing": 1
+    },
+    {
+      "meeting": "TSGR1_98",
+      "folder": "Docs",
+      "expected": 1969,
+      "actual": 1968,
+      "missing": 1
+    },
+    {
+      "meeting": "TSGR1_98b",
+      "folder": "Docs",
+      "expected": 1858,
+      "actual": 1857,
+      "missing": 1
+    },
+    {
+      "meeting": "TSGR1_99",
+      "folder": "Docs",
+      "expected": 1896,
+      "actual": 1741,
+      "missing": 155
+    }
+  ],
+  "meetings_with_issues": [
+    "TSGR1_100_e",
+    "TSGR1_100b_e",
+    "TSGR1_103-e",
+    "TSGR1_104-e",
+    "TSGR1_105-e",
+    "TSGR1_106-e",
+    "TSGR1_110",
+    "TSGR1_110b-e",
+    "TSGR1_111",
+    "TSGR1_112",
+    "TSGR1_112b-e",
+    "TSGR1_113",
+    "TSGR1_114",
+    "TSGR1_114b",
+    "TSGR1_115",
+    "TSGR1_116b",
+    "TSGR1_118b",
+    "TSGR1_120b",
+    "TSGR1_122b",
+    "TSGR1_84b",
+    "TSGR1_85",
+    "TSGR1_86",
+    "TSGR1_86b",
+    "TSGR1_87",
+    "TSGR1_88",
+    "TSGR1_88b",
+    "TSGR1_90",
+    "TSGR1_90b",
+    "TSGR1_91",
+    "TSGR1_92",
+    "TSGR1_92b",
+    "TSGR1_93",
+    "TSGR1_94",
+    "TSGR1_94b",
+    "TSGR1_95",
+    "TSGR1_96",
+    "TSGR1_96b",
+    "TSGR1_97",
+    "TSGR1_98",
+    "TSGR1_98b",
+    "TSGR1_99"
+  ],
+  "end_time": "2025-11-07T14:30:22.156668",
+  "all_results": [
+    {
+      "meeting": "TSGR1_100",
+      "extracted": {
+        "docs": {
+          "doc": 13,
+          "docx": 19
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 32
+        }
+      },
+      "issues": []
+    },
+    {
+      "meeting": "TSGR1_100_e",
+      "extracted": {
+        "docs": {
+          "doc": 126,
+          "docx": 1206
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 1331
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": [
+        "Docs: Expected 1332 DOCX, got 1331 (missing 1)"
+      ]
+    },
+    {
+      "meeting": "TSGR1_100b_e",
+      "extracted": {
+        "docs": {
+          "doc": 200,
+          "docx": 1543
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 1741
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": [
+        "Docs: Expected 1743 DOCX, got 1741 (missing 2)"
+      ]
+    },
+    {
+      "meeting": "TSGR1_101-e",
+      "extracted": {
+        "docs": {
+          "doc": 242,
+          "docx": 1743
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 1986
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": []
+    },
+    {
+      "meeting": "TSGR1_102-e",
+      "extracted": {
+        "docs": {
+          "doc": 261,
+          "docx": 2111
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 2373
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": []
+    },
+    {
+      "meeting": "TSGR1_103-e",
+      "extracted": {
+        "docs": {
+          "doc": 272,
+          "docx": 2227
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 2497
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": [
+        "Docs: Expected 2499 DOCX, got 2497 (missing 2)"
+      ]
+    },
+    {
+      "meeting": "TSGR1_104-e",
+      "extracted": {
+        "docs": {
+          "doc": 232,
+          "docx": 2101
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 2331
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": [
+        "Docs: Expected 2333 DOCX, got 2331 (missing 2)"
+      ]
+    },
+    {
+      "meeting": "TSGR1_104b-e",
+      "extracted": {
+        "docs": {
+          "doc": 170,
+          "docx": 1739
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 1910
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": []
+    },
+    {
+      "meeting": "TSGR1_105-e",
+      "extracted": {
+        "docs": {
+          "doc": 189,
+          "docx": 1986
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 2172
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": [
+        "Docs: Expected 2175 DOCX, got 2172 (missing 3)"
+      ]
+    },
+    {
+      "meeting": "TSGR1_106-e",
+      "extracted": {
+        "docs": {
+          "doc": 176,
+          "docx": 2213
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 2387
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": [
+        "Docs: Expected 2389 DOCX, got 2387 (missing 2)"
+      ]
+    },
+    {
+      "meeting": "TSGR1_106b-e",
+      "extracted": {
+        "docs": {
+          "doc": 159,
+          "docx": 1912
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 2071
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": []
+    },
+    {
+      "meeting": "TSGR1_107-e",
+      "extracted": {
+        "docs": {
+          "doc": 150,
+          "docx": 2167
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 2318
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": []
+    },
+    {
+      "meeting": "TSGR1_107b-e",
+      "extracted": {
+        "docs": {
+          "doc": 57,
+          "docx": 784
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 842
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": []
+    },
+    {
+      "meeting": "TSGR1_108-e",
+      "extracted": {
+        "docs": {
+          "doc": 136,
+          "docx": 2067
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 2204
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": []
+    },
+    {
+      "meeting": "TSGR1_109-e",
+      "extracted": {
+        "docs": {
+          "doc": 168,
+          "docx": 2556
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 2725
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": []
+    },
+    {
+      "meeting": "TSGR1_110",
+      "extracted": {
+        "docs": {
+          "doc": 135,
+          "docx": 2578
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 2710
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": [
+        "Docs: Expected 2713 DOCX, got 2710 (missing 3)"
+      ]
+    },
+    {
+      "meeting": "TSGR1_110b-e",
+      "extracted": {
+        "docs": {
+          "doc": 125,
+          "docx": 2462
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 2580
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": [
+        "Docs: Expected 2587 DOCX, got 2580 (missing 7)"
+      ]
+    },
+    {
+      "meeting": "TSGR1_111",
+      "extracted": {
+        "docs": {
+          "doc": 112,
+          "docx": 2229
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 2335
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": [
+        "Docs: Expected 2341 DOCX, got 2335 (missing 6)"
+      ]
+    },
+    {
+      "meeting": "TSGR1_112",
+      "extracted": {
+        "docs": {
+          "doc": 104,
+          "docx": 2289
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 2390
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": [
+        "Docs: Expected 2393 DOCX, got 2390 (missing 3)"
+      ]
+    },
+    {
+      "meeting": "TSGR1_112b-e",
+      "extracted": {
+        "docs": {
+          "doc": 84,
+          "docx": 2068
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 2150
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": [
+        "Docs: Expected 2152 DOCX, got 2150 (missing 2)"
+      ]
+    },
+    {
+      "meeting": "TSGR1_113",
+      "extracted": {
+        "docs": {
+          "doc": 90,
+          "docx": 2081
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 2167
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": [
+        "Docs: Expected 2171 DOCX, got 2167 (missing 4)"
+      ]
+    },
+    {
+      "meeting": "TSGR1_114",
+      "extracted": {
+        "docs": {
+          "doc": 94,
+          "docx": 2531
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 2623
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": [
+        "Docs: Expected 2625 DOCX, got 2623 (missing 2)"
+      ]
+    },
+    {
+      "meeting": "TSGR1_114b",
+      "extracted": {
+        "docs": {
+          "doc": 67,
+          "docx": 2015
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 2078
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": [
+        "Docs: Expected 2082 DOCX, got 2078 (missing 4)"
+      ]
+    },
+    {
+      "meeting": "TSGR1_115",
+      "extracted": {
+        "docs": {
+          "doc": 73,
+          "docx": 2111
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 2183
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": [
+        "Docs: Expected 2184 DOCX, got 2183 (missing 1)"
+      ]
+    },
+    {
+      "meeting": "TSGR1_116",
+      "extracted": {
+        "docs": {
+          "doc": 77,
+          "docx": 1963
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 2042
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": []
+    },
+    {
+      "meeting": "TSGR1_116b",
+      "extracted": {
+        "docs": {
+          "doc": 72,
+          "docx": 1901
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 1974
+        }
+      },
+      "issues": [
+        "Report: Transformed folder missing"
+      ]
+    },
+    {
+      "meeting": "TSGR1_117",
+      "extracted": {
+        "docs": {
+          "doc": 66,
+          "docx": 1973
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 2040
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": []
+    },
+    {
+      "meeting": "TSGR1_118",
+      "extracted": {
+        "docs": {
+          "doc": 52,
+          "docx": 1861
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 1913
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": []
+    },
+    {
+      "meeting": "TSGR1_118b",
+      "extracted": {
+        "docs": {
+          "doc": 63,
+          "docx": 1778
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 1842
+        }
+      },
+      "issues": [
+        "Report: Transformed folder missing"
+      ]
+    },
+    {
+      "meeting": "TSGR1_119",
+      "extracted": {
+        "docs": {
+          "doc": 47,
+          "docx": 1677
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 1725
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": []
+    },
+    {
+      "meeting": "TSGR1_120",
+      "extracted": {
+        "docs": {
+          "doc": 52,
+          "docx": 1709
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 1761
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": []
+    },
+    {
+      "meeting": "TSGR1_120b",
+      "extracted": {
+        "docs": {
+          "doc": 56,
+          "docx": 1539
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 1595
+        }
+      },
+      "issues": [
+        "Report: Transformed folder missing"
+      ]
+    },
+    {
+      "meeting": "TSGR1_121",
+      "extracted": {
+        "docs": {
+          "doc": 46,
+          "docx": 1938
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 1984
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": []
+    },
+    {
+      "meeting": "TSGR1_122",
+      "extracted": {
+        "docs": {
+          "doc": 31,
+          "docx": 1664
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 1695
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": []
+    },
+    {
+      "meeting": "TSGR1_122b",
+      "extracted": {
+        "docs": {
+          "doc": 36,
+          "docx": 1561
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 1597
+        }
+      },
+      "issues": [
+        "Report: Transformed folder missing"
+      ]
+    },
+    {
+      "meeting": "TSGR1_84",
+      "extracted": {
+        "docs": {
+          "doc": 827,
+          "docx": 321
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 1148
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": []
+    },
+    {
+      "meeting": "TSGR1_84b",
+      "extracted": {
+        "docs": {
+          "doc": 967,
+          "docx": 585
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 1551
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": [
+        "Docs: Expected 1552 DOCX, got 1551 (missing 1)"
+      ]
+    },
+    {
+      "meeting": "TSGR1_85",
+      "extracted": {
+        "docs": {
+          "doc": 1037,
+          "docx": 656
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 1692
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": [
+        "Docs: Expected 1693 DOCX, got 1692 (missing 1)"
+      ]
+    },
+    {
+      "meeting": "TSGR1_86",
+      "extracted": {
+        "docs": {
+          "doc": 1241,
+          "docx": 834
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 2075
+        }
+      },
+      "issues": [
+        "Report: Transformed folder missing"
+      ]
+    },
+    {
+      "meeting": "TSGR1_86b",
+      "extracted": {
+        "docs": {
+          "doc": 1160,
+          "docx": 896
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 2055
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": [
+        "Docs: Expected 2056 DOCX, got 2055 (missing 1)"
+      ]
+    },
+    {
+      "meeting": "TSGR1_87",
+      "extracted": {
+        "docs": {
+          "doc": 1256,
+          "docx": 1002
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 2253
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": [
+        "Docs: Expected 2258 DOCX, got 2253 (missing 5)"
+      ]
+    },
+    {
+      "meeting": "TSGR1_88",
+      "extracted": {
+        "docs": {
+          "doc": 1166,
+          "docx": 1011
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 2176
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": [
+        "Docs: Expected 2177 DOCX, got 2176 (missing 1)"
+      ]
+    },
+    {
+      "meeting": "TSGR1_88b",
+      "extracted": {
+        "docs": {
+          "doc": 1098,
+          "docx": 1110
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 2210
+        }
+      },
+      "issues": [
+        "Report: Transformed folder missing"
+      ]
+    },
+    {
+      "meeting": "TSGR1_89",
+      "extracted": {
+        "docs": {
+          "doc": 1200,
+          "docx": 1321
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 2523
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": []
+    },
+    {
+      "meeting": "TSGR1_90",
+      "extracted": {
+        "docs": {
+          "doc": 1319,
+          "docx": 1531
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 2853
+        }
+      },
+      "issues": [
+        "Report: Transformed folder missing"
+      ]
+    },
+    {
+      "meeting": "TSGR1_90b",
+      "extracted": {
+        "docs": {
+          "doc": 887,
+          "docx": 1250
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 2136
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": [
+        "Docs: Expected 2137 DOCX, got 2136 (missing 1)"
+      ]
+    },
+    {
+      "meeting": "TSGR1_91",
+      "extracted": {
+        "docs": {
+          "doc": 909,
+          "docx": 1267
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 2167
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": [
+        "Docs: Expected 2176 DOCX, got 2167 (missing 9)"
+      ]
+    },
+    {
+      "meeting": "TSGR1_92",
+      "extracted": {
+        "docs": {
+          "doc": 846,
+          "docx": 1272
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 2112
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "issues": [
+        "Docs: Expected 2118 DOCX, got 2112 (missing 6)"
+      ]
+    },
+    {
+      "meeting": "TSGR1_92b",
+      "extracted": {
+        "docs": {
+          "doc": 730,
+          "docx": 1374
+        },
+        "report": {
+          "doc": 0,
+          "docx": 0
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 1700
+        }
+      },
+      "issues": [
+        "Docs: Expected 2104 DOCX, got 1700 (missing 404)",
+        "Report: Transformed folder missing"
+      ]
+    },
+    {
+      "meeting": "TSGR1_93",
+      "extracted": {
+        "docs": {
+          "doc": 656,
+          "docx": 1426
+        },
+        "report": {
+          "doc": 0,
+          "docx": 0
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 1675
+        }
+      },
+      "issues": [
+        "Docs: Expected 2082 DOCX, got 1675 (missing 407)",
+        "Report: Transformed folder missing"
+      ]
+    },
+    {
+      "meeting": "TSGR1_94",
+      "extracted": {
+        "docs": {
+          "doc": 619,
+          "docx": 1414
+        },
+        "report": {
+          "doc": 0,
+          "docx": 0
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 2035
+        }
+      },
+      "issues": [
+        "Report: Transformed folder missing"
+      ]
+    },
+    {
+      "meeting": "TSGR1_94b",
+      "extracted": {
+        "docs": {
+          "doc": 552,
+          "docx": 1405
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 1954
+        }
+      },
+      "issues": [
+        "Docs: Expected 1957 DOCX, got 1954 (missing 3)",
+        "Report: Transformed folder missing"
+      ]
+    },
+    {
+      "meeting": "TSGR1_95",
+      "extracted": {
+        "docs": {
+          "doc": 636,
+          "docx": 1899
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 2535
+        }
+      },
+      "issues": [
+        "Report: Transformed folder missing"
+      ]
+    },
+    {
+      "meeting": "TSGR1_96",
+      "extracted": {
+        "docs": {
+          "doc": 530,
+          "docx": 1824
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 2353
+        }
+      },
+      "issues": [
+        "Docs: Expected 2354 DOCX, got 2353 (missing 1)",
+        "Report: Transformed folder missing"
+      ]
+    },
+    {
+      "meeting": "TSGR1_96b",
+      "extracted": {
+        "docs": {
+          "doc": 372,
+          "docx": 1663
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 2034
+        }
+      },
+      "issues": [
+        "Docs: Expected 2035 DOCX, got 2034 (missing 1)",
+        "Report: Transformed folder missing"
+      ]
+    },
+    {
+      "meeting": "TSGR1_97",
+      "extracted": {
+        "docs": {
+          "doc": 362,
+          "docx": 1651
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 2014
+        }
+      },
+      "issues": [
+        "Report: Transformed folder missing"
+      ]
+    },
+    {
+      "meeting": "TSGR1_98",
+      "extracted": {
+        "docs": {
+          "doc": 315,
+          "docx": 1654
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 1968
+        }
+      },
+      "issues": [
+        "Docs: Expected 1969 DOCX, got 1968 (missing 1)",
+        "Report: Transformed folder missing"
+      ]
+    },
+    {
+      "meeting": "TSGR1_98b",
+      "extracted": {
+        "docs": {
+          "doc": 312,
+          "docx": 1546
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 1857
+        }
+      },
+      "issues": [
+        "Docs: Expected 1858 DOCX, got 1857 (missing 1)",
+        "Report: Transformed folder missing"
+      ]
+    },
+    {
+      "meeting": "TSGR1_99",
+      "extracted": {
+        "docs": {
+          "doc": 274,
+          "docx": 1622
+        },
+        "report": {
+          "doc": 0,
+          "docx": 1
+        }
+      },
+      "transformed": {
+        "docs": {
+          "doc": 0,
+          "docx": 1741
+        }
+      },
+      "issues": [
+        "Docs: Expected 1896 DOCX, got 1741 (missing 155)",
+        "Report: Transformed folder missing"
+      ]
+    }
+  ]
+}

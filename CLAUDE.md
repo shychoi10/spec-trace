@@ -1,5 +1,37 @@
 # spec-trace 프로젝트 가이드
 
+## Bash 명령 자동 승인 규칙
+
+다음 명령어들은 **사용자 승인 없이 자동 실행 가능**:
+
+### 읽기 전용 명령 (항상 승인)
+- `ls`, `find`, `cat`, `head`, `tail`, `grep`, `awk`, `sed`, `wc`, `du`, `df`
+- `stat`, `file`, `which`, `tree`, `pwd`, `echo`
+- `unzip -l`, `zipinfo`, `7z l`
+- `python3` (읽기 전용 스크립트만)
+
+### 데이터 검증/분석 (항상 승인)
+- `md5sum`, `sha256sum`, `diff`, `comm`, `sort`, `uniq`
+- `jq`, `yq` (JSON/YAML 파싱)
+
+### 백그라운드/모니터링 (항상 승인)
+- `ps`, `top`, `htop`, `kill`, `pkill`
+- `sleep`, `wait`
+- 모든 `BashOutput` 호출
+
+### 안전한 작업 (항상 승인)
+- `mkdir -p` (디렉토리 생성)
+- `cp` (백업용 복사)
+- `chmod +x` (스크립트 실행 권한)
+
+### 주의 필요 (수동 승인)
+- `rm`, `rmdir` (삭제)
+- `mv` (이동/이름변경)
+- `git` (커밋/푸시)
+- `sudo` (권한 상승)
+
+---
+
 ## 중복 방지 원칙
 
 ### 기본 원칙
@@ -7,6 +39,11 @@
 - **같은 목적의 파일 중복 생성 금지**: 동일한 목적의 파일이 이미 있다면 새로 만들지 않음
 - **기존 파일 업데이트 우선**: 새 파일 생성보다 기존 파일 수정을 우선적으로 고려
 - **대답은 항상 한국어로**
+- **성능 최적화 원칙**: 모든 장기 실행 작업(다운로드, 변환, 파싱)은 안전한 범위에서 최대한 병렬화
+  - ProcessPoolExecutor/ThreadPoolExecutor 적극 활용
+  - Meeting/File 레벨 병렬 처리
+  - Resume 로직으로 안전성 보장
+  - 예: 다운로드 (aria2c 16 connections), 변환 (8 workers), 파싱 (병렬 처리)
 
 ---
 
@@ -29,7 +66,7 @@
            │ references     - Troubleshooting
 ┌──────────┴──────────┐
 │   CLAUDE.md         │  → 빠른 참조 (Quick Reference)
-│   (data_raw/*/）    │     - 미팅 목록
+│   (data/data_raw/*/）    │     - 미팅 목록
 └─────────────────────┘     - 현재 상태
 ```
 
@@ -43,7 +80,7 @@
   - 기본 설정
 - **특징**: 간결하게, 상세 내용은 docs 참조
 
-**2. CLAUDE.md** (`data_raw/*/CLAUDE.md`)
+**2. CLAUDE.md** (`data/data_raw/*/CLAUDE.md`)
 - **목적**: Quick Reference Spec
 - **내용**:
   - 미팅/파일 목록
@@ -87,20 +124,65 @@ Agent/CLAUDE.md (간단) → docs (상세)
 
 ---
 
-## Phase-1 구조 (5-Step Workflow)
+## 용어 정의 (Terminology)
 
-Phase-1은 5개의 독립적인 Step으로 구성:
+### 프로젝트 위계 구조
+
+spec-trace 프로젝트는 다음과 같은 계층 구조를 사용합니다:
+
+```
+Phase (최상위 - 프로젝트 단계)
+ └─ Step (중간 - 작업 순서)
+     └─ Sub-step (하위 - 세부 작업)
+          └─ Layer (기술 깊이 - 파싱 레벨만 사용)
+```
+
+**용어 설명**:
+- **Phase**: 프로젝트의 큰 단계 (예: Phase-1 Data Preparation, Phase-2 DB Construction)
+- **Step**: Phase 내의 순차적 작업 단위 (예: Step-1, Step-2, ..., Step-7)
+- **Sub-step**: Step 내의 세부 작업 (예: Sub-step 6-1, Sub-step 6-2, Sub-step 6-3)
+- **Layer**: 파싱의 기술적 깊이 (예: Layer-1 Structural, Layer-2 Semantic)
+  - **중요**: Layer는 파싱 레벨을 나타내는 기술 용어로만 사용
+
+**구조 예시**:
+```
+Phase-1: Data Collection & Preparation
+  ├─ Step-6: Data Transformation for Parsing
+  │    ├─ Sub-step 6-1: Transform (DOC→DOCX, PPT→PPTX)
+  │    ├─ Sub-step 6-2: Schema Validation
+  │    └─ Sub-step 6-3: Multi-Format Strategy
+  └─ Step-7: Document Parsing (Layer-1)
+       ├─ Sub-step 7-1: DOCX Basic Parser
+       ├─ Sub-step 7-2: XLSX Integration
+       ├─ Sub-step 7-3: Advanced Features
+       └─ Sub-step 7-4: Full Scale Parsing
+```
+
+---
+
+## Phase-1 구조
+
+Phase-1은 7개의 독립적인 Step으로 구성:
 
 ```
 Phase-1: Raw Data Collection & Preparation
-├── Step-1: Meetings Download         [✅ COMPLETE]
-├── Step-2: Change Requests Download  [✅ COMPLETE]
-├── Step-3: Specifications Download   [✅ COMPLETE]
-├── Step-4: ZIP Extraction            [✅ COMPLETE]
-└── Step-5: Data Cleanup for Parsing  [✅ COMPLETE]
+├── Step-1: Meetings Download                [✅ COMPLETE]
+├── Step-2: Change Requests Download         [✅ COMPLETE]
+├── Step-3: Specifications Download          [✅ COMPLETE]
+├── Step-4: ZIP Extraction                   [✅ COMPLETE]
+├── Step-5: Data Cleanup for Parsing         [✅ COMPLETE]
+├── Step-6: Data Transformation for Parsing  [✅ COMPLETE]
+│    ├─ Sub-step 6-1: Transform (DOC→DOCX, PPT→PPTX) [✅ Complete]
+│    ├─ Sub-step 6-2: Schema Validation      [✅ Complete]
+│    └─ Sub-step 6-3: Multi-Format Strategy  [✅ Complete]
+└── Step-7: Document Parsing (Layer-1)       [⏳ PLANNED]
+     ├─ Sub-step 7-1: DOCX Basic Parser      [⏳ Planned]
+     ├─ Sub-step 7-2: XLSX Integration       [⏳ Planned]
+     ├─ Sub-step 7-3: Advanced Features      [⏳ Planned]
+     └─ Sub-step 7-4: Full Scale Parsing     [⏳ Planned]
 ```
 
-**Status**: All Steps Complete (100%) ✅
+**Status**: 6/7 Steps Complete (86%) | Step-6 Complete | Step-7 Ready
 
 ### 각 Step의 필수 문서 구조
 
@@ -110,7 +192,7 @@ Phase-1: Raw Data Collection & Preparation
    - 완전한 기술 문서 (Single Source of Truth)
    - 다운로드 절차, 성능 분석, Troubleshooting
 
-2. **빠른 참조** (`data_raw/*/RAN1/CLAUDE.md`)
+2. **빠른 참조** (`data/data_raw/*/RAN1/CLAUDE.md`)
    - 타겟 목록 (meetings/CRs/specs)
    - 현재 상태, 빠른 명령어
    - 상세 가이드 참조 링크
@@ -143,21 +225,31 @@ Phase-1: Raw Data Collection & Preparation
 - **상세 가이드**: `docs/phase-1/step2_change-requests-download.md`
 - **빠른 참조**: `data/data_raw/change-requests/RAN1/CLAUDE.md`
 - **스크립트**: `scripts/phase-1/change-requests/RAN1/` (5-step pipeline: 01-05)
-- **데이터**: `data/data_raw/change-requests/RAN1/` (451 CRs, 105 unique files, 100%)
+- **데이터**: `data/data_raw/change-requests/RAN1/` (1,845 CRs, 520 files, 82% coverage)
+- **범위**: **8 specs** (Tier 1: 38.211-215, Tier 2: 38.201-202, Tier 4: 38.291)
 - **로그**: `logs/phase-1/change-requests/RAN1/`
+- **결과**:
+  - 5 Releases 크롤링 완료 (Rel-15~19)
+  - 509 URLs 추출 (병렬 처리, 3분)
+  - 520 files 다운로드 (509 + 11 hardlinks)
+  - 1,476/1,845 CRs 커버리지 (80.0%)
+  - Missing: 369 CRs (Portal/FTP 누락, 3GPP 시스템 한계)
 
 ### Step-3: Specifications Download (✅ COMPLETE)
 - **상세 가이드**: `docs/phase-1/step3_specifications-download.md`
 - **빠른 참조**: `data/data_raw/specs/RAN1/CLAUDE.md`
 - **스크립트**: `scripts/phase-1/specs/RAN1/download_latest_specs.py`
-- **데이터**: `data/data_raw/specs/RAN1/` (5 specs, 7.7 MB, version j10)
+- **데이터**: `data/data_raw/specs/RAN1/` (8 specs, 9.2 MB)
+- **범위**: Tier 1-4 (Tier 1: 38.211-215, Tier 2: 38.201-202, Tier 4: 38.291)
+- **버전**: j10 (Tier 1+4), j00 (Tier 2)
 - **로그**: `logs/phase-1/specs/RAN1/`
+- **Note**: 모든 Tier (1,2,4)의 CR 다운로드 완료 (1,845 CRs total)
 
 ### Step-4: ZIP Extraction (✅ COMPLETE)
 - **상세 가이드**: `docs/phase-1/step4_extraction.md`
 - **빠른 참조**: `data/data_extracted/CLAUDE.md`
 - **스크립트**: `scripts/phase-1/{meetings,change-requests,specs}/RAN1/extract_*.py`
-- **데이터**: `data/data_extracted/` (119,797 ZIPs → 42 GB, 99.93% success)
+- **데이터**: `data/data_extracted/` (120,294 ZIPs → 42.5 GB, 99.93% success)
 - **로그**: `logs/phase-1/{meetings,change-requests,specs}/RAN1/extraction.log`
 
 ### Step-5: Data Cleanup for Parsing (✅ COMPLETE)

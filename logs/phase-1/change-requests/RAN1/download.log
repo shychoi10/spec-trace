@@ -1,0 +1,1838 @@
+================================================================================
+RAN1 Change Request TSG TDoc Downloader with aria2c
+================================================================================
+Time: 2025-11-05 11:11:06
+================================================================================
+✓ aria2c found: /usr/bin/aria2c
+
+================================================================================
+TSG TDoc Download
+================================================================================
+Files to download: 509
+Input file: logs/phase-1/change-requests/RAN1/aria2c_input_tsg.txt
+Log file: logs/phase-1/change-requests/RAN1/aria2c_download_tsg.log
+
+================================================================================
+Starting download...
+================================================================================
+
+
+11/05 11:11:06 [[1;32mNOTICE[0m] Downloading 509 item(s)
+[DL:0B][#bf7d6c 0B/0B][#855e75 0B/0B][#360d05 0B/0B][#61fdd7 0B/0B][#66ad02 0B/0B](+15)
+[DL:1.7MiB][#bf7d6c 64KiB/261KiB(24%)][#855e75 160KiB/323KiB(49%)][#360d05 160KiB/355KiB(45%)][#61fdd7 32KiB/574KiB(5%)][#66ad02 48KiB/1.8MiB(2%)](+15)
+
+11/05 11:11:09 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-19/TSG/RP-252629.zip
+
+11/05 11:11:09 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-19/TSG/RP-252628.zip
+
+11/05 11:11:09 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-19/TSG/RP-252632.zip
+[DL:1.4MiB][#bf7d6c 160KiB/261KiB(61%)][#61fdd7 64KiB/574KiB(11%)][#66ad02 144KiB/1.8MiB(7%)][#806ca3 144KiB/406KiB(35%)][#8c8b4a 80KiB/1.3MiB(5%)](+15)
+[DL:1.2MiB][#bf7d6c 192KiB/261KiB(73%)][#61fdd7 128KiB/574KiB(22%)][#66ad02 320KiB/1.8MiB(16%)][#806ca3 208KiB/406KiB(51%)][#8c8b4a 224KiB/1.3MiB(16%)](+15)
+
+11/05 11:11:10 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-19/TSG/RP-252637.zip
+[DL:1.1MiB][#bf7d6c 224KiB/261KiB(85%)][#61fdd7 192KiB/574KiB(33%)][#66ad02 464KiB/1.8MiB(24%)][#806ca3 304KiB/406KiB(74%)][#8c8b4a 288KiB/1.3MiB(20%)](+15)
+[DL:1.0MiB][#bf7d6c 240KiB/261KiB(91%)][#61fdd7 208KiB/574KiB(36%)][#66ad02 592KiB/1.8MiB(31%)][#806ca3 384KiB/406KiB(94%)][#8c8b4a 368KiB/1.3MiB(26%)](+15)
+
+11/05 11:11:12 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-19/TSG/RP-252626.zip
+
+11/05 11:11:13 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-191940.zip
+
+11/05 11:11:13 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-19/TSG/RP-252633.zip
+[DL:1.0MiB][#61fdd7 224KiB/574KiB(38%)][#66ad02 688KiB/1.8MiB(36%)][#8c8b4a 496KiB/1.3MiB(35%)][#beca1c 96KiB/610KiB(15%)][#b226d4 160KiB/616KiB(25%)](+15)
+
+11/05 11:11:13 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-190773.zip
+[DL:1.0MiB][#61fdd7 240KiB/574KiB(41%)][#66ad02 832KiB/1.8MiB(43%)][#8c8b4a 608KiB/1.3MiB(43%)][#beca1c 192KiB/610KiB(31%)][#b226d4 176KiB/616KiB(28%)](+15)
+[DL:1.0MiB][#61fdd7 256KiB/574KiB(44%)][#66ad02 0.9MiB/1.8MiB(49%)][#8c8b4a 673KiB/1.3MiB(48%)][#beca1c 208KiB/610KiB(34%)][#b226d4 208KiB/616KiB(33%)](+15)
+
+11/05 11:11:16 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-19/TSG/RP-252636.zip
+[DL:1.0MiB][#61fdd7 288KiB/574KiB(50%)][#66ad02 0.9MiB/1.8MiB(52%)][#8c8b4a 721KiB/1.3MiB(51%)][#beca1c 256KiB/610KiB(41%)][#b226d4 272KiB/616KiB(44%)](+15)
+[DL:1.0MiB][#61fdd7 320KiB/574KiB(55%)][#66ad02 1.0MiB/1.8MiB(58%)][#8c8b4a 769KiB/1.3MiB(55%)][#beca1c 256KiB/610KiB(41%)][#b226d4 400KiB/616KiB(64%)](+15)
+[DL:0.9MiB][#61fdd7 352KiB/574KiB(61%)][#66ad02 1.1MiB/1.8MiB(59%)][#8c8b4a 769KiB/1.3MiB(55%)][#beca1c 272KiB/610KiB(44%)][#b226d4 400KiB/616KiB(64%)](+15)
+
+11/05 11:11:19 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-212958.zip
+[DL:919KiB][#61fdd7 384KiB/574KiB(66%)][#66ad02 1.1MiB/1.8MiB(64%)][#8c8b4a 785KiB/1.3MiB(56%)][#beca1c 288KiB/610KiB(47%)][#b226d4 432KiB/616KiB(70%)](+15)
+
+11/05 11:11:20 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-19/TSG/RP-252627.zip
+[DL:0.9MiB][#61fdd7 384KiB/574KiB(66%)][#66ad02 1.2MiB/1.8MiB(67%)][#8c8b4a 0.9MiB/1.3MiB(67%)][#beca1c 288KiB/610KiB(47%)][#b226d4 464KiB/616KiB(75%)](+15)
+
+11/05 11:11:21 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-192624.zip
+
+11/05 11:11:21 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-201803.zip
+[DL:0.9MiB][#61fdd7 416KiB/574KiB(72%)][#66ad02 1.2MiB/1.8MiB(69%)][#8c8b4a 0.9MiB/1.3MiB(67%)][#beca1c 304KiB/610KiB(49%)][#b226d4 480KiB/616KiB(77%)](+15)
+
+11/05 11:11:22 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-19/TSG/RP-251571.zip
+
+11/05 11:11:22 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-19/TSG/RP-251588.zip
+[DL:0.9MiB][#61fdd7 432KiB/574KiB(75%)][#66ad02 1.3MiB/1.8MiB(73%)][#8c8b4a 1.0MiB/1.3MiB(77%)][#beca1c 320KiB/610KiB(52%)][#b226d4 512KiB/616KiB(83%)](+15)
+
+11/05 11:11:23 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-19/TSG/RP-251582.zip
+[DL:0.9MiB][#61fdd7 448KiB/574KiB(77%)][#66ad02 1.3MiB/1.8MiB(73%)][#8c8b4a 1.0MiB/1.3MiB(77%)][#beca1c 368KiB/610KiB(60%)][#b226d4 544KiB/616KiB(88%)](+15)
+[DL:0.9MiB][#61fdd7 496KiB/574KiB(86%)][#66ad02 1.3MiB/1.8MiB(75%)][#8c8b4a 1.0MiB/1.3MiB(78%)][#beca1c 464KiB/610KiB(76%)][#b226d4 608KiB/616KiB(98%)](+15)
+
+11/05 11:11:24 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-19/TSG/RP-252631.zip
+
+11/05 11:11:25 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-19/TSG/RP-251583.zip
+[DL:1.0MiB][#66ad02 1.4MiB/1.8MiB(77%)][#8c8b4a 1.0MiB/1.3MiB(79%)][#beca1c 528KiB/610KiB(86%)][#a062e1 544KiB/658KiB(82%)][#641123 640KiB/0.9MiB(63%)](+15)
+
+11/05 11:11:26 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-19/TSG/RP-251572.zip
+[DL:1.0MiB][#66ad02 1.4MiB/1.8MiB(79%)][#8c8b4a 1.1MiB/1.3MiB(81%)][#beca1c 592KiB/610KiB(97%)][#a062e1 608KiB/658KiB(92%)][#641123 688KiB/0.9MiB(67%)](+15)
+
+11/05 11:11:26 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-19/TSG/RP-251577.zip
+
+11/05 11:11:26 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-221596.zip
+[DL:1.1MiB][#66ad02 1.5MiB/1.8MiB(81%)][#8c8b4a 1.1MiB/1.3MiB(85%)][#a062e1 624KiB/658KiB(94%)][#641123 752KiB/0.9MiB(74%)][#7a3435 486KiB/1.0MiB(46%)](+15)
+
+11/05 11:11:28 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-181257.zip
+
+11/05 11:11:28 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-202014.zip
+
+11/05 11:11:28 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-211841.zip
+[DL:1.2MiB][#66ad02 1.5MiB/1.8MiB(85%)][#8c8b4a 1.2MiB/1.3MiB(93%)][#a062e1 624KiB/658KiB(94%)][#641123 896KiB/0.9MiB(88%)][#7a3435 662KiB/1.0MiB(63%)](+15)
+
+11/05 11:11:29 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-210047.zip
+
+11/05 11:11:29 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-190447.zip
+
+11/05 11:11:29 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-19/TSG/RP-251836.zip
+[DL:1.3MiB][#66ad02 1.5MiB/1.8MiB(86%)][#a062e1 656KiB/658KiB(99%)][#641123 0.9MiB/0.9MiB(93%)][#7a3435 886KiB/1.0MiB(84%)][#26f2bd 400KiB/481KiB(83%)](+15)
+
+11/05 11:11:29 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-19/TSG/RP-251578.zip
+
+11/05 11:11:29 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-251564.zip
+
+11/05 11:11:30 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-211233.zip
+
+11/05 11:11:30 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-19/TSG/RP-252634.zip
+
+11/05 11:11:30 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242930.zip
+[DL:1.4MiB][#66ad02 1.6MiB/1.8MiB(87%)][#26f2bd 400KiB/481KiB(83%)][#f579cb 3.0MiB/6.7MiB(44%)][#302dfc 2.2MiB/4.2MiB(51%)][#68c12f 2.7MiB/4.6MiB(59%)](+15)
+
+11/05 11:11:30 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-200683.zip
+
+11/05 11:11:31 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-202379.zip
+[DL:1.4MiB][#66ad02 1.6MiB/1.8MiB(88%)][#26f2bd 416KiB/481KiB(86%)][#f579cb 3.1MiB/6.7MiB(47%)][#302dfc 2.3MiB/4.2MiB(53%)][#68c12f 2.9MiB/4.6MiB(63%)](+15)
+
+11/05 11:11:31 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242931.zip
+
+11/05 11:11:31 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-192625.zip
+
+11/05 11:11:31 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-190448.zip
+
+11/05 11:11:32 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-191941.zip
+
+11/05 11:11:32 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-250225.zip
+[DL:1.4MiB][#66ad02 1.6MiB/1.8MiB(89%)][#26f2bd 432KiB/481KiB(89%)][#f579cb 3.3MiB/6.7MiB(49%)][#302dfc 2.3MiB/4.2MiB(55%)][#68c12f 3.0MiB/4.6MiB(65%)](+15)
+[DL:1.4MiB][#66ad02 1.6MiB/1.8MiB(91%)][#26f2bd 432KiB/481KiB(89%)][#f579cb 3.5MiB/6.7MiB(52%)][#302dfc 2.4MiB/4.2MiB(57%)][#68c12f 3.2MiB/4.6MiB(69%)](+15)
+
+11/05 11:11:34 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-191282.zip
+[DL:1.4MiB][#66ad02 1.7MiB/1.8MiB(95%)][#26f2bd 464KiB/481KiB(96%)][#f579cb 3.7MiB/6.7MiB(54%)][#302dfc 2.6MiB/4.2MiB(61%)][#68c12f 3.2MiB/4.6MiB(70%)](+15)
+
+11/05 11:11:35 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-191281.zip
+
+11/05 11:11:35 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-19/TSG/RP-251580.zip
+[DL:1.4MiB][#f579cb 3.9MiB/6.7MiB(57%)][#302dfc 2.8MiB/4.2MiB(65%)][#68c12f 3.3MiB/4.6MiB(73%)][#1cc24e 224KiB/303KiB(73%)][#a18082 288KiB/779KiB(36%)](+15)
+
+11/05 11:11:36 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242210.zip
+[DL:1.4MiB][#f579cb 4.0MiB/6.7MiB(60%)][#302dfc 2.8MiB/4.2MiB(67%)][#68c12f 3.5MiB/4.6MiB(76%)][#1cc24e 272KiB/303KiB(89%)][#a18082 320KiB/779KiB(41%)](+15)
+
+11/05 11:11:37 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242205.zip
+
+11/05 11:11:37 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242929.zip
+[DL:1.4MiB][#f579cb 4.3MiB/6.7MiB(64%)][#302dfc 2.9MiB/4.2MiB(69%)][#68c12f 3.5MiB/4.6MiB(77%)][#a18082 368KiB/779KiB(47%)][#47442b 1.1MiB/2.2MiB(48%)](+15)
+
+11/05 11:11:38 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-241075.zip
+[DL:1.3MiB][#f579cb 4.5MiB/6.7MiB(66%)][#302dfc 3.0MiB/4.2MiB(72%)][#68c12f 3.6MiB/4.6MiB(78%)][#a18082 416KiB/779KiB(53%)][#47442b 1.2MiB/2.2MiB(53%)](+15)
+[DL:1.2MiB][#f579cb 4.7MiB/6.7MiB(70%)][#302dfc 3.2MiB/4.2MiB(75%)][#68c12f 3.6MiB/4.6MiB(78%)][#a18082 464KiB/779KiB(59%)][#47442b 1.3MiB/2.2MiB(59%)](+15)
+[DL:1.2MiB][#f579cb 4.9MiB/6.7MiB(73%)][#302dfc 3.3MiB/4.2MiB(78%)][#68c12f 3.6MiB/4.6MiB(79%)][#a18082 528KiB/779KiB(67%)][#47442b 1.4MiB/2.2MiB(62%)](+15)
+
+11/05 11:11:41 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242204.zip
+
+11/05 11:11:41 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-241058.zip
+[DL:1.3MiB][#f579cb 5.2MiB/6.7MiB(78%)][#302dfc 3.4MiB/4.2MiB(81%)][#68c12f 3.7MiB/4.6MiB(80%)][#a18082 576KiB/779KiB(73%)][#47442b 1.4MiB/2.2MiB(65%)](+15)
+[DL:1.3MiB][#f579cb 5.5MiB/6.7MiB(82%)][#302dfc 3.5MiB/4.2MiB(82%)][#68c12f 3.9MiB/4.6MiB(84%)][#a18082 640KiB/779KiB(82%)][#47442b 1.5MiB/2.2MiB(67%)](+15)
+[DL:1.3MiB][#f579cb 5.9MiB/6.7MiB(87%)][#302dfc 3.6MiB/4.2MiB(84%)][#68c12f 4.1MiB/4.6MiB(89%)][#a18082 672KiB/779KiB(86%)][#47442b 1.7MiB/2.2MiB(75%)](+15)
+
+11/05 11:11:43 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240537.zip
+[DL:1.3MiB][#f579cb 6.1MiB/6.7MiB(90%)][#302dfc 3.7MiB/4.2MiB(87%)][#68c12f 4.3MiB/4.6MiB(92%)][#a18082 720KiB/779KiB(92%)][#47442b 1.8MiB/2.2MiB(83%)](+15)
+
+11/05 11:11:44 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242203.zip
+
+11/05 11:11:45 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-241066.zip
+
+11/05 11:11:45 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242924.zip
+[DL:1.3MiB][#f579cb 6.2MiB/6.7MiB(91%)][#302dfc 3.8MiB/4.2MiB(89%)][#68c12f 4.3MiB/4.6MiB(92%)][#47442b 1.9MiB/2.2MiB(87%)][#911cc4 384KiB/767KiB(50%)](+15)
+
+11/05 11:11:46 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242209.zip
+
+11/05 11:11:46 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240519.zip
+
+11/05 11:11:46 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240535.zip
+[DL:1.3MiB][#f579cb 6.2MiB/6.7MiB(92%)][#302dfc 3.8MiB/4.2MiB(90%)][#68c12f 4.3MiB/4.6MiB(93%)][#47442b 2.1MiB/2.2MiB(93%)][#911cc4 448KiB/767KiB(58%)](+15)
+
+11/05 11:11:46 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-241076.zip
+
+11/05 11:11:47 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-241061.zip
+
+11/05 11:11:47 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242925.zip
+[DL:1.3MiB][#f579cb 6.3MiB/6.7MiB(93%)][#302dfc 3.9MiB/4.2MiB(93%)][#68c12f 4.3MiB/4.6MiB(93%)][#911cc4 448KiB/767KiB(58%)][#a7bae4 1.5MiB/1.6MiB(94%)](+15)
+
+11/05 11:11:48 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240528.zip
+
+11/05 11:11:48 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-241072.zip
+
+11/05 11:11:48 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233708.zip
+[DL:1.3MiB][#f579cb 6.3MiB/6.7MiB(93%)][#302dfc 4.1MiB/4.2MiB(97%)][#68c12f 4.3MiB/4.6MiB(93%)][#911cc4 480KiB/767KiB(62%)][#52dda1 352KiB/527KiB(66%)](+15)
+[DL:1.2MiB][#f579cb 6.3MiB/6.7MiB(94%)][#302dfc 4.2MiB/4.2MiB(98%)][#68c12f 4.3MiB/4.6MiB(94%)][#911cc4 496KiB/767KiB(64%)][#52dda1 352KiB/527KiB(66%)](+15)
+
+11/05 11:11:50 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-232479.zip
+
+11/05 11:11:50 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233709.zip
+
+11/05 11:11:50 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240520.zip
+[DL:1.2MiB][#f579cb 6.3MiB/6.7MiB(94%)][#302dfc 4.2MiB/4.2MiB(99%)][#68c12f 4.3MiB/4.6MiB(94%)][#911cc4 512KiB/767KiB(66%)][#52dda1 352KiB/527KiB(66%)](+15)
+
+11/05 11:11:50 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-182523.zip
+
+11/05 11:11:50 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242932.zip
+
+11/05 11:11:50 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-241064.zip
+
+11/05 11:11:51 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-251581.zip
+[DL:1.1MiB][#f579cb 6.3MiB/6.7MiB(94%)][#68c12f 4.4MiB/4.6MiB(95%)][#911cc4 560KiB/767KiB(72%)][#52dda1 400KiB/527KiB(75%)][#925c1b 1.0MiB/1.3MiB(76%)](+15)
+
+11/05 11:11:51 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-251575.zip
+
+11/05 11:11:52 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-251573.zip
+
+11/05 11:11:52 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-251584.zip
+[DL:1.1MiB][#f579cb 6.4MiB/6.7MiB(95%)][#68c12f 4.5MiB/4.6MiB(97%)][#911cc4 560KiB/767KiB(72%)][#52dda1 400KiB/527KiB(75%)][#925c1b 1.0MiB/1.3MiB(77%)](+15)
+
+11/05 11:11:53 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-232474.zip
+
+11/05 11:11:53 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-250228.zip
+
+11/05 11:11:53 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-250233.zip
+[DL:1.0MiB][#f579cb 6.4MiB/6.7MiB(96%)][#68c12f 4.5MiB/4.6MiB(99%)][#911cc4 560KiB/767KiB(72%)][#52dda1 432KiB/527KiB(81%)][#925c1b 1.0MiB/1.3MiB(83%)](+15)
+
+11/05 11:11:54 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-250229.zip
+
+11/05 11:11:54 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-180200.zip
+
+11/05 11:11:54 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240530.zip
+[DL:1.0MiB][#f579cb 6.5MiB/6.7MiB(96%)][#911cc4 576KiB/767KiB(75%)][#52dda1 464KiB/527KiB(87%)][#925c1b 1.1MiB/1.3MiB(89%)][#feed86 624KiB/790KiB(78%)](+15)
+
+11/05 11:11:54 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233703.zip
+
+11/05 11:11:55 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-232473.zip
+
+11/05 11:11:55 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233729.zip
+
+11/05 11:11:55 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-241068.zip
+
+11/05 11:11:55 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-250226.zip
+[DL:1.0MiB][#f579cb 6.5MiB/6.7MiB(97%)][#911cc4 592KiB/767KiB(77%)][#52dda1 464KiB/527KiB(87%)][#925c1b 1.2MiB/1.3MiB(91%)][#feed86 640KiB/790KiB(80%)](+15)
+
+11/05 11:11:56 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242211.zip
+
+11/05 11:11:56 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242218.zip
+
+11/05 11:11:56 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-251579.zip
+[DL:1.0MiB][#f579cb 6.6MiB/6.7MiB(97%)][#911cc4 592KiB/767KiB(77%)][#52dda1 480KiB/527KiB(90%)][#925c1b 1.2MiB/1.3MiB(95%)][#feed86 672KiB/790KiB(85%)](+15)
+
+11/05 11:11:56 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240515.zip
+
+11/05 11:11:57 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233714.zip
+
+11/05 11:11:57 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233728.zip
+
+11/05 11:11:57 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242212.zip
+[DL:0.9MiB][#f579cb 6.6MiB/6.7MiB(98%)][#911cc4 608KiB/767KiB(79%)][#52dda1 480KiB/527KiB(90%)][#925c1b 1.2MiB/1.3MiB(97%)][#feed86 704KiB/790KiB(89%)](+15)
+
+11/05 11:11:57 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242214.zip
+
+11/05 11:11:58 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242208.zip
+
+11/05 11:11:58 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242206.zip
+[DL:0.9MiB][#f579cb 6.6MiB/6.7MiB(99%)][#911cc4 624KiB/767KiB(81%)][#52dda1 496KiB/527KiB(93%)][#925c1b 1.2MiB/1.3MiB(97%)][#feed86 752KiB/790KiB(95%)](+15)
+
+11/05 11:11:58 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240536.zip
+
+11/05 11:11:58 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-241067.zip
+
+11/05 11:11:59 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-241060.zip
+
+11/05 11:11:59 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233710.zip
+
+11/05 11:11:59 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-241069.zip
+
+11/05 11:11:59 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240542.zip
+
+11/05 11:11:59 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240526.zip
+
+11/05 11:11:59 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-181172.zip
+[DL:0.9MiB][#911cc4 624KiB/767KiB(81%)][#52dda1 496KiB/527KiB(93%)][#f1d918 352KiB/511KiB(68%)][#a8d254 368KiB/0.9MiB(37%)][#c39853 336KiB/529KiB(63%)](+15)
+
+11/05 11:12:00 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-241070.zip
+
+11/05 11:12:00 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240527.zip
+
+11/05 11:12:00 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-241073.zip
+[DL:0.9MiB][#911cc4 640KiB/767KiB(83%)][#52dda1 512KiB/527KiB(96%)][#f1d918 352KiB/511KiB(68%)][#a8d254 480KiB/0.9MiB(48%)][#c39853 368KiB/529KiB(69%)](+15)
+
+11/05 11:12:00 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-241071.zip
+
+11/05 11:12:00 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240540.zip
+
+11/05 11:12:01 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240525.zip
+
+11/05 11:12:01 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-232472.zip
+
+11/05 11:12:01 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233719.zip
+
+11/05 11:12:01 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233721.zip
+
+11/05 11:12:01 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240521.zip
+
+11/05 11:12:01 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240532.zip
+[DL:0.9MiB][#911cc4 640KiB/767KiB(83%)][#f1d918 368KiB/511KiB(71%)][#a8d254 560KiB/0.9MiB(56%)][#c39853 384KiB/529KiB(72%)][#cc31f3 272KiB/335KiB(80%)](+15)
+
+11/05 11:12:02 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233737.zip
+
+11/05 11:12:02 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240541.zip
+
+11/05 11:12:02 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242928.zip
+[DL:0.9MiB][#911cc4 672KiB/767KiB(87%)][#f1d918 400KiB/511KiB(78%)][#a8d254 672KiB/0.9MiB(67%)][#c39853 416KiB/529KiB(78%)][#cc31f3 320KiB/335KiB(95%)](+15)
+
+11/05 11:12:02 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233717.zip
+
+11/05 11:12:03 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240523.zip
+
+11/05 11:12:03 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240531.zip
+
+11/05 11:12:03 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-250224.zip
+[DL:0.9MiB][#911cc4 704KiB/767KiB(91%)][#f1d918 432KiB/511KiB(84%)][#a8d254 752KiB/0.9MiB(76%)][#c39853 448KiB/529KiB(84%)][#0f8592 528KiB/547KiB(96%)](+15)
+
+11/05 11:12:03 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233706.zip
+
+11/05 11:12:04 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240534.zip
+
+11/05 11:12:04 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-241059.zip
+
+11/05 11:12:04 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233704.zip
+
+11/05 11:12:04 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233702.zip
+
+11/05 11:12:04 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-232482.zip
+[DL:0.9MiB][#a8d254 848KiB/0.9MiB(85%)][#c39853 496KiB/529KiB(93%)][#2785f0 208KiB/579KiB(35%)][#cdf35d 48KiB/213KiB(22%)][#72552d 240KiB/252KiB(94%)](+15)
+
+11/05 11:12:04 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240529.zip
+
+11/05 11:12:04 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233730.zip
+
+11/05 11:12:05 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233697.zip
+
+11/05 11:12:05 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233699.zip
+
+11/05 11:12:05 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-250230.zip
+
+11/05 11:12:05 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233734.zip
+
+11/05 11:12:05 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-232481.zip
+[DL:0.9MiB][#a8d254 848KiB/0.9MiB(85%)][#2785f0 224KiB/579KiB(38%)][#cdf35d 64KiB/213KiB(29%)][#4d25ea 144KiB/340KiB(42%)][#fb026c 208KiB/592KiB(35%)](+15)
+
+11/05 11:12:05 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242936.zip
+
+11/05 11:12:05 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242215.zip
+
+11/05 11:12:05 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242216.zip
+
+11/05 11:12:06 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242217.zip
+
+11/05 11:12:06 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-250223.zip
+ *** Download Progress Summary as of Wed Nov  5 11:12:06 2025 *** 
+===============================================================================
+[#a8d254 896KiB/0.9MiB(90%) CN:1 DL:74KiB ETA:1s]
+FILE: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233727.zip
+-------------------------------------------------------------------------------
+[#2785f0 240KiB/579KiB(41%) CN:1 DL:21KiB ETA:15s]
+FILE: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233720.zip
+-------------------------------------------------------------------------------
+[#cdf35d 80KiB/213KiB(37%) CN:1 DL:14KiB ETA:8s]
+FILE: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240522.zip
+-------------------------------------------------------------------------------
+[#4d25ea 208KiB/340KiB(61%) CN:1 DL:46KiB ETA:2s]
+FILE: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233701.zip
+-------------------------------------------------------------------------------
+[#fb026c 224KiB/592KiB(37%) CN:1 DL:49KiB ETA:7s]
+FILE: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233736.zip
+-------------------------------------------------------------------------------
+[#6f88b6 80KiB/666KiB(12%) CN:1 DL:35KiB ETA:16s]
+FILE: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233698.zip
+-------------------------------------------------------------------------------
+[#0ddfdb 406KiB/1.0MiB(37%) CN:1 DL:120KiB ETA:5s]
+FILE: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233723.zip
+-------------------------------------------------------------------------------
+[#605ac8 128KiB/185KiB(69%) CN:1 DL:43KiB ETA:1s]
+FILE: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-232483.zip
+-------------------------------------------------------------------------------
+[#0fe76f 128KiB/142KiB(89%) CN:1 DL:52KiB]
+FILE: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-232478.zip
+-------------------------------------------------------------------------------
+[#a8713c 256KiB/311KiB(82%) CN:1 DL:106KiB]
+FILE: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-251574.zip
+-------------------------------------------------------------------------------
+[#7be88e 160KiB/174KiB(91%) CN:1 DL:83KiB]
+FILE: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-250232.zip
+-------------------------------------------------------------------------------
+[#611ece 232KiB/2.0MiB(11%) CN:2 DL:184KiB ETA:9s]
+FILE: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242926.zip
+-------------------------------------------------------------------------------
+[#f238f2 96KiB/567KiB(16%) CN:1 DL:67KiB ETA:6s]
+FILE: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242927.zip
+-------------------------------------------------------------------------------
+[#d51ae3 32KiB/196KiB(16%) CN:1 DL:63KiB ETA:2s]
+FILE: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-241062.zip
+-------------------------------------------------------------------------------
+[#16d16c 32KiB/227KiB(14%) CN:1 DL:50KiB ETA:3s]
+FILE: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-241065.zip
+-------------------------------------------------------------------------------
+[#449aeb 0B/67KiB(0%) CN:1 DL:46KiB ETA:1s]
+FILE: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-241063.zip
+-------------------------------------------------------------------------------
+[#0a1fdb 0B/258KiB(0%) CN:1 DL:66KiB ETA:3s]
+FILE: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240533.zip
+-------------------------------------------------------------------------------
+[#408299 16KiB/186KiB(8%) CN:1 DL:64KiB ETA:2s]
+FILE: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242207.zip
+-------------------------------------------------------------------------------
+[#eea406 0B/0B CN:1 DL:0B]
+FILE: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240517.zip
+-------------------------------------------------------------------------------
+[#2c6abe 0B/0B CN:1 DL:0B]
+FILE: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240539.zip
+-------------------------------------------------------------------------------
+
+[DL:0.9MiB][#a8d254 896KiB/0.9MiB(90%)][#2785f0 240KiB/579KiB(41%)][#cdf35d 80KiB/213KiB(37%)][#4d25ea 208KiB/340KiB(61%)][#fb026c 224KiB/592KiB(37%)](+15)
+
+11/05 11:12:06 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-232478.zip
+
+11/05 11:12:06 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240517.zip
+
+11/05 11:12:06 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-250232.zip
+
+11/05 11:12:07 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-251574.zip
+
+11/05 11:12:07 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-241063.zip
+
+11/05 11:12:07 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240516.zip
+
+11/05 11:12:07 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233735.zip
+[DL:1.0MiB][#a8d254 0.9MiB/0.9MiB(97%)][#2785f0 272KiB/579KiB(46%)][#cdf35d 128KiB/213KiB(59%)][#4d25ea 288KiB/340KiB(84%)][#fb026c 288KiB/592KiB(48%)](+15)
+
+11/05 11:12:07 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-232483.zip
+
+11/05 11:12:08 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233700.zip
+
+11/05 11:12:08 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233727.zip
+[DL:1.0MiB][#2785f0 288KiB/579KiB(49%)][#cdf35d 160KiB/213KiB(74%)][#4d25ea 304KiB/340KiB(89%)][#fb026c 352KiB/592KiB(59%)][#6f88b6 192KiB/666KiB(28%)](+15)
+
+11/05 11:12:09 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-241065.zip
+
+11/05 11:12:09 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233701.zip
+
+11/05 11:12:09 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240539.zip
+
+11/05 11:12:09 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-241062.zip
+[DL:1.1MiB][#2785f0 304KiB/579KiB(52%)][#cdf35d 208KiB/213KiB(97%)][#fb026c 416KiB/592KiB(70%)][#6f88b6 224KiB/666KiB(33%)][#0ddfdb 598KiB/1.0MiB(55%)](+15)
+
+11/05 11:12:09 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240522.zip
+
+11/05 11:12:10 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240538.zip
+
+11/05 11:12:10 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242207.zip
+[DL:1.1MiB][#2785f0 320KiB/579KiB(55%)][#fb026c 480KiB/592KiB(80%)][#6f88b6 288KiB/666KiB(43%)][#0ddfdb 694KiB/1.0MiB(64%)][#611ece 0.9MiB/2.0MiB(45%)](+15)
+
+11/05 11:12:11 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211248.zip
+[DL:1.2MiB][#2785f0 352KiB/579KiB(60%)][#fb026c 544KiB/592KiB(91%)][#6f88b6 336KiB/666KiB(50%)][#0ddfdb 838KiB/1.0MiB(77%)][#611ece 0.9MiB/2.0MiB(48%)](+15)
+
+11/05 11:12:12 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233736.zip
+[DL:1.2MiB][#2785f0 384KiB/579KiB(66%)][#6f88b6 384KiB/666KiB(57%)][#0ddfdb 0.9MiB/1.0MiB(88%)][#611ece 1.0MiB/2.0MiB(49%)][#f238f2 384KiB/567KiB(67%)](+15)
+
+11/05 11:12:13 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240533.zip
+[DL:1.2MiB][#2785f0 448KiB/579KiB(77%)][#6f88b6 448KiB/666KiB(67%)][#0ddfdb 1.0MiB/1.0MiB(95%)][#611ece 1.1MiB/2.0MiB(54%)][#f238f2 384KiB/567KiB(67%)](+15)
+
+11/05 11:12:13 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233732.zip
+
+11/05 11:12:13 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-212958.zip
+
+11/05 11:12:13 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-210059.zip
+[DL:1.2MiB][#2785f0 544KiB/579KiB(93%)][#6f88b6 528KiB/666KiB(79%)][#0ddfdb 1.0MiB/1.0MiB(97%)][#611ece 1.2MiB/2.0MiB(59%)][#f238f2 416KiB/567KiB(73%)](+15)
+
+11/05 11:12:14 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233723.zip
+
+11/05 11:12:14 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233720.zip
+
+11/05 11:12:14 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211235.zip
+
+11/05 11:12:14 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233726.zip
+
+11/05 11:12:15 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-210050.zip
+[DL:1.2MiB][#6f88b6 592KiB/666KiB(88%)][#611ece 1.2MiB/2.0MiB(63%)][#f238f2 464KiB/567KiB(81%)][#5d4ae9 320KiB/339KiB(94%)][#0734e5 710KiB/1.0MiB(67%)](+15)
+
+11/05 11:12:15 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211850.zip
+
+11/05 11:12:16 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-212960.zip
+
+11/05 11:12:16 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233698.zip
+
+11/05 11:12:16 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-201812.zip
+[DL:1.2MiB][#611ece 1.3MiB/2.0MiB(66%)][#f238f2 512KiB/567KiB(90%)][#0734e5 790KiB/1.0MiB(75%)][#85617a 304KiB/459KiB(66%)][#6ae416 400KiB/738KiB(54%)](+15)
+
+11/05 11:12:17 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-201804.zip
+
+11/05 11:12:17 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242927.zip
+[DL:1.3MiB][#611ece 1.3MiB/2.0MiB(69%)][#0734e5 902KiB/1.0MiB(86%)][#85617a 320KiB/459KiB(69%)][#6ae416 448KiB/738KiB(60%)][#47087a 464KiB/779KiB(59%)](+15)
+
+11/05 11:12:17 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-202381.zip
+
+11/05 11:12:17 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-202380.zip
+
+11/05 11:12:17 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-201807.zip
+
+11/05 11:12:18 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-192634.zip
+
+11/05 11:12:18 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-201811.zip
+[DL:1.4MiB][#611ece 1.4MiB/2.0MiB(72%)][#0734e5 0.9MiB/1.0MiB(90%)][#85617a 336KiB/459KiB(73%)][#6ae416 496KiB/738KiB(67%)][#47087a 544KiB/779KiB(69%)](+15)
+
+11/05 11:12:18 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-241058.zip
+[DL:1.4MiB][#611ece 1.4MiB/2.0MiB(73%)][#0734e5 0.9MiB/1.0MiB(92%)][#85617a 352KiB/459KiB(76%)][#6ae416 528KiB/738KiB(71%)][#47087a 640KiB/779KiB(82%)](+15)
+
+11/05 11:12:19 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-210049.zip
+
+11/05 11:12:19 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200689.zip
+
+11/05 11:12:20 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-201805.zip
+
+11/05 11:12:20 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-220245.zip
+
+11/05 11:12:20 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211841.zip
+[DL:1.5MiB][#611ece 1.4MiB/2.0MiB(73%)][#0734e5 0.9MiB/1.0MiB(96%)][#85617a 368KiB/459KiB(80%)][#6ae416 576KiB/738KiB(77%)][#47087a 752KiB/779KiB(96%)](+15)
+
+11/05 11:12:20 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211243.zip
+
+11/05 11:12:20 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-230440.zip
+[DL:1.5MiB][#611ece 1.5MiB/2.0MiB(78%)][#0734e5 1.0MiB/1.0MiB(98%)][#85617a 416KiB/459KiB(90%)][#6ae416 592KiB/738KiB(80%)][#a63e69 2.1MiB/2.5MiB(84%)](+15)
+
+11/05 11:12:21 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-240536.zip
+
+11/05 11:12:21 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211233.zip
+
+11/05 11:12:22 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211252.zip
+
+11/05 11:12:22 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-233703.zip
+[DL:1.5MiB][#611ece 1.6MiB/2.0MiB(80%)][#85617a 448KiB/459KiB(97%)][#6ae416 608KiB/738KiB(82%)][#a63e69 2.2MiB/2.5MiB(90%)][#76c933 576KiB/770KiB(74%)](+15)
+
+11/05 11:12:22 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-212959.zip
+
+11/05 11:12:22 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-221620.zip
+
+11/05 11:12:22 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-210052.zip
+
+11/05 11:12:23 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-201810.zip
+[DL:1.5MiB][#611ece 1.6MiB/2.0MiB(83%)][#6ae416 624KiB/738KiB(84%)][#a63e69 2.4MiB/2.5MiB(96%)][#76c933 608KiB/770KiB(78%)][#d200a8 368KiB/376KiB(97%)](+15)
+
+11/05 11:12:23 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-202387.zip
+
+11/05 11:12:23 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-202384.zip
+
+11/05 11:12:24 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-192646.zip
+[DL:1.5MiB][#611ece 1.6MiB/2.0MiB(83%)][#6ae416 672KiB/738KiB(90%)][#a63e69 2.4MiB/2.5MiB(97%)][#76c933 656KiB/770KiB(85%)][#dd9ead 864KiB/1.8MiB(44%)](+15)
+
+11/05 11:12:24 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-233731.zip
+
+11/05 11:12:25 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-202390.zip
+[DL:1.5MiB][#611ece 1.7MiB/2.0MiB(84%)][#6ae416 688KiB/738KiB(93%)][#a63e69 2.4MiB/2.5MiB(98%)][#76c933 672KiB/770KiB(87%)][#dd9ead 0.9MiB/1.8MiB(51%)](+15)
+
+11/05 11:12:25 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-202398.zip
+
+11/05 11:12:26 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211236.zip
+
+11/05 11:12:26 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-240532.zip
+[DL:1.4MiB][#611ece 1.7MiB/2.0MiB(85%)][#76c933 704KiB/770KiB(91%)][#dd9ead 1.1MiB/1.8MiB(59%)][#871289 0.9MiB/0.9MiB(96%)][#1a9b1d 576KiB/723KiB(79%)](+15)
+
+11/05 11:12:27 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200693.zip
+
+11/05 11:12:27 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-233730.zip
+
+11/05 11:12:27 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-192635.zip
+
+11/05 11:12:27 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-221617.zip
+[DL:1.4MiB][#611ece 1.7MiB/2.0MiB(86%)][#76c933 720KiB/770KiB(93%)][#dd9ead 1.2MiB/1.8MiB(68%)][#1a9b1d 656KiB/723KiB(90%)][#a459d6 288KiB/327KiB(88%)](+15)
+
+11/05 11:12:27 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211843.zip
+
+11/05 11:12:28 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-202383.zip
+[DL:1.2MiB][#611ece 1.8MiB/2.0MiB(89%)][#dd9ead 1.3MiB/1.8MiB(74%)][#1a9b1d 704KiB/723KiB(97%)][#887127 544KiB/563KiB(96%)][#614090 224KiB/532KiB(42%)](+15)
+
+11/05 11:12:28 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211234.zip
+
+11/05 11:12:29 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-201814.zip
+
+11/05 11:12:29 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-213238.zip
+[DL:1.2MiB][#611ece 1.9MiB/2.0MiB(94%)][#dd9ead 1.4MiB/1.8MiB(79%)][#1a9b1d 704KiB/723KiB(97%)][#614090 288KiB/532KiB(54%)][#876e78 480KiB/626KiB(76%)](+15)
+
+11/05 11:12:29 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-232452.zip
+
+11/05 11:12:30 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-241064.zip
+
+11/05 11:12:30 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-220248.zip
+
+11/05 11:12:30 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200191.zip
+[DL:1.1MiB][#611ece 1.9MiB/2.0MiB(95%)][#dd9ead 1.5MiB/1.8MiB(84%)][#614090 336KiB/532KiB(63%)][#876e78 560KiB/626KiB(89%)][#75b180 272KiB/321KiB(84%)](+15)
+
+11/05 11:12:30 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-232451.zip
+
+11/05 11:12:31 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-201813.zip
+[DL:1.0MiB][#611ece 1.9MiB/2.0MiB(95%)][#dd9ead 1.7MiB/1.8MiB(92%)][#614090 368KiB/532KiB(69%)][#876e78 608KiB/626KiB(97%)][#118107 464KiB/552KiB(83%)](+15)
+
+11/05 11:12:31 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-230439.zip
+
+11/05 11:12:32 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-192642.zip
+
+11/05 11:12:32 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-201803.zip
+
+11/05 11:12:32 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-212964.zip
+
+11/05 11:12:32 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200188.zip
+[DL:1.0MiB][#611ece 1.9MiB/2.0MiB(96%)][#dd9ead 1.8MiB/1.8MiB(96%)][#614090 400KiB/532KiB(75%)][#118107 496KiB/552KiB(89%)][#9b112d 910KiB/1.1MiB(75%)](+15)
+
+11/05 11:12:32 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-192636.zip
+
+11/05 11:12:33 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-231230.zip
+
+11/05 11:12:33 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-231227.zip
+[DL:1.0MiB][#611ece 1.9MiB/2.0MiB(96%)][#614090 448KiB/532KiB(84%)][#118107 528KiB/552KiB(95%)][#9b112d 0.9MiB/1.1MiB(83%)][#200bf4 70KiB/1.0MiB(6%)](+15)
+
+11/05 11:12:33 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-221599.zip
+
+11/05 11:12:34 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-222421.zip
+
+11/05 11:12:34 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-222397.zip
+
+11/05 11:12:34 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200690.zip
+[DL:0.9MiB][#611ece 1.9MiB/2.0MiB(97%)][#614090 496KiB/532KiB(93%)][#9b112d 1.1MiB/1.1MiB(95%)][#200bf4 70KiB/1.0MiB(6%)][#056b3e 224KiB/309KiB(72%)](+15)
+
+11/05 11:12:35 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-222871.zip
+
+11/05 11:12:35 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-231228.zip
+
+11/05 11:12:35 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242926.zip
+
+11/05 11:12:35 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-220269.zip
+
+11/05 11:12:35 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-222417.zip
+
+11/05 11:12:35 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200683.zip
+
+11/05 11:12:35 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-201808.zip
+[DL:0.9MiB][#200bf4 86KiB/1.0MiB(8%)][#1e658c 144KiB/309KiB(46%)][#647b16 192KiB/307KiB(62%)][#6e73db 16KiB/240KiB(6%)][#43efe4 336KiB/444KiB(75%)](+15)
+
+11/05 11:12:36 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-222849.zip
+
+11/05 11:12:36 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-220272.zip
+
+11/05 11:12:36 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211846.zip
+
+11/05 11:12:36 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-221598.zip
+[DL:0.9MiB][#200bf4 102KiB/1.0MiB(9%)][#1e658c 192KiB/309KiB(62%)][#647b16 272KiB/307KiB(88%)][#6e73db 16KiB/240KiB(6%)][#43efe4 416KiB/444KiB(93%)](+15)
+
+11/05 11:12:36 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-212962.zip
+
+11/05 11:12:37 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211844.zip
+
+11/05 11:12:37 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-222869.zip
+
+11/05 11:12:37 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-210126.zip
+
+11/05 11:12:37 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-221619.zip
+
+11/05 11:12:37 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-230454.zip
+
+11/05 11:12:37 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-222398.zip
+[DL:0.9MiB][#200bf4 150KiB/1.0MiB(13%)][#1e658c 288KiB/309KiB(93%)][#6e73db 32KiB/240KiB(13%)][#25e999 288KiB/315KiB(91%)][#838942 80KiB/184KiB(43%)](+15)
+
+11/05 11:12:37 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-212961.zip
+
+11/05 11:12:37 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211842.zip
+
+11/05 11:12:38 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211250.zip
+
+11/05 11:12:38 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-222850.zip
+
+11/05 11:12:38 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-202897.zip
+
+11/05 11:12:38 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-221597.zip
+
+11/05 11:12:38 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-202395.zip
+
+11/05 11:12:38 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211249.zip
+
+11/05 11:12:38 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211238.zip
+[DL:1.0MiB][#200bf4 230KiB/1.0MiB(21%)][#6e73db 32KiB/240KiB(13%)][#5879c5 208KiB/450KiB(46%)][#84b94b 368KiB/494KiB(74%)][#d07fb5 224KiB/283KiB(79%)](+15)
+
+11/05 11:12:39 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-202388.zip
+
+11/05 11:12:39 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-210058.zip
+
+11/05 11:12:39 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-210048.zip
+
+11/05 11:12:39 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-202015.zip
+
+11/05 11:12:39 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-210054.zip
+
+11/05 11:12:39 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-201847.zip
+
+11/05 11:12:39 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-210047.zip
+
+11/05 11:12:39 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-220247.zip
+[DL:1.0MiB][#200bf4 230KiB/1.0MiB(21%)][#6e73db 32KiB/240KiB(13%)][#5879c5 256KiB/450KiB(56%)][#84b94b 432KiB/494KiB(87%)][#c7db8a 128KiB/227KiB(56%)](+15)
+
+11/05 11:12:40 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-201806.zip
+
+11/05 11:12:40 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211237.zip
+
+11/05 11:12:40 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-202382.zip
+
+11/05 11:12:40 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-220246.zip
+
+11/05 11:12:40 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-201349.zip
+
+11/05 11:12:40 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200705.zip
+[DL:1.0MiB][#200bf4 326KiB/1.0MiB(30%)][#6e73db 80KiB/240KiB(33%)][#5879c5 272KiB/450KiB(60%)][#c7db8a 144KiB/227KiB(63%)][#a8046e 304KiB/338KiB(89%)](+15)
+
+11/05 11:12:40 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200697.zip
+
+11/05 11:12:41 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200195.zip
+
+11/05 11:12:41 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200691.zip
+
+11/05 11:12:41 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-193223.zip
+[DL:1.0MiB][#200bf4 358KiB/1.0MiB(33%)][#6e73db 96KiB/240KiB(39%)][#5879c5 304KiB/450KiB(67%)][#c7db8a 192KiB/227KiB(84%)][#a8046e 320KiB/338KiB(94%)](+15)
+
+11/05 11:12:41 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211239.zip
+
+11/05 11:12:41 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-202379.zip
+
+11/05 11:12:41 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200695.zip
+
+11/05 11:12:41 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211240.zip
+
+11/05 11:12:42 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-193128.zip
+
+11/05 11:12:42 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-193124.zip
+
+11/05 11:12:42 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-210055.zip
+
+11/05 11:12:42 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-202385.zip
+
+11/05 11:12:42 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-193129.zip
+[DL:1.1MiB][#200bf4 502KiB/1.0MiB(46%)][#6e73db 128KiB/240KiB(53%)][#5879c5 336KiB/450KiB(74%)][#9a2bfd 224KiB/348KiB(64%)][#cba4aa 128KiB/364KiB(35%)](+15)
+
+11/05 11:12:42 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200193.zip
+
+11/05 11:12:42 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-193132.zip
+
+11/05 11:12:43 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-193131.zip
+
+11/05 11:12:43 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200447.zip
+
+11/05 11:12:43 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-193123.zip
+[DL:1.1MiB][#200bf4 518KiB/1.0MiB(48%)][#6e73db 144KiB/240KiB(59%)][#5879c5 384KiB/450KiB(85%)][#9a2bfd 304KiB/348KiB(87%)][#cba4aa 160KiB/364KiB(43%)](+15)
+
+11/05 11:12:43 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-222867.zip
+
+11/05 11:12:44 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-193221.zip
+
+11/05 11:12:44 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-231229.zip
+
+11/05 11:12:44 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-210051.zip
+
+11/05 11:12:44 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-193222.zip
+
+11/05 11:12:44 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-220249.zip
+[DL:1.1MiB][#200bf4 550KiB/1.0MiB(51%)][#6e73db 160KiB/240KiB(66%)][#cba4aa 208KiB/364KiB(57%)][#84169e 128KiB/155KiB(82%)][#bd7ae6 192KiB/563KiB(34%)](+15)
+
+11/05 11:12:44 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211847.zip
+
+11/05 11:12:44 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211251.zip
+
+11/05 11:12:44 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-240533.zip
+
+11/05 11:12:44 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-233732.zip
+
+11/05 11:12:45 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211845.zip
+
+11/05 11:12:45 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-222419.zip
+
+11/05 11:12:45 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-202401.zip
+
+11/05 11:12:45 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200685.zip
+
+11/05 11:12:45 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200448.zip
+
+11/05 11:12:45 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-210309.zip
+
+11/05 11:12:45 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-202386.zip
+
+11/05 11:12:45 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-220244.zip
+[DL:1.1MiB][#200bf4 566KiB/1.0MiB(52%)][#6e73db 208KiB/240KiB(86%)][#cba4aa 256KiB/364KiB(70%)][#84169e 128KiB/155KiB(82%)][#bd7ae6 208KiB/563KiB(36%)](+15)
+
+11/05 11:12:45 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-193121.zip
+
+11/05 11:12:45 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200483.zip
+
+11/05 11:12:46 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-201824.zip
+
+11/05 11:12:46 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-231231.zip
+
+11/05 11:12:46 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200707.zip
+
+11/05 11:12:46 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-230445.zip
+
+11/05 11:12:46 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200189.zip
+
+11/05 11:12:46 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200706.zip
+
+11/05 11:12:46 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-222851.zip
+
+11/05 11:12:46 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200183.zip
+[DL:1.1MiB][#200bf4 598KiB/1.0MiB(55%)][#cba4aa 320KiB/364KiB(87%)][#bd7ae6 224KiB/563KiB(39%)][#26fbda 368KiB/523KiB(70%)][#0baa64 176KiB/336KiB(52%)](+15)
+
+11/05 11:12:46 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-201820.zip
+
+11/05 11:12:47 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-220273.zip
+
+11/05 11:12:47 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-202389.zip
+[DL:1.1MiB][#200bf4 646KiB/1.0MiB(59%)][#bd7ae6 224KiB/563KiB(39%)][#26fbda 448KiB/523KiB(85%)][#0baa64 224KiB/336KiB(66%)][#ae98a0 160KiB/205KiB(77%)](+15)
+
+11/05 11:12:47 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-232449.zip
+
+11/05 11:12:48 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-222399.zip
+
+11/05 11:12:48 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222406.zip
+
+11/05 11:12:48 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-193125.zip
+[DL:1.1MiB][#200bf4 774KiB/1.0MiB(71%)][#bd7ae6 256KiB/563KiB(45%)][#0baa64 288KiB/336KiB(85%)][#ccccec 224KiB/425KiB(52%)][#bca567 256KiB/347KiB(73%)](+15)
+
+11/05 11:12:49 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-233726.zip
+[DL:1.2MiB][#200bf4 902KiB/1.0MiB(83%)][#bd7ae6 272KiB/563KiB(48%)][#ccccec 304KiB/425KiB(71%)][#bca567 336KiB/347KiB(96%)][#18c68c 176KiB/767KiB(22%)](+15)
+
+11/05 11:12:49 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-242203.zip
+
+11/05 11:12:49 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-192640.zip
+
+11/05 11:12:50 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220270.zip
+
+11/05 11:12:50 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221606.zip
+[DL:1.2MiB][#200bf4 0.9MiB/1.0MiB(91%)][#bd7ae6 288KiB/563KiB(51%)][#ccccec 384KiB/425KiB(90%)][#18c68c 224KiB/767KiB(29%)][#6eb171 272KiB/425KiB(63%)](+15)
+
+11/05 11:12:51 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221603.zip
+
+11/05 11:12:51 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-210053.zip
+
+11/05 11:12:51 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220253.zip
+[DL:1.2MiB][#200bf4 1.0MiB/1.0MiB(97%)][#bd7ae6 320KiB/563KiB(56%)][#18c68c 288KiB/767KiB(37%)][#6eb171 320KiB/425KiB(75%)][#9b40cf 192KiB/365KiB(52%)](+15)
+
+11/05 11:12:51 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222863.zip
+
+11/05 11:12:52 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220920.zip
+
+11/05 11:12:52 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-233723.zip
+[DL:1.2MiB][#bd7ae6 352KiB/563KiB(62%)][#18c68c 336KiB/767KiB(43%)][#6eb171 368KiB/425KiB(86%)][#9b40cf 224KiB/365KiB(61%)][#1ec9bd 192KiB/342KiB(55%)](+15)
+
+11/05 11:12:52 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220245.zip
+
+11/05 11:12:53 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220263.zip
+
+11/05 11:12:53 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-212982.zip
+[DL:1.2MiB][#bd7ae6 384KiB/563KiB(68%)][#18c68c 384KiB/767KiB(50%)][#6eb171 400KiB/425KiB(94%)][#9b40cf 272KiB/365KiB(74%)][#1ec9bd 256KiB/342KiB(74%)](+15)
+
+11/05 11:12:53 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-231226.zip
+
+11/05 11:12:54 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222865.zip
+[DL:1.2MiB][#bd7ae6 400KiB/563KiB(70%)][#18c68c 416KiB/767KiB(54%)][#9b40cf 304KiB/365KiB(83%)][#1ec9bd 256KiB/342KiB(74%)][#fa85dd 603KiB/1.1MiB(51%)](+15)
+[DL:1.2MiB][#bd7ae6 432KiB/563KiB(76%)][#18c68c 464KiB/767KiB(60%)][#9b40cf 320KiB/365KiB(87%)][#1ec9bd 272KiB/342KiB(79%)][#fa85dd 683KiB/1.1MiB(57%)](+15)
+
+11/05 11:12:56 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222870.zip
+
+11/05 11:12:56 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222401.zip
+
+11/05 11:12:56 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220251.zip
+
+11/05 11:12:56 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221620.zip
+
+11/05 11:12:56 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-240535.zip
+
+11/05 11:12:56 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221600.zip
+[DL:1.2MiB][#bd7ae6 496KiB/563KiB(87%)][#18c68c 496KiB/767KiB(64%)][#1ec9bd 288KiB/342KiB(83%)][#fa85dd 747KiB/1.1MiB(63%)][#b5f99a 624KiB/779KiB(80%)](+15)
+
+11/05 11:12:57 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222858.zip
+
+11/05 11:12:57 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-193127.zip
+[DL:1.2MiB][#18c68c 544KiB/767KiB(70%)][#1ec9bd 304KiB/342KiB(88%)][#fa85dd 843KiB/1.1MiB(71%)][#b5f99a 656KiB/779KiB(84%)][#48d8d3 448KiB/665KiB(67%)](+15)
+
+11/05 11:12:58 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222412.zip
+[DL:1.2MiB][#18c68c 592KiB/767KiB(77%)][#fa85dd 0.9MiB/1.1MiB(78%)][#b5f99a 688KiB/779KiB(88%)][#48d8d3 496KiB/665KiB(74%)][#884af8 480KiB/486KiB(98%)](+15)
+
+11/05 11:12:58 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220252.zip
+
+11/05 11:12:58 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220256.zip
+
+11/05 11:12:59 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222413.zip
+
+11/05 11:12:59 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220248.zip
+
+11/05 11:12:59 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-212980.zip
+
+11/05 11:12:59 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-212973.zip
+[DL:1.2MiB][#18c68c 624KiB/767KiB(81%)][#fa85dd 0.9MiB/1.1MiB(79%)][#b5f99a 720KiB/779KiB(92%)][#48d8d3 528KiB/665KiB(79%)][#86d67a 672KiB/685KiB(98%)](+15)
+
+11/05 11:12:59 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-212979.zip
+
+11/05 11:13:00 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-251584.zip
+
+11/05 11:13:00 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222411.zip
+
+11/05 11:13:00 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-241071.zip
+[DL:1.2MiB][#18c68c 656KiB/767KiB(85%)][#fa85dd 0.9MiB/1.1MiB(81%)][#b5f99a 752KiB/779KiB(96%)][#48d8d3 560KiB/665KiB(84%)][#8e1857 160KiB/431KiB(37%)](+15)
+
+11/05 11:13:00 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-242214.zip
+
+11/05 11:13:01 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-212978.zip
+
+11/05 11:13:01 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-240541.zip
+
+11/05 11:13:01 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-242924.zip
+
+11/05 11:13:01 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-240532.zip
+
+11/05 11:13:01 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-241073.zip
+
+11/05 11:13:01 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-212972.zip
+
+11/05 11:13:01 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-242212.zip
+[DL:1.2MiB][#18c68c 688KiB/767KiB(89%)][#fa85dd 0.9MiB/1.1MiB(83%)][#48d8d3 592KiB/665KiB(88%)][#8e1857 208KiB/431KiB(48%)][#d885eb 432KiB/776KiB(55%)](+15)
+[DL:1.2MiB][#18c68c 736KiB/767KiB(95%)][#fa85dd 0.9MiB/1.1MiB(86%)][#48d8d3 608KiB/665KiB(91%)][#8e1857 272KiB/431KiB(62%)][#d885eb 464KiB/776KiB(59%)](+15)
+
+11/05 11:13:03 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-233730.zip
+
+11/05 11:13:03 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222854.zip
+
+11/05 11:13:03 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-241059.zip
+
+11/05 11:13:03 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220257.zip
+[DL:1.1MiB][#fa85dd 1.0MiB/1.1MiB(87%)][#48d8d3 640KiB/665KiB(96%)][#8e1857 304KiB/431KiB(70%)][#d885eb 512KiB/776KiB(65%)][#3b071f 910KiB/1.1MiB(75%)](+15)
+
+11/05 11:13:03 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-251575.zip
+
+11/05 11:13:04 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-233704.zip
+
+11/05 11:13:04 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-233701.zip
+
+11/05 11:13:04 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220250.zip
+[DL:1.1MiB][#fa85dd 1.0MiB/1.1MiB(87%)][#8e1857 304KiB/431KiB(70%)][#d885eb 544KiB/776KiB(70%)][#3b071f 0.9MiB/1.1MiB(79%)][#376e19 336KiB/535KiB(62%)](+15)
+
+11/05 11:13:05 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221617.zip
+[DL:1.1MiB][#fa85dd 1.0MiB/1.1MiB(90%)][#8e1857 320KiB/431KiB(74%)][#d885eb 576KiB/776KiB(74%)][#3b071f 0.9MiB/1.1MiB(83%)][#376e19 368KiB/535KiB(68%)](+15)
+
+11/05 11:13:06 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-233734.zip
+ *** Download Progress Summary as of Wed Nov  5 11:13:06 2025 *** 
+===============================================================================
+[#fa85dd 1.1MiB/1.1MiB(95%) CN:1 DL:34KiB ETA:1s]
+FILE: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222864.zip
+-------------------------------------------------------------------------------
+[#8e1857 336KiB/431KiB(77%) CN:1 DL:24KiB ETA:3s]
+FILE: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-230451.zip
+-------------------------------------------------------------------------------
+[#d885eb 592KiB/776KiB(76%) CN:1 DL:44KiB ETA:4s]
+FILE: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222868.zip
+-------------------------------------------------------------------------------
+[#3b071f 1.0MiB/1.1MiB(86%) CN:1 DL:81KiB ETA:1s]
+FILE: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222853.zip
+-------------------------------------------------------------------------------
+[#376e19 416KiB/535KiB(77%) CN:1 DL:42KiB ETA:2s]
+FILE: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222422.zip
+-------------------------------------------------------------------------------
+[#3c220a 496KiB/659KiB(75%) CN:1 DL:62KiB ETA:2s]
+FILE: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-212968.zip
+-------------------------------------------------------------------------------
+[#3c3605 416KiB/592KiB(70%) CN:1 DL:70KiB ETA:2s]
+FILE: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-233736.zip
+-------------------------------------------------------------------------------
+[#6d9732 464KiB/1.2MiB(35%) CN:1 DL:91KiB ETA:9s]
+FILE: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222400.zip
+-------------------------------------------------------------------------------
+[#a52b05 160KiB/239KiB(66%) CN:1 DL:33KiB ETA:2s]
+FILE: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222403.zip
+-------------------------------------------------------------------------------
+[#5d1f1c 272KiB/571KiB(47%) CN:1 DL:56KiB ETA:5s]
+FILE: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221599.zip
+-------------------------------------------------------------------------------
+[#6f71cb 272KiB/305KiB(89%) CN:1 DL:55KiB]
+FILE: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221601.zip
+-------------------------------------------------------------------------------
+[#7f3981 304KiB/666KiB(45%) CN:1 DL:63KiB ETA:5s]
+FILE: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-233698.zip
+-------------------------------------------------------------------------------
+[#0071f1 176KiB/345KiB(50%) CN:1 DL:59KiB ETA:2s]
+FILE: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221612.zip
+-------------------------------------------------------------------------------
+[#b88a5c 256KiB/303KiB(84%) CN:1 DL:89KiB]
+FILE: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221602.zip
+-------------------------------------------------------------------------------
+[#d4b149 80KiB/389KiB(20%) CN:1 DL:41KiB ETA:7s]
+FILE: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-233697.zip
+-------------------------------------------------------------------------------
+[#ba663c 128KiB/203KiB(62%) CN:1 DL:59KiB ETA:1s]
+FILE: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220264.zip
+-------------------------------------------------------------------------------
+[#5e367b 112KiB/144KiB(77%) CN:1 DL:58KiB]
+FILE: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-233699.zip
+-------------------------------------------------------------------------------
+[#19b590 48KiB/1.0MiB(4%) CN:2 DL:46KiB ETA:22s]
+FILE: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-233723.zip
+-------------------------------------------------------------------------------
+[#197cf8 0B/135KiB(0%) CN:1 DL:11KiB ETA:12s]
+FILE: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-233702.zip
+-------------------------------------------------------------------------------
+[#46b2c1 0B/0B CN:1 DL:0B]
+FILE: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-232696.zip
+-------------------------------------------------------------------------------
+
+[DL:1.0MiB][#fa85dd 1.1MiB/1.1MiB(95%)][#8e1857 336KiB/431KiB(77%)][#d885eb 592KiB/776KiB(76%)][#3b071f 1.0MiB/1.1MiB(86%)][#376e19 416KiB/535KiB(77%)](+15)
+
+11/05 11:13:06 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221602.zip
+
+11/05 11:13:06 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222864.zip
+
+11/05 11:13:06 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-233699.zip
+
+11/05 11:13:07 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221601.zip
+
+11/05 11:13:07 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-232696.zip
+
+11/05 11:13:07 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-232450.zip
+[DL:1.0MiB][#8e1857 384KiB/431KiB(88%)][#d885eb 624KiB/776KiB(80%)][#3b071f 1.0MiB/1.1MiB(91%)][#376e19 480KiB/535KiB(89%)][#3c220a 528KiB/659KiB(80%)](+15)
+
+11/05 11:13:07 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-232453.zip
+
+11/05 11:13:07 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222403.zip
+
+11/05 11:13:08 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220264.zip
+
+11/05 11:13:08 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-232446.zip
+[DL:1.0MiB][#8e1857 400KiB/431KiB(92%)][#d885eb 672KiB/776KiB(86%)][#3b071f 1.0MiB/1.1MiB(93%)][#376e19 528KiB/535KiB(98%)][#3c220a 576KiB/659KiB(87%)](+15)
+
+11/05 11:13:08 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222422.zip
+
+11/05 11:13:09 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220269.zip
+
+11/05 11:13:09 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-232457.zip
+
+11/05 11:13:09 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-232451.zip
+
+11/05 11:13:09 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222853.zip
+
+11/05 11:13:09 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-232448.zip
+
+11/05 11:13:09 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-233697.zip
+[DL:1.0MiB][#8e1857 416KiB/431KiB(96%)][#d885eb 720KiB/776KiB(92%)][#3c220a 624KiB/659KiB(94%)][#3c3605 576KiB/592KiB(97%)][#6d9732 576KiB/1.2MiB(44%)](+15)
+
+11/05 11:13:09 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221612.zip
+
+11/05 11:13:09 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-233736.zip
+
+11/05 11:13:10 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-230451.zip
+
+11/05 11:13:10 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-231221.zip
+
+11/05 11:13:10 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-231224.zip
+
+11/05 11:13:10 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-232455.zip
+
+11/05 11:13:10 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-233698.zip
+
+11/05 11:13:10 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-231228.zip
+[DL:1.0MiB][#d885eb 720KiB/776KiB(92%)][#3c220a 640KiB/659KiB(97%)][#6d9732 608KiB/1.2MiB(46%)][#5d1f1c 432KiB/571KiB(75%)][#19b590 630KiB/1.0MiB(58%)](+15)
+
+11/05 11:13:10 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-231225.zip
+
+11/05 11:13:10 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-231232.zip
+
+11/05 11:13:10 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-231222.zip
+
+11/05 11:13:11 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-231227.zip
+
+11/05 11:13:11 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-212968.zip
+
+11/05 11:13:11 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-233702.zip
+
+11/05 11:13:11 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-230444.zip
+
+11/05 11:13:11 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-230439.zip
+[DL:1.0MiB][#d885eb 752KiB/776KiB(96%)][#6d9732 656KiB/1.2MiB(50%)][#5d1f1c 544KiB/571KiB(95%)][#19b590 790KiB/1.0MiB(73%)][#b8f73b 352KiB/394KiB(89%)](+15)
+
+11/05 11:13:11 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-230449.zip
+
+11/05 11:13:12 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221599.zip
+
+11/05 11:13:12 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-230452.zip
+
+11/05 11:13:12 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222868.zip
+
+11/05 11:13:12 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-230447.zip
+
+11/05 11:13:12 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220262.zip
+
+11/05 11:13:12 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222862.zip
+
+11/05 11:13:12 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222852.zip
+[DL:1.1MiB][#6d9732 688KiB/1.2MiB(53%)][#19b590 0.9MiB/1.0MiB(86%)][#f04e80 128KiB/183KiB(69%)][#2163df 112KiB/270KiB(41%)][#0aebad 96KiB/175KiB(54%)](+15)
+
+11/05 11:13:13 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-231220.zip
+
+11/05 11:13:13 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222866.zip
+
+11/05 11:13:13 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-231230.zip
+
+11/05 11:13:13 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-230441.zip
+
+11/05 11:13:13 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-233723.zip
+[DL:1.1MiB][#6d9732 768KiB/1.2MiB(59%)][#f04e80 144KiB/183KiB(78%)][#2163df 144KiB/270KiB(53%)][#715cb0 80KiB/147KiB(54%)][#4b68a1 304KiB/327KiB(92%)](+15)
+
+11/05 11:13:14 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222871.zip
+
+11/05 11:13:14 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222397.zip
+
+11/05 11:13:14 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222855.zip
+
+11/05 11:13:14 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-230450.zip
+[DL:1.1MiB][#6d9732 816KiB/1.2MiB(62%)][#f04e80 160KiB/183KiB(87%)][#2163df 224KiB/270KiB(82%)][#715cb0 112KiB/147KiB(75%)][#9a883e 192KiB/240KiB(79%)](+15)
+
+11/05 11:13:14 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222849.zip
+
+11/05 11:13:15 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222405.zip
+
+11/05 11:13:15 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222418.zip
+
+11/05 11:13:15 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-231219.zip
+
+11/05 11:13:15 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221618.zip
+
+11/05 11:13:15 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-230446.zip
+
+11/05 11:13:15 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222398.zip
+
+11/05 11:13:15 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221614.zip
+
+11/05 11:13:15 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221613.zip
+[DL:1.1MiB][#6d9732 848KiB/1.2MiB(65%)][#f04e80 176KiB/183KiB(95%)][#9a883e 224KiB/240KiB(93%)][#ffda3a 384KiB/444KiB(86%)][#211bf9 208KiB/315KiB(65%)](+15)
+
+11/05 11:13:16 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-230445.zip
+
+11/05 11:13:16 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222869.zip
+
+11/05 11:13:16 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-232447.zip
+
+11/05 11:13:16 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220271.zip
+
+11/05 11:13:16 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221597.zip
+
+11/05 11:13:16 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222402.zip
+
+11/05 11:13:16 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221605.zip
+[DL:1.2MiB][#6d9732 912KiB/1.2MiB(70%)][#211bf9 288KiB/315KiB(91%)][#3d286e 144KiB/203KiB(70%)][#e63704 96KiB/188KiB(51%)][#3ef726 96KiB/137KiB(69%)](+15)
+
+11/05 11:13:17 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-212971.zip
+
+11/05 11:13:17 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222850.zip
+
+11/05 11:13:17 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222857.zip
+
+11/05 11:13:17 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220261.zip
+
+11/05 11:13:17 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221610.zip
+[DL:1.2MiB][#6d9732 0.9MiB/1.2MiB(74%)][#e63704 144KiB/188KiB(76%)][#3ef726 96KiB/137KiB(69%)][#26da5e 448KiB/742KiB(60%)][#b045c9 128KiB/169KiB(75%)](+15)
+
+11/05 11:13:17 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220254.zip
+
+11/05 11:13:17 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221598.zip
+
+11/05 11:13:17 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221611.zip
+
+11/05 11:13:18 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220247.zip
+
+11/05 11:13:18 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-251574.zip
+
+11/05 11:13:18 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-212977.zip
+[DL:1.2MiB][#6d9732 0.9MiB/1.2MiB(76%)][#e63704 160KiB/188KiB(85%)][#3ef726 112KiB/137KiB(81%)][#26da5e 576KiB/742KiB(77%)][#531d9a 0B/147KiB(0%)](+15)
+
+11/05 11:13:19 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222421.zip
+
+11/05 11:13:19 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-242937.zip
+
+11/05 11:13:19 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222417.zip
+
+11/05 11:13:19 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-242217.zip
+
+11/05 11:13:19 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-242207.zip
+
+11/05 11:13:19 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-250232.zip
+[DL:1.1MiB][#6d9732 1.0MiB/1.2MiB(79%)][#26da5e 688KiB/742KiB(92%)][#531d9a 0B/147KiB(0%)][#bf2b28 96KiB/179KiB(53%)][#0410a0 384KiB/450KiB(85%)](+15)
+
+11/05 11:13:20 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-241065.zip
+
+11/05 11:13:20 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220272.zip
+
+11/05 11:13:20 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-242216.zip
+
+11/05 11:13:20 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222404.zip
+
+11/05 11:13:20 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-241063.zip
+
+11/05 11:13:20 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-240538.zip
+
+11/05 11:13:20 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-233735.zip
+[DL:1.1MiB][#6d9732 1.0MiB/1.2MiB(82%)][#531d9a 32KiB/147KiB(21%)][#bf2b28 128KiB/179KiB(71%)][#0410a0 432KiB/450KiB(95%)][#b967af 336KiB/494KiB(67%)](+15)
+
+11/05 11:13:21 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220249.zip
+
+11/05 11:13:21 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-233700.zip
+
+11/05 11:13:21 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-213524.zip
+
+11/05 11:13:21 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-250223.zip
+
+11/05 11:13:21 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-240517.zip
+
+11/05 11:13:21 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220255.zip
+
+11/05 11:13:21 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-231231.zip
+
+11/05 11:13:21 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-242215.zip
+
+11/05 11:13:21 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-231229.zip
+
+11/05 11:13:21 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-240516.zip
+[DL:1.1MiB][#6d9732 1.0MiB/1.2MiB(85%)][#531d9a 48KiB/147KiB(32%)][#b967af 384KiB/494KiB(77%)][#097c1b 128KiB/567KiB(22%)][#81fba8 112KiB/258KiB(43%)](+15)
+
+11/05 11:13:22 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222859.zip
+
+11/05 11:13:22 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-231223.zip
+
+11/05 11:13:22 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-240539.zip
+
+11/05 11:13:22 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-233726.zip
+
+11/05 11:13:22 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-233732.zip
+
+11/05 11:13:22 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222407.zip
+
+11/05 11:13:22 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222414.zip
+
+11/05 11:13:22 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222609.zip
+
+11/05 11:13:22 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222851.zip
+
+11/05 11:13:22 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221615.zip
+
+11/05 11:13:22 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221607.zip
+[DL:1.1MiB][#6d9732 1.1MiB/1.2MiB(88%)][#531d9a 64KiB/147KiB(43%)][#b967af 448KiB/494KiB(90%)][#097c1b 160KiB/567KiB(28%)][#81fba8 128KiB/258KiB(49%)](+15)
+
+11/05 11:13:23 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-232456.zip
+
+11/05 11:13:23 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222399.zip
+
+11/05 11:13:23 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220949.zip
+
+11/05 11:13:23 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220266.zip
+
+11/05 11:13:23 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221604.zip
+
+11/05 11:13:23 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222419.zip
+
+11/05 11:13:23 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220862.zip
+
+11/05 11:13:23 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220267.zip
+
+11/05 11:13:23 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220244.zip
+
+11/05 11:13:23 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222867.zip
+[DL:1.1MiB][#6d9732 1.1MiB/1.2MiB(92%)][#531d9a 80KiB/147KiB(54%)][#b967af 464KiB/494KiB(93%)][#097c1b 208KiB/567KiB(36%)][#81fba8 176KiB/258KiB(68%)](+10)
+
+11/05 11:13:24 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-212981.zip
+
+11/05 11:13:24 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220246.zip
+
+11/05 11:13:24 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220265.zip
+
+11/05 11:13:24 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221616.zip
+
+11/05 11:13:24 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-212983.zip
+
+11/05 11:13:24 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220273.zip
+
+11/05 11:13:24 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222415.zip
+
+11/05 11:13:24 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221619.zip
+[DL:1.1MiB][#6d9732 1.2MiB/1.2MiB(96%)][#097c1b 272KiB/567KiB(47%)][#81fba8 192KiB/258KiB(74%)][#877128 240KiB/307KiB(78%)][#a30f92 144KiB/405KiB(35%)](+2)
+
+11/05 11:13:25 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-212970.zip
+
+11/05 11:13:25 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-230454.zip
+
+11/05 11:13:25 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-240533.zip
+
+11/05 11:13:25 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222400.zip
+[DL:1.0MiB][#097c1b 320KiB/567KiB(56%)][#a30f92 176KiB/405KiB(43%)][#89e691 80KiB/123KiB(64%)]
+
+11/05 11:13:25 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222410.zip
+[DL:908KiB][#097c1b 400KiB/567KiB(70%)][#a30f92 224KiB/405KiB(55%)]
+[DL:786KiB][#097c1b 480KiB/567KiB(84%)][#a30f92 272KiB/405KiB(67%)]
+[DL:676KiB][#097c1b 528KiB/567KiB(92%)][#a30f92 320KiB/405KiB(78%)]
+
+11/05 11:13:29 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-242927.zip
+[#a30f92 352KiB/405KiB(86%) CN:1 DL:43KiB ETA:1s]
+
+11/05 11:13:30 [[1;32mNOTICE[0m] Download complete: data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222856.zip
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+360d05|OK  |   323KiB/s|data/data_raw/change-requests/RAN1/Rel-19/TSG/RP-252629.zip
+855e75|OK  |   289KiB/s|data/data_raw/change-requests/RAN1/Rel-19/TSG/RP-252628.zip
+8523e6|OK  |   167KiB/s|data/data_raw/change-requests/RAN1/Rel-19/TSG/RP-252632.zip
+01d979|OK  |    24KiB/s|data/data_raw/change-requests/RAN1/Rel-19/TSG/RP-252637.zip
+806ca3|OK  |    88KiB/s|data/data_raw/change-requests/RAN1/Rel-19/TSG/RP-252626.zip
+354ca9|OK  |    94KiB/s|data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-191940.zip
+bf7d6c|OK  |    48KiB/s|data/data_raw/change-requests/RAN1/Rel-19/TSG/RP-252633.zip
+b02bcf|OK  |   127KiB/s|data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-190773.zip
+03f9b5|OK  |    22KiB/s|data/data_raw/change-requests/RAN1/Rel-19/TSG/RP-252636.zip
+c20332|OK  |    63KiB/s|data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-212958.zip
+7783df|OK  |    42KiB/s|data/data_raw/change-requests/RAN1/Rel-19/TSG/RP-252627.zip
+06e71f|OK  |    30KiB/s|data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-192624.zip
+880bfc|OK  |    83KiB/s|data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-201803.zip
+008c3d|OK  |    34KiB/s|data/data_raw/change-requests/RAN1/Rel-19/TSG/RP-251571.zip
+8fc89a|OK  |    22KiB/s|data/data_raw/change-requests/RAN1/Rel-19/TSG/RP-251588.zip
+dfd7fc|OK  |    34KiB/s|data/data_raw/change-requests/RAN1/Rel-19/TSG/RP-251582.zip
+b226d4|OK  |    36KiB/s|data/data_raw/change-requests/RAN1/Rel-19/TSG/RP-252631.zip
+61fdd7|OK  |    33KiB/s|data/data_raw/change-requests/RAN1/Rel-19/TSG/RP-251583.zip
+8597b9|OK  |    38KiB/s|data/data_raw/change-requests/RAN1/Rel-19/TSG/RP-251572.zip
+beca1c|OK  |    32KiB/s|data/data_raw/change-requests/RAN1/Rel-19/TSG/RP-251577.zip
+425e3a|OK  |    22KiB/s|data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-221596.zip
+35f879|OK  |    89KiB/s|data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-181257.zip
+d60427|OK  |    43KiB/s|data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-202014.zip
+6313b8|OK  |    30KiB/s|data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-211841.zip
+341fc5|OK  |    94KiB/s|data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-210047.zip
+be7ecc|OK  |   136KiB/s|data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-190447.zip
+8c8b4a|OK  |    64KiB/s|data/data_raw/change-requests/RAN1/Rel-19/TSG/RP-251836.zip
+a062e1|OK  |    30KiB/s|data/data_raw/change-requests/RAN1/Rel-19/TSG/RP-251578.zip
+f32665|OK  |   155KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-251564.zip
+7a3435|OK  |    56KiB/s|data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-211233.zip
+641123|OK  |    45KiB/s|data/data_raw/change-requests/RAN1/Rel-19/TSG/RP-252634.zip
+de9848|OK  |   178KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242930.zip
+8d70b7|OK  |   127KiB/s|data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-200683.zip
+be39ac|OK  |    47KiB/s|data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-202379.zip
+e88ebc|OK  |   107KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242931.zip
+f2cfda|OK  |    24KiB/s|data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-192625.zip
+eca457|OK  |    46KiB/s|data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-190448.zip
+bfc5ee|OK  |    21KiB/s|data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-191941.zip
+403d2e|OK  |    13KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-250225.zip
+211cc6|OK  |    46KiB/s|data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-191282.zip
+26f2bd|OK  |    20KiB/s|data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-191281.zip
+66ad02|OK  |    69KiB/s|data/data_raw/change-requests/RAN1/Rel-19/TSG/RP-251580.zip
+6ad373|OK  |    64KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242210.zip
+606fec|OK  |    48KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242205.zip
+1cc24e|OK  |    36KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242929.zip
+4ba20d|OK  |    83KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-241075.zip
+e64f8e|OK  |   108KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242204.zip
+8c3ee7|OK  |    43KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-241058.zip
+cd5d9b|OK  |    68KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240537.zip
+a51978|OK  |    43KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242203.zip
+6f4c9e|OK  |    63KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-241066.zip
+a18082|OK  |    50KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242924.zip
+f910ad|OK  |    69KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242209.zip
+f91e1c|OK  |    42KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240519.zip
+3bb4ab|OK  |    27KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240535.zip
+085539|OK  |   164KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-241076.zip
+8a48fe|OK  |    30KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-241061.zip
+47442b|OK  |   133KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242925.zip
+f0fe8b|OK  |    31KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240528.zip
+a7bae4|OK  |   101KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-241072.zip
+b4ebd2|OK  |   221KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233708.zip
+702fe1|OK  |   118KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-232479.zip
+9d9357|OK  |    62KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233709.zip
+ad6371|OK  |    90KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240520.zip
+302dfc|OK  |   132KiB/s|data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-182523.zip
+9adf72|OK  |   119KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242932.zip
+315dec|OK  |    54KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-241064.zip
+65fedb|OK  |   164KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-251581.zip
+235092|OK  |   241KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-251575.zip
+2b5a30|OK  |   125KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-251573.zip
+72df1c|OK  |   164KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-251584.zip
+32a678|OK  |    53KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-232474.zip
+c8a25e|OK  |    53KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-250228.zip
+62bbc6|OK  |   5.4MiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-250233.zip
+4065c2|OK  |    42KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-250229.zip
+68c12f|OK  |   137KiB/s|data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-180200.zip
+edbe25|OK  |   295KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240530.zip
+46b47b|OK  |    48KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233703.zip
+d2044b|OK  |    63KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-232473.zip
+e2f949|OK  |   158KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233729.zip
+f69140|OK  |    66KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-241068.zip
+763a8e|OK  |    46KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-250226.zip
+25cb33|OK  |   482KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242211.zip
+28f257|OK  |    82KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242218.zip
+4913ab|OK  |    67KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-251579.zip
+de2a17|OK  |   247KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240515.zip
+60af79|OK  |   118KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233714.zip
+495d62|OK  |    61KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233728.zip
+eef91e|OK  |   107KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242212.zip
+bfd732|OK  |    84KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242214.zip
+1924cd|OK  |   170KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242208.zip
+293dfa|OK  |    50KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242206.zip
+f15878|OK  |    33KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240536.zip
+925c1b|OK  |    60KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-241067.zip
+feed86|OK  |    36KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-241060.zip
+0dac75|OK  |   172KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233710.zip
+960f16|OK  |    74KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-241069.zip
+25152a|OK  |   8.9MiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240542.zip
+278d00|OK  |   218KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240526.zip
+f579cb|OK  |   149KiB/s|data/data_raw/change-requests/RAN1/Rel-15/TSG/RP-181172.zip
+cf8a1f|OK  |    57KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-241070.zip
+1a604d|OK  |   102KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240527.zip
+99fab2|OK  |    52KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-241073.zip
+e74546|OK  |    66KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-241071.zip
+1035f6|OK  |   188KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240540.zip
+7530ce|OK  |   142KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240525.zip
+69d998|OK  |    70KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-232472.zip
+52dda1|OK  |    20KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233719.zip
+f4d72f|OK  |    52KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233721.zip
+b9d63f|OK  |    50KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240521.zip
+ec90f4|OK  |   221KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240532.zip
+a27406|OK  |   109KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233737.zip
+f66184|OK  |   103KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240541.zip
+9b0669|OK  |    25KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242928.zip
+f57383|OK  |   122KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233717.zip
+9902ec|OK  |    30KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240523.zip
+b8f72b|OK  |    65KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240531.zip
+cc31f3|OK  |    30KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-250224.zip
+cbb310|OK  |    93KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233706.zip
+0f8592|OK  |    58KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240534.zip
+911cc4|OK  |    24KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-241059.zip
+3f1577|OK  |    68KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233704.zip
+37a618|OK  |   122KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233702.zip
+f1d918|OK  |    31KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-232482.zip
+72552d|OK  |    67KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240529.zip
+9ebb6c|OK  |    35KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233730.zip
+0bfab5|OK  |   201KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233697.zip
+e1037d|OK  |    65KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233699.zip
+4cbfb2|OK  |   253KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-250230.zip
+a8db2b|OK  |    57KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233734.zip
+c39853|OK  |    32KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-232481.zip
+9cebd1|OK  |   151KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242936.zip
+05c3cf|OK  |   275KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242215.zip
+bfd742|OK  |   147KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242216.zip
+0c4e7f|OK  |   134KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242217.zip
+a7b298|OK  |   135KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-250223.zip
+0fe76f|OK  |    58KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-232478.zip
+eea406|OK  |   5.2MiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240517.zip
+7be88e|OK  |    86KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-250232.zip
+a8713c|OK  |   115KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-251574.zip
+449aeb|OK  |    76KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-241063.zip
+f9cabc|OK  |   300KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240516.zip
+b35a79|OK  |    10MiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233735.zip
+605ac8|OK  |    45KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-232483.zip
+4e376e|OK  |   117KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233700.zip
+a8d254|OK  |    54KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233727.zip
+16d16c|OK  |    66KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-241065.zip
+4d25ea|OK  |    45KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233701.zip
+2c6abe|OK  |    29KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240539.zip
+d51ae3|OK  |    54KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-241062.zip
+cdf35d|OK  |    22KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240522.zip
+3f35e4|OK  |    42KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240538.zip
+408299|OK  |    46KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242207.zip
+c29503|OK  |    81KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211248.zip
+fb026c|OK  |    57KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233736.zip
+0a1fdb|OK  |    36KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-240533.zip
+91292a|OK  |    26KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233732.zip
+1fc8c0|OK  |   134KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-212958.zip
+dd9df7|OK  |   170KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-210059.zip
+0ddfdb|OK  |    95KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233723.zip
+2785f0|OK  |    30KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233720.zip
+e35af4|OK  |    62KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211235.zip
+2ab0da|OK  |    46KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233726.zip
+575d86|OK  |    65KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-210050.zip
+0bddb8|OK  |   119KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211850.zip
+5d4ae9|OK  |    41KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-212960.zip
+6f88b6|OK  |    54KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-233698.zip
+11f880|OK  |    88KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-201812.zip
+bb9d19|OK  |   135KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-201804.zip
+f238f2|OK  |    45KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242927.zip
+34bb43|OK  |    84KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-202381.zip
+09dcc2|OK  |    51KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-202380.zip
+4d7325|OK  |   142KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-201807.zip
+cea7bf|OK  |   143KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-192634.zip
+e6de07|OK  |    66KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-201811.zip
+cb25a2|OK  |   213KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-241058.zip
+b4de29|OK  |    70KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-210049.zip
+7e78ae|OK  |   133KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200689.zip
+fa905c|OK  |    70KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-201805.zip
+e81e36|OK  |   162KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-220245.zip
+eb888a|OK  |   274KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211841.zip
+47087a|OK  |    71KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211243.zip
+b599c8|OK  |   158KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-230440.zip
+00edd1|OK  |    63KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-240536.zip
+0734e5|OK  |    80KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211233.zip
+1359a0|OK  |    76KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211252.zip
+fef574|OK  |    92KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-233703.zip
+cdee9b|OK  |   128KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-212959.zip
+85617a|OK  |    34KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-221620.zip
+74510b|OK  |    90KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-210052.zip
+32ea24|OK  |   272KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-201810.zip
+d200a8|OK  |    45KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-202387.zip
+dfd488|OK  |    79KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-202384.zip
+0b7c43|OK  |   129KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-192646.zip
+957e41|OK  |   6.6MiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-233731.zip
+53354b|OK  |    58KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-202390.zip
+a63e69|OK  |   215KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-202398.zip
+6ae416|OK  |    44KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211236.zip
+937b2d|OK  |   128KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-240532.zip
+c0ac88|OK  |    68KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200693.zip
+474ff6|OK  |   112KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-233730.zip
+871289|OK  |    89KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-192635.zip
+ef2fd2|OK  |   335KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-221617.zip
+a459d6|OK  |    44KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211843.zip
+76c933|OK  |    53KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-202383.zip
+887127|OK  |    70KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211234.zip
+72350d|OK  |    79KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-201814.zip
+fbe44c|OK  |    85KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-213238.zip
+b91a9f|OK  |   103KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-232452.zip
+1a9b1d|OK  |    60KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-241064.zip
+a5a595|OK  |    50KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-220248.zip
+f44095|OK  |    38KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200191.zip
+034483|OK  |    77KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-232451.zip
+75b180|OK  |    37KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-201813.zip
+238d53|OK  |    62KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-230439.zip
+46314a|OK  |    59KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-192642.zip
+876e78|OK  |    63KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-201803.zip
+91c55e|OK  |    94KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-212964.zip
+b034b6|OK  |    51KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200188.zip
+dd9ead|OK  |   121KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-192636.zip
+7e9fc5|OK  |    23KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-231230.zip
+27d057|OK  |    43KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-231227.zip
+3be35f|OK  |    82KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-221599.zip
+4eaec5|OK  |   160KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-222421.zip
+cb5c99|OK  |   118KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-222397.zip
+118107|OK  |    51KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200690.zip
+218402|OK  |    71KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-222871.zip
+63ea26|OK  |    34KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-231228.zip
+611ece|OK  |    68KiB/s|data/data_raw/change-requests/RAN1/Rel-18/TSG/RP-242926.zip
+056b3e|OK  |    39KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-220269.zip
+71a473|OK  |    67KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-222417.zip
+9b112d|OK  |    98KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200683.zip
+614090|OK  |    38KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-201808.zip
+9e9f8f|OK  |    36KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-222849.zip
+0b8594|OK  |   108KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-220272.zip
+ee073b|OK  |   165KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211846.zip
+074b06|OK  |    75KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-221598.zip
+4cc3fc|OK  |    84KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-212962.zip
+cd9626|OK  |   112KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211844.zip
+43efe4|OK  |    79KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-222869.zip
+28eb78|OK  |   3.9MiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-210126.zip
+9da123|OK  |    48KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-221619.zip
+647b16|OK  |    48KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-230454.zip
+f2ac26|OK  |    73KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-222398.zip
+1e658c|OK  |    35KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-212961.zip
+4fbe21|OK  |   167KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211842.zip
+172ce5|OK  |    52KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211250.zip
+25e999|OK  |    53KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-222850.zip
+12802b|OK  |   4.4MiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-202897.zip
+838942|OK  |    51KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-221597.zip
+324f8f|OK  |   8.1MiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-202395.zip
+b48748|OK  |    51KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211249.zip
+528135|OK  |   200KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211238.zip
+95e95e|OK  |   472KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-202388.zip
+91c1d3|OK  |    64KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-210058.zip
+d9ed20|OK  |    66KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-210048.zip
+89fcb1|OK  |   276KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-202015.zip
+fe2a10|OK  |   120KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-210054.zip
+22a130|OK  |   5.4MiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-201847.zip
+6a0473|OK  |   159KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-210047.zip
+d07fb5|OK  |    63KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-220247.zip
+f7bd06|OK  |   163KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-201806.zip
+bd52d4|OK  |    61KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211237.zip
+db6dfa|OK  |    40KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-202382.zip
+84b94b|OK  |    81KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-220246.zip
+2ed55f|OK  |   165KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-201349.zip
+195256|OK  |   155KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200705.zip
+b7a6cf|OK  |   223KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200697.zip
+27b262|OK  |    72KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200195.zip
+5d28c5|OK  |   171KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200691.zip
+b24ad6|OK  |    96KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-193223.zip
+a8046e|OK  |    72KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211239.zip
+f6eb1d|OK  |    84KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-202379.zip
+943f0a|OK  |    52KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200695.zip
+c7db8a|OK  |    40KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211240.zip
+33003f|OK  |   248KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-193128.zip
+05ffe6|OK  |   213KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-193124.zip
+8ab0da|OK  |    56KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-210055.zip
+b58d86|OK  |    53KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-202385.zip
+3c382b|OK  |    88KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-193129.zip
+1cb127|OK  |    42KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200193.zip
+b7fba3|OK  |    70KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-193132.zip
+0d44f9|OK  |    83KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-193131.zip
+0b0231|OK  |    28KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200447.zip
+36deb8|OK  |    52KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-193123.zip
+224baa|OK  |   106KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-222867.zip
+315828|OK  |   205KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-193221.zip
+776499|OK  |   101KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-231229.zip
+9a2bfd|OK  |    50KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-210051.zip
+254f83|OK  |   100KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-193222.zip
+5879c5|OK  |    43KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-220249.zip
+909c90|OK  |   139KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211847.zip
+74f5c1|OK  |   164KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211251.zip
+b2d996|OK  |   116KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-240533.zip
+3379d3|OK  |    79KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-233732.zip
+7b0d2b|OK  |   243KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-211845.zip
+f855a8|OK  |   108KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-222419.zip
+a78c3a|OK  |   138KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-202401.zip
+800b00|OK  |   160KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200685.zip
+df9389|OK  |    92KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200448.zip
+520dd1|OK  |   109KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-210309.zip
+ea0a8c|OK  |    93KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-202386.zip
+ac006e|OK  |    74KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-220244.zip
+5c306d|OK  |    74KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-193121.zip
+6ab432|OK  |   232KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200483.zip
+a4aa96|OK  |   131KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-201824.zip
+c39f70|OK  |    44KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-231231.zip
+e8b903|OK  |   154KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200707.zip
+6e73db|OK  |    16KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-230445.zip
+84169e|OK  |    26KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200189.zip
+63253f|OK  |   135KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200706.zip
+76158f|OK  |    48KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-222851.zip
+cf8a17|OK  |   132KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-200183.zip
+929f67|OK  |   208KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-201820.zip
+1088fd|OK  |    80KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-220273.zip
+cba4aa|OK  |    41KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-202389.zip
+4f2f06|OK  |   119KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-232449.zip
+ae98a0|OK  |    46KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-222399.zip
+41974b|OK  |   125KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222406.zip
+26fbda|OK  |    86KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-193125.zip
+0baa64|OK  |    50KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-233726.zip
+eaaa69|OK  |   160KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-242203.zip
+bca567|OK  |    84KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-192640.zip
+4c7d4c|OK  |   117KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220270.zip
+8fa128|OK  |   128KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221606.zip
+84c220|OK  |    78KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221603.zip
+ccccec|OK  |    68KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-210053.zip
+10f741|OK  |   121KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220253.zip
+e0050a|OK  |    69KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222863.zip
+585b21|OK  |   109KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220920.zip
+200bf4|OK  |    45KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-233723.zip
+c539a9|OK  |   107KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220245.zip
+71e830|OK  |   169KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220263.zip
+9ea54a|OK  |   171KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-212982.zip
+6eb171|OK  |    56KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-231226.zip
+d3168a|OK  |   292KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222865.zip
+990341|OK  |   162KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222870.zip
+820325|OK  |   100KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222401.zip
+4d5967|OK  |   114KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220251.zip
+cafbd4|OK  |    49KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221620.zip
+9b40cf|OK  |    37KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-240535.zip
+cd6b72|OK  |    55KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221600.zip
+f8b51a|OK  |    53KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222858.zip
+bd7ae6|OK  |    35KiB/s|data/data_raw/change-requests/RAN1/Rel-16/TSG/RP-193127.zip
+1ec9bd|OK  |    32KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222412.zip
+884af8|OK  |    56KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220252.zip
+40872a|OK  |   125KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220256.zip
+20884d|OK  |    56KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222413.zip
+9f1a95|OK  |    66KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220248.zip
+f83dc4|OK  |   127KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-212980.zip
+b6d031|OK  |    68KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-212973.zip
+86d67a|OK  |    82KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-212979.zip
+aff756|OK  |   166KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-251584.zip
+d31266|OK  |    50KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222411.zip
+1bfa06|OK  |   213KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-241071.zip
+3e5cba|OK  |    61KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-242214.zip
+bc50c1|OK  |    80KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-212978.zip
+5edd80|OK  |   152KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-240541.zip
+b5f99a|OK  |    55KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-242924.zip
+b53ed8|OK  |   214KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-240532.zip
+c74c64|OK  |   106KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-241073.zip
+94ff10|OK  |   103KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-212972.zip
+b6c755|OK  |    60KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-242212.zip
+9fd0b9|OK  |    61KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-233730.zip
+9fde3d|OK  |   119KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222854.zip
+18c68c|OK  |    44KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-241059.zip
+5bbf70|OK  |    41KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220257.zip
+0d010b|OK  |    29KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-251575.zip
+f972dd|OK  |    65KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-233704.zip
+98137b|OK  |   107KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-233701.zip
+48d8d3|OK  |    45KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220250.zip
+c563f8|OK  |   313KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221617.zip
+2ba88b|OK  |    57KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-233734.zip
+b88a5c|OK  |   105KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221602.zip
+fa85dd|OK  |    62KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222864.zip
+5e367b|OK  |    65KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-233699.zip
+6f71cb|OK  |    57KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221601.zip
+46b2c1|OK  |   149KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-232696.zip
+bf1056|OK  |   270KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-232450.zip
+b582f1|OK  |   177KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-232453.zip
+a52b05|OK  |    40KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222403.zip
+ba663c|OK  |    59KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220264.zip
+599799|OK  |   3.5MiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-232446.zip
+376e19|OK  |    44KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222422.zip
+cbfcf8|OK  |   138KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220269.zip
+dc652b|OK  |    59KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-232457.zip
+0914de|OK  |    63KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-232451.zip
+3b071f|OK  |    82KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222853.zip
+b066c1|OK  |   6.0MiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-232448.zip
+d4b149|OK  |    76KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-233697.zip
+0071f1|OK  |    55KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221612.zip
+3c3605|OK  |    66KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-233736.zip
+8e1857|OK  |    23KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-230451.zip
+f46794|OK  |   304KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-231221.zip
+a44303|OK  |   185KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-231224.zip
+197a24|OK  |    23KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-232455.zip
+7f3981|OK  |    76KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-233698.zip
+38da1a|OK  |   228KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-231228.zip
+1e70e8|OK  |    75KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-231225.zip
+24ee03|OK  |    91KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-231232.zip
+cd6609|OK  |    79KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-231222.zip
+70a699|OK  |   118KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-231227.zip
+3c220a|OK  |    54KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-212968.zip
+197cf8|OK  |    24KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-233702.zip
+118189|OK  |   235KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-230444.zip
+040e6f|OK  |    85KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-230439.zip
+50d021|OK  |   114KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-230449.zip
+5d1f1c|OK  |    57KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221599.zip
+b8dc0e|OK  |    79KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-230452.zip
+d885eb|OK  |    42KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222868.zip
+54b044|OK  |    64KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-230447.zip
+b8f73b|OK  |    72KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220262.zip
+d63096|OK  |   196KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222862.zip
+f88caf|OK  |   328KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222852.zip
+0aebad|OK  |    76KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-231220.zip
+f1dad0|OK  |    80KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222866.zip
+501dfa|OK  |    41KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-231230.zip
+512e4a|OK  |   130KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-230441.zip
+19b590|OK  |   130KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-233723.zip
+46ce14|OK  |    92KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222871.zip
+48c424|OK  |   233KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222397.zip
+abc468|OK  |    48KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222855.zip
+4b68a1|OK  |    91KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-230450.zip
+2ab56c|OK  |    35KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222849.zip
+6e52b1|OK  |    68KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222405.zip
+baf618|OK  |    52KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222418.zip
+2163df|OK  |    60KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-231219.zip
+914319|OK  |   156KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221618.zip
+715cb0|OK  |    38KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-230446.zip
+5ea9e2|OK  |   146KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222398.zip
+0f38d6|OK  |   103KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221614.zip
+03ca3c|OK  |   165KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221613.zip
+9a883e|OK  |    48KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-230445.zip
+ffda3a|OK  |    94KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222869.zip
+f04e80|OK  |    23KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-232447.zip
+4c8d30|OK  |   232KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220271.zip
+58cd79|OK  |   223KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221597.zip
+29e644|OK  |   106KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222402.zip
+aa4d8e|OK  |    45KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221605.zip
+eaf24b|OK  |   565KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-212971.zip
+211bf9|OK  |    56KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222850.zip
+3d286e|OK  |    40KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222857.zip
+815203|OK  |    91KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220261.zip
+0753e0|OK  |    56KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221610.zip
+81891a|OK  |   101KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220254.zip
+b045c9|OK  |    73KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221598.zip
+396cde|OK  |    90KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221611.zip
+d29b04|OK  |   172KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220247.zip
+23f6c3|OK  |   222KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-251574.zip
+a1857c|OK  |    58KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-212977.zip
+3ef726|OK  |    25KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222421.zip
+b7e56d|OK  |    50KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-242937.zip
+e63704|OK  |    30KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222417.zip
+4b14f5|OK  |    79KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-242217.zip
+7ca144|OK  |   165KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-242207.zip
+93e266|OK  |   101KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-250232.zip
+c38e98|OK  |   266KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-241065.zip
+730316|OK  |    21KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220272.zip
+178ea9|OK  |    49KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-242216.zip
+26da5e|OK  |   114KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222404.zip
+2d3525|OK  |    60KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-241063.zip
+aa7897|OK  |   193KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-240538.zip
+10e3f8|OK  |   142KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-233735.zip
+0410a0|OK  |    89KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220249.zip
+aae3c7|OK  |   114KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-233700.zip
+9bb611|OK  |    49KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-213524.zip
+7287bd|OK  |    63KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-250223.zip
+dc697e|OK  |    48KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-240517.zip
+bf2b28|OK  |    42KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220255.zip
+04f991|OK  |   218KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-231231.zip
+cd91ed|OK  |    50KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-242215.zip
+fa2114|OK  |   148KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-231229.zip
+7c098f|OK  |    61KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-240516.zip
+dd70e3|OK  |   184KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222859.zip
+ba0b88|OK  |    72KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-231223.zip
+147ff5|OK  |    39KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-240539.zip
+e001d5|OK  |   171KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-233726.zip
+78404e|OK  |    99KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-233732.zip
+314ebf|OK  |   111KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222407.zip
+940212|OK  |   4.9MiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222414.zip
+8339cf|OK  |    78KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222609.zip
+31a5b8|OK  |   144KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222851.zip
+4563a9|OK  |   2.8MiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221615.zip
+26d6fd|OK  |   309KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221607.zip
+5a5b53|OK  |    33KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-232456.zip
+24b2c6|OK  |   146KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222399.zip
+f5a0a9|OK  |   408KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220949.zip
+ef6532|OK  |   166KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220266.zip
+651cab|OK  |    85KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221604.zip
+605d90|OK  |    85KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222419.zip
+6b0dd1|OK  |   4.6MiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220862.zip
+0f524c|OK  |    60KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220267.zip
+677785|OK  |   186KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220244.zip
+d759d6|OK  |    70KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222867.zip
+b50502|OK  |   181KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-212981.zip
+b967af|OK  |    65KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220246.zip
+0c5fa7|OK  |    59KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220265.zip
+0deed7|OK  |    90KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221616.zip
+773607|OK  |    58KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-212983.zip
+40b071|OK  |   122KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-220273.zip
+66f4b0|OK  |    48KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222415.zip
+531d9a|OK  |    22KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-221619.zip
+bce460|OK  |    80KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-212970.zip
+877128|OK  |    69KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-230454.zip
+81fba8|OK  |    41KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-240533.zip
+6d9732|OK  |    53KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222400.zip
+89e691|OK  |    40KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222410.zip
+097c1b|OK  |    53KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-242927.zip
+a30f92|OK  |    45KiB/s|data/data_raw/change-requests/RAN1/Rel-17/TSG/RP-222856.zip
+
+Status Legend:
+(OK):download completed.
+
+================================================================================
+✓ TSG TDoc Download completed successfully!
+================================================================================
+
+================================================================================
+Download Summary
+================================================================================
+TSG TDocs: ✓ Success
+================================================================================
+
+✓ All downloads completed successfully!
+
+Next step - Verify downloads:
+  python3 scripts/phase-1/change-requests/RAN1/04_verify_downloads.py
