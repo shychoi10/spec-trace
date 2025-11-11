@@ -1,6 +1,6 @@
 # spec-trace - Progress
 
-Last Updated: 2025-11-10
+Last Updated: 2025-11-11
 
 ---
 
@@ -12,7 +12,10 @@ Last Updated: 2025-11-10
 
 **Summary**:
 - **Total Files Downloaded**: 120,371 (119,843 + 520 + 8)
-- **Total Files Extracted**: 119,760/119,743 ZIPs (99.988%), 42 GB
+- **Total Files Extracted**: 119,782/119,797 ZIPs (99.988%), 42 GB
+  - Meetings: 119,760/119,743 (99.988%)
+  - Change Requests: 520/520 (100%)
+  - Specifications: 8/8 (100%)
 - **ZIP Recovery**: 73 files recovered (44 + 29 with 7zip) - Step-4 ✅
 - **Cleanup Complete**: 156 MB removed (Step-5 ✅)
 - **Transform Complete**: All 3 data types (Meetings, Specs, CRs) - Step-6 ✅

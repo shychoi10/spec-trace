@@ -249,7 +249,7 @@ Phase-1: Raw Data Collection & Preparation
 - **상세 가이드**: `docs/phase-1/step4_extraction.md`
 - **빠른 참조**: `data/data_extracted/CLAUDE.md`
 - **스크립트**: `scripts/phase-1/{meetings,change-requests,specs}/RAN1/extract_*.py`
-- **데이터**: `data/data_extracted/` (120,294 ZIPs → 42.5 GB, 99.93% success)
+- **데이터**: `data/data_extracted/` (119,797 ZIPs → 42.5 GB, 99.988% success)
 - **로그**: `logs/phase-1/{meetings,change-requests,specs}/RAN1/extraction.log`
 
 ### Step-5: Data Cleanup for Parsing (✅ COMPLETE)
