@@ -24,9 +24,9 @@
 | **[Step-3](./step3_specifications-download.md)** | Specifications Download | ✅ | 8 specs, 9.2 MB |
 | **[Step-4](./step4_extraction.md)** | ZIP Extraction | ✅ | 119,797 ZIPs → 42 GB |
 | **[Step-5](./step5_data-cleanup-for-parsing.md)** | Data Cleanup for Parsing | ✅ | 59 meetings, 156 MB cleanup |
-| **[Step-6](./step6_data-transformation-for-parsing.md)** | Data Transformation for Parsing | ✅ | Complete (All sub-steps done) |
+| **[Step-6](./step6_data-transformation-for-parsing.md)** | Data Transformation for Parsing | ✅ | Complete (All sub-steps done + cleanup) |
 
-**Phase-1 Status**: 🚧 **In Progress (86%)** - 6/7 Steps Complete
+**Phase-1 Status**: 🚧 **In Progress (86%)** - 6/7 Steps Complete (Step-6 includes macOS cleanup)
 **Current**: Step-6 Complete, Step-7 Ready
 **Next**: Step-7 Parsing → Phase-2 DB Construction
 
