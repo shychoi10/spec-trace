@@ -17,7 +17,7 @@ Last Updated: 2025-11-11
   - Change Requests: 520/520 (100%)
   - Specifications: 8/8 (100%)
 - **ZIP Recovery**: 73 files recovered (44 + 29 with 7zip) - Step-4 ✅
-- **Cleanup Complete**: 156 MB removed (Step-5 ✅)
+- **Cleanup Complete**: 197 MB removed (156 MB Reports + 40 MB metadata + 1 MB temp, Step-5 ✅)
 - **Transform Complete**: All 3 data types (Meetings, Specs, CRs) - Step-6 ✅
   - 23,820 DOC→DOCX (100%), 868 PPT→PPTX (100%)
   - Processing time: ~123 minutes total (initial 76m + retry 37.6m + manual 10m)
@@ -191,7 +191,7 @@ Last Updated: 2025-11-11
 
 ### Step 5: Data Cleanup for Parsing ✅ COMPLETE
 
-**Status**: ✅ COMPLETE (2025-10-31)
+**Status**: ✅ COMPLETE (2025-11-12 - All Sub-steps Executed)
 
 **Objective**:
 - Phase-2 파싱을 위한 `data_extracted` 정리
@@ -199,13 +199,24 @@ Last Updated: 2025-11-11
 - 깨끗하고 효율적인 입력 데이터 확보
 
 **Cleanup Results**:
-1. **Phase 1 (Archive)**: 29 meetings, 83.82 MB
-2. **Phase 2 (Archive)**: 3 meetings, 11.30 MB
-3. **Phase 3**: 0 meetings (already clean)
-4. **Additional Cleanup**: 7 meetings, 10.85 MB
-5. **Category B (Draft)**: 20 meetings, 50.10 MB
+1. **Sub-step 5-1: System Metadata** (2025-11-12)
+   - 4,875 __MACOSX folders removed
+   - 13 .DS_Store files removed
+   - Total: 40 MB saved
+2. **Sub-step 5-2: Meeting Reports** (2025-10-31)
+   - Phase 1 (Archive): 29 meetings, 83.82 MB
+   - Phase 2 (Archive): 3 meetings, 11.30 MB
+   - Phase 3: 0 meetings (already clean)
+   - Additional Cleanup: 7 meetings, 10.85 MB
+   - Category B (Draft): 20 meetings, 50.10 MB
+   - Total: 156 MB saved
+3. **Sub-step 5-3: Temporary Files** (2025-11-12)
+   - 18 .tmp files removed (data_transformed)
+   - 27 empty directories removed
+   - 1 dry-run log removed (834 KB)
+   - Total: ~1 MB saved
 
-**Total Cleanup**: 156.12 MB (59 meetings)
+**Total Cleanup**: 197 MB (156 MB + 40 MB + 1 MB)
 
 **Final Statistics**:
 - **Total Meetings**: 59
@@ -213,6 +224,9 @@ Last Updated: 2025-11-11
 - **Clean Structure**: 58/59 (98.3%)
 - **Archive Folders**: 0 (100% removed)
 - **Duplicate Drafts**: 0 (100% removed)
+- **System Metadata**: 0 (__MACOSX + .DS_Store all removed)
+- **Temporary Files**: 0 (.tmp files all removed)
+- **Empty Directories**: 7 (data_raw structure preserved, 27 artifacts removed)
 
 **Category Distribution**:
 - Category A (Final only): 53 meetings (89.8%)
@@ -280,6 +294,11 @@ Last Updated: 2025-11-11
    - PPTX strategy: Metadata-only extraction (99.5% standalone)
    - XLSX strategy: 3-tier classification (simulation/rrc/admin)
    - Folder-level parsing approach established
+
+4. **Sub-step 6-4: macOS Metadata Cleanup** ✅ Complete (2025-11-11)
+   - Removed 4,840 `__MACOSX` folders (2.51 MB)
+   - Cleaned all transformed data directories
+   - Data ready for Step-7 parsing (100% clean)
 
 **Research Findings**:
 - ❌ DOC direct parsing not viable (antiword abandoned, textract poor quality)

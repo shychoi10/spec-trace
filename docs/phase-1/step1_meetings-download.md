@@ -33,7 +33,7 @@ TSGR1_XXX/
 **Status**: ✅ COMPLETE (2025-10-30)
 
 - **Total Meetings**: 62/62 (100%)
-- **Total Files**: 119,843 files
+- **Total Files**: 119,842 files (±1 variation due to CLAUDE.md presence)
 - **Method**: aria2c batch download
 - **Verification**: URL-based comparison
 
@@ -162,7 +162,7 @@ python3 scripts/phase-1/meetings/RAN1/04_verify_status.py
 | Metric | Value |
 |--------|-------|
 | Total Meetings | 62 |
-| Total Files | 119,843 |
+| Total Files | 119,842 |
 | Initial Local Files | 64,284 (54%) |
 | Files Downloaded | 55,559 |
 | Download Time | ~2 hours |

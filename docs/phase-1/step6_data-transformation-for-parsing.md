@@ -2,13 +2,14 @@
 
 ## Overview
 
-**Status**: ✅ COMPLETE (All sub-steps complete: 6-1, 6-2, 6-3)
+**Status**: ✅ COMPLETE (All sub-steps complete: 6-1, 6-2, 6-3, 6-4)
 **Goal**: Transform documents into unified, parsing-ready format
 
 **Purpose**: Prepare `data_extracted` for Step-7 (Document Parsing) by:
 1. Converting legacy formats to modern equivalents (DOC→DOCX, PPT→PPTX)
 2. Validating parsing schema against real data
 3. Establishing multi-format parsing strategies (PPTX/XLSX handling)
+4. Cleaning macOS metadata from transformed data
 
 **Workflow**:
 ```
@@ -146,6 +147,51 @@ data_extracted (cleaned) → data_transformed (unified formats) → Ready for St
 **Known Issue**: 320 "errors" reported (dconf-CRITICAL warnings) but all files converted successfully. These are LibreOffice configuration directory permission warnings that don't affect conversion.
 
 **Key Finding**: DOC ratio (19.6%) is consistent across all Releases (Rel-15 to Rel-19), similar to Meetings (18.3%). This suggests CR submission format practices remained stable from 2018 to 2024.
+
+---
+
+### ✅ Sub-step 6-4: macOS Metadata Cleanup (Complete)
+
+**Status**: ✅ Complete (2025-11-11)
+**Goal**: Remove macOS system metadata from `data_transformed` before Step-7 parsing
+
+**Background**:
+- This cleanup should have been done in Step-5 (Data Cleanup) but was missed
+- macOS metadata (`__MACOSX` folders) were copied during transformation from `data_extracted`
+- These files are unnecessary for parsing and should be removed
+
+**Cleanup Results**:
+
+| Item | Count | Size | Status |
+|------|-------|------|--------|
+| `__MACOSX` folders | 4,840 | 2.51 MB | ✅ Removed |
+| `.DS_Store` files | 0 | 0 MB | N/A |
+| **Total** | **4,840** | **2.51 MB** | **✅ Complete** |
+
+**Execution Time**: ~2 seconds (instant removal)
+
+**Scripts**: `scripts/phase-1/transform/RAN1/cleanup_macosx_metadata.py`
+**Logs**: `logs/phase-1/transform/RAN1/cleanup_macosx_actual_20251111_123725.log`
+
+**Verification**:
+```bash
+# Before cleanup
+find data/data_transformed -type d -name "__MACOSX" | wc -l
+# 4,840
+
+# After cleanup
+find data/data_transformed -type d -name "__MACOSX" | wc -l
+# 0
+```
+
+**Impact**:
+- Parsing input is now 100% clean (no system metadata)
+- Slightly improved file system performance (fewer directories)
+- Reduced confusion during Step-7 parser development
+
+**Note**: Future transformations should include this cleanup step automatically, or Step-5 should clean both `data_extracted` and `data_transformed` directories.
+
+---
 
 ### ✅ Sub-step 6-2: Schema Validation (Complete)
 - **Goal**: Validate GPT-proposed Layer-1 schema against real data
@@ -588,11 +634,19 @@ pip3 install python-docx python-pptx openpyxl
 
 ---
 
-**Document Version**: 1.4
-**Last Updated**: 2025-11-11
+**Document Version**: 1.5
+**Last Updated**: 2025-11-12
 **Status**: All sub-steps complete (100%) ✅
 
+**Known Post-Cleanup Items** (Resolved 2025-11-12):
+- **18 .tmp files** created during LibreOffice conversion (TIMEOUT files)
+  - Location: `data_transformed/meetings/RAN1/TSGR1_{91,92}/Docs/`
+  - Cause: LibreOffice lock files from TIMEOUT conversions
+  - Resolution: Safely removed 2025-11-12 (Phase-1 cleanup)
+  - Impact: None (0-byte files, no data loss)
+
 **Version History**:
+- **v1.5** (2025-11-12): Added .tmp cleanup notes (18 files removed in Step-5 Sub-step 5-3)
 - **v1.4** (2025-11-11): Manual conversion complete - 100% success (19,275/19,275 DOC files)
 - **v1.3** (2025-11-10): Updated TIMEOUT retry results (6/13 recovered, 7 remain)
 - **v1.2** (2025-11-10): Added TIMEOUT retry results (13 files failed at 120s)
