@@ -1,0 +1,10 @@
+[project]
+name = "spec-trace"
+version = "0.1.0"
+description = "3GPP specification tracing and analysis tool"
+requires-python = ">=3.10"
+dependencies = [
+    "beautifulsoup4>=4.14.2",
+    "lxml>=6.0.2",
+    "requests>=2.32.5",
+]
