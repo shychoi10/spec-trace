@@ -1,0 +1,91 @@
+# settings.yaml
+# Phase-2 LangGraph System 중앙 설정 파일
+#
+# 원칙:
+# 1. 모든 하드코딩된 경로/값은 이 파일에서 관리
+# 2. 콘텐츠 기반 설정 (Section 번호 종속 금지)
+# 3. 환경 변수로 오버라이드 가능
+
+# ==============================================================================
+# 프로젝트 경로 설정
+# ==============================================================================
+paths:
+  # 프로젝트 루트 (상대 경로 기준점)
+  project_root: "${PROJECT_ROOT:../../../..}"
+
+  # 데이터 경로
+  data:
+    base: "${paths.project_root}/data/data_extracted"
+    meetings: "${paths.data.base}/meetings"
+
+  # 출력 경로
+  output:
+    base: "${paths.project_root}/output/phase-2/langgraph-system"
+    results: "${paths.output.base}/results"
+    ground_truth: "${paths.output.base}/ground_truth"
+    logs: "${paths.output.base}/logs"
+
+# ==============================================================================
+# LLM 설정
+# ==============================================================================
+llm:
+  provider: "openrouter"
+  model: "openai/gpt-4o"
+  temperature: 0.1
+  max_tokens: 16000
+
+  # API 설정 (환경 변수 우선)
+  api_key: "${OPENROUTER_API_KEY}"
+  base_url: "https://openrouter.ai/api/v1"
+
+# ==============================================================================
+# 워크플로우 설정
+# ==============================================================================
+workflow:
+  # 현재 활성화된 content type
+  active_content_type: "incoming_ls"
+
+  # 재시도 설정
+  max_retries: 3
+  retry_delay_seconds: 1
+
+  # 검증 설정
+  validation:
+    enabled: true
+    min_confidence: 0.6
+
+# ==============================================================================
+# 콘텐츠 타입별 설정 (Section 번호 무관)
+# ==============================================================================
+content_types:
+  incoming_ls:
+    description: "Incoming Liaison Statements"
+    detection_keywords:
+      - "incoming liaison"
+      - "liaison statement"
+      - "incoming ls"
+    output_template: "templates/incoming_ls_template.md"
+
+  maintenance:
+    description: "Maintenance Items"
+    detection_keywords:
+      - "maintenance"
+      - "essential corrections"
+    output_template: "templates/maintenance_template.md"
+
+  work_items:
+    description: "Work Items"
+    detection_keywords:
+      - "work item"
+      - "study item"
+    output_template: "templates/work_items_template.md"
+
+# ==============================================================================
+# 로깅 설정
+# ==============================================================================
+logging:
+  level: "INFO"
+  format: "%(asctime)s [%(levelname)s] %(name)s: %(message)s"
+  date_format: "%H:%M:%S"
+  file_logging: true
+  log_file: "${paths.output.logs}/run.log"

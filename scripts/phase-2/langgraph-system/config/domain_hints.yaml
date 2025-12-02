@@ -1,0 +1,209 @@
+# domain_hints.yaml
+# LLM Agent를 위한 도메인 힌트 (규칙이 아닌 예시 기반)
+# 모든 분류와 결정은 LLM이 수행 - 이 파일은 힌트만 제공
+#
+# 중요: 힌트는 콘텐츠 유형 기반으로 구성 (Section 번호에 종속되지 않음)
+# - Incoming LS가 어떤 Section에 있든 incoming_ls_hints 적용
+# - Study Item이 어떤 Section에 있든 study_item_hints 적용
+
+# ============================================================================
+# Incoming Liaison Statements 힌트 (콘텐츠 기반, Section 번호 무관)
+# ============================================================================
+
+incoming_ls_hints:
+  description: |
+    다른 Working Group으로부터 받은 Incoming LS를 처리합니다.
+    각 LS Item은 독립적인 Issue로 변환되어야 합니다.
+    Note: Section 번호에 관계없이 LS 콘텐츠에 적용됩니다.
+
+  boundary_detection:
+    description: "Issue 경계를 식별하기 위한 힌트"
+    examples:
+      - pattern: "R1-XXXXXXX 형식의 Tdoc ID가 새 아이템의 시작을 나타냄"
+        context: "문서 처음에 나오는 R1-ID는 새 LS Item 시작"
+      - pattern: "다음 LS Item은 주로 새 R1-ID와 함께 시작됨"
+        context: "이전 아이템의 Decision 이후 새 R1-ID 등장"
+      - pattern: "한 Issue 내에서 여러 R1-ID가 참조될 수 있음"
+        context: "Main LS ID와 Relevant Tdocs를 구분해야 함"
+
+  metadata_extraction:
+    description: "LS 메타데이터 추출 힌트"
+    fields:
+      ls_id:
+        description: "Primary LS 문서 ID (해당 LS Item의 주요 식별자)"
+        format: "R1-XXXXXXX"
+        examples: ["R1-2500007", "R1-2500012", "R1-2500095"]
+      source_wg:
+        description: "LS를 보낸 Working Group"
+        examples: ["RAN2", "RAN3", "RAN4", "SA2", "CT1"]
+        note: "문서 제목이나 본문에서 'from RAN2', 'RAN2 response' 등으로 확인"
+      source_companies:
+        description: "LS 작성 회사 목록"
+        examples: ["Samsung", "Huawei", "Ericsson", "Nokia", "CATT"]
+        note: "괄호 안에 표기되는 경우가 많음"
+      title:
+        description: "LS의 제목"
+        note: "R1-ID 다음에 나오는 제목 텍스트"
+
+  doc_type_classification:
+    description: "문서 타입 분류를 위한 힌트 (예시만 제공, LLM이 판단)"
+    types:
+      ls_incoming:
+        description: "다른 WG로부터 받은 Incoming LS"
+        examples:
+          - "LS on UL 8Tx support"
+          - "Reply LS on beam management"
+          - "LS response from RAN2"
+        keywords: ["LS on", "LS from", "Reply LS", "liaison statement"]
+      ls_reply_draft:
+        description: "Incoming LS에 대한 응답 초안"
+        examples:
+          - "[Draft] Reply LS to RAN2"
+          - "Draft reply LS on positioning"
+          - "RAN1 draft response"
+        keywords: ["Draft", "reply LS", "response", "draft LS"]
+      discussion:
+        description: "기술 토픽에 대한 논의 문서"
+        examples:
+          - "Discussion on AI/ML for beam management"
+          - "Views on UL 8Tx support"
+          - "Considerations for positioning"
+        keywords: ["discussion", "views on", "considerations", "way forward"]
+      session_notes:
+        description: "세션 모더레이터의 요약 노트"
+        examples:
+          - "Session notes on AI 9.1.4"
+          - "Summary of offline discussions"
+        keywords: ["session notes", "summary", "moderator"]
+      cr:
+        description: "스펙 변경 요청"
+        examples:
+          - "CR to 38.214 on MIMO procedures"
+        keywords: ["CR", "change request"]
+
+  issue_type_classification:
+    description: "Issue 타입 분류를 위한 힌트 (예시만 제공, LLM이 판단)"
+    critical_distinction: |
+      핵심 구분 기준:
+      - "To be taken into account" → Reference Issue (참고용, 액션 없음)
+      - "To be handled/discussed" + "response necessary" → Actionable Issue
+      - "No further action" → Non-action Issue
+    types:
+      actionable:
+        description: "RAN1의 액션이 필요한 Issue (응답 또는 기술적 처리 필요)"
+        decision_patterns:
+          - "RAN1 response is necessary"
+          - "RAN1 response necessary"
+          - "To be handled in agenda item X.Y"
+          - "To be discussed in agenda item X.Y"
+          - "RAN1 input required"
+          - "requesting RAN1 input"
+          - "asks RAN1 to confirm"
+        characteristics:
+          - "명시적으로 'response necessary' 또는 'input required' 언급"
+          - "'To be handled' 또는 'To be discussed' + agenda item"
+          - "RAN1이 응답을 작성해야 함"
+        important_note: "'To be taken into account'와 혼동하지 말 것 - 그것은 Reference Issue"
+      non_action:
+        description: "추가 액션이 필요 없는 Issue (정보 공유 완료)"
+        decision_patterns:
+          - "No further action necessary from RAN1"
+          - "No further action needed"
+          - "For information only"
+          - "Noted"
+          - "Acknowledged"
+        characteristics:
+          - "명시적으로 'no action' 또는 'no further action' 언급"
+          - "이미 완료된 상태"
+      reference:
+        description: "참고용 Issue (액션 없이 참고만 필요)"
+        decision_patterns:
+          - "To be taken into account in agenda item X.Y"
+          - "To be taken into account"
+          - "For awareness"
+          - "RAN1 was cc-ed"
+          - "RAN1 was copied"
+          - "Info-only"
+        characteristics:
+          - "'To be taken into account' 패턴 (액션 요청이 아님!)"
+          - "RAN1이 CC로만 받은 경우"
+          - "참고/인지 목적"
+          - "Reply LS에서 단순 정보 공유"
+        critical_note: "'To be taken into account'는 Actionable이 아니라 Reference!"
+
+  summary_generation:
+    description: "Korean 요약 생성 힌트"
+    guidelines:
+      - "1-2문장으로 간결하게"
+      - "핵심 요청/결정 사항 포함"
+      - "기술 용어는 영어로 유지 (MIMO, NR, UL 등)"
+      - "3GPP 표준 문체 준수"
+    examples:
+      - "RAN2가 Rel-18 MIMO의 FR1-TDD 파형 결정에 대해 RAN1에 응답함."
+      - "RAN2가 RAN1에게 UL 8Tx 관련 RAN1 input 요청."
+      - "positioning 관련 LS로, RAN1 response가 필요함."
+
+# ============================================================================
+# 공통 패턴 힌트
+# ============================================================================
+
+common_patterns:
+  tdoc_id:
+    description: "3GPP Tdoc ID 형식"
+    format: "R1-XXXXXXX"
+    regex_hint: "R1-[0-9]{7}"
+    examples: ["R1-2500007", "R1-2501234", "R1-2509999"]
+
+  spec_number:
+    description: "3GPP 스펙 번호"
+    format: "XX.XXX"
+    examples: ["38.211", "38.214", "38.331"]
+
+  release_version:
+    description: "3GPP Release 버전"
+    examples: ["Rel-15", "Rel-18", "Rel-19", "Release 19"]
+
+  working_groups:
+    description: "3GPP Working Groups"
+    ran_wgs: ["RAN1", "RAN2", "RAN3", "RAN4", "RAN5"]
+    sa_wgs: ["SA1", "SA2", "SA3", "SA4", "SA5", "SA6"]
+    ct_wgs: ["CT1", "CT3", "CT4", "CT6"]
+
+# ============================================================================
+# 출력 형식 힌트
+# ============================================================================
+
+output_format:
+  incoming_ls:
+    structure:
+      - "Section Overview (통계 + Korean 요약)"
+      - "Total Issues count"
+      - "각 Issue (순차 번호)"
+      - "CC-only Items (별도 섹션)"
+    issue_fields:
+      required:
+        - "issue_id"
+        - "origin (type, ls_id, source_wg)"
+        - "title"
+        - "summary_ko"
+        - "relevant_tdocs"
+        - "decision"
+        - "issue_type"
+      optional:
+        - "source_companies"
+        - "agenda_item"
+
+# ============================================================================
+# 학습된 패턴 (Stage 1에서 v1.0으로 시작)
+# ============================================================================
+
+learned_patterns:
+  version: "v1.0"
+  description: "성공적인 처리에서 학습된 패턴 (자동 업데이트)"
+  patterns: []
+  # 패턴 예시:
+  # - pattern: "R1-XXXXXXX followed by title indicates new LS item"
+  #   confidence: 0.95
+  #   learned_from: "Incoming LS, Issue 1-20"
+  #   source_meeting: "RAN1#120"
+  #   validated: false
