@@ -15,7 +15,7 @@ paths:
 
   # 데이터 경로
   data:
-    base: "${paths.project_root}/data/data_extracted"
+    base: "${paths.project_root}/data/data_transformed"
     meetings: "${paths.data.base}/meetings"
 
   # 출력 경로

@@ -1,0 +1,27 @@
+# RAN1_117.yaml
+# Auto-generated config for RAN1 #117
+
+meeting:
+  id: "RAN1_117"
+  number: "117"
+  working_group: "RAN1"
+  folder_name: "TSGR1_117"
+
+  input:
+    final_minutes: "meetings/RAN1/TSGR1_117/Report/Draft_Minutes_report_RAN1%23117_v030/Draft_Minutes_report_RAN1#117_v030.docx"
+    tdoc_list: "meetings/RAN1/TSGR1_117/Docs/TDoc_List_Meeting_RAN1%23117.xlsx"
+
+  output:
+    filename_pattern: "{meeting_id}_{content_type}.md"
+
+  hints:
+    expected_counts:
+      incoming_ls:
+        primary: 0
+        cc_only: 0
+        total: 0
+    source_wgs:
+      - "RAN2"
+      - "RAN3"
+      - "RAN4"
+      - "SA2"

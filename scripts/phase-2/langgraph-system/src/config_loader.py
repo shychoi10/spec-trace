@@ -116,7 +116,7 @@ class ConfigLoader:
         hints = meeting_info.get("hints", {})
 
         # 데이터 경로 기준
-        data_base = self._project_root / "data" / "data_extracted"
+        data_base = self._project_root / "data" / "data_transformed"
 
         # Final Minutes 경로 구성
         final_minutes_rel = meeting_info.get("input", {}).get("final_minutes", "")
