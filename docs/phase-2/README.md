@@ -1,101 +1,83 @@
-# Phase-2: LangGraph Multi-Agent System
+# Phase-2: RAN1 Graph DB Construction
 
-## 목표
-정답지와 동일한 출력 생성 (90%+ 일치)
+## Goal
 
-## 핵심 설계 원칙
+3GPP RAN1 문서들의 관계를 Graph DB로 저장하여 검색 및 분석 가능하게 만들기.
 
-### 1. Content-Based Agent Selection
-- ❌ "Section 5 Agent" (번호 기반)
-- ✅ "Incoming LS Agent" (내용 패턴 기반)
-
-**패턴 예시**:
-- "LS on", "Reply LS" → Incoming LS Agent
-- "Agreement", "Working assumption" → Study Item Agent
-- 기타 → General Agent
-
-### 2. LangGraph Workflow
+## Steps Overview
 
 ```
-Input (Final Minutes)
-    ↓
-[Meta Orchestrator]
-    ↓ (내용 분석)
-[Agent Selection]
-    ↓
-[Selected Agent Processing]
-    ↓
-[Output Generation]
-    ↓
-[Validation vs Ground Truth]
-    ↓
-[Iterative Improvement]
+Phase-2: Graph DB Construction
+├── Step-1: LangGraph Multi-Agent System     [✅ In Progress]
+│   └── Incoming LS Processing Complete
+├── Step-2: Multi-Section Expansion          [⏳ Planned]
+├── Step-3: Graph DB Schema Design           [⏳ Planned]
+├── Step-4: Data Population                  [⏳ Planned]
+└── Step-5: Query & Analysis Interface       [⏳ Planned]
 ```
 
-### 3. 점진적 개선 전략 (Stage 1~4)
+## Current Focus: Step-1
 
-**Stage 1**: Section 5 MVP (목표: Ground Truth 90%)
-- DOCX Parser + TOC Builder
-- LSAgent (Section 5 전용)
-- 기본 Validation (Layer 1-2)
-- Ground Truth 비교
+**LangGraph Multi-Agent System** - Final Minutes에서 구조화된 Issue 추출
 
-**Stage 2**: Multi-Section (목표: 전체 문서 80%)
-- MaintenanceAgent (Section 7, 8)
-- WorkItemAgent (Section 9)
-- ActionItemAgent (Annex F)
-- Document-level Validation
+- **Status**: ✅ Incoming LS (Section 5) Complete
+- **Tested**: RAN1 #119, #120
+- **Documentation**: [step1_langgraph-system.md](step1_langgraph-system.md)
 
-**Stage 3**: Production Features
-- HITL (interrupt 기반)
-- Checkpointing (SQLite)
-- Cost Management
-- EVRIRL 사이클 완성
-
-**Stage 4**: Learning & Generalization
-- Learn v1.0 (패턴 로깅)
-- 다른 Meeting 테스트
-- Learn v2.0 (Semi-Auto) 준비
-
-## 프로젝트 구조
+### Architecture
 
 ```
-scripts/phase-2/langgraph-system/
-├── agents/
-│   ├── base_agent.py           # BaseAgent 추상 클래스
-│   ├── incoming_ls_agent.py    # Incoming LS 전문 Agent
-│   └── meta_orchestrator.py    # Agent 선택자
-├── prompts/
-│   └── incoming_ls_prompt.md   # Incoming LS Agent 프롬프트
-├── utils/
-│   ├── llm_manager.py          # LLM 관리
-│   └── validator.py            # Ground Truth 검증
-├── workflows/
-│   └── main_workflow.py        # LangGraph workflow
-└── main.py                     # 실행 스크립트
-
-output/phase-2/langgraph-system/
-├── results/                    # 생성 결과
-└── ground_truth/              # 정답지
-
-logs/phase-2/langgraph-system/  # 실행 로그
+Input (Final Minutes DOCX)
+    ↓
+[Document Parser] → Section extraction
+    ↓
+[IncomingLSWorkflow] → 10 Sub-agents pipeline
+    ↓
+[Structured Output] → Markdown with Issues
+    ↓
+[Future: Graph DB] → Neo4j/similar
 ```
 
-## 실행 방법
+### Key Design Principles
+
+1. **True Agentic AI**: 모든 분석은 LLM이 수행 (No Regex)
+2. **Content-Based Naming**: Section 번호가 아닌 콘텐츠 유형으로 명명
+3. **Meeting-Agnostic**: 설정만 바꾸면 다른 미팅에도 적용 가능
+
+## Tech Stack
+
+- **Framework**: LangGraph (Agentic AI workflow)
+- **LLM**: GPT-4o via OpenRouter
+- **Language**: Python 3.11
+- **Package Manager**: uv
+
+## Directory Structure
+
+```
+scripts/phase-2/langgraph-system/    # Main implementation
+docs/phase-2/                        # Documentation
+output/                              # Generated outputs (gitignored)
+logs/                                # Execution logs (gitignored)
+```
+
+## Quick Start
 
 ```bash
+# Setup
 cd scripts/phase-2/langgraph-system
-python main.py
+cp .env.example .env
+# Add OPENROUTER_API_KEY to .env
+
+# Run
+python main.py --meeting RAN1_120
 ```
 
-## 현재 상태
+## Documentation Index
 
-- [x] 프로젝트 구조 설계
-- [ ] Stage 1: Section 5 MVP (90%)
-- [ ] Stage 2: Multi-Section (80%)
-- [ ] Stage 3: Production Features
-- [ ] Stage 4: Learning & Generalization
+| Document | Description |
+|----------|-------------|
+| [step1_langgraph-system.md](step1_langgraph-system.md) | Step-1 상세 가이드 |
 
 ---
-**Last Updated**: 2025-11-28
-**Status**: 설계 완료, Stage 1 구현 시작
+
+**Last Updated**: 2025-12-02
