@@ -50,10 +50,13 @@ Phase (프로젝트 단계)
   - ⏳ Sub-step 7-3: Advanced Features
   - ⏳ Sub-step 7-4: Full Scale Parsing
 
-**Phase-2: Database Construction** (⏳ 계획됨)
-- Vector DB (Qdrant): 의미 기반 검색
-- Graph DB (Neo4j): 관계 추적
-- Hybrid DB 구축
+**Phase-2: DB Construction & Agentic AI** (🚧 진행 중)
+- ⏳ Step-1: Graph DB & Vector DB Setup with LangGraph
+  - ⏳ Sub-step 1-1: 의존성 설치 및 환경 설정
+  - ⏳ Sub-step 1-2: Graph DB (Neo4j) 초기화
+  - ⏳ Sub-step 1-3: Vector DB (Qdrant) 초기화
+  - ⏳ Sub-step 1-4: LangGraph Agent 구현
+  - ⏳ Sub-step 1-5: 통합 테스트
 
 ## 데이터 구조
 
@@ -78,6 +81,7 @@ data/
 - **프로젝트 가이드**: [CLAUDE.md](./CLAUDE.md)
 - **진행 상황**: [progress.md](./progress.md)
 - **Phase-1 상세**: [docs/phase-1/README.md](./docs/phase-1/README.md)
+- **Phase-2 상세**: [docs/phase-2/README.md](./docs/phase-2/README.md)
 
 ## 주의사항
 

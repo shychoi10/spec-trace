@@ -1,14 +1,14 @@
 # spec-trace - Progress
 
-Last Updated: 2025-11-11
+Last Updated: 2025-11-27
 
 ---
 
 ## Phase 1: Raw Data Collection & Preparation
 
-**Overview**: Download, extract, prepare, and parse raw data from 3GPP
+**Overview**: Download, extract, prepare, and transform raw data from 3GPP
 - **Documentation**: [Phase-1 README](docs/phase-1/README.md)
-- **Overall Progress**: 6/7 steps complete (86%) - Step-6 Complete ✅
+- **Overall Progress**: 6/6 steps complete (100%) ✅
 
 **Summary**:
 - **Total Files Downloaded**: 120,371 (119,843 + 520 + 8)
@@ -27,7 +27,7 @@ Last Updated: 2025-11-11
   - Specs: 12 MB (8 DOCX)
   - CRs: 199 MB (2,302 DOCX)
 - **Known Issues**: 15 unrecoverable ZIPs (0.012%) - All transform issues resolved ✅
-- **Completion**: Step-1 ✅, Step-2 ✅, Step-3 ✅, Step-4 ✅, Step-5 ✅, Step-6 ✅, Step-7 ⏳
+- **Completion**: Step-1 ✅, Step-2 ✅, Step-3 ✅, Step-4 ✅, Step-5 ✅, Step-6 ✅
 
 ---
 
@@ -336,65 +336,143 @@ Last Updated: 2025-11-11
 
 ---
 
-### Step 7: Document Parsing (Layer-1) ⏳ READY TO START
+## Phase-2: RAN1 Graph DB 구축 ⏳ IN PROGRESS
 
-**Status**: ⏳ READY (Step-6 complete, previous work cleared 2025-11-10)
+**최종 목표**: 3GPP RAN1 문서들의 관계를 Graph DB로 저장하여 검색 및 분석 가능하게 만들기
 
-**Objective**:
-- Parse transformed documents into structured JSON (Layer-1)
-- Extract metadata, text, tables, equations, images
-- Handle multi-format TDocs (DOCX + XLSX + PPTX)
-- Build production-ready parsing pipeline
+**전체 범위**:
+- **59개 RAN1 미팅** (TSGR1_84 ~ TSGR1_122b)
+- **핵심 문서 타입**: Final Minutes, TDoc List, 개별 TDocs
+- **Technology**: LangGraph + Google Gemini (무료 모델)
 
-**Sub-steps** (Total: 6-10 days):
-1. **Sub-step 7-1: DOCX Basic Parser** ⏳ Planned (1-2 days)
-   - Metadata + text + references extraction
-   - 50 representative TDoc samples
-   - JSON output with Schema v2.0
-
-2. **Sub-step 7-2: XLSX Integration** ⏳ Planned (1-2 days)
-   - XLSX classification logic (simulation/rrc/admin)
-   - Tiered extraction (full/summary/metadata)
-   - 30 multi-format folder samples
-
-3. **Sub-step 7-3: Advanced Features** ⏳ Planned (2-3 days)
-   - Tables, equations, images extraction
-   - OMML→LaTeX conversion
-   - 40 rich-content TDoc samples
-
-4. **Sub-step 7-4: Full Scale Parsing** ⏳ Planned (2-3 days)
-   - Parse all 119,565 TDoc folders
-   - Parallel processing, error handling
-   - 99%+ success rate target
-
-**Document Types** (4 parsers):
-1. **Docs (TDocs)** - Technical proposals (Priority 1)
-2. **Report** - Meeting minutes (Priority 2)
-3. **Change Requests** - CR documents (Priority 3)
-4. **Specifications** - TS 38.xxx (Priority 4)
-
-**Output Schema v2.0** (Validated):
-- **MUST HAVE**: tdoc_id, location, source_company
-- **SHOULD HAVE**: title, agenda_item, document_for
-- **OPTIONAL**: proposals, observations, release
-- **RARE**: work_item, meeting, date
-- **Supplementary**: pptx_files[], xlsx_files[]
-
-**Output**: `data/data_parsed/meetings/RAN1/` (JSON files)
-
-**Documentation**:
-- 📘 [Detailed Guide](docs/phase-1/step7_document-parsing.md)
-- ✅ Prerequisites: Step-6 complete (Transform, Schema, Strategy)
+**접근 전략**:
+1. **Step-1 (MVP)**: True Agentic AI 아키텍처 구현 ✅ COMPLETE
+2. **Step-2**: 파싱 파이프라인 일반화 및 자동화
+3. **Step-3**: 전체 59개 미팅 파싱 실행
+4. **Step-4**: Graph DB 구축
 
 ---
 
-## Phase 2: ⬜ Not Started
+### Step-1: True Agentic AI ✅ COMPLETE
 
-**Planned**: Data parsing and structuring
-- Parse DOCX/DOC files
-- Extract text, tables, figures
-- Build searchable database
-- Cross-reference documents
+**Status**: ✅ COMPLETE (2025-11-27)
+
+**Objective**: LangGraph 기반 **True Agentic AI** 시스템 구축 - 모든 판단을 LLM이 수행하는 자율 검증/개선 루프
+
+**Architecture**:
+```
+        START
+          │
+          ▼
+    ┌───────────┐
+    │  ANALYZE  │  LLM이 원본 콘텐츠 분석, 항목 수 계산
+    └─────┬─────┘
+          │
+          ▼
+    ┌───────────┐
+    │  GENERATE │  LLM이 Structured Markdown 생성
+    └─────┬─────┘
+          │
+          ▼
+    ┌───────────┐
+    │  VALIDATE │  LLM이 원본 vs 출력 비교 (Rule-based X)
+    └─────┬─────┘
+          │
+          ▼
+    ┌─────────────────┐
+    │  META_DECISION  │  LLM이 CONTINUE/COMPLETE/ESCALATE 결정
+    └────────┬────────┘
+             │
+     ┌───────┼───────┬──────────────┐
+     ▼       ▼       ▼              │
+ IMPROVE  COMPLETE  ESCALATE    (loop)
+     │       │       │
+     └───────┴───────┴──────→ save_output → END
+```
+
+**핵심 설계 원칙**:
+1. **True Agentic AI**: 모든 판단을 LLM이 수행 (Rule-based 로직 제거)
+2. **자율적 검증 루프**: LLM이 원본 vs 출력을 직접 비교하여 누락 항목 발견
+3. **메타 에이전트**: 루프 횟수, 품질 판단, Escalation 결정을 LLM이 담당
+4. **Escalation 메커니즘**: 연속 3회 개선 실패 시 사람에게 알림
+
+**핵심 차이점 (Rule-based vs True Agentic)**:
+
+| 항목 | 이전 방식 (Rule-based) | True Agentic AI |
+|------|------------------------|-----------------|
+| 항목 수 계산 | `re.findall(r'Decision\s*:')` | LLM이 직접 분석 |
+| ID 추출 | 정규식 (탭 문자 문제) | LLM이 컨텍스트 이해 |
+| 검증 | 숫자 비교 | LLM이 원본/출력 비교 |
+| 루프 제어 | 고정 3회 | LLM이 품질 추이 보고 결정 |
+| 실패 처리 | 없음 | Escalation 메커니즘 |
+
+**Results**:
+- ✅ True Agentic AI 아키텍처 구현 완료
+- ✅ LLM 기반 검증 (Rule-based 제거)
+- ✅ 메타 에이전트 자율 루프 제어
+- ✅ Escalation 메커니즘 구현
+- ✅ **Section 5: 100% 품질 달성 (20/20 Features, 첫 번째 시도)**
+
+**Files (After Cleanup)**:
+```
+scripts/langgraph-trials/
+├── document_structurer.py    # ★ 메인 (True Agentic)
+├── langgraph.json            # Graph 등록 설정
+│
+├── utils/                    # 유틸리티
+│   ├── __init__.py
+│   ├── prompts.py            # ★ LLM 프롬프트 (중앙 집중)
+│   ├── llm_manager.py        # LLM 관리자 (Rate Limiting)
+│   ├── section_parser.py     # DOCX 섹션 파서
+│   ├── models.py             # Pydantic 모델
+│   ├── feature_models.py     # Feature 데이터 모델
+│   └── study_item_models.py  # Study Item 데이터 모델
+│
+├── agents/                   # Agent 정의 (향후 확장)
+│   ├── __init__.py
+│   └── personas.yaml         # Agent 페르소나 설정
+│
+└── output/                   # 출력 디렉토리
+    ├── RAN1_120_section5_*.md    # 생성 결과
+    └── escalation/               # Escalation 보고서
+```
+
+**실행 방법**:
+```bash
+# 프로젝트 루트에서 실행
+scripts/langgraph-trials/.venv/bin/python \
+  scripts/langgraph-trials/document_structurer.py \
+  --document "data/data_transformed/meetings/RAN1/TSGR1_120/Report/Final_Minutes_report_RAN1%23120_v100/Final_Minutes_report_RAN1#120_v100.docx" \
+  --meeting 120 \
+  --section 5
+
+# LangGraph Studio
+cd scripts/langgraph-trials
+.venv/bin/langgraph dev
+# → http://localhost:8123 에서 document_structurer 선택
+```
+
+**Documentation**:
+- 📘 [Detailed Guide](docs/phase-2/step1_langgraph-multi-agent.md)
+- 📘 [Phase-2 Overview](docs/phase-2/README.md)
+
+---
+
+### Step-2: TBD ⬜ PLANNED
+
+**Objective**: 파싱 파이프라인 일반화 및 자동화
+
+---
+
+### Step-3: TBD ⬜ PLANNED
+
+**Objective**: 전체 59개 미팅 파싱 실행
+
+---
+
+### Step-4: TBD ⬜ PLANNED
+
+**Objective**: Graph DB 구축 (Phase-3로 이동 가능)
 
 ---
 
