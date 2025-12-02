@@ -5,6 +5,17 @@ description = "3GPP specification tracing and analysis tool"
 requires-python = ">=3.10"
 dependencies = [
     "beautifulsoup4>=4.14.2",
+    "grandalf>=0.8",
+    "langchain>=1.0.8",
+    "langchain-community>=0.4.1",
+    "langchain-core>=1.0.7",
+    "langchain-google-genai>=3.1.0",
+    "langchain-openai>=1.0.3",
+    "langgraph>=1.0.3",
+    "langgraph-cli[inmem]>=0.4.7",
     "lxml>=6.0.2",
+    "openpyxl>=3.1.5",
+    "python-docx>=1.2.0",
+    "python-dotenv>=1.2.1",
     "requests>=2.32.5",
 ]
