@@ -42,3 +42,20 @@ Thumbs.db
 
 # Serena MCP Server data
 .serena/
+
+# Environment variables
+.env
+.env.local
+
+# Phase-2 관련 (런타임 생성물)
+logs/
+output/
+scripts/logs/
+*.json.bak
+
+# Virtual environments in subdirectories
+scripts/**/.venv/
+scripts/**/.venv311/
+
+# Large data files
+data.zip
