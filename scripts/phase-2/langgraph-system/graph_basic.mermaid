@@ -1,0 +1,20 @@
+---
+config:
+  flowchart:
+    curve: linear
+---
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	parse_document(parse_document)
+	extract_meeting_number(extract_meeting_number)
+	process_section(process_section)
+	generate_output(generate_output)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> parse_document;
+	extract_meeting_number --> process_section;
+	parse_document --> extract_meeting_number;
+	process_section --> generate_output;
+	generate_output --> __end__;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc

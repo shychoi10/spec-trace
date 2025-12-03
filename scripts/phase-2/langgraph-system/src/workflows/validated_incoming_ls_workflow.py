@@ -200,20 +200,21 @@ class ValidatedIncomingLSWorkflow:
             return "fail"
 
     def _extract_meeting_number(self, state: ValidatedIncomingLSState) -> ValidatedIncomingLSState:
-        """Step 2: 미팅 번호 추출"""
+        """Step 2: 미팅 번호 추출 (일반화 - 모든 WG 지원)"""
         docx_path = state.get("docx_path", "")
         section_text = state.get("section_text", "")
         filename = Path(docx_path).name
 
-        prompt = f"""Extract the RAN1 meeting number from this information.
+        prompt = f"""Extract the 3GPP working group meeting number from this information.
 
 **Filename:** {filename}
 **Section text (first 500 chars):** {section_text[:500]}
 
+Look for patterns: WG#NNN, TSGXX_NNN (e.g., RAN1#120, TSGR1_120, RAN2#105)
 Return ONLY the meeting number (like "119", "120"), nothing else."""
 
         try:
-            response = self.llm.generate(prompt, temperature=0.1, max_tokens=50)
+            response = self.llm.generate(prompt, temperature=0.1, max_tokens=256)
             meeting_number = "".join(c for c in response.strip() if c.isdigit())
             state["meeting_number"] = meeting_number if meeting_number else "unknown"
             logger.info(f"[Meeting] Extracted: {meeting_number}")
@@ -346,9 +347,11 @@ Return ONLY the meeting number (like "119", "120"), nothing else."""
             "markdown_output": state.get("markdown_output", ""),
         }
 
+        # 동적 WG 지원 - config 또는 state에서 가져옴
+        working_group = state.get("working_group", "RAN1")
         context = {
             "section_text": state.get("section_text", ""),
-            "meeting_id": f"RAN1_{state.get('meeting_number', 'unknown')}",
+            "meeting_id": f"{working_group}_{state.get('meeting_number', 'unknown')}",
         }
 
         result = self.final_validator.validate_with_correction_loop(data, context)
@@ -437,7 +440,9 @@ Return ONLY the meeting number (like "119", "120"), nothing else."""
             val_dir = Path(validation_dir)
             val_dir.mkdir(parents=True, exist_ok=True)
 
-            meeting_id = f"RAN1_{result.get('meeting_number', 'unknown')}"
+            # 동적 WG 지원
+            working_group = result.get("working_group", "RAN1")
+            meeting_id = f"{working_group}_{result.get('meeting_number', 'unknown')}"
             report_path = val_dir / f"{meeting_id}_validation_report.md"
 
             with open(report_path, "w", encoding="utf-8") as f:

@@ -161,25 +161,30 @@ class FinalValidator(BaseValidator):
         # Step 5: 콘텐츠 품질 검사
         content_quality = self._check_content_quality(issues)
 
-        # 정확도 계산
+        # 정확도 계산 (100% 정확도 요구)
         count_match = original_count == generated_count
         id_match_rate = 1.0 - (len(missing) / max(len(original_ls_ids), 1))
 
-        overall_accuracy = (
-            (1.0 if count_match else 0.7) * 0.3
-            + id_match_rate * 0.3
-            + field_completeness * 0.2
-            + content_quality * 0.2
-        )
-
-        # 100% 달성 여부
+        # 100% 달성 여부 - 모든 항목이 완벽해야 함
         is_perfect = (
             count_match
             and len(missing) == 0
             and len(extra) == 0
             and field_completeness >= 1.0
-            and content_quality >= 0.95
+            and content_quality >= 1.0  # 100% 요구 (기존 0.95 → 1.0)
         )
+
+        # overall_accuracy: 100% 아니면 최소값 반환 (가중치 공식 제거)
+        if is_perfect:
+            overall_accuracy = 1.0
+        else:
+            # 가장 낮은 점수를 반환 (문제 영역 식별용)
+            overall_accuracy = min(
+                1.0 if count_match else 0.0,
+                id_match_rate,
+                field_completeness,
+                content_quality
+            )
 
         # 오류 생성
         errors = []
@@ -259,8 +264,8 @@ class FinalValidator(BaseValidator):
 
 **Instructions:**
 1. Count every distinct LS item (both primary and CC-only)
-2. Extract all LS IDs (format: R1-XXXXXXX)
-3. Include both addressed-to-RAN1 and cc-to-RAN1 items
+2. Extract all LS IDs (format varies by WG: R1-XXXXXXX for RAN1, R2-XXXXXXX for RAN2, S2-XXXXXXX for SA2, etc.)
+3. Include both addressed-to and cc-to items for the target working group
 
 **Output (JSON):**
 {{
@@ -323,7 +328,7 @@ Generate count:"""
 
     def _check_field_completeness(self, issues: list) -> float:
         """
-        필드 완전성 검사
+        필드 완전성 검사 (강화된 버전)
 
         Args:
             issues: Issue 리스트
@@ -334,21 +339,39 @@ Generate count:"""
         if not issues:
             return 0.0
 
-        required_fields = ["ls_id", "title", "source_wg", "decision_text", "issue_type"]
-        total_fields = len(issues) * len(required_fields)
-        present_fields = 0
+        # 필수 필드 (가중치 적용)
+        required_fields = {
+            "ls_id": 1.0,           # 필수
+            "title": 1.0,           # 필수
+            "source_wg": 1.0,       # 필수 - Source Working Group
+            "source_companies": 0.8, # 중요 - 회사 정보
+            "decision_text": 1.0,   # 필수
+            "issue_type": 0.8,      # 중요
+        }
+
+        total_weight = sum(required_fields.values()) * len(issues)
+        achieved_weight = 0.0
 
         for issue in issues:
             if isinstance(issue, dict):
-                for field in required_fields:
-                    if issue.get(field):
-                        present_fields += 1
+                for field, weight in required_fields.items():
+                    value = issue.get(field)
+                    # source_companies는 리스트이므로 특별 처리
+                    if field == "source_companies":
+                        if value and isinstance(value, list) and len(value) > 0:
+                            achieved_weight += weight
+                    elif value:
+                        achieved_weight += weight
             elif hasattr(issue, "__dict__"):
-                for field in required_fields:
-                    if getattr(issue, field, None):
-                        present_fields += 1
+                for field, weight in required_fields.items():
+                    value = getattr(issue, field, None)
+                    if field == "source_companies":
+                        if value and isinstance(value, list) and len(value) > 0:
+                            achieved_weight += weight
+                    elif value:
+                        achieved_weight += weight
 
-        return present_fields / total_fields if total_fields > 0 else 0.0
+        return achieved_weight / total_weight if total_weight > 0 else 0.0
 
     def _check_content_quality(self, issues: list) -> float:
         """
@@ -447,9 +470,9 @@ Generate evaluation:"""
                 "Improve metadata extraction for missing required fields"
             )
 
-        if content_quality < 0.95:
+        if content_quality < 1.0:
             recommendations.append(
-                "Enhance summary generation for better content quality"
+                "Enhance summary generation to achieve 100% content quality"
             )
 
         return recommendations

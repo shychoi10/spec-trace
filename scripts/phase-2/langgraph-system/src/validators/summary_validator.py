@@ -30,7 +30,7 @@ class SummaryValidator(BaseValidator):
         "main_topic",           # 주제
         "source_context",       # 출처/배경
         "key_points",           # 핵심 내용
-        "ran1_relevance",       # RAN1 관련성
+        "wg_relevance",         # 해당 WG 관련성 (동적 WG 지원)
     ]
 
     def validate(self, data: Any, context: Optional[dict] = None) -> ValidationResult:
@@ -81,13 +81,13 @@ class SummaryValidator(BaseValidator):
 2. **Completeness**: Does it capture the main topic and key points?
 3. **Conciseness**: Is it appropriately brief but informative?
 4. **Korean Quality**: Is the Korean natural and readable?
-5. **RAN1 Relevance**: Does it explain why this matters to RAN1?
+5. **WG Relevance**: Does it explain why this matters to the target working group?
 
 **Required Elements:**
 - main_topic: What is this about?
 - source_context: Who sent this and why?
 - key_points: What are the key technical points?
-- ran1_relevance: What does RAN1 need to know/do?
+- wg_relevance: What does the target working group need to know/do?
 
 **Output (JSON):**
 {{
@@ -234,13 +234,13 @@ Generate validation:"""
 1. Address all the issues listed above
 2. Keep the summary concise (2-3 sentences)
 3. Ensure natural Korean expression
-4. Include: main topic, source context, key points, RAN1 relevance
+4. Include: main topic, source context, key points, working group relevance
 
 **Output:** (Just the improved summary in Korean, no explanation)"""
 
         try:
             improved_summary = self.llm.generate(
-                correction_prompt, temperature=0.3, max_tokens=500
+                correction_prompt, temperature=0.3, max_tokens=2048
             )
 
             if improved_summary and len(improved_summary) > 50:

@@ -23,7 +23,7 @@ logger = logging.getLogger(__name__)
 
 
 class ClassificationValidator(BaseValidator):
-    """Issue Type 분류 검증기"""
+    """Issue Type 분류 검증기 (True Agentic AI - 키워드 리스트 제거)"""
 
     # 유효한 Issue Types
     VALID_ISSUE_TYPES = [
@@ -31,24 +31,8 @@ class ClassificationValidator(BaseValidator):
         "Non-action Issue",
     ]
 
-    # Decision 키워드 (LLM 프롬프트에서 참조용)
-    ACTIONABLE_KEYWORDS = [
-        "LS reply",
-        "revision",
-        "CR",
-        "way forward",
-        "update",
-        "respond",
-        "draft",
-    ]
-
-    NON_ACTION_KEYWORDS = [
-        "noted",
-        "no action",
-        "for information",
-        "FYI",
-        "already handled",
-    ]
+    # NOTE: 키워드 리스트 제거됨 - LLM이 Decision 텍스트에서 직접 분류
+    # True Agentic AI 원칙: 하드코딩된 키워드 매칭 금지
 
     def validate(self, data: Any, context: Optional[dict] = None) -> ValidationResult:
         """
@@ -95,19 +79,26 @@ class ClassificationValidator(BaseValidator):
 **Classifications to Validate:**
 {classifications}
 
-**Classification Rules:**
-1. "Actionable Issue": RAN1 needs to take action (LS reply, CR, revision, way forward)
-   - Decision mentions: {self.ACTIONABLE_KEYWORDS}
-   - Should have related Tdocs
+**Classification Rules (analyze Decision text semantically - do not rely on keyword matching):**
 
-2. "Non-action Issue": RAN1 just notes/acknowledges
-   - Decision mentions: {self.NON_ACTION_KEYWORDS}
-   - Should NOT have Tdocs (or Tdocs = "없음")
+1. "Actionable Issue" - The working group needs to take concrete action:
+   - Decision indicates response/reply LS is needed
+   - Decision mentions discussion in specific agenda item
+   - Decision requires revision, CR, or way forward
+   - Decision requests input or feedback
+   - Typically has related Tdocs for discussion/drafts
+
+2. "Non-action Issue" - The working group just acknowledges/notes:
+   - Decision simply notes or acknowledges the LS
+   - No further action is indicated
+   - Information is for reference only
+   - Typically has no related Tdocs (or Tdocs = "없음")
 
 **Validation Tasks:**
-1. Check if issue_type matches the decision text
-2. Check if Tdocs presence matches the issue_type
-3. Identify any misclassifications
+1. Analyze the semantic meaning of each Decision text
+2. Determine if the Decision indicates action is required or not
+3. Check if issue_type matches your analysis
+4. Verify Tdocs presence aligns with the issue_type
 
 **Output (JSON):**
 {{
@@ -117,7 +108,7 @@ class ClassificationValidator(BaseValidator):
       "index": 3,
       "current_type": "Actionable Issue",
       "correct_type": "Non-action Issue",
-      "reason": "Decision says 'noted' with no further action"
+      "reason": "Decision semantically indicates no further action is required"
     }}
   ],
   "accuracy_score": 0.0-1.0

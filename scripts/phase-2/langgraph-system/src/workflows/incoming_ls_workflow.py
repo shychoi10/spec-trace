@@ -144,7 +144,10 @@ class IncomingLSWorkflow:
         # 파일명에서 힌트 추출
         filename = Path(docx_path).name
 
-        prompt = f"""Extract the RAN1 meeting number from this information.
+        # 동적 Working Group 지원 (config에서 가져오거나 기본값 사용)
+        working_group = state.get("working_group", "RAN1")
+
+        prompt = f"""Extract the 3GPP working group meeting number from this information.
 
 **Filename:** {filename}
 
@@ -152,15 +155,19 @@ class IncomingLSWorkflow:
 {section_text[:500]}
 
 **Instructions:**
-1. Look for patterns like "RAN1#NNN", "RAN1 #NNN", "TSGR1_NNN", "Meeting NNN"
-2. Extract just the number
-3. If uncertain, return "unknown"
+1. Look for patterns like "WG#NNN", "WG #NNN", "TSGXX_NNN", "Meeting NNN" where WG can be RAN1, RAN2, SA2, etc.
+2. Common patterns: RAN1#120, TSGR1_120, RAN2#105, S2-250001
+3. Extract just the meeting number
+4. If uncertain, return "unknown"
 
 Return ONLY the meeting number (a number like "119", "120", "121", etc.), nothing else."""
 
         try:
-            response = self.llm.generate(prompt, temperature=0.1, max_tokens=50)
-            meeting_number = response.strip().replace("#", "").replace("RAN1", "").strip()
+            response = self.llm.generate(prompt, temperature=0.1, max_tokens=256)
+            # 동적 WG 이름 처리 (RAN1, RAN2, SA2 등 모두 지원)
+            meeting_number = response.strip().replace("#", "")
+            for wg in ["RAN1", "RAN2", "RAN3", "RAN4", "SA1", "SA2", "SA3", "CT1"]:
+                meeting_number = meeting_number.replace(wg, "").strip()
 
             # LLM 응답 정리 (숫자만 필터링 - 데이터 변환, 분석 아님)
             cleaned = "".join(c for c in meeting_number if c.isdigit())
@@ -249,7 +256,7 @@ Common patterns:
 Return ONLY the section number (e.g., "5", "6", etc.). If not found, return "unknown"."""
 
         try:
-            response = self.llm.generate(prompt, temperature=0.1, max_tokens=20)
+            response = self.llm.generate(prompt, temperature=0.1, max_tokens=256)
             section_number = response.strip()
 
             # 숫자만 추출 (데이터 정리, 분석 아님)

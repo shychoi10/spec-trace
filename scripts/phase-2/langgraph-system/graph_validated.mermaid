@@ -1,0 +1,30 @@
+---
+config:
+  flowchart:
+    curve: linear
+---
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	parse_document(parse_document)
+	validate_parse(validate_parse)
+	extract_meeting_number(extract_meeting_number)
+	process_section(process_section)
+	validate_processing(validate_processing)
+	generate_output(generate_output)
+	final_validation(final_validation)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> parse_document;
+	extract_meeting_number --> process_section;
+	generate_output --> final_validation;
+	parse_document --> validate_parse;
+	process_section --> validate_processing;
+	validate_parse -. &nbsp;fail&nbsp; .-> __end__;
+	validate_parse -. &nbsp;continue&nbsp; .-> extract_meeting_number;
+	validate_parse -. &nbsp;retry&nbsp; .-> parse_document;
+	validate_processing -. &nbsp;fail&nbsp; .-> __end__;
+	validate_processing -. &nbsp;continue&nbsp; .-> generate_output;
+	validate_processing -. &nbsp;retry&nbsp; .-> process_section;
+	final_validation --> __end__;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc

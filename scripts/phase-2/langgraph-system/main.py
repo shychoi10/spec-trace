@@ -12,6 +12,12 @@ import logging
 import sys
 from pathlib import Path
 
+from dotenv import load_dotenv
+
+# 프로젝트 루트의 .env 로드
+PROJECT_ROOT = Path(__file__).parent.parent.parent.parent
+load_dotenv(PROJECT_ROOT / ".env")
+
 SCRIPT_DIR = Path(__file__).parent
 sys.path.insert(0, str(SCRIPT_DIR))
 

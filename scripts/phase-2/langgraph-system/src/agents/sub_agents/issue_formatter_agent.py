@@ -66,12 +66,22 @@ class IssueFormatterAgent:
         title = issue["title"]
         content = issue["content"]
         decision = issue["decision_text"]
+        source_wg = issue.get("source_wg", "Unknown")
+        source_companies = issue.get("source_companies", [])
+
+        # Format source companies for display
+        if source_companies and len(source_companies) > 0:
+            companies_str = "[" + ", ".join(source_companies) + "]"
+        else:
+            companies_str = "없음"
 
         return f"""Format this complete Issue in Markdown.
 
 Issue Number: {issue_number}
 LS ID: {ls_id}
 Title: {title}
+Source WG: {source_wg}
+Source Companies: {companies_str}
 
 Full Content:
 {content}
@@ -82,17 +92,17 @@ Decision:
 Selected Tdocs:
 {selected_tdocs}
 
-Output Format (EXACT structure):
+Output Format (EXACT structure - use the provided Source WG and Source Companies):
 ### Issue {issue_number}: {title}
 
 **Origin**
 - Type: `LS` (Incoming LS)
 - LS ID: {ls_id}
-- Source WG: [Extract from content - look for "from RAN2", "from RAN4", etc.]
-- Source companies: [Extract from content if mentioned, otherwise "없음"]
+- Source WG: {source_wg}
+- Source companies: {companies_str}
 
 **LS**
-- {ls_id} — *{title}* ([Source WG], [Source companies if available]) — `ls_incoming`
+- {ls_id} — *{title}* ({source_wg}, {companies_str}) — `ls_incoming`
 
 **Summary**
 [Korean summary of what this LS is about - 1-2 sentences explaining the technical topic]
@@ -107,9 +117,9 @@ Output Format (EXACT structure):
 - [Extract from Decision if mentioned (e.g., "discussed in agenda item 7.1.1.4.1"), otherwise "없음"]
 
 **Issue Type**
-- [Classify as one of:
-  - "Actionable Issue" if Decision mentions "RAN1 response necessary" or "draft reply LS endorsed" or "discussed in agenda item"
-  - "Non-action Issue" if Decision is "Noted" or "No further action necessary"
+- [Classify based on semantic analysis of Decision text:
+  - "Actionable Issue" if Decision indicates response/action is required (e.g., reply LS needed, discussed in agenda item, input requested)
+  - "Non-action Issue" if Decision indicates acknowledgment only (e.g., noted, no further action)
   - "Reference Issue" if for information only]
 
 Generate the complete Issue Markdown now:

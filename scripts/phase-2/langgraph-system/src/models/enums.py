@@ -26,7 +26,7 @@ class DocType(str, Enum):
 class IssueType(str, Enum):
     """Issue 타입 (LLM이 분류)"""
 
-    ACTIONABLE = "Actionable Issue"  # RAN1 액션 필요
+    ACTIONABLE = "Actionable Issue"  # WG 액션 필요
     NON_ACTION = "Non-action Issue"  # 액션 불필요
     REFERENCE = "Reference Issue"  # 참조용 (CC)
 

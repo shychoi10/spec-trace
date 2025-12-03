@@ -8,20 +8,21 @@
 
 ```
 Phase-2: Graph DB Construction
-├── Step-1: LangGraph Multi-Agent System     [✅ In Progress]
-│   └── Incoming LS Processing Complete
+├── Step-1: LangGraph Multi-Agent System     [✅ Complete]
+│   └── Incoming LS Processing (15 meetings)
 ├── Step-2: Multi-Section Expansion          [⏳ Planned]
 ├── Step-3: Graph DB Schema Design           [⏳ Planned]
 ├── Step-4: Data Population                  [⏳ Planned]
 └── Step-5: Query & Analysis Interface       [⏳ Planned]
 ```
 
-## Current Focus: Step-1
+## Current Focus: Step-1 Complete
 
 **LangGraph Multi-Agent System** - Final Minutes에서 구조화된 Issue 추출
 
-- **Status**: ✅ Incoming LS (Section 5) Complete
-- **Tested**: RAN1 #119, #120
+- **Status**: ✅ Incoming LS Processing Complete
+- **Tested**: RAN1 #110-121 (15개 미팅)
+- **LLM**: Google Gemini API (gemini-2.5-flash)
 - **Documentation**: [step1_langgraph-system.md](step1_langgraph-system.md)
 
 ### Architecture
@@ -47,7 +48,7 @@ Input (Final Minutes DOCX)
 ## Tech Stack
 
 - **Framework**: LangGraph (Agentic AI workflow)
-- **LLM**: GPT-4o via OpenRouter
+- **LLM**: Google Gemini API (gemini-2.5-flash) - 직접 호출
 - **Language**: Python 3.11
 - **Package Manager**: uv
 
@@ -63,13 +64,15 @@ logs/                                # Execution logs (gitignored)
 ## Quick Start
 
 ```bash
-# Setup
-cd scripts/phase-2/langgraph-system
-cp .env.example .env
-# Add OPENROUTER_API_KEY to .env
+# Setup (프로젝트 루트에서)
+# .env 파일에 GOOGLE_API_KEY 설정
 
 # Run
-python main.py --meeting RAN1_120
+cd scripts/phase-2/langgraph-system
+python main.py --meeting RAN1_121
+
+# Batch run (모든 미팅)
+python batch_run.py
 ```
 
 ## Documentation Index

@@ -1,0 +1,27 @@
+# RAN1_121.yaml
+# Config for RAN1 #121
+
+meeting:
+  id: "RAN1_121"
+  number: "121"
+  working_group: "RAN1"
+  folder_name: "TSGR1_121"
+
+  input:
+    final_minutes: "meetings/RAN1/TSGR1_121/Report/Final_Minutes_report_RAN1%23121_v100/Final_Minutes_report_RAN1#121_v100.docx"
+    tdoc_list: "meetings/RAN1/TSGR1_121/Docs/TDoc_List_Meeting_RAN1%23121.xlsx"
+
+  output:
+    filename_pattern: "{meeting_id}_{content_type}.md"
+
+  hints:
+    expected_counts:
+      incoming_ls:
+        primary: 0
+        cc_only: 0
+        total: 0
+    source_wgs:
+      - "RAN2"
+      - "RAN3"
+      - "RAN4"
+      - "SA2"

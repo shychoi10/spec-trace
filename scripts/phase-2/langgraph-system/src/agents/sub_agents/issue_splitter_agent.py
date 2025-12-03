@@ -115,6 +115,8 @@ Output Format (JSON array):
   {{
     "ls_id": "R1-2500007",
     "title": "LS response on waveform determination in FR1-TDD for Rel-18 MIMO",
+    "source_wg": "RAN2",
+    "source_companies": ["CATT"],
     "content": "Full text for this LS including all paragraphs until next LS or section end",
     "decision_text": "RAN2 response for RAN1 LS (R2-2406928) on waveform determination in FR1-TDD for Rel-18 MIMO is noted. No further action is necessary.",
     "has_tdocs": false,
@@ -123,6 +125,8 @@ Output Format (JSON array):
   {{
     "ls_id": "R1-2500008",
     "title": "LS on preamble codebook mapping table issue",
+    "source_wg": "RAN2",
+    "source_companies": ["Huawei", "HiSilicon"],
     "content": "Full text...",
     "decision_text": "RAN1 is requested to discuss this LS in agenda item 7.1.1.4.1. A draft reply LS endorsed as in R1-2501635 will be sent to RAN2.",
     "has_tdocs": true,
@@ -131,8 +135,10 @@ Output Format (JSON array):
 ]
 
 Important:
-- Be comprehensive - identify ALL LS items (expect 20 Primary + 12 CC-only = 32 total)
-- "is_primary": true if LS requires RAN1 action/reply, false if CC-only ("Noted" decision)
+- Be comprehensive - identify ALL LS items regardless of count (do not assume any expected number)
+- "source_wg": Extract the source Working Group (RAN2, RAN3, RAN4, SA2, etc.) - MANDATORY
+- "source_companies": Extract company names if mentioned (look for patterns like "RAN2, Huawei" or "from Samsung") - use empty array [] if not found
+- "is_primary": true if LS requires working group action/reply, false if CC-only (Decision indicates "Noted" with no action)
 - Extract "decision_text" EXACTLY as written (look for "Decision:" keyword)
 - "has_tdocs": Check if there's a "Relevant Tdocs:" section
 

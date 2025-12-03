@@ -295,7 +295,7 @@ Return as JSON:
 """
 
         try:
-            response = self.llm.generate(prompt, temperature=0.1, max_tokens=300)
+            response = self.llm.generate(prompt, temperature=0.1, max_tokens=1024)
             success, parsed, error = self.validate_json_response(response)
 
             if success:

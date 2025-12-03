@@ -4,7 +4,9 @@
 
 3GPP RAN1 Final Minutes 문서에서 구조화된 Issue를 추출하는 Multi-Agent 시스템.
 
-**Status**: ✅ Incoming LS Processing Complete (RAN1 #119, #120)
+**Status**: ✅ Incoming LS Processing Complete (RAN1 #110-121, 총 15개 미팅)
+
+**LLM Provider**: Google Gemini API (gemini-2.5-flash) - 직접 호출
 
 ## Architecture
 
@@ -82,7 +84,7 @@ scripts/phase-2/langgraph-system/
 │   │   └── issue.py               # Issue dataclass
 │   ├── utils/
 │   │   ├── document_parser.py     # DOCX parsing
-│   │   ├── llm_manager.py         # OpenRouter LLM client
+│   │   ├── llm_manager.py         # Google Gemini API client
 │   │   └── workflow_tracer.py     # Execution tracing
 │   ├── workflows/
 │   │   └── incoming_ls_workflow.py # LangGraph workflow
@@ -123,15 +125,15 @@ sections:
 
 ```yaml
 llm:
-  provider: "openrouter"
-  model: "openai/gpt-4o"
-  temperature: 0.2
-  max_tokens: 4000
+  provider: "google"
+  model: "gemini-2.5-flash"
+  temperature: 0.1
+  max_tokens: 16000
 
-processing:
-  chunk_size: 12000
-  overlap: 2000
+workflow:
+  active_content_type: "incoming_ls"
   max_retries: 3
+  retry_delay_seconds: 1
 ```
 
 ## Usage
@@ -142,10 +144,13 @@ processing:
 cd scripts/phase-2/langgraph-system
 
 # Process specific meeting
-python main.py --meeting RAN1_120
+python main.py --meeting RAN1_121
 
 # Process with detailed tracing
 python main_with_trace.py --meeting RAN1_120
+
+# Batch process all meetings
+python batch_run.py
 ```
 
 ### Output
@@ -189,23 +194,25 @@ No further action necessary from RAN1.
 
 ## Results
 
-### RAN1 #120
+### Batch Processing Summary (15 Meetings)
+
+| Meeting | Primary Issues | CC-only | Total |
+|---------|----------------|---------|-------|
+| RAN1 #110 | 31 | 12 | 43 |
+| RAN1 #110b-e | 24 | 9 | 33 |
+| RAN1 #111 | 17 | 8 | 25 |
+| RAN1 #112 | 26 | 10 | 36 |
+| RAN1 #112b-e | ~20 | ~8 | ~28 |
+| RAN1 #113-121 | ... | ... | ... |
+
+### Performance
 
 | Metric | Value |
 |--------|-------|
-| Total Primary Issues | 20 |
-| CC-only Items | 12 |
-| Source WGs | 5 (RAN2, RAN3, RAN4, SA2, ETSI ISG ISAC) |
-| Processing Time | ~3 min |
-| LLM Calls | ~200 |
-
-### RAN1 #119
-
-| Metric | Value |
-|--------|-------|
-| Total Primary Issues | 18 |
-| CC-only Items | 10 |
-| Processing Time | ~2.5 min |
+| Processing Time (per meeting) | ~2-3 min |
+| LLM Calls (per meeting) | ~60-100 |
+| LLM Provider | Google Gemini API (gemini-2.5-flash) |
+| API Cost | Free tier (무료 크레딧 사용) |
 
 ## Design Principles
 
@@ -257,16 +264,31 @@ workflow.add_edge("detect_boundaries", "split_issues")
 
 ## Known Limitations
 
-1. **Single Section Only**: 현재 Incoming LS (Section 5)만 지원
+1. **Single Section Only**: 현재 Incoming LS만 지원 (추후 확장 예정)
 2. **Meeting-Specific Config**: 각 미팅마다 config 파일 필요
-3. **LLM Dependency**: OpenRouter API 필요 (비용 발생)
+3. **LLM Dependency**: Google Gemini API 필요 (무료 크레딧 사용 가능)
+
+## API Migration Notes
+
+### OpenRouter → Google Gemini 직접 호출 전환
+
+**변경 이유**: Google Gemini 무료 크레딧 활용
+
+**주요 변경사항**:
+1. `llm_manager.py`: OpenRouter → `google-generativeai` 라이브러리
+2. Token 설정: MIN_OUTPUT_TOKENS=1024, MAX_OUTPUT_TOKENS=65536 (Gemini 제약)
+3. Safety Settings: 기술 문서 분석을 위해 BLOCK_NONE 설정
+
+**교훈**: 같은 모델이라도 API provider마다 동작이 다름
+- OpenRouter: 파라미터 자동 조정 (친절한 중개인)
+- Direct API: 파라미터 그대로 적용 (정직한 실행자)
 
 ## Next Steps
 
-- [ ] Multi-Section Support (Section 6-9, Annex)
+- [ ] Multi-Section Support (Reports, Draft LS, Work Items)
 - [ ] Meta Orchestrator (Content-based agent selection)
 - [ ] Ground Truth Validation Pipeline
-- [ ] Cost Optimization (Caching, Smaller models)
+- [ ] Graph DB Integration (Neo4j)
 
 ## Related Files
 

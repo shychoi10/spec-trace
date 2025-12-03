@@ -178,7 +178,7 @@ class Issue:
 
 @dataclass
 class CCOnlyItem:
-    """CC-only Item (RAN1이 CC된 LS)"""
+    """CC-only Item (해당 WG가 CC된 LS)"""
 
     ls_id: str
     title: str
@@ -201,6 +201,7 @@ class SectionOutput:
     section_number: str
     meeting_number: str
     overview: str  # Section Overview (Korean)
+    working_group: str = "RAN1"  # 동적 WG 지원 (기본값: RAN1)
     issues: list[Issue] = field(default_factory=list)
     cc_only_items: list[CCOnlyItem] = field(default_factory=list)
     statistics: dict[str, Any] = field(default_factory=dict)
@@ -209,9 +210,9 @@ class SectionOutput:
         """전체 섹션을 Markdown으로 출력"""
         lines = []
 
-        # 헤더
+        # 헤더 (동적 WG 지원)
         lines.append(
-            f"# Section {self.section_number}: Incoming Liaison Statements (RAN1 #{self.meeting_number})"
+            f"# Section {self.section_number}: Incoming Liaison Statements ({self.working_group} #{self.meeting_number})"
         )
         lines.append("")
 
@@ -255,9 +256,9 @@ class SectionOutput:
             lines.append("---")
             lines.append("")
 
-        # CC-only Items
+        # CC-only Items (동적 WG 지원)
         if self.cc_only_items:
-            lines.append("### RAN1 was cc-ed in the following incoming LSs")
+            lines.append(f"### {self.working_group} was cc-ed in the following incoming LSs")
             lines.append("")
             for item in self.cc_only_items:
                 lines.append(item.to_markdown())

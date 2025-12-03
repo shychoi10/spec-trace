@@ -144,11 +144,11 @@ class MetadataValidator(BaseValidator):
 {sample_data}
 
 **Validation Rules:**
-1. ls_id: Should match R1-XXXXXXX pattern (7 digits after R1-)
+1. ls_id: Should match WG ID pattern (e.g., R1-XXXXXXX for RAN1, R2-XXXXXXX for RAN2, S2-XXXXXXX for SA2)
 2. title: Should be descriptive, not just "LS on" or empty
-3. source_wg: Should be valid 3GPP WG (e.g., RAN2, SA2, CT1)
+3. source_wg: Should be valid 3GPP WG (e.g., RAN1, RAN2, RAN3, SA2, CT1)
 4. issue_type: Should be "Actionable Issue" or "Non-action Issue"
-5. decision: Should describe RAN1's action/response
+5. decision: Should describe the working group's action/response
 
 **Output (JSON):**
 {{

@@ -250,7 +250,7 @@ Return as JSON:
 """
 
         try:
-            response = self.llm.generate(prompt, temperature=0.3, max_tokens=1500)
+            response = self.llm.generate(prompt, temperature=0.3, max_tokens=4096)
             success, parsed, error = self.validate_json_response(response)
 
             if not success:

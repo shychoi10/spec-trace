@@ -219,7 +219,7 @@ Return your reflection as JSON:
 
         try:
             response = self.llm.generate(
-                reflection_prompt, temperature=0.3, max_tokens=500
+                reflection_prompt, temperature=0.3, max_tokens=2048
             )
             reflection_data = json.loads(response)
             return ReflectionResult(**reflection_data)

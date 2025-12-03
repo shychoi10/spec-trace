@@ -137,7 +137,7 @@ class DocumentParser:
         # LLM에게 섹션 추출 요청 (콘텐츠 기반 vs 번호 기반)
         if is_content_based:
             # 콘텐츠 기반: 제목으로만 검색
-            prompt = f"""You are a document structure analyzer. Extract the content of a specific section from a 3GPP RAN1 meeting minutes document.
+            prompt = f"""You are a document structure analyzer. Extract the content of a specific section from a 3GPP working group meeting minutes document.
 
 **Task**: Extract the "{section_title}" section from the document.
 
@@ -163,7 +163,7 @@ If you cannot find the "{section_title}" section, return exactly: "SECTION_NOT_F
             except ValueError:
                 next_section = "next"
 
-            prompt = f"""You are a document structure analyzer. Extract the content of a specific section from a 3GPP RAN1 meeting minutes document.
+            prompt = f"""You are a document structure analyzer. Extract the content of a specific section from a 3GPP working group meeting minutes document.
 
 **Task**: Extract Section {section_identifier} "{section_title}" from the document.
 
@@ -212,7 +212,7 @@ If you cannot find Section {section_identifier}, return exactly: "SECTION_NOT_FO
         if self._llm is None:
             return {"content": "", "start_marker": "", "end_marker": ""}
 
-        prompt = f"""Analyze this 3GPP RAN1 meeting document and extract Section {section_number}.
+        prompt = f"""Analyze this 3GPP working group meeting document and extract Section {section_number}.
 
 **Document** (first 80000 chars):
 {self._full_text[:80000]}

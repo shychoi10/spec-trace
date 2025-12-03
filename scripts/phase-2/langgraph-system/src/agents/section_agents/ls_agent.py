@@ -288,7 +288,7 @@ Rules:
 Return ONLY one word: actionable, non_action, or reference"""
 
         try:
-            response = self.llm.generate(prompt, temperature=0.1, max_tokens=20)
+            response = self.llm.generate(prompt, temperature=0.1, max_tokens=256)
             result = response.strip().lower()
 
             if "actionable" in result:
@@ -374,7 +374,7 @@ Example: "RAN2에서 AI/ML 기반 UE 에너지 절약 기능의 RAN1 측면에 �
 """
 
         try:
-            response = self.llm.generate(prompt, temperature=0.3, max_tokens=200)
+            response = self.llm.generate(prompt, temperature=0.3, max_tokens=1024)
             return response.strip()
         except Exception as e:
             logger.warning(f"[LSAgent] Summary generation failed: {e}")
