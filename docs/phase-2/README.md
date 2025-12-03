@@ -10,17 +10,25 @@
 Phase-2: Graph DB Construction
 ├── Step-1: LangGraph Multi-Agent System     [✅ Complete]
 │   └── Incoming LS Processing (15 meetings)
-├── Step-2: Multi-Section Expansion          [⏳ Planned]
+├── Step-2: Multi-Section Expansion          [🔄 In Progress]
+│   └── Maintenance Section Processing (3 sections)
 ├── Step-3: Graph DB Schema Design           [⏳ Planned]
 ├── Step-4: Data Population                  [⏳ Planned]
 └── Step-5: Query & Analysis Interface       [⏳ Planned]
 ```
 
-## Current Focus: Step-1 Complete
+## Current Focus: Step-2 Multi-Section Expansion
 
-**LangGraph Multi-Agent System** - Final Minutes에서 구조화된 Issue 추출
+**범용 Multi-Section 처리 아키텍처** - Meta Agent + Generic Workflow
 
-- **Status**: ✅ Incoming LS Processing Complete
+- **Status**: 🔄 In Progress
+- **Target**: Maintenance Sections (3개: Rel-18, Pre-Rel-18 NR, Pre-Rel-18 E-UTRA)
+- **Architecture**: MetaSectionAgent → Generic Workflow 라우팅
+- **Documentation**: [step2_multi-section-expansion.md](step2_multi-section-expansion.md)
+
+### Step-1 (Complete): Incoming LS Processing
+
+- **Status**: ✅ Complete
 - **Tested**: RAN1 #110-121 (15개 미팅)
 - **LLM**: Google Gemini API (gemini-2.5-flash)
 - **Documentation**: [step1_langgraph-system.md](step1_langgraph-system.md)
@@ -79,8 +87,9 @@ python batch_run.py
 
 | Document | Description |
 |----------|-------------|
-| [step1_langgraph-system.md](step1_langgraph-system.md) | Step-1 상세 가이드 |
+| [step1_langgraph-system.md](step1_langgraph-system.md) | Step-1: Incoming LS Processing 상세 가이드 |
+| [step2_multi-section-expansion.md](step2_multi-section-expansion.md) | Step-2: Multi-Section Expansion 상세 가이드 |
 
 ---
 
-**Last Updated**: 2025-12-02
+**Last Updated**: 2025-12-03

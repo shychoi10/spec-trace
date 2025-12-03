@@ -288,7 +288,9 @@ Rules:
 Return ONLY one word: actionable, non_action, or reference"""
 
         try:
-            response = self.llm.generate(prompt, temperature=0.1, max_tokens=256)
+            # max_tokens 증가: Issue Type 결정 응답이 잘릴 수 있음
+            # See: docs/phase-2/LLM_TOKEN_GUIDELINES.md
+            response = self.llm.generate(prompt, temperature=0.1, max_tokens=512)
             result = response.strip().lower()
 
             if "actionable" in result:

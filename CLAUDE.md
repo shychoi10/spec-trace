@@ -79,7 +79,20 @@ Meta Orchestrator (Section 분석 → Agent 선택)
 
 ---
 
-## 🚨 콘텐츠 기반 네이밍 원칙 (CRITICAL - 반드시 준수)
+## 🚨🚨🚨 제1 원칙 (First Principles) - 반드시 준수 🚨🚨🚨
+
+> **이 원칙들은 모든 Phase-2 구현에서 최우선으로 준수해야 합니다.**
+> 코드 작성 전에 항상 이 원칙들을 확인하세요.
+
+### 원칙 목록
+1. **True Agentic AI**: 모든 텍스트 분석은 LLM이 수행 (No Regex)
+2. **콘텐츠 기반 네이밍**: Section 번호가 아닌 콘텐츠 유형으로 명명
+3. **범용 설계 (General Design)**: 특정 Section에 종속되지 않는 범용 구조
+4. **기존 코드 보호**: 검증된 워크플로우는 수정 금지
+
+---
+
+## 🚨 원칙 1: 콘텐츠 기반 네이밍 (CRITICAL)
 
 ### 핵심 원칙
 **모든 코드, 파일명, 변수명은 Section 번호가 아닌 콘텐츠 유형으로 명명해야 합니다.**
@@ -136,7 +149,7 @@ Meta Orchestrator (Section 분석 → Agent 선택)
 
 ---
 
-## 🚨 True Agentic AI 원칙 (CRITICAL)
+## 🚨 원칙 2: True Agentic AI (CRITICAL)
 
 ### 핵심 원칙
 **모든 텍스트 분석, 분류, 추출은 반드시 LLM이 수행해야 합니다.**
@@ -182,26 +195,87 @@ def _extract_tdocs(self, text: str) -> list[str]:
 3. **정확성**: 컨텍스트 기반 분석으로 더 높은 정확도
 4. **유지보수성**: regex 패턴 관리 불필요
 
-### 기술 스택
-- **Framework**: LangGraph (Agentic AI 워크플로우)
-- **LLM**: GPT-4o (via OpenRouter)
-- **Input**: Final Minutes DOCX, TDoc List XLSX
-- **Process**: DOCX → Section → Agent 처리 → Structured Features → Graph DB
+---
 
-### 현재 진행 상황 (Step-1: LangGraph Trials)
-- ✅ Section 5: 100% Coverage (20/20 Issues)
-- ✅ Meeting Number 자동 추출 (LLM 기반)
-- ✅ Section Overview 생성 (Korean summary + categories)
-- ✅ BaseAgent, MetaOrchestrator 구현
-- ⏳ Multi-Agent 아키텍처 완성중
+## 🚨 원칙 3: 범용 설계 (General Design) (CRITICAL)
+
+### 핵심 원칙
+**특정 Section에 종속되지 않는 범용 구조로 설계해야 합니다.**
+
+### 절대 금지 사항 ❌
+1. **Section-specific Agent 금지**: `MaintenanceRel18Agent`, `MaintenancePreRel18Agent` 각각 구현 금지
+2. **Section 번호 하드코딩 금지**: 코드에 "Section 5", "Section 8" 등 직접 명시 금지
+3. **미팅별 분기 로직 금지**: RAN1#120, RAN1#121 등에 특화된 if-else 금지
+
+### 올바른 설계 ✅
+1. **단일 범용 워크플로우**: 하나의 워크플로우가 동일 유형의 모든 Section 처리
+2. **파라미터화**: Release, Technology 등은 파라미터로 전달
+3. **Meta Agent**: LLM이 콘텐츠 기반으로 Section 타입 감지
+
+### 예시
+
+```python
+# ❌ 잘못된 설계 (Section-specific)
+class MaintenanceRel18Workflow: ...
+class MaintenancePreRel18NRWorkflow: ...
+class MaintenancePreRel18EUTRAWorkflow: ...
+
+# ✅ 올바른 설계 (범용)
+class MaintenanceWorkflow:
+    def run(self, section_text: str, metadata: SectionMetadata):
+        # metadata.release = "Rel-18" | "Pre-Rel-18"
+        # metadata.technology = "NR" | "E-UTRA" | None
+        pass
+```
+
+### 이 원칙의 이유
+1. **확장성**: 새로운 Section 타입도 설정만으로 처리 가능
+2. **유지보수성**: 중복 코드 없이 단일 워크플로우 관리
+3. **일관성**: 동일 유형의 Section은 동일한 로직으로 처리
+4. **미팅 독립성**: 어떤 미팅에서도 동일하게 동작
+
+---
+
+## 🚨 원칙 4: 기존 코드 보호 (CRITICAL)
+
+### 핵심 원칙
+**검증된 워크플로우는 수정하지 않고, 새로운 기능은 새 파일로 추가합니다.**
+
+### 보호 대상 파일 (절대 수정 금지)
+```
+src/workflows/incoming_ls_workflow.py   # Step-1 완료, 동작 검증됨
+src/agents/sub_agents/*                 # Step-1 Sub-agents
+```
+
+### 허용 사항 ✅
+1. **새 파일 추가**: `maintenance_workflow.py`, `meta_section_agent.py` 등
+2. **기존 컴포넌트 import**: `BaseAgent`, `LLMManager` 등 재사용
+3. **Config 확장**: 새 Section 타입 설정 추가
+
+### 이 원칙의 이유
+1. **안정성**: 검증된 코드를 건드리지 않아 기존 기능 보장
+2. **격리**: 새 기능의 버그가 기존 기능에 영향 없음
+3. **롤백 용이**: 문제 발생 시 새 코드만 제거하면 됨
+
+---
+
+## Phase-2 기술 스택
+
+- **Framework**: LangGraph (Agentic AI 워크플로우)
+- **LLM**: Google Gemini API (gemini-2.5-flash) - 직접 호출
+- **Input**: Final Minutes DOCX
+- **Process**: DOCX → Section → MetaAgent → Workflow → Structured Output
+
+### 현재 진행 상황
+- ✅ **Step-1 Complete**: Incoming LS Processing (15 meetings)
+- 🔄 **Step-2 In Progress**: Multi-Section Expansion (Maintenance)
 
 ### 문서 및 경로
 - **Phase-2 개요**: `docs/phase-2/README.md`
-- **Step-1 상세 가이드**: `docs/phase-2/step-1-langgraph-trials.md`
-- **스크립트**: `scripts/phase-2/step-1-langgraph-trials/`
-- **Agent 구현**: `scripts/phase-2/step-1-langgraph-trials/agents/`
-- **로그**: `logs/phase-2/step-1-langgraph-trials/`
-- **출력**: `output/phase-2/step-1-langgraph-trials/`
+- **Step-1 가이드**: `docs/phase-2/step1_langgraph-system.md`
+- **Step-2 가이드**: `docs/phase-2/step2_multi-section-expansion.md`
+- **스크립트**: `scripts/phase-2/langgraph-system/`
+- **출력**: `output/phase-2/langgraph-system/results/`
 
 ---
 

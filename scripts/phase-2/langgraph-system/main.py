@@ -65,10 +65,11 @@ def main():
     issues = state.get("issues", [])
     cc_only = state.get("cc_only_items", [])
 
-    # 3. 결과 저장
+    # 3. 결과 저장 - 새 구조: meetings/{meeting_id}/incoming_ls.md
     print("\n[3] Saving Results...")
-    config.output_dir.mkdir(parents=True, exist_ok=True)
-    output_file = config.output_dir / f"{meeting.id}_incoming_ls.md"
+    meeting_output_dir = config.output_dir / "meetings" / meeting.id
+    meeting_output_dir.mkdir(parents=True, exist_ok=True)
+    output_file = meeting_output_dir / "incoming_ls.md"
 
     with open(output_file, "w", encoding="utf-8") as f:
         f.write(state.get("markdown_output", ""))

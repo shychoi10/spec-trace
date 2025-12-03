@@ -153,12 +153,12 @@ class ConfigLoader:
 
     @property
     def output_dir(self) -> Path:
-        """결과 출력 디렉토리"""
-        return self._project_root / "output" / "phase-2" / "langgraph-system" / "results"
+        """결과 출력 디렉토리 (베이스: langgraph-system/)"""
+        return self._project_root / "output" / "phase-2" / "langgraph-system"
 
     @property
     def ground_truth_dir(self) -> Path:
-        """Ground Truth 디렉토리"""
+        """Ground Truth 디렉토리 (미팅별 구조: ground_truth/{meeting_id}/)"""
         return self._project_root / "output" / "phase-2" / "langgraph-system" / "ground_truth"
 
     @property

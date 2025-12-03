@@ -9,11 +9,16 @@ Modules:
     - models: 데이터 모델
     - utils: 유틸리티 함수
     - workflows: LangGraph 워크플로우
+    - orchestrator: Multi-Section 처리 오케스트레이터 (Step-2)
 """
 
 from .config_loader import ConfigLoader, MeetingConfig
+from .orchestrator import MultiSectionOrchestrator, create_orchestrator
 
 __all__ = [
     "ConfigLoader",
     "MeetingConfig",
+    # Step-2: Multi-Section
+    "MultiSectionOrchestrator",
+    "create_orchestrator",
 ]

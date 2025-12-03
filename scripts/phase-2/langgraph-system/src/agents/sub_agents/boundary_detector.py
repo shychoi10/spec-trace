@@ -99,7 +99,9 @@ OUTPUT JSON (no markdown):
 {{"boundaries":[{{"item_number":1,"ls_id":"R1-25XXXXX","title":"LS on...","source_wg":"RAN2","source_companies":["Company"],"relevant_tdocs":[{{"id":"R1-25XXXXX","title":"Discussion...","companies":["Company"],"doc_type":"discussion"}}],"decision":"text","agenda_item":"8.1 — Topic","is_primary":true,"issue_type":"actionable"}}],"cc_only_items":[{{"ls_id":"R1-25XXXXX","title":"LS title","source_wg":"RAN2"}}],"total_primary":1,"total_cc_only":1,"confidence":0.9}}"""
 
         try:
-            response = self.llm.generate(prompt, temperature=0.1, max_tokens=32000)
+            # max_tokens 증가: 20+ Issues × 1,500자 + JSON 오버헤드 = 48K 필요
+            # See: docs/phase-2/LLM_TOKEN_GUIDELINES.md
+            response = self.llm.generate(prompt, temperature=0.1, max_tokens=48000)
             success, parsed, error = self.validate_json_response(response)
 
             if not success:
