@@ -255,21 +255,35 @@ class LSAgent(BaseAgent):
         self, type_str: str, decision: str, is_primary: bool
     ) -> IssueType:
         """
-        Issue Type 결정 - LLM 기반 분류 (True Agentic AI)
+        Issue Type 결정 - BoundaryDetector 결과 우선 사용 (Phase B 최적화)
+
+        BoundaryDetector가 이미 LLM으로 issue_type을 추출했으므로,
+        그 결과를 우선 사용하여 중복 LLM 호출을 방지합니다.
 
         Args:
-            type_str: BoundaryDetector가 반환한 issue_type 문자열 (참고용)
-            decision: Decision 텍스트
+            type_str: BoundaryDetector가 반환한 issue_type 문자열
+            decision: Decision 텍스트 (fallback용)
             is_primary: Primary recipient 여부
 
         Returns:
             IssueType enum
         """
-        # CC-only는 항상 Reference (이건 메타데이터 기반 판단, 분석 아님)
+        # CC-only는 항상 Reference (메타데이터 기반 판단)
         if not is_primary:
             return IssueType.REFERENCE
 
-        # LLM으로 Issue Type 분류
+        # Phase B 최적화: BoundaryDetector 결과 우선 사용
+        # BoundaryDetector가 이미 LLM으로 issue_type을 추출했으므로 재사용
+        if type_str:
+            type_lower = type_str.lower()
+            if "actionable" in type_lower:
+                return IssueType.ACTIONABLE
+            elif "reference" in type_lower:
+                return IssueType.REFERENCE
+            elif "non" in type_lower:  # non_action, non-action
+                return IssueType.NON_ACTION
+
+        # BoundaryDetector 결과가 없을 때만 LLM 호출 (fallback)
         prompt = f"""Classify this 3GPP RAN1 Liaison Statement decision into one of three types.
 
 Decision text: "{decision}"
@@ -288,9 +302,9 @@ Rules:
 Return ONLY one word: actionable, non_action, or reference"""
 
         try:
-            # max_tokens 증가: Issue Type 결정 응답이 잘릴 수 있음
+            # max_tokens: Issue Type 결정은 짧은 응답
             # See: docs/phase-2/LLM_TOKEN_GUIDELINES.md
-            response = self.llm.generate(prompt, temperature=0.1, max_tokens=512)
+            response = self.llm.generate(prompt, temperature=0.1, max_tokens=64)
             result = response.strip().lower()
 
             if "actionable" in result:
@@ -302,13 +316,6 @@ Return ONLY one word: actionable, non_action, or reference"""
 
         except Exception as e:
             logger.warning(f"[LSAgent] Issue type classification failed: {e}")
-            # LLM 실패 시 BoundaryDetector 결과 참조
-            if type_str:
-                type_lower = type_str.lower()
-                if "actionable" in type_lower:
-                    return IssueType.ACTIONABLE
-                elif "reference" in type_lower:
-                    return IssueType.REFERENCE
             return IssueType.NON_ACTION
 
     def _convert_tdocs(self, tdocs_data: list[dict]) -> list[TdocRef]:
