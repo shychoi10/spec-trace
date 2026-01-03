@@ -159,12 +159,16 @@ def _process_section(
             next_depth1 = toc[i]
             break
 
+    # Spec 4.3.1: page 힌트로 탐색 범위 축소
+    section_page = section.get("page")
+
     section_content = extract_section(
         markdown_content=markdown_content,
         section_id=section_id,
         section_title=title,
         next_section_id=str(next_depth1.get("id", "")) if next_depth1 else None,
         next_section_title=next_depth1.get("title", "") if next_depth1 else None,
+        page=section_page,
     )
 
     if not section_content:
@@ -301,12 +305,16 @@ def _process_annexes(
         idx = next((i for i, s in enumerate(toc) if str(s.get("id")) == section_id), -1)
         next_section = toc[idx + 1] if idx >= 0 and idx + 1 < len(toc) else None
 
+        # Spec 4.3.1: page 힌트로 탐색 범위 축소
+        section_page = section.get("page")
+
         content = extract_section(
             markdown_content=markdown_content,
             section_id=section_id,
             section_title=section_title,
             next_section_id=str(next_section.get("id", "")) if next_section else None,
             next_section_title=next_section.get("title", "") if next_section else None,
+            page=section_page,
         )
 
         # AnnexAgent로 처리

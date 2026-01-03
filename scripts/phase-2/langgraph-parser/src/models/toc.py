@@ -88,6 +88,11 @@ class TOCSection(BaseModel):
         default=False,
         description="가상 번호 여부 (중간 노드에 콘텐츠가 있는 경우)",
     )
+    page: Optional[int] = Field(
+        default=None,
+        description="페이지 번호 (탐색 범위 힌트, LLM 경계 판단 전 범위 축소용)",
+        examples=[14, 23, 45],
+    )
 
     class Config:
         use_enum_values = True
