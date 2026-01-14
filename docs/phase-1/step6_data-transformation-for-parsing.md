@@ -634,8 +634,8 @@ pip3 install python-docx python-pptx openpyxl
 
 ---
 
-**Document Version**: 1.5
-**Last Updated**: 2025-11-12
+**Document Version**: 1.6
+**Last Updated**: 2025-01-13
 **Status**: All sub-steps complete (100%) ✅
 
 **Known Post-Cleanup Items** (Resolved 2025-11-12):
@@ -645,7 +645,61 @@ pip3 install python-docx python-pptx openpyxl
   - Resolution: Safely removed 2025-11-12 (Phase-1 cleanup)
   - Impact: None (0-byte files, no data loss)
 
+---
+
+## Bug Fix History
+
+### 2025-01-13: Missing Report Folders Fix
+
+**Issue**: 10 Report folders missing in `data_transformed` (48/58 instead of 58/58)
+
+**Root Cause Analysis**:
+
+| Cause | Affected Meetings | Files |
+|-------|-------------------|-------|
+| Missing from TARGET_MEETINGS | 7 meetings | - |
+| .docm files not supported | 3 meetings | 43 .docm files |
+
+**Missing Meetings** (7):
+- `TSGR1_116b`, `TSGR1_118b`, `TSGR1_120b`, `TSGR1_122b`
+- `TSGR1_86`, `TSGR1_88b`, `TSGR1_90`
+
+**.docm Affected Meetings** (3):
+- `TSGR1_92b`, `TSGR1_93`, `TSGR1_94`
+- These had `.docm` (macro-enabled Word) files only in Report folders
+- Script only processed `.doc` and `.docx`, not `.docm`
+
+**About .docm Format**:
+- Microsoft Office Open XML format with macros (`.docm`)
+- Same internal structure as `.docx` (ZIP + XML)
+- Can be parsed identically to `.docx` for content extraction
+- Total: 43 `.docm` files in data_extracted (3 in Report, 40 in Docs)
+
+**Fix Applied** (`01_transform_doc_to_docx.py`):
+1. Added 7 missing meetings to `TARGET_MEETINGS` list
+2. Added `.docm` file support (copy without conversion, like `.docx`)
+
+**Results**:
+- Report folders: 58/58 (✅ 100%)
+- .docm files copied: 43/43 (✅ 100%)
+- Script execution: 60.3 seconds (file-level resume processed only new files)
+- Total files processed: 115,498 (most skipped due to resume logic)
+
+**Verification**:
+```bash
+# Report folders match
+ls -d data/data_transformed/meetings/RAN1/*/Report | wc -l  # 58
+ls -d data/data_extracted/meetings/RAN1/*/Report | wc -l    # 58
+
+# All .docm files copied
+find data/data_transformed/meetings/RAN1 -name "*.docm" | wc -l  # 43
+find data/data_extracted/meetings/RAN1 -name "*.docm" | wc -l    # 43
+```
+
+---
+
 **Version History**:
+- **v1.6** (2025-01-13): Bug fix - Missing Report folders (10) fixed by adding 7 meetings to TARGET_MEETINGS and .docm support
 - **v1.5** (2025-11-12): Added .tmp cleanup notes (18 files removed in Step-5 Sub-step 5-3)
 - **v1.4** (2025-11-11): Manual conversion complete - 100% success (19,275/19,275 DOC files)
 - **v1.3** (2025-11-10): Updated TIMEOUT retry results (6/13 recovered, 7 remain)

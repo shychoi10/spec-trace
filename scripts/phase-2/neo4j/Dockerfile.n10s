@@ -1,0 +1,4 @@
+FROM neo4j:5.26.0
+
+# Copy n10s plugin
+COPY plugins/neosemantics-5.26.0.jar /var/lib/neo4j/plugins/

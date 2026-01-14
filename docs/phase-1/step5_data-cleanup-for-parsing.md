@@ -680,8 +680,6 @@ Cleanup 완료 후 **Phase-2**로 진행:
 - ✅ 명확한 데이터 구조
 - ✅ 파싱 품질 향상
 
-**Next Document**: `docs/phase-2/README.md`
-
 ---
 
 ## References
@@ -689,7 +687,6 @@ Cleanup 완료 후 **Phase-2**로 진행:
 ### Related Documentation
 - **Phase-1 Overview**: [README.md](./README.md)
 - **Step-4 Extraction**: [step4_extraction.md](./step4_extraction.md)
-- **Phase-2 Parsing**: [../phase-2/README.md](../phase-2/README.md)
 
 ### Project Status
 - **Overall Progress**: [progress.md](../../progress.md)

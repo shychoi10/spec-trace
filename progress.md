@@ -1,6 +1,6 @@
 # spec-trace - Progress
 
-Last Updated: 2025-11-27
+Last Updated: 2026-01-14
 
 ---
 
@@ -336,146 +336,65 @@ Last Updated: 2025-11-27
 
 ---
 
-## Phase-2: RAN1 Graph DB 구축 ⏳ IN PROGRESS
+## Phase-2: 🔄 In Progress
 
-**최종 목표**: 3GPP RAN1 문서들의 관계를 Graph DB로 저장하여 검색 및 분석 가능하게 만들기
+**Goal**: Knowledge Graph 구축 (Ontology Design → Instance Generation → DB Construction)
 
-**전체 범위**:
-- **59개 RAN1 미팅** (TSGR1_84 ~ TSGR1_122b)
-- **핵심 문서 타입**: Final Minutes, TDoc List, 개별 TDocs
-- **Technology**: LangGraph + Google Gemini (무료 모델)
+**Documentation**: [Phase-2 README](docs/phase-2/README.md)
 
-**접근 전략**:
-1. **Step-1 (MVP)**: True Agentic AI 아키텍처 구현 ✅ COMPLETE
-2. **Step-2**: 파싱 파이프라인 일반화 및 자동화
-3. **Step-3**: 전체 59개 미팅 파싱 실행
-4. **Step-4**: Graph DB 구축
+### Step 1: Ontology 구축 ✅ COMPLETE (2025-01-14)
 
----
-
-### Step-1: True Agentic AI ✅ COMPLETE
-
-**Status**: ✅ COMPLETE (2025-11-27)
-
-**Objective**: LangGraph 기반 **True Agentic AI** 시스템 구축 - 모든 판단을 LLM이 수행하는 자율 검증/개선 루프
-
-**Architecture**:
-```
-        START
-          │
-          ▼
-    ┌───────────┐
-    │  ANALYZE  │  LLM이 원본 콘텐츠 분석, 항목 수 계산
-    └─────┬─────┘
-          │
-          ▼
-    ┌───────────┐
-    │  GENERATE │  LLM이 Structured Markdown 생성
-    └─────┬─────┘
-          │
-          ▼
-    ┌───────────┐
-    │  VALIDATE │  LLM이 원본 vs 출력 비교 (Rule-based X)
-    └─────┬─────┘
-          │
-          ▼
-    ┌─────────────────┐
-    │  META_DECISION  │  LLM이 CONTINUE/COMPLETE/ESCALATE 결정
-    └────────┬────────┘
-             │
-     ┌───────┼───────┬──────────────┐
-     ▼       ▼       ▼              │
- IMPROVE  COMPLETE  ESCALATE    (loop)
-     │       │       │
-     └───────┴───────┴──────→ save_output → END
-```
-
-**핵심 설계 원칙**:
-1. **True Agentic AI**: 모든 판단을 LLM이 수행 (Rule-based 로직 제거)
-2. **자율적 검증 루프**: LLM이 원본 vs 출력을 직접 비교하여 누락 항목 발견
-3. **메타 에이전트**: 루프 횟수, 품질 판단, Escalation 결정을 LLM이 담당
-4. **Escalation 메커니즘**: 연속 3회 개선 실패 시 사람에게 알림
-
-**핵심 차이점 (Rule-based vs True Agentic)**:
-
-| 항목 | 이전 방식 (Rule-based) | True Agentic AI |
-|------|------------------------|-----------------|
-| 항목 수 계산 | `re.findall(r'Decision\s*:')` | LLM이 직접 분석 |
-| ID 추출 | 정규식 (탭 문자 문제) | LLM이 컨텍스트 이해 |
-| 검증 | 숫자 비교 | LLM이 원본/출력 비교 |
-| 루프 제어 | 고정 3회 | LLM이 품질 추이 보고 결정 |
-| 실패 처리 | 없음 | Escalation 메커니즘 |
+**Objective**: 3GPP TDoc 메타데이터를 기반으로 Knowledge Graph Ontology 설계 및 인스턴스 생성
 
 **Results**:
-- ✅ True Agentic AI 아키텍처 구현 완료
-- ✅ LLM 기반 검증 (Rule-based 제거)
-- ✅ 메타 에이전트 자율 루프 제어
-- ✅ Escalation 메커니즘 구현
-- ✅ **Section 5: 100% 품질 달성 (20/20 Features, 첫 번째 시도)**
+- **Ontology Design**: Ontology 101 7단계 완료 (11 클래스, 44 속성)
+- **Data Validation**: 59개 미팅, 122,257 TDocs 검증 완료
+- **Instance Generation**: 125,480 인스턴스 생성 (84.6 MB JSON-LD)
+- **Validation**: 모든 검증 통과 ✅
 
-**Files (After Cleanup)**:
-```
-scripts/langgraph-trials/
-├── document_structurer.py    # ★ 메인 (True Agentic)
-├── langgraph.json            # Graph 등록 설정
-│
-├── utils/                    # 유틸리티
-│   ├── __init__.py
-│   ├── prompts.py            # ★ LLM 프롬프트 (중앙 집중)
-│   ├── llm_manager.py        # LLM 관리자 (Rate Limiting)
-│   ├── section_parser.py     # DOCX 섹션 파서
-│   ├── models.py             # Pydantic 모델
-│   ├── feature_models.py     # Feature 데이터 모델
-│   └── study_item_models.py  # Study Item 데이터 모델
-│
-├── agents/                   # Agent 정의 (향후 확장)
-│   ├── __init__.py
-│   └── personas.yaml         # Agent 페르소나 설정
-│
-└── output/                   # 출력 디렉토리
-    ├── RAN1_120_section5_*.md    # 생성 결과
-    └── escalation/               # Escalation 보고서
-```
+**Sub-steps**:
+| Sub-step | 내용 | 상태 |
+|----------|------|------|
+| 1-1 | Ontology 설계 (7단계) | ✅ 완료 |
+| 1-2 | 데이터 검증 (Spec vs 실제) | ✅ 완료 |
+| 1-3 | 인스턴스 생성 (4-Phase) | ✅ 완료 |
 
-**실행 방법**:
-```bash
-# 프로젝트 루트에서 실행
-scripts/langgraph-trials/.venv/bin/python \
-  scripts/langgraph-trials/document_structurer.py \
-  --document "data/data_transformed/meetings/RAN1/TSGR1_120/Report/Final_Minutes_report_RAN1%23120_v100/Final_Minutes_report_RAN1#120_v100.docx" \
-  --meeting 120 \
-  --section 5
+**Instance Summary**:
+| 클래스 | 수 |
+|--------|-----|
+| Tdoc (일반) | 105,412 |
+| CR | 10,544 |
+| LS | 6,301 |
+| AgendaItem | 1,335 |
+| Contact | 982 |
+| WorkItem | 419 |
+| Company | 222 |
+| WorkingGroup | 118 |
+| Spec | 75 |
+| Meeting | 59 |
+| Release | 13 |
+| **총계** | **125,480** |
 
-# LangGraph Studio
-cd scripts/langgraph-trials
-.venv/bin/langgraph dev
-# → http://localhost:8123 에서 document_structurer 선택
-```
+**Output**: `ontology/output/instances/*.jsonld` (9개 파일, 84.6 MB)
 
 **Documentation**:
-- 📘 [Detailed Guide](docs/phase-2/step1_langgraph-multi-agent.md)
-- 📘 [Phase-2 Overview](docs/phase-2/README.md)
+- 📘 [Step-1 상세](docs/phase-2/step1_ontology.md)
+- 📋 [TDoc Ontology Spec](docs/phase-2/specs/tdoc-ontology-spec.md)
+- 📋 [검증 리포트](ontology/output/VALIDATION_REPORT.md)
 
 ---
 
-### Step-2: TBD ⬜ PLANNED
+### Step 2: Database Construction ⬜ Not Started
 
-**Objective**: 파싱 파이프라인 일반화 및 자동화
-
----
-
-### Step-3: TBD ⬜ PLANNED
-
-**Objective**: 전체 59개 미팅 파싱 실행
+**Planned**: Knowledge Graph를 Neo4j 또는 RDF Triple Store에 적재
 
 ---
 
-### Step-4: TBD ⬜ PLANNED
-
-**Objective**: Graph DB 구축 (Phase-3로 이동 가능)
+**Previous Attempt**: Archived to `_archived/phase-2-v1/` (2025-01-13)
+- LangGraph 기반 파서 시도 → 방향성 재검토 후 Ontology 우선 접근으로 전환
 
 ---
 
-## Phase 3: ⬜ Not Started
+## Phase-3: ⬜ Not Started
 
-**Planned**: Analysis and insights
+**Planned**: Analysis and Insights

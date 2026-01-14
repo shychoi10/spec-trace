@@ -11,6 +11,11 @@ FIXES:
 CRITICAL BUG FIXED:
 - Previous scripts only processed Docs, completely missed Report (58 files)
 - LibreOffice timeout didn't work (process group kill now used)
+
+BUG FIX (2025-01-13):
+- Added 7 missing meetings to TARGET_MEETINGS: TSGR1_116b, 118b, 120b, 122b, 86, 88b, 90
+- Added .docm support (macro-enabled Word documents, copy like .docx)
+- 10 Report folders were missing due to incomplete TARGET_MEETINGS and .docm not supported
 """
 
 import os
@@ -41,11 +46,12 @@ TARGET_MEETINGS = [
     'TSGR1_110', 'TSGR1_110b-e', 'TSGR1_111',
     'TSGR1_112', 'TSGR1_112b-e', 'TSGR1_113',
     'TSGR1_114', 'TSGR1_114b', 'TSGR1_115',
-    'TSGR1_116', 'TSGR1_117', 'TSGR1_118',
-    'TSGR1_119', 'TSGR1_120', 'TSGR1_121', 'TSGR1_122',
+    'TSGR1_116', 'TSGR1_116b', 'TSGR1_117', 'TSGR1_118',
+    'TSGR1_118b', 'TSGR1_119', 'TSGR1_120', 'TSGR1_120b',
+    'TSGR1_121', 'TSGR1_122', 'TSGR1_122b',
     'TSGR1_84', 'TSGR1_84b', 'TSGR1_85',
-    'TSGR1_86b', 'TSGR1_87', 'TSGR1_88',
-    'TSGR1_89', 'TSGR1_90b', 'TSGR1_91',
+    'TSGR1_86', 'TSGR1_86b', 'TSGR1_87', 'TSGR1_88',
+    'TSGR1_88b', 'TSGR1_89', 'TSGR1_90', 'TSGR1_90b', 'TSGR1_91',
     'TSGR1_92', 'TSGR1_92b', 'TSGR1_93',
     'TSGR1_94', 'TSGR1_94b', 'TSGR1_95',
     'TSGR1_96', 'TSGR1_96b', 'TSGR1_97',
@@ -184,16 +190,17 @@ def process_folder(folder_path: Path, meeting_name: str, folder_type: str):
     print(f"\n   📂 Processing: {folder_type}/")
     sys.stdout.flush()
 
-    # Scan files
+    # Scan files (including .docm - macro-enabled Word documents)
     doc_files = list(folder_path.rglob("*.doc"))
     docx_files = list(folder_path.rglob("*.docx"))
-    file_count = len(doc_files) + len(docx_files)
+    docm_files = list(folder_path.rglob("*.docm"))
+    file_count = len(doc_files) + len(docx_files) + len(docm_files)
 
     if file_count == 0:
         print(f"      (empty)")
         return
 
-    print(f"      Total: {file_count} ({len(doc_files)} DOC + {len(docx_files)} DOCX)")
+    print(f"      Total: {file_count} ({len(doc_files)} DOC + {len(docx_files)} DOCX + {len(docm_files)} DOCM)")
     sys.stdout.flush()
 
     processed = 0
@@ -203,6 +210,35 @@ def process_folder(folder_path: Path, meeting_name: str, folder_type: str):
 
     # Process DOCX files (copy)
     for file_path in docx_files:
+        stats['total_files'] += 1
+
+        rel_path = file_path.relative_to(folder_path)
+        output_path = DATA_TRANSFORMED / meeting_name / folder_type / rel_path.parent
+        output_path.mkdir(parents=True, exist_ok=True)
+        output_file = output_path / file_path.name
+
+        if output_file.exists() and output_file.stat().st_size > 0:
+            stats['docx_copied'] += 1
+            stats['skipped_already_converted'] += 1
+            copied += 1
+            skipped += 1
+            processed += 1
+            continue
+
+        try:
+            shutil.copy2(file_path, output_file)
+            stats['docx_copied'] += 1
+            copied += 1
+        except Exception as e:
+            stats['errors'].append({
+                'file': str(file_path),
+                'error': f'Copy failed: {e}'
+            })
+
+        processed += 1
+
+    # Process DOCM files (copy - macro-enabled Word, XML-based like DOCX)
+    for file_path in docm_files:
         stats['total_files'] += 1
 
         rel_path = file_path.relative_to(folder_path)

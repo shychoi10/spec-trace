@@ -1,0 +1,4085 @@
+{
+  "total_unique": 1020,
+  "by_frequency": [
+    {
+      "name": "Huawei",
+      "count": 13684
+    },
+    {
+      "name": "Ericsson",
+      "count": 12893
+    },
+    {
+      "name": "HiSilicon",
+      "count": 10689
+    },
+    {
+      "name": "Samsung",
+      "count": 8556
+    },
+    {
+      "name": "Nokia",
+      "count": 8101
+    },
+    {
+      "name": "ZTE",
+      "count": 7882
+    },
+    {
+      "name": "Qualcomm Incorporated",
+      "count": 6264
+    },
+    {
+      "name": "LG Electronics",
+      "count": 5838
+    },
+    {
+      "name": "CATT",
+      "count": 5732
+    },
+    {
+      "name": "vivo",
+      "count": 4875
+    },
+    {
+      "name": "Intel Corporation",
+      "count": 4653
+    },
+    {
+      "name": "NTT DOCOMO",
+      "count": 4603
+    },
+    {
+      "name": "Nokia Shanghai Bell",
+      "count": 4153
+    },
+    {
+      "name": "OPPO",
+      "count": 3601
+    },
+    {
+      "name": "INC.",
+      "count": 3113
+    },
+    {
+      "name": "CMCC",
+      "count": 2895
+    },
+    {
+      "name": "MediaTek Inc.",
+      "count": 2822
+    },
+    {
+      "name": "Qualcomm",
+      "count": 2611
+    },
+    {
+      "name": "Apple",
+      "count": 2419
+    },
+    {
+      "name": "Lenovo",
+      "count": 2316
+    },
+    {
+      "name": "Sanechips",
+      "count": 2262
+    },
+    {
+      "name": "InterDigital",
+      "count": 2233
+    },
+    {
+      "name": "Inc.",
+      "count": 1855
+    },
+    {
+      "name": "Sony",
+      "count": 1802
+    },
+    {
+      "name": "Spreadtrum Communications",
+      "count": 1631
+    },
+    {
+      "name": "NEC",
+      "count": 1603
+    },
+    {
+      "name": "Alcatel-Lucent Shanghai Bell",
+      "count": 1551
+    },
+    {
+      "name": "RAN1",
+      "count": 1545
+    },
+    {
+      "name": "Sharp",
+      "count": 1508
+    },
+    {
+      "name": "AT&T",
+      "count": 1456
+    },
+    {
+      "name": "Motorola Mobility",
+      "count": 1332
+    },
+    {
+      "name": "Intel",
+      "count": 1303
+    },
+    {
+      "name": "Fujitsu",
+      "count": 1084
+    },
+    {
+      "name": "Panasonic",
+      "count": 1053
+    },
+    {
+      "name": "MediaTek",
+      "count": 1027
+    },
+    {
+      "name": "Xiaomi",
+      "count": 999
+    },
+    {
+      "name": "ETRI",
+      "count": 962
+    },
+    {
+      "name": "ZTE Microelectronics",
+      "count": 853
+    },
+    {
+      "name": "RAN2",
+      "count": 836
+    },
+    {
+      "name": "China Telecom",
+      "count": 805
+    },
+    {
+      "name": "ZTE Corporation",
+      "count": 770
+    },
+    {
+      "name": "FUTUREWEI",
+      "count": 698
+    },
+    {
+      "name": "RAN4",
+      "count": 650
+    },
+    {
+      "name": "Fraunhofer HHI",
+      "count": 628
+    },
+    {
+      "name": "xiaomi",
+      "count": 577
+    },
+    {
+      "name": "NTT DOCOMO, INC.",
+      "count": 574
+    },
+    {
+      "name": "ITRI",
+      "count": 525
+    },
+    {
+      "name": "Google",
+      "count": 524
+    },
+    {
+      "name": "Fraunhofer IIS",
+      "count": 482
+    },
+    {
+      "name": "CEWiT",
+      "count": 458
+    },
+    {
+      "name": "Panasonic Corporation",
+      "count": 441
+    },
+    {
+      "name": "WILUS Inc.",
+      "count": 418
+    },
+    {
+      "name": "ETSI",
+      "count": 401
+    },
+    {
+      "name": "ASUSTeK",
+      "count": 385
+    },
+    {
+      "name": "LGE",
+      "count": 369
+    },
+    {
+      "name": "CAICT",
+      "count": 343
+    },
+    {
+      "name": "THALES",
+      "count": 305
+    },
+    {
+      "name": "Spreadtrum",
+      "count": 294
+    },
+    {
+      "name": "Apple Inc.",
+      "count": 292
+    },
+    {
+      "name": "Guangdong OPPO Mobile Telecom",
+      "count": 271
+    },
+    {
+      "name": "Sierra Wireless",
+      "count": 258
+    },
+    {
+      "name": "TCL",
+      "count": 255
+    },
+    {
+      "name": "TCL Communication Ltd.",
+      "count": 233
+    },
+    {
+      "name": "Sequans Communications",
+      "count": 229
+    },
+    {
+      "name": "CBN",
+      "count": 216
+    },
+    {
+      "name": "CATR",
+      "count": 216
+    },
+    {
+      "name": "ASB",
+      "count": 215
+    },
+    {
+      "name": "ASUSTEK COMPUTER (SHANGHAI)",
+      "count": 209
+    },
+    {
+      "name": "Convida Wireless",
+      "count": 202
+    },
+    {
+      "name": "ITL",
+      "count": 201
+    },
+    {
+      "name": "Thales",
+      "count": 201
+    },
+    {
+      "name": "KT Corp.",
+      "count": 201
+    },
+    {
+      "name": "InterDigital Communications",
+      "count": 201
+    },
+    {
+      "name": "UNISOC",
+      "count": 190
+    },
+    {
+      "name": "Transsion Holdings",
+      "count": 187
+    },
+    {
+      "name": "China Unicom",
+      "count": 184
+    },
+    {
+      "name": "BUPT",
+      "count": 179
+    },
+    {
+      "name": "InterDigital, Inc.",
+      "count": 177
+    },
+    {
+      "name": "Futurewei",
+      "count": 174
+    },
+    {
+      "name": "Guangdong OPPO Mobile Telecom.",
+      "count": 170
+    },
+    {
+      "name": "ETSI MCC",
+      "count": 166
+    },
+    {
+      "name": "Nordic Semiconductor ASA",
+      "count": 162
+    },
+    {
+      "name": "IITH",
+      "count": 160
+    },
+    {
+      "name": "Charter Communications",
+      "count": 159
+    },
+    {
+      "name": "GOHIGH",
+      "count": 150
+    },
+    {
+      "name": "Xinwei",
+      "count": 146
+    },
+    {
+      "name": "NVIDIA",
+      "count": 144
+    },
+    {
+      "name": "Vodafone",
+      "count": 141
+    },
+    {
+      "name": "IIT Kanpur",
+      "count": 133
+    },
+    {
+      "name": "CICTCI",
+      "count": 133
+    },
+    {
+      "name": "Qualcomm Inc.",
+      "count": 132
+    },
+    {
+      "name": "S.A.",
+      "count": 128
+    },
+    {
+      "name": "China Telecommunications",
+      "count": 128
+    },
+    {
+      "name": "Ericsson LM",
+      "count": 128
+    },
+    {
+      "name": "KDDI Corporation",
+      "count": 127
+    },
+    {
+      "name": "FGI",
+      "count": 123
+    },
+    {
+      "name": "III",
+      "count": 122
+    },
+    {
+      "name": "Deutsche Telekom",
+      "count": 115
+    },
+    {
+      "name": "Orange",
+      "count": 109
+    },
+    {
+      "name": "Nokia Networks",
+      "count": 106
+    },
+    {
+      "name": "Mitsubishi Electric Co.",
+      "count": 104
+    },
+    {
+      "name": "Beijing Xinwei Telecom Techn.",
+      "count": 103
+    },
+    {
+      "name": "Ltd.",
+      "count": 102
+    },
+    {
+      "name": "Tejas Network Limited",
+      "count": 102
+    },
+    {
+      "name": "SaneChips",
+      "count": 102
+    },
+    {
+      "name": "Verizon",
+      "count": 101
+    },
+    {
+      "name": "New H3C Technologies Co.",
+      "count": 101
+    },
+    {
+      "name": "Moderators (AT&T, NTT DOCOMO, INC.)",
+      "count": 99
+    },
+    {
+      "name": "Mediatek",
+      "count": 98
+    },
+    {
+      "name": "IITM",
+      "count": 96
+    },
+    {
+      "name": "HONOR",
+      "count": 96
+    },
+    {
+      "name": "Ofinno",
+      "count": 95
+    },
+    {
+      "name": "Mitsubishi Electric RCE",
+      "count": 93
+    },
+    {
+      "name": "RAN3",
+      "count": 90
+    },
+    {
+      "name": "KT Corporation",
+      "count": 90
+    },
+    {
+      "name": "NSB",
+      "count": 89
+    },
+    {
+      "name": "SA2",
+      "count": 88
+    },
+    {
+      "name": "Mitsubishi Electric",
+      "count": 88
+    },
+    {
+      "name": "Potevio",
+      "count": 86
+    },
+    {
+      "name": "Tejas Networks",
+      "count": 85
+    },
+    {
+      "name": "Indian Institute of Tech (M)",
+      "count": 85
+    },
+    {
+      "name": "Interdigital",
+      "count": 83
+    },
+    {
+      "name": "INTERDIGITAL COMMUNICATIONS",
+      "count": 83
+    },
+    {
+      "name": "KDDI",
+      "count": 77
+    },
+    {
+      "name": "Inc",
+      "count": 77
+    },
+    {
+      "name": "Alcatel-Lucent",
+      "count": 76
+    },
+    {
+      "name": "KT",
+      "count": 75
+    },
+    {
+      "name": "Google Inc.",
+      "count": 74
+    },
+    {
+      "name": "Asia Pacific Telecom",
+      "count": 73
+    },
+    {
+      "name": "MCC",
+      "count": 70
+    },
+    {
+      "name": "Beijing Xiaomi Mobile Software",
+      "count": 70
+    },
+    {
+      "name": "BBC",
+      "count": 69
+    },
+    {
+      "name": "ASTRI",
+      "count": 66
+    },
+    {
+      "name": "Asia Pacific Telecom co. Ltd",
+      "count": 64
+    },
+    {
+      "name": "Langbo",
+      "count": 63
+    },
+    {
+      "name": "Mavenir",
+      "count": 61
+    },
+    {
+      "name": "Xiaomi Communications",
+      "count": 58
+    },
+    {
+      "name": "Guangdong Genius",
+      "count": 56
+    },
+    {
+      "name": "Tejas Networks Limited",
+      "count": 56
+    },
+    {
+      "name": "EURECOM",
+      "count": 55
+    },
+    {
+      "name": "Broadcom",
+      "count": 55
+    },
+    {
+      "name": "Rakuten Mobile",
+      "count": 54
+    },
+    {
+      "name": "NICT",
+      "count": 53
+    },
+    {
+      "name": "NTT Docomo",
+      "count": 53
+    },
+    {
+      "name": "Intel Corp.",
+      "count": 53
+    },
+    {
+      "name": "Reliance Jio",
+      "count": 52
+    },
+    {
+      "name": "Quectel",
+      "count": 51
+    },
+    {
+      "name": "EBU",
+      "count": 51
+    },
+    {
+      "name": "PANASONIC",
+      "count": 51
+    },
+    {
+      "name": "Sequans",
+      "count": 51
+    },
+    {
+      "name": "New H3C",
+      "count": 50
+    },
+    {
+      "name": "LG",
+      "count": 49
+    },
+    {
+      "name": "CHTTL",
+      "count": 47
+    },
+    {
+      "name": "Ruijie Network Co. Ltd",
+      "count": 46
+    },
+    {
+      "name": "Ericsson Japan K.K.",
+      "count": 46
+    },
+    {
+      "name": "NEC Corporation",
+      "count": 45
+    },
+    {
+      "name": "Baicells",
+      "count": 44
+    },
+    {
+      "name": "BJTU",
+      "count": 44
+    },
+    {
+      "name": "Idaho National Laboratory",
+      "count": 44
+    },
+    {
+      "name": "Softbank",
+      "count": 43
+    },
+    {
+      "name": "Cohere Technologies",
+      "count": 42
+    },
+    {
+      "name": "Ericsson Inc.",
+      "count": 41
+    },
+    {
+      "name": "Ltd",
+      "count": 41
+    },
+    {
+      "name": "Lenovo (Beijing) Ltd",
+      "count": 41
+    },
+    {
+      "name": "Convida Wireless LLC",
+      "count": 41
+    },
+    {
+      "name": "CableLabs",
+      "count": 40
+    },
+    {
+      "name": "SoftBank Corp.",
+      "count": 39
+    },
+    {
+      "name": "RAN",
+      "count": 39
+    },
+    {
+      "name": "ESA",
+      "count": 39
+    },
+    {
+      "name": "Continental Automotive",
+      "count": 38
+    },
+    {
+      "name": "SoftBank",
+      "count": 37
+    },
+    {
+      "name": "Hisilicon",
+      "count": 37
+    },
+    {
+      "name": "Hyundai Motor Company",
+      "count": 37
+    },
+    {
+      "name": "Motorola Mobility Germany GmbH",
+      "count": 37
+    },
+    {
+      "name": "Verizon Wireless",
+      "count": 36
+    },
+    {
+      "name": "Ruijie Networks Co. Ltd",
+      "count": 36
+    },
+    {
+      "name": "DENSO CORPORATION",
+      "count": 35
+    },
+    {
+      "name": "SK Telecom",
+      "count": 35
+    },
+    {
+      "name": "NTT DoCoMo",
+      "count": 35
+    },
+    {
+      "name": "Shanghai Jiao Tong University",
+      "count": 34
+    },
+    {
+      "name": "T-Mobile USA",
+      "count": 33
+    },
+    {
+      "name": "Keysight",
+      "count": 33
+    },
+    {
+      "name": "National Taiwan University",
+      "count": 33
+    },
+    {
+      "name": "TD Tech",
+      "count": 32
+    },
+    {
+      "name": "SHARP Corporation",
+      "count": 32
+    },
+    {
+      "name": "Lekha Wireless Solutions",
+      "count": 32
+    },
+    {
+      "name": "Mitsubishi",
+      "count": 32
+    },
+    {
+      "name": "Beijing Xiaomi Software Tech",
+      "count": 31
+    },
+    {
+      "name": "WILUS",
+      "count": 31
+    },
+    {
+      "name": "Neul",
+      "count": 31
+    },
+    {
+      "name": "Xiaomi Technology",
+      "count": 30
+    },
+    {
+      "name": "Rakuten Symphony",
+      "count": 30
+    },
+    {
+      "name": "TOYOTA InfoTechnology Center",
+      "count": 30
+    },
+    {
+      "name": "BROADCOM LIMITED",
+      "count": 29
+    },
+    {
+      "name": "Innovative Technology Lab Co.",
+      "count": 29
+    },
+    {
+      "name": "Kyocera",
+      "count": 28
+    },
+    {
+      "name": "NTPU",
+      "count": 28
+    },
+    {
+      "name": "INC",
+      "count": 27
+    },
+    {
+      "name": "Kyocera Corporation",
+      "count": 27
+    },
+    {
+      "name": "Vivo",
+      "count": 27
+    },
+    {
+      "name": "MediaTek Korea Inc.",
+      "count": 27
+    },
+    {
+      "name": "MTI",
+      "count": 27
+    },
+    {
+      "name": "Sprint",
+      "count": 26
+    },
+    {
+      "name": "AT&T GNS Belgium SPRL",
+      "count": 26
+    },
+    {
+      "name": "ROBERT BOSCH GmbH",
+      "count": 25
+    },
+    {
+      "name": "Telstra",
+      "count": 25
+    },
+    {
+      "name": "China Southern Power Grid",
+      "count": 25
+    },
+    {
+      "name": "HUGHES Network Systems Ltd",
+      "count": 25
+    },
+    {
+      "name": "Fujitsu, MediaTek",
+      "count": 25
+    },
+    {
+      "name": "Tiami Networks",
+      "count": 25
+    },
+    {
+      "name": "Samsung Electronics Co.",
+      "count": 25
+    },
+    {
+      "name": "National Instruments Corp.",
+      "count": 25
+    },
+    {
+      "name": "HTC Corporation",
+      "count": 25
+    },
+    {
+      "name": "Coherent Logix",
+      "count": 25
+    },
+    {
+      "name": "Fujitsu Limited",
+      "count": 24
+    },
+    {
+      "name": "Indian Institute of Tech (H)",
+      "count": 24
+    },
+    {
+      "name": "FirstNet",
+      "count": 24
+    },
+    {
+      "name": "TOYOTA Info Technology Center",
+      "count": 24
+    },
+    {
+      "name": "Comba",
+      "count": 24
+    },
+    {
+      "name": "Keysight Technologies",
+      "count": 23
+    },
+    {
+      "name": "KRRI",
+      "count": 23
+    },
+    {
+      "name": "Google Ireland Limited",
+      "count": 23
+    },
+    {
+      "name": "Intel Coporation",
+      "count": 22
+    },
+    {
+      "name": "Nubia",
+      "count": 22
+    },
+    {
+      "name": "Oppo",
+      "count": 22
+    },
+    {
+      "name": "Chengdu TD Tech",
+      "count": 21
+    },
+    {
+      "name": "DOCOMO",
+      "count": 21
+    },
+    {
+      "name": "ORANGE",
+      "count": 21
+    },
+    {
+      "name": "LG Electronics Inc.",
+      "count": 20
+    },
+    {
+      "name": "Beijing Xiaomi Electronics",
+      "count": 20
+    },
+    {
+      "name": "CHENGDU TD TECH LTD.",
+      "count": 20
+    },
+    {
+      "name": "Zhejiang Lab",
+      "count": 20
+    },
+    {
+      "name": "Nokia/Nokia Shanghai Bell",
+      "count": 20
+    },
+    {
+      "name": "Shenzhen Coolpad Technologies",
+      "count": 20
+    },
+    {
+      "name": "PANASONIC R&D Center Germany",
+      "count": 19
+    },
+    {
+      "name": "TCL Communication",
+      "count": 19
+    },
+    {
+      "name": "Johns Hopkins University APL",
+      "count": 19
+    },
+    {
+      "name": "CEWIT",
+      "count": 19
+    },
+    {
+      "name": "Qualcomm Europe Inc.(France)",
+      "count": 19
+    },
+    {
+      "name": "CeWiT",
+      "count": 19
+    },
+    {
+      "name": "GDCNI",
+      "count": 18
+    },
+    {
+      "name": "Meta",
+      "count": 18
+    },
+    {
+      "name": "Honor",
+      "count": 18
+    },
+    {
+      "name": "Tongji University",
+      "count": 18
+    },
+    {
+      "name": "National Instruments",
+      "count": 18
+    },
+    {
+      "name": "Rohde & Schwarz",
+      "count": 18
+    },
+    {
+      "name": "NTT DOCOMO INC.",
+      "count": 17
+    },
+    {
+      "name": "Ericsson Limited",
+      "count": 17
+    },
+    {
+      "name": "SA5",
+      "count": 17
+    },
+    {
+      "name": "MediaTek. Inc",
+      "count": 17
+    },
+    {
+      "name": "Pengcheng Laboratory",
+      "count": 17
+    },
+    {
+      "name": "InterDigital Inc.",
+      "count": 17
+    },
+    {
+      "name": "Continental Automotive GmbH",
+      "count": 16
+    },
+    {
+      "name": "SIA",
+      "count": 16
+    },
+    {
+      "name": "DoCoMo",
+      "count": 16
+    },
+    {
+      "name": "NTU",
+      "count": 16
+    },
+    {
+      "name": "BT",
+      "count": 16
+    },
+    {
+      "name": "HTC",
+      "count": 16
+    },
+    {
+      "name": "Virtuosys",
+      "count": 16
+    },
+    {
+      "name": "General Motors",
+      "count": 16
+    },
+    {
+      "name": "SA1",
+      "count": 15
+    },
+    {
+      "name": "Keysight Technologies UK Ltd",
+      "count": 15
+    },
+    {
+      "name": "ABS",
+      "count": 15
+    },
+    {
+      "name": "SA4",
+      "count": 15
+    },
+    {
+      "name": "Motorola mobility",
+      "count": 15
+    },
+    {
+      "name": "WI rapporteur (Huawei)",
+      "count": 15
+    },
+    {
+      "name": "SEU",
+      "count": 15
+    },
+    {
+      "name": "ROHDE & SCHWARZ",
+      "count": 15
+    },
+    {
+      "name": "Inmarsat",
+      "count": 15
+    },
+    {
+      "name": "WI rapporteur (Qualcomm Incorporated)",
+      "count": 15
+    },
+    {
+      "name": "Hyundai Motors",
+      "count": 14
+    },
+    {
+      "name": "Sierra Wireless. S.A.",
+      "count": 14
+    },
+    {
+      "name": "LG Uplus",
+      "count": 14
+    },
+    {
+      "name": "Moderators (Ericsson, MediaTek)",
+      "count": 14
+    },
+    {
+      "name": "Everactive",
+      "count": 14
+    },
+    {
+      "name": "NIST",
+      "count": 14
+    },
+    {
+      "name": "VIVO",
+      "count": 14
+    },
+    {
+      "name": "Iridium Satellite LLC",
+      "count": 14
+    },
+    {
+      "name": "NTT",
+      "count": 14
+    },
+    {
+      "name": "Nomor Research GmbH",
+      "count": 13
+    },
+    {
+      "name": "Intel Corporation (UK) Ltd",
+      "count": 13
+    },
+    {
+      "name": "Telecom Italia",
+      "count": 13
+    },
+    {
+      "name": "PML",
+      "count": 13
+    },
+    {
+      "name": "Huawei, HiSilicon",
+      "count": 13
+    },
+    {
+      "name": "WI rapporteur (Nokia)",
+      "count": 13
+    },
+    {
+      "name": "WI rapporteur (Ericsson)",
+      "count": 13
+    },
+    {
+      "name": "VODAFONE Group Plc",
+      "count": 13
+    },
+    {
+      "name": "ASUSTek",
+      "count": 13
+    },
+    {
+      "name": "MediaTek (Chengdu) Inc.",
+      "count": 13
+    },
+    {
+      "name": "Nanjing Ericsson Panda Com Ltd",
+      "count": 13
+    },
+    {
+      "name": "CSCN",
+      "count": 13
+    },
+    {
+      "name": "Viasat",
+      "count": 13
+    },
+    {
+      "name": "Google Korea LLC",
+      "count": 13
+    },
+    {
+      "name": "HuaWei Technologies Co.",
+      "count": 13
+    },
+    {
+      "name": "ALU",
+      "count": 13
+    },
+    {
+      "name": "MTK",
+      "count": 13
+    },
+    {
+      "name": "Straight Path",
+      "count": 13
+    },
+    {
+      "name": "Dish Network",
+      "count": 13
+    },
+    {
+      "name": "AccelerComm",
+      "count": 13
+    },
+    {
+      "name": "ETSI (MCC)",
+      "count": 13
+    },
+    {
+      "name": "IRT",
+      "count": 12
+    },
+    {
+      "name": "Moderators (AT&T, NTT DOCOMO)",
+      "count": 12
+    },
+    {
+      "name": "Lockheed Martin",
+      "count": 12
+    },
+    {
+      "name": "Locaila",
+      "count": 12
+    },
+    {
+      "name": "IITK",
+      "count": 12
+    },
+    {
+      "name": "Eutelsat Group",
+      "count": 12
+    },
+    {
+      "name": "Reliance-jio",
+      "count": 12
+    },
+    {
+      "name": "Cohere",
+      "count": 12
+    },
+    {
+      "name": "IMT",
+      "count": 12
+    },
+    {
+      "name": "ATT",
+      "count": 12
+    },
+    {
+      "name": "Mitsubishi Electric Corp",
+      "count": 12
+    },
+    {
+      "name": "Comcast",
+      "count": 12
+    },
+    {
+      "name": "SPRINT Corporation",
+      "count": 12
+    },
+    {
+      "name": "Eutelsat",
+      "count": 11
+    },
+    {
+      "name": "MediaTek Beijing Inc.",
+      "count": 11
+    },
+    {
+      "name": "Kookmin University",
+      "count": 11
+    },
+    {
+      "name": "u-blox",
+      "count": 11
+    },
+    {
+      "name": "Spirent",
+      "count": 11
+    },
+    {
+      "name": "KT Corp",
+      "count": 11
+    },
+    {
+      "name": "…",
+      "count": 11
+    },
+    {
+      "name": "OnStar Europe",
+      "count": 11
+    },
+    {
+      "name": "CEA-LETI",
+      "count": 11
+    },
+    {
+      "name": "ericsson",
+      "count": 11
+    },
+    {
+      "name": "CCU",
+      "count": 10
+    },
+    {
+      "name": "Semtech Neuchatel SA",
+      "count": 10
+    },
+    {
+      "name": "Pengcheng laboratory",
+      "count": 10
+    },
+    {
+      "name": "Hanbat National University",
+      "count": 10
+    },
+    {
+      "name": "Void",
+      "count": 10
+    },
+    {
+      "name": "Acorn Technologies",
+      "count": 10
+    },
+    {
+      "name": "ZTE Corp",
+      "count": 10
+    },
+    {
+      "name": "Ericsson Hungary Ltd",
+      "count": 9
+    },
+    {
+      "name": "MediaTek Inc",
+      "count": 9
+    },
+    {
+      "name": "Bouygues Telecom",
+      "count": 9
+    },
+    {
+      "name": "Nubia Technology",
+      "count": 9
+    },
+    {
+      "name": "Tsofun Algorithm",
+      "count": 9
+    },
+    {
+      "name": "Fraunhofer IIS/Fraunhofer HHI",
+      "count": 9
+    },
+    {
+      "name": "Bosch",
+      "count": 8
+    },
+    {
+      "name": "Potevio Company Limited",
+      "count": 8
+    },
+    {
+      "name": "Polaris Wireless",
+      "count": 8
+    },
+    {
+      "name": "ASUSTEK",
+      "count": 8
+    },
+    {
+      "name": "Korea Testing Laboratory",
+      "count": 8
+    },
+    {
+      "name": "NTT DOCOMO Inc.",
+      "count": 8
+    },
+    {
+      "name": "Samsung (Moderator)",
+      "count": 8
+    },
+    {
+      "name": "X-Net",
+      "count": 8
+    },
+    {
+      "name": "Alcatel Lucent Shanghai Bell",
+      "count": 8
+    },
+    {
+      "name": "SONY",
+      "count": 8
+    },
+    {
+      "name": "Telefonica",
+      "count": 8
+    },
+    {
+      "name": "Qualcomm Inc",
+      "count": 8
+    },
+    {
+      "name": "Docomo",
+      "count": 8
+    },
+    {
+      "name": "Deutsche Telecom",
+      "count": 8
+    },
+    {
+      "name": "Mediatek Inc.",
+      "count": 8
+    },
+    {
+      "name": "FiberHome",
+      "count": 8
+    },
+    {
+      "name": "LG Elecronics",
+      "count": 8
+    },
+    {
+      "name": "Brocade",
+      "count": 8
+    },
+    {
+      "name": "WI rapporteur (Intel Corporation)",
+      "count": 8
+    },
+    {
+      "name": "vivo Mobile Communication Co.",
+      "count": 7
+    },
+    {
+      "name": "Volkswagen AG",
+      "count": 7
+    },
+    {
+      "name": "Fraunhofer",
+      "count": 7
+    },
+    {
+      "name": "Sateliot",
+      "count": 7
+    },
+    {
+      "name": "Dell Technologies",
+      "count": 7
+    },
+    {
+      "name": "National Spectrum Consortium",
+      "count": 7
+    },
+    {
+      "name": "Qualcomm (Rapporteurs)",
+      "count": 7
+    },
+    {
+      "name": "Philips International B.V.",
+      "count": 7
+    },
+    {
+      "name": "Indian Institute of Technology Madras (IITM)",
+      "count": 7
+    },
+    {
+      "name": "Wiliot Ltd.",
+      "count": 7
+    },
+    {
+      "name": "CALTTA",
+      "count": 7
+    },
+    {
+      "name": "Spirent Communications",
+      "count": 7
+    },
+    {
+      "name": "Acer Incorporated",
+      "count": 7
+    },
+    {
+      "name": "Tejas",
+      "count": 7
+    },
+    {
+      "name": "Wisig",
+      "count": 7
+    },
+    {
+      "name": "Session Chairman (Nokia)",
+      "count": 7
+    },
+    {
+      "name": "Fiberhome Technologies Group",
+      "count": 7
+    },
+    {
+      "name": "Virtuosys Limited",
+      "count": 7
+    },
+    {
+      "name": "AccelerComm Ltd",
+      "count": 7
+    },
+    {
+      "name": "Ericsson India Private Limited",
+      "count": 7
+    },
+    {
+      "name": "HPE",
+      "count": 7
+    },
+    {
+      "name": "ZTE Wistron Telecom AB",
+      "count": 7
+    },
+    {
+      "name": "Sony Europe B.V.",
+      "count": 6
+    },
+    {
+      "name": "5GAA WG4",
+      "count": 6
+    },
+    {
+      "name": "Eutelsat S.A.",
+      "count": 6
+    },
+    {
+      "name": "SA3",
+      "count": 6
+    },
+    {
+      "name": "WI rapporteur (CATT)",
+      "count": 6
+    },
+    {
+      "name": "WI rapporteur (LG Electronics)",
+      "count": 6
+    },
+    {
+      "name": "WI rapporteur (Thales)",
+      "count": 6
+    },
+    {
+      "name": "CENC",
+      "count": 6
+    },
+    {
+      "name": "Moderater (ZTE)",
+      "count": 6
+    },
+    {
+      "name": "Cisco",
+      "count": 6
+    },
+    {
+      "name": "CT1",
+      "count": 6
+    },
+    {
+      "name": "SHARP",
+      "count": 6
+    },
+    {
+      "name": "Spark NZ Ltd",
+      "count": 6
+    },
+    {
+      "name": "Indian Institute of Technology Madras",
+      "count": 6
+    },
+    {
+      "name": "NTT DOCOMO. INC",
+      "count": 6
+    },
+    {
+      "name": "SageRAN",
+      "count": 6
+    },
+    {
+      "name": "GM - OnStar Europe",
+      "count": 6
+    },
+    {
+      "name": "IEEE 802 LMSC",
+      "count": 6
+    },
+    {
+      "name": "Reliance-Jio",
+      "count": 6
+    },
+    {
+      "name": "Convida",
+      "count": 6
+    },
+    {
+      "name": "Dish",
+      "count": 6
+    },
+    {
+      "name": "Xilinx",
+      "count": 6
+    },
+    {
+      "name": "Motorola",
+      "count": 6
+    },
+    {
+      "name": "APT",
+      "count": 6
+    },
+    {
+      "name": "ZTE Electronics",
+      "count": 6
+    },
+    {
+      "name": "WI Rapporteur (ZTE)",
+      "count": 6
+    },
+    {
+      "name": "Volkswagen",
+      "count": 5
+    },
+    {
+      "name": "Moderators (Ericsson, Apple, Qualcomm)",
+      "count": 5
+    },
+    {
+      "name": "Intelsat",
+      "count": 5
+    },
+    {
+      "name": "SA",
+      "count": 5
+    },
+    {
+      "name": "China Mobile",
+      "count": 5
+    },
+    {
+      "name": "CMCC, Huawei, BBC",
+      "count": 5
+    },
+    {
+      "name": "ZTE Corporation",
+      "count": 5
+    },
+    {
+      "name": "Rakuten Mobile Inc.",
+      "count": 5
+    },
+    {
+      "name": "Intel Corp",
+      "count": 5
+    },
+    {
+      "name": "Huawei/HiSilicon",
+      "count": 5
+    },
+    {
+      "name": "NYCU",
+      "count": 5
+    },
+    {
+      "name": "China Broadnet",
+      "count": 5
+    },
+    {
+      "name": "Southeast University",
+      "count": 5
+    },
+    {
+      "name": "IIT",
+      "count": 5
+    },
+    {
+      "name": "Kharagpur",
+      "count": 5
+    },
+    {
+      "name": "NTT CORPORATION",
+      "count": 5
+    },
+    {
+      "name": "ZTE Corp.",
+      "count": 5
+    },
+    {
+      "name": "Fainity Innovation",
+      "count": 5
+    },
+    {
+      "name": "Ericsson Telecom S.A. de C.V.",
+      "count": 5
+    },
+    {
+      "name": "IITH and WiSig",
+      "count": 5
+    },
+    {
+      "name": "Wi-Fi Alliance",
+      "count": 5
+    },
+    {
+      "name": "UMTS Session Chairpersons (Huawei, Ericsson)",
+      "count": 5
+    },
+    {
+      "name": "BlackBerry",
+      "count": 5
+    },
+    {
+      "name": "Beijing Xinwei",
+      "count": 5
+    },
+    {
+      "name": "Fiberhome",
+      "count": 5
+    },
+    {
+      "name": "Coolpad",
+      "count": 5
+    },
+    {
+      "name": "Nordic Semiconductor",
+      "count": 5
+    },
+    {
+      "name": "MediaTeK",
+      "count": 5
+    },
+    {
+      "name": "Acer",
+      "count": 5
+    },
+    {
+      "name": "DT",
+      "count": 5
+    },
+    {
+      "name": "VEOLIA",
+      "count": 5
+    },
+    {
+      "name": "Qualcomm Austria RFFE GmbH",
+      "count": 5
+    },
+    {
+      "name": "Sanechip",
+      "count": 5
+    },
+    {
+      "name": "Blackberry",
+      "count": 5
+    },
+    {
+      "name": "LG ELECTRONICS",
+      "count": 5
+    },
+    {
+      "name": "EBU/BBC/IRT",
+      "count": 5
+    },
+    {
+      "name": "WI rapporteur (Samsung)",
+      "count": 5
+    },
+    {
+      "name": "WI rapporteur (Futurewei)",
+      "count": 5
+    },
+    {
+      "name": "Facebook",
+      "count": 4
+    },
+    {
+      "name": "LG electronics",
+      "count": 4
+    },
+    {
+      "name": "Gatehouse",
+      "count": 4
+    },
+    {
+      "name": "Fraunhofer IIS - Fraunhofer HHI",
+      "count": 4
+    },
+    {
+      "name": "WI rapporteur (China Telecom)",
+      "count": 4
+    },
+    {
+      "name": "WI rapporteur (CMCC)",
+      "count": 4
+    },
+    {
+      "name": "Beijing Jiaotong University",
+      "count": 4
+    },
+    {
+      "name": "Kumu Networks",
+      "count": 4
+    },
+    {
+      "name": "Faunhofer IIS",
+      "count": 4
+    },
+    {
+      "name": "Ericsson (RAN1 FL)",
+      "count": 4
+    },
+    {
+      "name": "Sanchips",
+      "count": 4
+    },
+    {
+      "name": "Toyota ITC",
+      "count": 4
+    },
+    {
+      "name": "T-Mobile USA Inc.",
+      "count": 4
+    },
+    {
+      "name": "NYU WIRELESS",
+      "count": 4
+    },
+    {
+      "name": "Google Inc",
+      "count": 4
+    },
+    {
+      "name": "SGITG",
+      "count": 4
+    },
+    {
+      "name": "Lenovo (Rapporteur)",
+      "count": 4
+    },
+    {
+      "name": "KDDI Corporation (TTC)",
+      "count": 4
+    },
+    {
+      "name": "Boost Mobile Network",
+      "count": 4
+    },
+    {
+      "name": "DeepSig Inc",
+      "count": 4
+    },
+    {
+      "name": "ZTE, Apple",
+      "count": 4
+    },
+    {
+      "name": "Interdigital Asia LLC",
+      "count": 4
+    },
+    {
+      "name": "Broadcom Limited",
+      "count": 4
+    },
+    {
+      "name": "Straight Path Communications",
+      "count": 4
+    },
+    {
+      "name": "Tejas Neworks",
+      "count": 4
+    },
+    {
+      "name": "Nokia, Ericsson",
+      "count": 4
+    },
+    {
+      "name": "WILUS Inc",
+      "count": 4
+    },
+    {
+      "name": "IAESI",
+      "count": 4
+    },
+    {
+      "name": "Alcatel-Lucent Shanghai-Bell",
+      "count": 4
+    },
+    {
+      "name": "Telus",
+      "count": 4
+    },
+    {
+      "name": "Tejas Network",
+      "count": 4
+    },
+    {
+      "name": "NextNav",
+      "count": 4
+    },
+    {
+      "name": "FUJITSU Laboratories of Europe",
+      "count": 4
+    },
+    {
+      "name": "Innovative Technology Lab co.",
+      "count": 4
+    },
+    {
+      "name": "Softbank Corp",
+      "count": 4
+    },
+    {
+      "name": "Hi-Silicon",
+      "count": 4
+    },
+    {
+      "name": "Ericsson AB",
+      "count": 4
+    },
+    {
+      "name": "McGill University",
+      "count": 4
+    },
+    {
+      "name": "Institute for Information Industry (III)",
+      "count": 4
+    },
+    {
+      "name": "AsusTek",
+      "count": 4
+    },
+    {
+      "name": "CNES",
+      "count": 4
+    },
+    {
+      "name": "HNS",
+      "count": 4
+    },
+    {
+      "name": "OnStar",
+      "count": 4
+    },
+    {
+      "name": "Huawei Technologies Co. Ltd.",
+      "count": 4
+    },
+    {
+      "name": "HEPTA 7291",
+      "count": 4
+    },
+    {
+      "name": "Speadtrum Communications",
+      "count": 4
+    },
+    {
+      "name": "Nokia, Nokia Shanghai Bell",
+      "count": 3
+    },
+    {
+      "name": "SoftBank, Nokia",
+      "count": 3
+    },
+    {
+      "name": "Nokia (Rapporteur)",
+      "count": 3
+    },
+    {
+      "name": "DanKook University",
+      "count": 3
+    },
+    {
+      "name": "Apple Europe Limited",
+      "count": 3
+    },
+    {
+      "name": "Omnispace",
+      "count": 3
+    },
+    {
+      "name": "L.M. Ericsson Limited",
+      "count": 3
+    },
+    {
+      "name": "u-blox AG",
+      "count": 3
+    },
+    {
+      "name": "WI rapporteur (MediaTek)",
+      "count": 3
+    },
+    {
+      "name": "WI rapporteur (Qualcomm)",
+      "count": 3
+    },
+    {
+      "name": "MediaTek inc.",
+      "count": 3
+    },
+    {
+      "name": "TD Tech Ltd",
+      "count": 3
+    },
+    {
+      "name": "SKT",
+      "count": 3
+    },
+    {
+      "name": "Nokia (Moderator)",
+      "count": 3
+    },
+    {
+      "name": "Nokia Shanghai Bel",
+      "count": 3
+    },
+    {
+      "name": "Continental Automotive Technologies GmbH",
+      "count": 3
+    },
+    {
+      "name": "Vodafone Italia SpA",
+      "count": 3
+    },
+    {
+      "name": "OPPO, Huawei, HiSilicon, LG Electronics",
+      "count": 3
+    },
+    {
+      "name": "Anritsu",
+      "count": 3
+    },
+    {
+      "name": "Rapporteurs (Ericsson, Apple)",
+      "count": 3
+    },
+    {
+      "name": "CATT CICTCI",
+      "count": 3
+    },
+    {
+      "name": "ICS",
+      "count": 3
+    },
+    {
+      "name": "Meta Ireland",
+      "count": 3
+    },
+    {
+      "name": "EchoStar",
+      "count": 3
+    },
+    {
+      "name": "Terrestar",
+      "count": 3
+    },
+    {
+      "name": "KAIST",
+      "count": 3
+    },
+    {
+      "name": "ViaSat Satellite Holdings Ltd",
+      "count": 3
+    },
+    {
+      "name": "ST Engineering iDirect",
+      "count": 3
+    },
+    {
+      "name": "Airbus",
+      "count": 3
+    },
+    {
+      "name": "TNO",
+      "count": 3
+    },
+    {
+      "name": "ZGC Institute of Ubiquitous-X Innovation and Application",
+      "count": 3
+    },
+    {
+      "name": "Qualcomm Incorporated; Samsung",
+      "count": 3
+    },
+    {
+      "name": "HuaWei",
+      "count": 3
+    },
+    {
+      "name": "Deutsch Telecom",
+      "count": 3
+    },
+    {
+      "name": "Alcatel-Lucent Shanghai",
+      "count": 3
+    },
+    {
+      "name": "Alcatel-lucent Shanghai Bell",
+      "count": 3
+    },
+    {
+      "name": "Skyworks Solutions Inc.",
+      "count": 3
+    },
+    {
+      "name": "Marvell",
+      "count": 3
+    },
+    {
+      "name": "Skyworks",
+      "count": 3
+    },
+    {
+      "name": "SoftBank Corp",
+      "count": 3
+    },
+    {
+      "name": "SoftBank Mobile",
+      "count": 3
+    },
+    {
+      "name": "ITU-R WP5D",
+      "count": 3
+    },
+    {
+      "name": "InteI Corporation",
+      "count": 3
+    },
+    {
+      "name": "CUCC",
+      "count": 3
+    },
+    {
+      "name": "Straightpath",
+      "count": 3
+    },
+    {
+      "name": "Idaho National Lab",
+      "count": 3
+    },
+    {
+      "name": "National Instrument",
+      "count": 3
+    },
+    {
+      "name": "KT corporation",
+      "count": 3
+    },
+    {
+      "name": "QUALCOMM",
+      "count": 3
+    },
+    {
+      "name": "DCM",
+      "count": 3
+    },
+    {
+      "name": "IIT-H",
+      "count": 3
+    },
+    {
+      "name": "IIT-M",
+      "count": 3
+    },
+    {
+      "name": "Sony Europe Limited",
+      "count": 3
+    },
+    {
+      "name": "Etisalat",
+      "count": 3
+    },
+    {
+      "name": "CeWIT",
+      "count": 3
+    },
+    {
+      "name": "Kathrein Werke",
+      "count": 3
+    },
+    {
+      "name": "Bell Mobility",
+      "count": 3
+    },
+    {
+      "name": "Inter Digital",
+      "count": 3
+    },
+    {
+      "name": "INL",
+      "count": 3
+    },
+    {
+      "name": "Accelercomm",
+      "count": 3
+    },
+    {
+      "name": "Huawei HiSilicon",
+      "count": 3
+    },
+    {
+      "name": "ZTE microelectronics",
+      "count": 3
+    },
+    {
+      "name": "VODAFONE",
+      "count": 3
+    },
+    {
+      "name": "Orange Spain",
+      "count": 3
+    },
+    {
+      "name": "NTT DOCOMO, AT&T",
+      "count": 3
+    },
+    {
+      "name": "Polaran",
+      "count": 3
+    },
+    {
+      "name": "HPE (Aruba)",
+      "count": 3
+    },
+    {
+      "name": "Hisense",
+      "count": 3
+    },
+    {
+      "name": "Huawei Tech.(UK) Co.",
+      "count": 3
+    },
+    {
+      "name": "Samsung, NTT DOCOMO",
+      "count": 3
+    },
+    {
+      "name": "AT&T, NTT DOCOMO, INC.",
+      "count": 2
+    },
+    {
+      "name": "Charter Communications, Inc",
+      "count": 2
+    },
+    {
+      "name": "UK Home office",
+      "count": 2
+    },
+    {
+      "name": "Ford Motor Company",
+      "count": 2
+    },
+    {
+      "name": "Nokia Shanghai-Bell",
+      "count": 2
+    },
+    {
+      "name": "Dongguan OPPO Precision Elec.",
+      "count": 2
+    },
+    {
+      "name": "Ligado Networks",
+      "count": 2
+    },
+    {
+      "name": "Telefónica",
+      "count": 2
+    },
+    {
+      "name": "Hughes Network Systems",
+      "count": 2
+    },
+    {
+      "name": "Moderators (Qualcomm, vivo)",
+      "count": 2
+    },
+    {
+      "name": "Tencent",
+      "count": 2
+    },
+    {
+      "name": "Kepler",
+      "count": 2
+    },
+    {
+      "name": "NOVAMINT",
+      "count": 2
+    },
+    {
+      "name": "TCL Communication Ltd",
+      "count": 2
+    },
+    {
+      "name": "MCC ETSI",
+      "count": 2
+    },
+    {
+      "name": "LG Electroincs",
+      "count": 2
+    },
+    {
+      "name": "Apple Inc",
+      "count": 2
+    },
+    {
+      "name": "ETSI TC BRAN",
+      "count": 2
+    },
+    {
+      "name": "CEPRI",
+      "count": 2
+    },
+    {
+      "name": "China Telecom, Sharp, Nokia, Qualcomm, ZTE",
+      "count": 2
+    },
+    {
+      "name": "WI rapporteur (Qualcomm incorporated)",
+      "count": 2
+    },
+    {
+      "name": "RAN5",
+      "count": 2
+    },
+    {
+      "name": "WI Rapporteur (Ericsson)",
+      "count": 2
+    },
+    {
+      "name": "Huawei (editor)",
+      "count": 2
+    },
+    {
+      "name": "WI Rapporteur (MediaTek)",
+      "count": 2
+    },
+    {
+      "name": "NICT and Toyota InfoTechnology Center",
+      "count": 2
+    },
+    {
+      "name": "H3C",
+      "count": 2
+    },
+    {
+      "name": "SyncTechno Inc.",
+      "count": 2
+    },
+    {
+      "name": "Softil",
+      "count": 2
+    },
+    {
+      "name": "Oy LM Ericsson AB",
+      "count": 2
+    },
+    {
+      "name": "Xiaomi EV Technology",
+      "count": 2
+    },
+    {
+      "name": "WI Rapporteur(Ericsson)",
+      "count": 2
+    },
+    {
+      "name": "(AT&T, NTT DOCOMO, INC.)",
+      "count": 2
+    },
+    {
+      "name": "Nokia (WI Rapporteur)",
+      "count": 2
+    },
+    {
+      "name": "RAN1 (NTT DOCOMO, AT&T)",
+      "count": 2
+    },
+    {
+      "name": "Moderators (NTT DOCOMO, INC.)",
+      "count": 2
+    },
+    {
+      "name": "Huawei, CMCC",
+      "count": 2
+    },
+    {
+      "name": "Moderators (Ericsson, MediaTek, Nokia)",
+      "count": 2
+    },
+    {
+      "name": "NYU Wireless",
+      "count": 2
+    },
+    {
+      "name": "Apple (UK) Limited",
+      "count": 2
+    },
+    {
+      "name": "IIT Kharagpur",
+      "count": 2
+    },
+    {
+      "name": "NTT DOCOMO. Inc",
+      "count": 2
+    },
+    {
+      "name": "Cybercore",
+      "count": 2
+    },
+    {
+      "name": "KPN N.V.",
+      "count": 2
+    },
+    {
+      "name": "Purple Mountain Laboratories",
+      "count": 2
+    },
+    {
+      "name": "Huawei (TR editor)",
+      "count": 2
+    },
+    {
+      "name": "China Telecom Corporation Ltd.",
+      "count": 2
+    },
+    {
+      "name": "VIAVI Solutions",
+      "count": 2
+    },
+    {
+      "name": "Qualcomm (WI rapporteurs)",
+      "count": 2
+    },
+    {
+      "name": "vivo (WI rapporteur)",
+      "count": 2
+    },
+    {
+      "name": "Baicells Technologies Co. Ltd",
+      "count": 2
+    },
+    {
+      "name": "InterDigital Finland Oy",
+      "count": 2
+    },
+    {
+      "name": "TELUS",
+      "count": 2
+    },
+    {
+      "name": "BT plc",
+      "count": 2
+    },
+    {
+      "name": "CAICT.",
+      "count": 2
+    },
+    {
+      "name": "University of Surrey",
+      "count": 2
+    },
+    {
+      "name": "Ericsson AB.",
+      "count": 2
+    },
+    {
+      "name": "Skylo Technologies",
+      "count": 2
+    },
+    {
+      "name": "Ericsson (China)",
+      "count": 2
+    },
+    {
+      "name": "Iridium",
+      "count": 2
+    },
+    {
+      "name": "C-DOT",
+      "count": 2
+    },
+    {
+      "name": "NERCDTV",
+      "count": 2
+    },
+    {
+      "name": "Toyota",
+      "count": 2
+    },
+    {
+      "name": "Qualcomm and Samsung",
+      "count": 2
+    },
+    {
+      "name": "Aalborg University",
+      "count": 2
+    },
+    {
+      "name": "Motorola (Editor)",
+      "count": 2
+    },
+    {
+      "name": "Alcatel Lucent",
+      "count": 2
+    },
+    {
+      "name": "Ericssion",
+      "count": 2
+    },
+    {
+      "name": "New York University Wireless",
+      "count": 2
+    },
+    {
+      "name": "HiSilion",
+      "count": 2
+    },
+    {
+      "name": "Telstra Corporation Limited",
+      "count": 2
+    },
+    {
+      "name": "Ericson",
+      "count": 2
+    },
+    {
+      "name": "Broadcomm",
+      "count": 2
+    },
+    {
+      "name": "Nokia, LGE",
+      "count": 2
+    },
+    {
+      "name": "Fairspectrum",
+      "count": 2
+    },
+    {
+      "name": "Xiaomi Communication",
+      "count": 2
+    },
+    {
+      "name": "Session Chairman (Ericsson)",
+      "count": 2
+    },
+    {
+      "name": "UMTS Session Chairman’s Notes (Huawei)",
+      "count": 2
+    },
+    {
+      "name": "Bell",
+      "count": 2
+    },
+    {
+      "name": "Session Chairmen (Samsung, Nokia)",
+      "count": 2
+    },
+    {
+      "name": "NOKIA",
+      "count": 2
+    },
+    {
+      "name": "Qualcomm, MediaTek",
+      "count": 2
+    },
+    {
+      "name": "Samsung Research America",
+      "count": 2
+    },
+    {
+      "name": "DISH",
+      "count": 2
+    },
+    {
+      "name": "AltioStar",
+      "count": 2
+    },
+    {
+      "name": "Sony Corporation",
+      "count": 2
+    },
+    {
+      "name": "Sequans Qualcomm",
+      "count": 2
+    },
+    {
+      "name": "LG Electronic",
+      "count": 2
+    },
+    {
+      "name": "DISH Network",
+      "count": 2
+    },
+    {
+      "name": "Neul Limited",
+      "count": 2
+    },
+    {
+      "name": "Korea Railroad Research Institute",
+      "count": 2
+    },
+    {
+      "name": "Alcatel-Lucent Shanghai Bells",
+      "count": 2
+    },
+    {
+      "name": "Hisillicon",
+      "count": 2
+    },
+    {
+      "name": "HW",
+      "count": 2
+    },
+    {
+      "name": "ITU-R Working Party 5D",
+      "count": 2
+    },
+    {
+      "name": "Tsofun",
+      "count": 2
+    },
+    {
+      "name": "NXP Semiconductors",
+      "count": 2
+    },
+    {
+      "name": "Hewlett Packard Enterprise",
+      "count": 2
+    },
+    {
+      "name": "CeWit",
+      "count": 2
+    },
+    {
+      "name": "British Telecom",
+      "count": 2
+    },
+    {
+      "name": "T-Mobile US",
+      "count": 2
+    },
+    {
+      "name": "Vodafone Group Plc",
+      "count": 2
+    },
+    {
+      "name": "Charter",
+      "count": 2
+    },
+    {
+      "name": "SES",
+      "count": 2
+    },
+    {
+      "name": "Dish network",
+      "count": 2
+    },
+    {
+      "name": "Pivotal commware",
+      "count": 2
+    },
+    {
+      "name": "Hughes",
+      "count": 2
+    },
+    {
+      "name": "Ericsson GmbH",
+      "count": 2
+    },
+    {
+      "name": "Eurolab",
+      "count": 2
+    },
+    {
+      "name": "BROADCOM",
+      "count": 2
+    },
+    {
+      "name": "IEEE 802.11 Working Group",
+      "count": 2
+    },
+    {
+      "name": "Ruckus",
+      "count": 2
+    },
+    {
+      "name": "RAN1 chairman",
+      "count": 2
+    },
+    {
+      "name": "RAN chairman",
+      "count": 2
+    },
+    {
+      "name": "The Police of Netherlands",
+      "count": 2
+    },
+    {
+      "name": "Xiaomi communications",
+      "count": 2
+    },
+    {
+      "name": "Qualcomm (rapporteur)",
+      "count": 1
+    },
+    {
+      "name": "ITU-T SG13",
+      "count": 1
+    },
+    {
+      "name": "TCL Communications",
+      "count": 1
+    },
+    {
+      "name": "Moderator – (Ericsson)",
+      "count": 1
+    },
+    {
+      "name": "Moderator (AT&T",
+      "count": 1
+    },
+    {
+      "name": "RAN2 LG Electronics",
+      "count": 1
+    },
+    {
+      "name": "MulteFire AllianceTSG",
+      "count": 1
+    },
+    {
+      "name": "Moderators (Intel, Ericsson, CATT, Qualcomm)",
+      "count": 1
+    },
+    {
+      "name": "Moderaror (Nokia)",
+      "count": 1
+    },
+    {
+      "name": "SAE AA TC",
+      "count": 1
+    },
+    {
+      "name": "ETSI BRAN TC",
+      "count": 1
+    },
+    {
+      "name": "5G Alliance for Connected Industries and Automation (5G-ACIA)",
+      "count": 1
+    },
+    {
+      "name": "Ad-Hoc (NTT DOCOMO)",
+      "count": 1
+    },
+    {
+      "name": "OQ Technology",
+      "count": 1
+    },
+    {
+      "name": "vivo Mobile Communication (S)",
+      "count": 1
+    },
+    {
+      "name": "Firstnet",
+      "count": 1
+    },
+    {
+      "name": "Rapporteurs (Nokia, Ericsson)",
+      "count": 1
+    },
+    {
+      "name": "Intel Corporation, CATT, Ericsson, Qualcomm",
+      "count": 1
+    },
+    {
+      "name": "Ericsson, Apple, Qualcomm",
+      "count": 1
+    },
+    {
+      "name": "vivo, Qualcomm",
+      "count": 1
+    },
+    {
+      "name": "Source: Moderator (OPPO)",
+      "count": 1
+    },
+    {
+      "name": "vivo Mobile Communication",
+      "count": 1
+    },
+    {
+      "name": "Source: Moderator (SoftBank)",
+      "count": 1
+    },
+    {
+      "name": "IEEE Vehicular Technology/Intelligent Transportation System 1609 WG",
+      "count": 1
+    },
+    {
+      "name": "GateHouse",
+      "count": 1
+    },
+    {
+      "name": "sanechips",
+      "count": 1
+    },
+    {
+      "name": "Hughes/EchoStar",
+      "count": 1
+    },
+    {
+      "name": "Chengdu TD TECH",
+      "count": 1
+    },
+    {
+      "name": "TOYOTA MOTOR CORPORATION",
+      "count": 1
+    },
+    {
+      "name": "Magister Solutions Ltd",
+      "count": 1
+    },
+    {
+      "name": "Fraunhofer IIS / Fraunhofer HHI",
+      "count": 1
+    },
+    {
+      "name": "CATTI",
+      "count": 1
+    },
+    {
+      "name": "Moderrator (Ericsson)",
+      "count": 1
+    },
+    {
+      "name": "All of us in RAN1",
+      "count": 1
+    },
+    {
+      "name": "Beijing Xiaomi Mobile Softwar",
+      "count": 1
+    },
+    {
+      "name": "CMCC, Huawei, Qualcomm",
+      "count": 1
+    },
+    {
+      "name": "Datang Mobile",
+      "count": 1
+    },
+    {
+      "name": "Nokia Bell Labs",
+      "count": 1
+    },
+    {
+      "name": "Dankook Univ.",
+      "count": 1
+    },
+    {
+      "name": "Qualcomm Incorporated (Editor)",
+      "count": 1
+    },
+    {
+      "name": "CATT, Intel",
+      "count": 1
+    },
+    {
+      "name": "WI Rapporteur (Huawei)",
+      "count": 1
+    },
+    {
+      "name": "EUWENA (European Users Wireless Enterprise Network Association",
+      "count": 1
+    },
+    {
+      "name": "Dankook University",
+      "count": 1
+    },
+    {
+      "name": "Ericsson Telecomunicazioni SpA",
+      "count": 1
+    },
+    {
+      "name": "NTT DOCOMO, INC",
+      "count": 1
+    },
+    {
+      "name": "CMDI ZTE",
+      "count": 1
+    },
+    {
+      "name": "Pivotal Commware",
+      "count": 1
+    },
+    {
+      "name": "Mediatek India Technology Pvt.",
+      "count": 1
+    },
+    {
+      "name": "DENSO AUTOMOTIVE",
+      "count": 1
+    },
+    {
+      "name": "Ericsson, MediaTek",
+      "count": 1
+    },
+    {
+      "name": "[vivo]",
+      "count": 1
+    },
+    {
+      "name": "Rapporteurs (Intel Corporation, CATT, Ericsson)",
+      "count": 1
+    },
+    {
+      "name": "Hewlett-Packard Enterprise",
+      "count": 1
+    },
+    {
+      "name": "Qualcomm (Moderator)",
+      "count": 1
+    },
+    {
+      "name": "ZTE/Sanechips",
+      "count": 1
+    },
+    {
+      "name": "IIT-K",
+      "count": 1
+    },
+    {
+      "name": "UK Home Office",
+      "count": 1
+    },
+    {
+      "name": "Erillisverkot",
+      "count": 1
+    },
+    {
+      "name": "MINISTERE DE L’INTERIEUR",
+      "count": 1
+    },
+    {
+      "name": "Nkom",
+      "count": 1
+    },
+    {
+      "name": "Nokia, Qualcomm",
+      "count": 1
+    },
+    {
+      "name": "Rapporteurs (Nokia, Qualcomm)",
+      "count": 1
+    },
+    {
+      "name": "Rapporteurs (Intel, CATT, Ericsson)",
+      "count": 1
+    },
+    {
+      "name": "Universidad de Málaga",
+      "count": 1
+    },
+    {
+      "name": "ETSI ISG THZ",
+      "count": 1
+    },
+    {
+      "name": "RadiSys",
+      "count": 1
+    },
+    {
+      "name": "Gatehouse Satcom A/S",
+      "count": 1
+    },
+    {
+      "name": "Nordic",
+      "count": 1
+    },
+    {
+      "name": "Fraunhofer  HHI",
+      "count": 1
+    },
+    {
+      "name": "NTT DOCOMO INC",
+      "count": 1
+    },
+    {
+      "name": "Samsung R&D Institute India",
+      "count": 1
+    },
+    {
+      "name": "ASUSTEK COMPUTER",
+      "count": 1
+    },
+    {
+      "name": "Moderators (Huawei, Intel)",
+      "count": 1
+    },
+    {
+      "name": "RAN1 community",
+      "count": 1
+    },
+    {
+      "name": "LG U+",
+      "count": 1
+    },
+    {
+      "name": "IPLOOK",
+      "count": 1
+    },
+    {
+      "name": "SA3-LI",
+      "count": 1
+    },
+    {
+      "name": "Tridea Works",
+      "count": 1
+    },
+    {
+      "name": "Lenono",
+      "count": 1
+    },
+    {
+      "name": "[Samsung",
+      "count": 1
+    },
+    {
+      "name": "ZTE]",
+      "count": 1
+    },
+    {
+      "name": "[CATT]",
+      "count": 1
+    },
+    {
+      "name": "Huawei (Editor)",
+      "count": 1
+    },
+    {
+      "name": "Nokia Nokia",
+      "count": 1
+    },
+    {
+      "name": "Intel Corporation, Huawei",
+      "count": 1
+    },
+    {
+      "name": "NYU WIRLESS",
+      "count": 1
+    },
+    {
+      "name": "China broadnet",
+      "count": 1
+    },
+    {
+      "name": "Indian Institute of Tech Madras",
+      "count": 1
+    },
+    {
+      "name": "Intel Corporation (Moderator)",
+      "count": 1
+    },
+    {
+      "name": "Unicompay",
+      "count": 1
+    },
+    {
+      "name": "Magister",
+      "count": 1
+    },
+    {
+      "name": "5GAA",
+      "count": 1
+    },
+    {
+      "name": "Continental Corp.",
+      "count": 1
+    },
+    {
+      "name": "ASUS",
+      "count": 1
+    },
+    {
+      "name": "SaneChip",
+      "count": 1
+    },
+    {
+      "name": "ATIS’ Next G Alliance",
+      "count": 1
+    },
+    {
+      "name": "MediaTek. INC",
+      "count": 1
+    },
+    {
+      "name": "Charter Communications Inc",
+      "count": 1
+    },
+    {
+      "name": "Moderators (Huawei, vivo)",
+      "count": 1
+    },
+    {
+      "name": "BEIJING SAMSUNG TELECOM R&D",
+      "count": 1
+    },
+    {
+      "name": "Nokia (WI rapporteurs)",
+      "count": 1
+    },
+    {
+      "name": "ETSI ISG ISAC",
+      "count": 1
+    },
+    {
+      "name": "IETF GREEN",
+      "count": 1
+    },
+    {
+      "name": "Tron Future Tech Inc.",
+      "count": 1
+    },
+    {
+      "name": "IIT Madras",
+      "count": 1
+    },
+    {
+      "name": "IISC Bangalore",
+      "count": 1
+    },
+    {
+      "name": "MediaTek, CATT",
+      "count": 1
+    },
+    {
+      "name": "CMCC, Huawei, HiSilicon",
+      "count": 1
+    },
+    {
+      "name": "Jio Platforms",
+      "count": 1
+    },
+    {
+      "name": "Philips",
+      "count": 1
+    },
+    {
+      "name": "WiSig",
+      "count": 1
+    },
+    {
+      "name": "Anemone Technology",
+      "count": 1
+    },
+    {
+      "name": "Ligado",
+      "count": 1
+    },
+    {
+      "name": "Space42",
+      "count": 1
+    },
+    {
+      "name": "Thuraya",
+      "count": 1
+    },
+    {
+      "name": "Turkcell",
+      "count": 1
+    },
+    {
+      "name": "KPN",
+      "count": 1
+    },
+    {
+      "name": "TCCA",
+      "count": 1
+    },
+    {
+      "name": "RAN4 Chair (Apple)",
+      "count": 1
+    },
+    {
+      "name": "University of Bologna",
+      "count": 1
+    },
+    {
+      "name": "CTTC",
+      "count": 1
+    },
+    {
+      "name": "DLR",
+      "count": 1
+    },
+    {
+      "name": "Beijing University of Posts and Telecommunications (BUPT)",
+      "count": 1
+    },
+    {
+      "name": "Novamint",
+      "count": 1
+    },
+    {
+      "name": "Verizon Sweden",
+      "count": 1
+    },
+    {
+      "name": "IMU",
+      "count": 1
+    },
+    {
+      "name": "ISSDU",
+      "count": 1
+    },
+    {
+      "name": "Moderator (Qualcomm",
+      "count": 1
+    },
+    {
+      "name": "Moderator (Qualcomm Incorporated",
+      "count": 1
+    },
+    {
+      "name": "CT4",
+      "count": 1
+    },
+    {
+      "name": "S2",
+      "count": 1
+    },
+    {
+      "name": "VODAFONE Group Plc; and all",
+      "count": 1
+    },
+    {
+      "name": "Motorola Mobility France S.A.S",
+      "count": 1
+    },
+    {
+      "name": "Chairman",
+      "count": 1
+    },
+    {
+      "name": "GM",
+      "count": 1
+    },
+    {
+      "name": "Mitsubish Electric",
+      "count": 1
+    },
+    {
+      "name": "CMCC Xinwei",
+      "count": 1
+    },
+    {
+      "name": "Ericsson Huawei",
+      "count": 1
+    },
+    {
+      "name": "HiSlicon",
+      "count": 1
+    },
+    {
+      "name": "Intel Coorporation",
+      "count": 1
+    },
+    {
+      "name": "Alcatel-Lucent Shanghai Bell LG Electronics",
+      "count": 1
+    },
+    {
+      "name": "Session Chairman (Alcatel-Lucent)",
+      "count": 1
+    },
+    {
+      "name": "Acer Inc.",
+      "count": 1
+    },
+    {
+      "name": "University of Southern California",
+      "count": 1
+    },
+    {
+      "name": "Wi-Fi Alliance Coexistence Task Group",
+      "count": 1
+    },
+    {
+      "name": "Shanghai Bell",
+      "count": 1
+    },
+    {
+      "name": "Alcatel Shanghai Bell",
+      "count": 1
+    },
+    {
+      "name": "Sequence",
+      "count": 1
+    },
+    {
+      "name": "Alcatel-Shanghai Bell",
+      "count": 1
+    },
+    {
+      "name": "Ad-hoc chairs (Huawei, Nokia)",
+      "count": 1
+    },
+    {
+      "name": "Hwawei",
+      "count": 1
+    },
+    {
+      "name": "City of New York (Counsel to the Mayor of)",
+      "count": 1
+    },
+    {
+      "name": "IEEE 1914 Next Generation Fronthaul Interface (NGFI) Working Group",
+      "count": 1
+    },
+    {
+      "name": "IEEE 802 LAN/MAN SC",
+      "count": 1
+    },
+    {
+      "name": "ALU Shanghai Bell",
+      "count": 1
+    },
+    {
+      "name": "Astri",
+      "count": 1
+    },
+    {
+      "name": "NEUL",
+      "count": 1
+    },
+    {
+      "name": "INTERDIGITAL",
+      "count": 1
+    },
+    {
+      "name": "panasonic",
+      "count": 1
+    },
+    {
+      "name": "Sprints",
+      "count": 1
+    },
+    {
+      "name": "LGU+",
+      "count": 1
+    },
+    {
+      "name": "AT&T Ericsson",
+      "count": 1
+    },
+    {
+      "name": "WILLUS",
+      "count": 1
+    },
+    {
+      "name": "Altair",
+      "count": 1
+    },
+    {
+      "name": "Microsoft",
+      "count": 1
+    },
+    {
+      "name": "Qualcomm, Samsung",
+      "count": 1
+    },
+    {
+      "name": "Nokia, Huawei",
+      "count": 1
+    },
+    {
+      "name": "Session Chairman (Nokia, Qualcomm Inc.)",
+      "count": 1
+    },
+    {
+      "name": "Nubia Technologies",
+      "count": 1
+    },
+    {
+      "name": "ITU-R WP 1A",
+      "count": 1
+    },
+    {
+      "name": "City of Madison (Office of the Mayor of)",
+      "count": 1
+    },
+    {
+      "name": "Qorvo",
+      "count": 1
+    },
+    {
+      "name": "Deutsche Telekom AG",
+      "count": 1
+    },
+    {
+      "name": "Beijing Xinwei Telecom Technology",
+      "count": 1
+    },
+    {
+      "name": "Kathrein-Werke",
+      "count": 1
+    },
+    {
+      "name": "HiSilcon",
+      "count": 1
+    },
+    {
+      "name": "Sierre Wireless",
+      "count": 1
+    },
+    {
+      "name": "Nokia and Alcatel-Lucent Shanghai Bell",
+      "count": 1
+    },
+    {
+      "name": "KT Coporation",
+      "count": 1
+    },
+    {
+      "name": "Samsung, Nokia",
+      "count": 1
+    },
+    {
+      "name": "LGE Sharp",
+      "count": 1
+    },
+    {
+      "name": "China Academy of Railway Sciences (CARS)",
+      "count": 1
+    },
+    {
+      "name": "Nokia Qualcomm",
+      "count": 1
+    },
+    {
+      "name": "Shanghai Tejet",
+      "count": 1
+    },
+    {
+      "name": "ZTE Microelctronics",
+      "count": 1
+    },
+    {
+      "name": "CMCC \nSamsung",
+      "count": 1
+    },
+    {
+      "name": "Nuel",
+      "count": 1
+    },
+    {
+      "name": "Samsung Ericsson Sharp NTT DOCOMO ;Huawei HiSilicon Intel CATT ;ZTE ZTE Microelectronics LG Electronics",
+      "count": 1
+    },
+    {
+      "name": "Convida wireless",
+      "count": 1
+    },
+    {
+      "name": "Acorn Technology",
+      "count": 1
+    },
+    {
+      "name": "ITU-R WP 5D",
+      "count": 1
+    },
+    {
+      "name": "ITU-T Study Group 15",
+      "count": 1
+    },
+    {
+      "name": "Apple Switzerland AG",
+      "count": 1
+    },
+    {
+      "name": "[NTT DOCOMO]",
+      "count": 1
+    },
+    {
+      "name": "CGC",
+      "count": 1
+    },
+    {
+      "name": "Alibaba",
+      "count": 1
+    },
+    {
+      "name": "Hytera",
+      "count": 1
+    },
+    {
+      "name": "SRTC",
+      "count": 1
+    },
+    {
+      "name": "Starpoint",
+      "count": 1
+    },
+    {
+      "name": "TD-Tech",
+      "count": 1
+    },
+    {
+      "name": "Turk Telekom",
+      "count": 1
+    },
+    {
+      "name": "ZTE Microelectronic",
+      "count": 1
+    },
+    {
+      "name": "XiaoMi",
+      "count": 1
+    },
+    {
+      "name": "Qualcomm Corporation",
+      "count": 1
+    },
+    {
+      "name": "Deutsch Telekom",
+      "count": 1
+    },
+    {
+      "name": "National instruments",
+      "count": 1
+    },
+    {
+      "name": "Indian Institute of Technology",
+      "count": 1
+    },
+    {
+      "name": "ZTE MicroElectronics",
+      "count": 1
+    },
+    {
+      "name": "Kathrein-Werke KG",
+      "count": 1
+    },
+    {
+      "name": "Straightpathcommunications",
+      "count": 1
+    },
+    {
+      "name": "ERICSSON",
+      "count": 1
+    },
+    {
+      "name": "Inte",
+      "count": 1
+    },
+    {
+      "name": "Huawei Intel",
+      "count": 1
+    },
+    {
+      "name": "Nokia, Samsung",
+      "count": 1
+    },
+    {
+      "name": "Huawei. HiSilicon",
+      "count": 1
+    },
+    {
+      "name": "Huawei. LG Electronics",
+      "count": 1
+    },
+    {
+      "name": "Sharp Corporation",
+      "count": 1
+    },
+    {
+      "name": "KATHREIN-Werke",
+      "count": 1
+    },
+    {
+      "name": "ZTE Microlectronics",
+      "count": 1
+    },
+    {
+      "name": "ZTE Micro",
+      "count": 1
+    },
+    {
+      "name": "CoherentLogix",
+      "count": 1
+    },
+    {
+      "name": "Coherentlogix",
+      "count": 1
+    },
+    {
+      "name": "Session Chairman (Huawei)",
+      "count": 1
+    },
+    {
+      "name": "TELECOM ITALIA",
+      "count": 1
+    },
+    {
+      "name": "Nokia Alcatel-Lucent Shanghai Bell",
+      "count": 1
+    },
+    {
+      "name": "Accelercom",
+      "count": 1
+    },
+    {
+      "name": "HiSi",
+      "count": 1
+    },
+    {
+      "name": "Microelectronics",
+      "count": 1
+    },
+    {
+      "name": "IIRM",
+      "count": 1
+    },
+    {
+      "name": "Tejas network",
+      "count": 1
+    },
+    {
+      "name": "ZTE-Microelectronics",
+      "count": 1
+    },
+    {
+      "name": "Nokia ASB",
+      "count": 1
+    },
+    {
+      "name": "InterDigial",
+      "count": 1
+    },
+    {
+      "name": "Sharp labs",
+      "count": 1
+    },
+    {
+      "name": "MediaTek Inc. NTT DOCOMO",
+      "count": 1
+    },
+    {
+      "name": "InterDigital Inc",
+      "count": 1
+    },
+    {
+      "name": "MOTOROLA MOBILITY LLC",
+      "count": 1
+    },
+    {
+      "name": "Xinwe",
+      "count": 1
+    },
+    {
+      "name": "Telefornica",
+      "count": 1
+    },
+    {
+      "name": "NTT docomo",
+      "count": 1
+    },
+    {
+      "name": "Fujutsi",
+      "count": 1
+    },
+    {
+      "name": "ublox",
+      "count": 1
+    },
+    {
+      "name": "A&T",
+      "count": 1
+    },
+    {
+      "name": "NGMN Alliance",
+      "count": 1
+    },
+    {
+      "name": "SAE DSRC Technical Committee",
+      "count": 1
+    },
+    {
+      "name": "Intel Finland Oy",
+      "count": 1
+    },
+    {
+      "name": "samsung",
+      "count": 1
+    },
+    {
+      "name": "[DOCOMO",
+      "count": 1
+    },
+    {
+      "name": "Coherent Logix Inc.",
+      "count": 1
+    },
+    {
+      "name": "Reliance",
+      "count": 1
+    },
+    {
+      "name": "Heron",
+      "count": 1
+    },
+    {
+      "name": "BT Group",
+      "count": 1
+    },
+    {
+      "name": "NEC Corp.",
+      "count": 1
+    },
+    {
+      "name": "Idaho National Labs",
+      "count": 1
+    },
+    {
+      "name": "Nokia Shanghai  Bell",
+      "count": 1
+    },
+    {
+      "name": "KT Cop.",
+      "count": 1
+    },
+    {
+      "name": "NTT-Docomo",
+      "count": 1
+    },
+    {
+      "name": "VDF",
+      "count": 1
+    },
+    {
+      "name": "UL DMRS Design for sTTI",
+      "count": 1
+    },
+    {
+      "name": "VTT",
+      "count": 1
+    },
+    {
+      "name": "RAN1 Chairman",
+      "count": 1
+    },
+    {
+      "name": "Deutche Telekom",
+      "count": 1
+    },
+    {
+      "name": "KT corp",
+      "count": 1
+    },
+    {
+      "name": "NXP",
+      "count": 1
+    },
+    {
+      "name": "Lenovo and Motorola Mobility",
+      "count": 1
+    },
+    {
+      "name": "Interdigital AT&T",
+      "count": 1
+    },
+    {
+      "name": "Motorola Mobility Sharp",
+      "count": 1
+    },
+    {
+      "name": "ATSRI",
+      "count": 1
+    },
+    {
+      "name": "Hugues Network Systems",
+      "count": 1
+    },
+    {
+      "name": "SpreadTrum",
+      "count": 1
+    },
+    {
+      "name": "Satoshi",
+      "count": 1
+    },
+    {
+      "name": "Tongji university",
+      "count": 1
+    },
+    {
+      "name": "at&t",
+      "count": 1
+    },
+    {
+      "name": "WiLUS",
+      "count": 1
+    },
+    {
+      "name": "Cablelabs",
+      "count": 1
+    },
+    {
+      "name": "CLX",
+      "count": 1
+    },
+    {
+      "name": "Shanghai-bell-Nokia",
+      "count": 1
+    },
+    {
+      "name": "TEJAS Networks",
+      "count": 1
+    },
+    {
+      "name": "Samsung Erricssion",
+      "count": 1
+    },
+    {
+      "name": "SAE C-V2X",
+      "count": 1
+    },
+    {
+      "name": "Tsofun Algorithm Ltd.",
+      "count": 1
+    },
+    {
+      "name": "Ericsson-LG Co.",
+      "count": 1
+    },
+    {
+      "name": "LTD",
+      "count": 1
+    },
+    {
+      "name": "ITU-R Ad-Hoc",
+      "count": 1
+    },
+    {
+      "name": "AIRBUS DS SLC",
+      "count": 1
+    },
+    {
+      "name": "Sane Chips",
+      "count": 1
+    },
+    {
+      "name": "NSN",
+      "count": 1
+    },
+    {
+      "name": "SAE C-V2X TC Advanced Application Task-Force",
+      "count": 1
+    },
+    {
+      "name": "CEPT ECC PT1",
+      "count": 1
+    },
+    {
+      "name": "5GAA WG2",
+      "count": 1
+    },
+    {
+      "name": "Ericsonn",
+      "count": 1
+    },
+    {
+      "name": "nnMediaTek Inc.",
+      "count": 1
+    },
+    {
+      "name": "SAE C-V2X TC Advanced Applications Task-Force",
+      "count": 1
+    },
+    {
+      "name": "Samsung (Harman)",
+      "count": 1
+    },
+    {
+      "name": "ESOA",
+      "count": 1
+    },
+    {
+      "name": "BROADCOM LTD",
+      "count": 1
+    },
+    {
+      "name": "5GAA WG1",
+      "count": 1
+    },
+    {
+      "name": "BBC. IRT",
+      "count": 1
+    },
+    {
+      "name": "Qualcomm Europe Inc. (Spain)",
+      "count": 1
+    },
+    {
+      "name": "Nokia Corporation",
+      "count": 1
+    },
+    {
+      "name": "Hisense Co.",
+      "count": 1
+    },
+    {
+      "name": "Southwest Jiaotong university",
+      "count": 1
+    },
+    {
+      "name": "Apple Computer Trading Co. Ltd",
+      "count": 1
+    },
+    {
+      "name": "Zhejiang University",
+      "count": 1
+    },
+    {
+      "name": "lenovo",
+      "count": 1
+    },
+    {
+      "name": "Decision",
+      "count": 1
+    },
+    {
+      "name": "ITU-T Study Group 12",
+      "count": 1
+    },
+    {
+      "name": "SyncTechno",
+      "count": 1
+    },
+    {
+      "name": "Bittium",
+      "count": 1
+    },
+    {
+      "name": "VIRVE",
+      "count": 1
+    },
+    {
+      "name": "Norwegian Communications Authority",
+      "count": 1
+    },
+    {
+      "name": "French MOI",
+      "count": 1
+    },
+    {
+      "name": "UIC (International union of railways)",
+      "count": 1
+    },
+    {
+      "name": "Mitsubishi Electric Corporation",
+      "count": 1
+    },
+    {
+      "name": "IEEE 802.11 WG",
+      "count": 1
+    },
+    {
+      "name": "TTA",
+      "count": 1
+    },
+    {
+      "name": "nn",
+      "count": 1
+    },
+    {
+      "name": "Beijing University of Posts and Telecommunications",
+      "count": 1
+    },
+    {
+      "name": "NTT DOCOMO. INC and Fraunhofer HHI",
+      "count": 1
+    },
+    {
+      "name": "NTT DOCOMO. INC.and Fraunhofer HHI",
+      "count": 1
+    },
+    {
+      "name": "Vodafone España SA",
+      "count": 1
+    },
+    {
+      "name": "Rohde & Schwarzer",
+      "count": 1
+    },
+    {
+      "name": "nnQualcomm Incorporated",
+      "count": 1
+    },
+    {
+      "name": "vvo",
+      "count": 1
+    },
+    {
+      "name": "Nokia Belgium",
+      "count": 1
+    },
+    {
+      "name": "HiSilicons",
+      "count": 1
+    },
+    {
+      "name": "Intel Corporation \nIntel Corporation",
+      "count": 1
+    },
+    {
+      "name": "The UK Home Office",
+      "count": 1
+    },
+    {
+      "name": "Suomen virveverkko Oy",
+      "count": 1
+    },
+    {
+      "name": "French MoI",
+      "count": 1
+    },
+    {
+      "name": "UIC  (201 member consortium)",
+      "count": 1
+    },
+    {
+      "name": "BMWi",
+      "count": 1
+    },
+    {
+      "name": "O-RAN Alliance",
+      "count": 1
+    },
+    {
+      "name": "CT3",
+      "count": 1
+    },
+    {
+      "name": "HiSIlicon",
+      "count": 1
+    },
+    {
+      "name": "WI rapporteur (NTT DOCOMO)",
+      "count": 1
+    },
+    {
+      "name": "SARI-CAS",
+      "count": 1
+    },
+    {
+      "name": "inc.",
+      "count": 1
+    },
+    {
+      "name": "SARI",
+      "count": 1
+    },
+    {
+      "name": "EBU/BBC/IRT/ABS/NHK",
+      "count": 1
+    },
+    {
+      "name": "Home Office",
+      "count": 1
+    },
+    {
+      "name": "NHK",
+      "count": 1
+    },
+    {
+      "name": "Enensys",
+      "count": 1
+    },
+    {
+      "name": "Rohde&Schwarz",
+      "count": 1
+    },
+    {
+      "name": "ATEME",
+      "count": 1
+    },
+    {
+      "name": "Nomor Research",
+      "count": 1
+    }
+  ]
+}

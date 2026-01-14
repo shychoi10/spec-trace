@@ -47,235 +47,14 @@
 
 ---
 
-## Phase-2: RAN1 Graph DB 구축
+## Spec 기반 구현 원칙
 
-### 최종 목표
-**RAN1 Graph DB 구축** - 3GPP RAN1 문서들의 관계를 Graph DB로 저장하여 검색 및 분석 가능하게 만들기
+구현 작업 시 반드시:
+1. **구현 전**: 관련 Spec 섹션을 먼저 읽고 핵심 요구사항 인용
+2. **구현 중**: Spec 요구사항을 코드 주석으로 명시
+3. **구현 후**: Spec 대비 자가 검증 수행
 
-### 핵심 아키텍처
-
-**Multi-Agent System (Tool Calling 패턴)**:
-```
-Meta Orchestrator (Section 분석 → Agent 선택)
-    ├─ LS Analyst Agent (Liaison Statement 전문)
-    │   - 감지: "LS on", "Reply LS", "incoming LS"
-    │   - 분할: Decision 기반
-    │   - 출력: Issue (Actionable/Non-action/Reference)
-    │
-    ├─ Study Item Agent (Work/Study Item 전문)
-    │   - 감지: "Agreement", "Working assumption", "FFS"
-    │   - 분할: Summary 기반
-    │   - 출력: Issue (계층 구조)
-    │
-    └─ General Agent (폴백용)
-        - 기타 패턴 처리
-        - 동적 학습 트리거
-```
-
-### 설계 원칙
-- **일반화된 Agent**: Section 번호에 종속되지 않음
-- **Tool Calling 패턴**: 콘텐츠 분석 → 키워드 점수 → Agent 동적 선택
-- **자율적 의사결정**: Agent가 분할 패턴, 출력 형식 결정
-
----
-
-## 🚨🚨🚨 제1 원칙 (First Principles) - 반드시 준수 🚨🚨🚨
-
-> **이 원칙들은 모든 Phase-2 구현에서 최우선으로 준수해야 합니다.**
-> 코드 작성 전에 항상 이 원칙들을 확인하세요.
-
-### 원칙 목록
-1. **True Agentic AI**: 모든 텍스트 분석은 LLM이 수행 (No Regex)
-2. **콘텐츠 기반 네이밍**: Section 번호가 아닌 콘텐츠 유형으로 명명
-3. **범용 설계 (General Design)**: 특정 Section에 종속되지 않는 범용 구조
-4. **기존 코드 보호**: 검증된 워크플로우는 수정 금지
-
----
-
-## 🚨 원칙 1: 콘텐츠 기반 네이밍 (CRITICAL)
-
-### 핵심 원칙
-**모든 코드, 파일명, 변수명은 Section 번호가 아닌 콘텐츠 유형으로 명명해야 합니다.**
-
-3GPP 문서에서 콘텐츠의 위치(Section 번호)는 미팅마다 달라질 수 있습니다.
-따라서 "Section 5"가 아닌 "Incoming LS"로 식별해야 합니다.
-
-### 절대 금지 사항 ❌
-1. **파일명에 Section 번호 사용 금지**
-   - ❌ `section5_workflow.py`
-   - ✅ `incoming_ls_workflow.py`
-
-2. **클래스명에 Section 번호 사용 금지**
-   - ❌ `Section5State`, `Section5Workflow`
-   - ✅ `IncomingLSState`, `IncomingLSWorkflow`
-
-3. **출력 파일명에 Section 번호 사용 금지**
-   - ❌ `RAN1_120_section5_output.md`
-   - ✅ `RAN1_120_incoming_ls_output.md`
-
-4. **설정 키에 Section 번호 사용 금지**
-   - ❌ `section5_hints`
-   - ✅ `incoming_ls_hints`
-
-5. **주석/docstring에 Section 번호 하드코딩 금지**
-   - ❌ "Section 5 처리"
-   - ✅ "Incoming LS 처리 (콘텐츠 기반)"
-
-### 올바른 콘텐츠 기반 명명 예시
-
-| 콘텐츠 유형 | ✅ 올바른 이름 | ❌ 잘못된 이름 |
-|------------|---------------|---------------|
-| Incoming Liaison Statements | `incoming_ls_*` | `section5_*` |
-| Reports and Work Plan | `reports_work_plan_*` | `section6_*` |
-| Draft Liaison Statements | `draft_ls_*` | `section7_*` |
-| Maintenance | `maintenance_*` | `section8_*` |
-| Work Items | `work_items_*` | `section9_*` |
-
-### 이 원칙이 중요한 이유
-
-1. **문서 구조의 가변성**: RAN1#120에서는 Incoming LS가 Section 5이지만, 다른 미팅에서는 다른 번호일 수 있음
-2. **재사용성**: 콘텐츠 기반 코드는 어떤 미팅에서도 동작
-3. **유지보수성**: Section 번호 변경에 영향받지 않음
-4. **일반화**: Multi-Agent 시스템이 다양한 미팅에 적용 가능
-
-### 코드 리뷰 체크리스트
-
-새 코드 작성 시 반드시 확인:
-- [ ] 파일명에 `section[0-9]` 패턴이 없는가?
-- [ ] 클래스/함수명에 Section 번호가 없는가?
-- [ ] 출력 파일명이 콘텐츠 기반인가?
-- [ ] 설정 키가 콘텐츠 유형으로 되어 있는가?
-- [ ] 주석에 Section 번호 대신 콘텐츠 유형이 사용되었는가?
-
----
-
-## 🚨 원칙 2: True Agentic AI (CRITICAL)
-
-### 핵심 원칙
-**모든 텍스트 분석, 분류, 추출은 반드시 LLM이 수행해야 합니다.**
-
-### 절대 금지 사항 ❌
-1. **정규식(Regex) 사용 금지**: 텍스트 패턴 매칭에 regex 사용 금지
-2. **하드코딩된 규칙 금지**: if-else 기반 분류 로직 금지
-3. **Rule-based 폴백 금지**: LLM 실패 시에도 regex fallback 사용 금지
-4. **키워드 매칭 금지**: 단순 문자열 검색 기반 분류 금지
-
-### 허용 사항 ✅
-1. **LLM 프롬프트**: 모든 분석은 LLM에게 프롬프트로 요청
-2. **JSON 파싱**: LLM 응답의 구조화된 출력 파싱 (json.loads)
-3. **데이터 변환**: LLM 출력의 타입 변환 (str→enum, dict→dataclass)
-4. **파일 I/O**: 파일 읽기/쓰기 작업
-
-### 위반 예시 vs 올바른 구현
-
-```python
-# ❌ 잘못된 구현 (regex 사용)
-def _fallback_extract(self, text: str) -> list[str]:
-    pattern = r"R1-\d{7}"
-    return re.findall(pattern, text)
-
-# ✅ 올바른 구현 (LLM 전용)
-def _extract_tdocs(self, text: str) -> list[str]:
-    prompt = f"Extract all Tdoc IDs (R1-XXXXXXX format) from:\n{text}"
-    response = self.llm.generate(prompt)
-    return self._parse_tdoc_list(response)
-```
-
-### 적용 범위
-- **BoundaryDetector**: Issue 경계 감지 → LLM 전용
-- **MetadataExtractor**: 메타데이터 추출 → LLM 전용
-- **TdocLinker**: Tdoc 추출 및 분류 → LLM 전용
-- **DecisionClassifier**: Issue Type 분류 → LLM 전용
-- **SummaryGenerator**: 요약 생성 → LLM 전용
-- **DocumentParser**: Section 추출 → LLM 전용
-
-### 이 원칙의 이유
-1. **일관성**: LLM이 모든 분석을 수행하여 일관된 품질 보장
-2. **유연성**: 새로운 패턴도 프롬프트 수정만으로 대응 가능
-3. **정확성**: 컨텍스트 기반 분석으로 더 높은 정확도
-4. **유지보수성**: regex 패턴 관리 불필요
-
----
-
-## 🚨 원칙 3: 범용 설계 (General Design) (CRITICAL)
-
-### 핵심 원칙
-**특정 Section에 종속되지 않는 범용 구조로 설계해야 합니다.**
-
-### 절대 금지 사항 ❌
-1. **Section-specific Agent 금지**: `MaintenanceRel18Agent`, `MaintenancePreRel18Agent` 각각 구현 금지
-2. **Section 번호 하드코딩 금지**: 코드에 "Section 5", "Section 8" 등 직접 명시 금지
-3. **미팅별 분기 로직 금지**: RAN1#120, RAN1#121 등에 특화된 if-else 금지
-
-### 올바른 설계 ✅
-1. **단일 범용 워크플로우**: 하나의 워크플로우가 동일 유형의 모든 Section 처리
-2. **파라미터화**: Release, Technology 등은 파라미터로 전달
-3. **Meta Agent**: LLM이 콘텐츠 기반으로 Section 타입 감지
-
-### 예시
-
-```python
-# ❌ 잘못된 설계 (Section-specific)
-class MaintenanceRel18Workflow: ...
-class MaintenancePreRel18NRWorkflow: ...
-class MaintenancePreRel18EUTRAWorkflow: ...
-
-# ✅ 올바른 설계 (범용)
-class MaintenanceWorkflow:
-    def run(self, section_text: str, metadata: SectionMetadata):
-        # metadata.release = "Rel-18" | "Pre-Rel-18"
-        # metadata.technology = "NR" | "E-UTRA" | None
-        pass
-```
-
-### 이 원칙의 이유
-1. **확장성**: 새로운 Section 타입도 설정만으로 처리 가능
-2. **유지보수성**: 중복 코드 없이 단일 워크플로우 관리
-3. **일관성**: 동일 유형의 Section은 동일한 로직으로 처리
-4. **미팅 독립성**: 어떤 미팅에서도 동일하게 동작
-
----
-
-## 🚨 원칙 4: 기존 코드 보호 (CRITICAL)
-
-### 핵심 원칙
-**검증된 워크플로우는 수정하지 않고, 새로운 기능은 새 파일로 추가합니다.**
-
-### 보호 대상 파일 (절대 수정 금지)
-```
-src/workflows/incoming_ls_workflow.py   # Step-1 완료, 동작 검증됨
-src/agents/sub_agents/*                 # Step-1 Sub-agents
-```
-
-### 허용 사항 ✅
-1. **새 파일 추가**: `maintenance_workflow.py`, `meta_section_agent.py` 등
-2. **기존 컴포넌트 import**: `BaseAgent`, `LLMManager` 등 재사용
-3. **Config 확장**: 새 Section 타입 설정 추가
-
-### 이 원칙의 이유
-1. **안정성**: 검증된 코드를 건드리지 않아 기존 기능 보장
-2. **격리**: 새 기능의 버그가 기존 기능에 영향 없음
-3. **롤백 용이**: 문제 발생 시 새 코드만 제거하면 됨
-
----
-
-## Phase-2 기술 스택
-
-- **Framework**: LangGraph (Agentic AI 워크플로우)
-- **LLM**: Google Gemini API (gemini-2.5-flash) - 직접 호출
-- **Input**: Final Minutes DOCX
-- **Process**: DOCX → Section → MetaAgent → Workflow → Structured Output
-
-### 현재 진행 상황
-- ✅ **Step-1 Complete**: Incoming LS Processing (15 meetings)
-- 🔄 **Step-2 In Progress**: Multi-Section Expansion (Maintenance)
-
-### 문서 및 경로
-- **Phase-2 개요**: `docs/phase-2/README.md`
-- **Step-1 가이드**: `docs/phase-2/step1_langgraph-system.md`
-- **Step-2 가이드**: `docs/phase-2/step2_multi-section-expansion.md`
-- **스크립트**: `scripts/phase-2/langgraph-system/`
-- **출력**: `output/phase-2/langgraph-system/results/`
+**위반 시 발생하는 문제**: `extract_section()` 버그 사례 - Spec은 "제목으로 경계 판단"인데 "번호로만" 구현하여 92% 데이터 누락
 
 ---
 
@@ -486,3 +265,60 @@ Phase-1: Raw Data Collection & Preparation
   - Known Issue: TSGR1_100 Report 폴더 누락
 - **스크립트**: `scripts/phase-1/data-cleanup/RAN1/cleanup_reports_phase*.py`
 - **로그**: `logs/phase-1/data-cleanup/RAN1/`
+
+---
+
+## Phase-2 구조
+
+Phase-2는 Knowledge Graph 구축을 위한 3개의 Step으로 구성:
+
+```
+Phase-2: Knowledge Graph Construction
+├── Step-1: Ontology 구축                              [✅ COMPLETE]
+│   ├── Sub-step 1-1: Turtle 스키마 생성 (TBox)        [✅ COMPLETE]
+│   ├── Sub-step 1-2: 파싱 파이프라인 구현             [✅ COMPLETE]
+│   ├── Sub-step 1-3: 인스턴스 생성 (ABox)             [✅ COMPLETE]
+│   └── Sub-step 1-4: Spec 대비 검증                   [✅ COMPLETE]
+│
+├── Step-2: Database Construction                       [⬜ NOT STARTED]
+│   ├── Sub-step 2-1: Neo4j 적재 (n10s)
+│   ├── Sub-step 2-2: Neo4j 적재 (직접 Cypher)
+│   ├── Sub-step 2-3: 적재 방식 비교/선택
+│   └── Sub-step 2-4: CQ 25개 Cypher 쿼리 검증
+│
+└── Step-3: LlamaIndex 연동                             [⬜ NOT STARTED]
+    └── RAG 기반 자연어 QA
+```
+
+**Status**: Step-1 완료 (4/4 Sub-steps) | Step-2 시작 예정
+
+### Step-1: Ontology 구축 (✅ COMPLETE)
+
+| Sub-step | 작업 | 산출물 | 상태 |
+|----------|------|--------|------|
+| 1-1 | Turtle 스키마 생성 (TBox) | `ontology/tdoc-ontology.ttl` | ✅ 완료 |
+| 1-2 | 파싱 파이프라인 구현 | 4단계 파이프라인 | ✅ 완료 |
+| 1-3 | 인스턴스 생성 (ABox) | `ontology/output/instances/*.jsonld` | ✅ 완료 |
+| 1-4 | Spec 대비 검증 | `VALIDATION_REPORT.md` | ✅ 완료 |
+
+**문서**:
+- **상세 가이드**: `docs/phase-2/step1_ontology.md`
+- **Ontology Spec**: `docs/phase-2/specs/tdoc-ontology-spec.md`
+- **검증 리포트**: `ontology/output/VALIDATION_REPORT.md`
+- **스크립트**: `ontology/scripts/01~04_*.py`
+- **출력**: `ontology/output/instances/` (125,480 인스턴스, 84.6 MB)
+
+### Step-2: Database Construction (⬜ NOT STARTED)
+
+| Sub-step | 작업 | 산출물 |
+|----------|------|--------|
+| 2-1 | Neo4j 적재 (n10s) | 결과 A |
+| 2-2 | Neo4j 적재 (직접 Cypher) | 결과 B |
+| 2-3 | 적재 방식 비교/선택 | 최종 방식 결정 |
+| 2-4 | CQ 25개 Cypher 쿼리 검증 | 검증 완료 |
+
+### Step-3: LlamaIndex 연동 (⬜ NOT STARTED)
+
+| Sub-step | 작업 | 산출물 |
+|----------|------|--------|
+| 3-1 | RAG 기반 자연어 QA | LlamaIndex + Neo4j 연동 |

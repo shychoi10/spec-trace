@@ -232,8 +232,7 @@ pip3 install requests beautifulsoup4
 3. 텍스트 추출 및 구조화
 4. 데이터베이스 적재
 
-**Status**: Ready to start
-**Document**: [Phase-2 README](../phase-2/README.md)
+**Status**: Not Started
 
 ---
 

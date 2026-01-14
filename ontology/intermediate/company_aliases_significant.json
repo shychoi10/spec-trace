@@ -1,0 +1,1315 @@
+{
+  "Nokia": {
+    "aliases": [
+      "Alcatel-Lucent",
+      "Alcatel-Lucent Shanghai Bell",
+      "Alcatel-lucent Shanghai Bell",
+      "NOKIA",
+      "Nokia",
+      "Nokia Bell Labs",
+      "Nokia Corporation",
+      "Nokia Networks",
+      "Nokia Shanghai  Bell",
+      "Nokia Shanghai Bell"
+    ]
+  },
+  "Huawei": {
+    "aliases": [
+      "HuaWei",
+      "Huawei",
+      "Huawei (Editor)",
+      "Huawei (editor)",
+      "Huawei Technologies Co. Ltd."
+    ]
+  },
+  "Ericsson": {
+    "aliases": [
+      "ERICSSON",
+      "Ericsson",
+      "Ericsson (China)",
+      "Ericsson GmbH",
+      "Ericsson Hungary Ltd",
+      "Ericsson Inc.",
+      "Ericsson LM",
+      "Nanjing Ericsson Panda Com Ltd",
+      "ericsson"
+    ]
+  },
+  "HiSilicon": {
+    "aliases": [
+      "HiSIlicon",
+      "HiSilicon",
+      "Hisilicon"
+    ]
+  },
+  "ZTE": {
+    "aliases": [
+      "ZTE",
+      "ZTE Corp",
+      "ZTE Corp.",
+      "ZTE Corporation",
+      "ZTE MicroElectronics",
+      "ZTE Microelectronics",
+      "ZTE microelectronics",
+      "ZTE Corporation"
+    ]
+  },
+  "Qualcomm": {
+    "aliases": [
+      "QUALCOMM",
+      "Qualcomm",
+      "Qualcomm Austria RFFE GmbH",
+      "Qualcomm Inc",
+      "Qualcomm Inc.",
+      "Qualcomm Incorporated"
+    ]
+  },
+  "Samsung": {
+    "aliases": [
+      "BEIJING SAMSUNG TELECOM R&D",
+      "Samsung",
+      "Samsung Research America",
+      "samsung"
+    ]
+  },
+  "LG Electronics": {
+    "aliases": [
+      "LG ELECTRONICS",
+      "LG Electronics",
+      "LG Electronics Inc.",
+      "LG Uplus",
+      "LG electronics",
+      "LGE"
+    ]
+  },
+  "Intel": {
+    "aliases": [
+      "Intel",
+      "Intel Corp",
+      "Intel Corp.",
+      "Intel Corporation",
+      "Intel Corporation (UK) Ltd"
+    ]
+  },
+  "CATT": {
+    "aliases": [
+      "CATR",
+      "CATT"
+    ]
+  },
+  "NTT DOCOMO": {
+    "aliases": [
+      "DOCOMO",
+      "DoCoMo",
+      "Docomo",
+      "NTT DOCOMO",
+      "NTT DOCOMO INC",
+      "NTT DOCOMO INC.",
+      "NTT DOCOMO Inc.",
+      "NTT DOCOMO, INC",
+      "NTT DOCOMO, INC.",
+      "NTT DOCOMO. INC",
+      "NTT DOCOMO. Inc",
+      "NTT DoCoMo",
+      "NTT Docomo",
+      "NTT docomo"
+    ]
+  },
+  "vivo": {
+    "aliases": [
+      "VIVO",
+      "Vivo",
+      "vivo",
+      "vivo Mobile Communication"
+    ]
+  },
+  "Spreadtrum": {
+    "aliases": [
+      "SaneChip",
+      "SaneChips",
+      "Sanechip",
+      "Sanechips",
+      "SpreadTrum",
+      "Spreadtrum",
+      "Spreadtrum Communications",
+      "UNISOC",
+      "sanechips"
+    ]
+  },
+  "MediaTek": {
+    "aliases": [
+      "MTK",
+      "MediaTeK",
+      "MediaTek",
+      "MediaTek (Chengdu) Inc.",
+      "MediaTek Beijing Inc.",
+      "MediaTek Inc",
+      "MediaTek Inc.",
+      "MediaTek Korea Inc.",
+      "MediaTek inc.",
+      "MediaTek. INC",
+      "MediaTek. Inc",
+      "Mediatek",
+      "Mediatek Inc.",
+      "Mediatek India Technology Pvt.",
+      "nnMediaTek Inc."
+    ]
+  },
+  "Lenovo": {
+    "aliases": [
+      "Lenovo",
+      "Lenovo (Beijing) Ltd",
+      "MOTOROLA MOBILITY LLC",
+      "Motorola",
+      "Motorola Mobility",
+      "Motorola Mobility Germany GmbH",
+      "Motorola mobility",
+      "lenovo"
+    ]
+  },
+  "OPPO": {
+    "aliases": [
+      "OPPO",
+      "Oppo"
+    ]
+  },
+  "CMCC": {
+    "aliases": [
+      "CMCC",
+      "China Mobile"
+    ]
+  },
+  "InterDigital": {
+    "aliases": [
+      "INTERDIGITAL",
+      "INTERDIGITAL COMMUNICATIONS",
+      "InterDigital",
+      "InterDigital Communications",
+      "InterDigital Inc",
+      "InterDigital Inc.",
+      "InterDigital, Inc.",
+      "Interdigital",
+      "Interdigital Asia LLC"
+    ]
+  },
+  "Apple": {
+    "aliases": [
+      "Apple",
+      "Apple (UK) Limited",
+      "Apple Computer Trading Co. Ltd",
+      "Apple Inc",
+      "Apple Inc.",
+      "Apple Switzerland AG"
+    ]
+  },
+  "Sony": {
+    "aliases": [
+      "SONY",
+      "Sony",
+      "Sony Corporation"
+    ]
+  },
+  "Xiaomi": {
+    "aliases": [
+      "XiaoMi",
+      "Xiaomi",
+      "Xiaomi Communications",
+      "Xiaomi Technology",
+      "Xiaomi communications",
+      "xiaomi"
+    ]
+  },
+  "NEC": {
+    "aliases": [
+      "NEC",
+      "NEC Corp.",
+      "NEC Corporation"
+    ]
+  },
+  "Sharp": {
+    "aliases": [
+      "SHARP",
+      "SHARP Corporation",
+      "Sharp",
+      "Sharp Corporation"
+    ]
+  },
+  "Panasonic": {
+    "aliases": [
+      "PANASONIC",
+      "Panasonic",
+      "Panasonic Corporation",
+      "panasonic"
+    ]
+  },
+  "AT&T": {
+    "aliases": [
+      "AT&T",
+      "AT&T, NTT DOCOMO, INC.",
+      "at&t"
+    ]
+  },
+  "Fujitsu": {
+    "aliases": [
+      "Fujitsu",
+      "Fujitsu Limited"
+    ]
+  },
+  "ETRI": {
+    "aliases": [
+      "ETRI"
+    ]
+  },
+  "FUTUREWEI": {
+    "aliases": [
+      "FUTUREWEI",
+      "Futurewei"
+    ]
+  },
+  "China Telecom": {
+    "aliases": [
+      "China Telecom",
+      "China Telecom Corporation Ltd."
+    ]
+  },
+  "ETSI": {
+    "aliases": [
+      "ETSI",
+      "ETSI (MCC)",
+      "ETSI MCC",
+      "MCC"
+    ]
+  },
+  "Fraunhofer HHI": {
+    "aliases": [
+      "Fraunhofer  HHI",
+      "Fraunhofer HHI"
+    ]
+  },
+  "ASUS": {
+    "aliases": [
+      "ASUS",
+      "ASUSTEK",
+      "ASUSTEK COMPUTER (SHANGHAI)",
+      "ASUSTeK",
+      "ASUSTek",
+      "AsusTek"
+    ]
+  },
+  "Google": {
+    "aliases": [
+      "Google",
+      "Google Inc",
+      "Google Inc.",
+      "Google Korea LLC"
+    ]
+  },
+  "ITRI": {
+    "aliases": [
+      "ITRI"
+    ]
+  },
+  "TCL": {
+    "aliases": [
+      "TCL",
+      "TCL Communication",
+      "TCL Communication Ltd",
+      "TCL Communication Ltd."
+    ]
+  },
+  "Thales": {
+    "aliases": [
+      "THALES",
+      "Thales"
+    ]
+  },
+  "CEWiT": {
+    "aliases": [
+      "CEWIT",
+      "CEWiT",
+      "CeWIT",
+      "CeWiT",
+      "CeWit"
+    ]
+  },
+  "Fraunhofer IIS": {
+    "aliases": [
+      "Fraunhofer IIS"
+    ]
+  },
+  "WILUS": {
+    "aliases": [
+      "WILUS",
+      "WILUS Inc",
+      "WILUS Inc.",
+      "WiLUS"
+    ]
+  },
+  "Guangdong OPPO Mobile Telecom": {
+    "aliases": [
+      "Guangdong OPPO Mobile Telecom",
+      "Guangdong OPPO Mobile Telecom."
+    ]
+  },
+  "CAICT": {
+    "aliases": [
+      "CAICT",
+      "CAICT."
+    ]
+  },
+  "KT": {
+    "aliases": [
+      "KT Corp",
+      "KT Corp.",
+      "KT Corporation",
+      "KT corp",
+      "KT corporation"
+    ]
+  },
+  "Sierra Wireless": {
+    "aliases": [
+      "Sierra Wireless"
+    ]
+  },
+  "Convida Wireless": {
+    "aliases": [
+      "Convida Wireless",
+      "Convida Wireless LLC",
+      "Convida wireless"
+    ]
+  },
+  "Sequans Communications": {
+    "aliases": [
+      "Sequans Communications"
+    ]
+  },
+  "CBN": {
+    "aliases": [
+      "CBN"
+    ]
+  },
+  "ASB": {
+    "aliases": [
+      "ASB"
+    ]
+  },
+  "KDDI": {
+    "aliases": [
+      "KDDI",
+      "KDDI Corporation"
+    ]
+  },
+  "ITL": {
+    "aliases": [
+      "ITL"
+    ]
+  },
+  "Transsion Holdings": {
+    "aliases": [
+      "Transsion Holdings"
+    ]
+  },
+  "China Unicom": {
+    "aliases": [
+      "China Unicom"
+    ]
+  },
+  "BUPT": {
+    "aliases": [
+      "BUPT",
+      "Beijing University of Posts and Telecommunications",
+      "Beijing University of Posts and Telecommunications (BUPT)"
+    ]
+  },
+  "Nordic Semiconductor ASA": {
+    "aliases": [
+      "Nordic Semiconductor ASA"
+    ]
+  },
+  "IITH": {
+    "aliases": [
+      "IITH"
+    ]
+  },
+  "Charter Communications": {
+    "aliases": [
+      "Charter Communications"
+    ]
+  },
+  "Vodafone": {
+    "aliases": [
+      "VODAFONE",
+      "VODAFONE Group Plc",
+      "Vodafone",
+      "Vodafone Group Plc"
+    ]
+  },
+  "GOHIGH": {
+    "aliases": [
+      "GOHIGH"
+    ]
+  },
+  "Xinwei": {
+    "aliases": [
+      "Xinwei"
+    ]
+  },
+  "NVIDIA": {
+    "aliases": [
+      "NVIDIA"
+    ]
+  },
+  "Verizon": {
+    "aliases": [
+      "Verizon",
+      "Verizon Wireless"
+    ]
+  },
+  "IIT Kanpur": {
+    "aliases": [
+      "IIT Kanpur"
+    ]
+  },
+  "CICTCI": {
+    "aliases": [
+      "CICTCI"
+    ]
+  },
+  "Mitsubishi": {
+    "aliases": [
+      "Mitsubishi",
+      "Mitsubishi Electric",
+      "Mitsubishi Electric Corp"
+    ]
+  },
+  "Orange": {
+    "aliases": [
+      "ORANGE",
+      "Orange"
+    ]
+  },
+  "S.A": {
+    "aliases": [
+      "S.A."
+    ]
+  },
+  "China Telecommunications": {
+    "aliases": [
+      "China Telecommunications"
+    ]
+  },
+  "SoftBank": {
+    "aliases": [
+      "SoftBank",
+      "SoftBank Corp",
+      "SoftBank Corp.",
+      "Softbank",
+      "Softbank Corp"
+    ]
+  },
+  "FGI": {
+    "aliases": [
+      "FGI"
+    ]
+  },
+  "III": {
+    "aliases": [
+      "III"
+    ]
+  },
+  "Deutsche Telekom": {
+    "aliases": [
+      "Deutsche Telekom",
+      "Deutsche Telekom AG"
+    ]
+  },
+  "Honor": {
+    "aliases": [
+      "HONOR",
+      "Honor"
+    ]
+  },
+  "Mitsubishi Electric Co": {
+    "aliases": [
+      "Mitsubishi Electric Co."
+    ]
+  },
+  "Beijing Xinwei Telecom Techn": {
+    "aliases": [
+      "Beijing Xinwei Telecom Techn."
+    ]
+  },
+  "Tejas Network Limited": {
+    "aliases": [
+      "Tejas Network Limited"
+    ]
+  },
+  "New H3C Technologies Co": {
+    "aliases": [
+      "New H3C Technologies Co."
+    ]
+  },
+  "Moderators (AT&T, NTT DOCOMO, INC.)": {
+    "aliases": [
+      "Moderators (AT&T, NTT DOCOMO, INC.)"
+    ]
+  },
+  "IITM": {
+    "aliases": [
+      "IITM"
+    ]
+  },
+  "Ofinno": {
+    "aliases": [
+      "Ofinno"
+    ]
+  },
+  "Mitsubishi Electric RCE": {
+    "aliases": [
+      "Mitsubishi Electric RCE"
+    ]
+  },
+  "Broadcom": {
+    "aliases": [
+      "BROADCOM",
+      "BROADCOM LIMITED",
+      "Broadcom",
+      "Broadcom Limited"
+    ]
+  },
+  "NSB": {
+    "aliases": [
+      "NSB"
+    ]
+  },
+  "Potevio": {
+    "aliases": [
+      "Potevio"
+    ]
+  },
+  "Tejas Networks": {
+    "aliases": [
+      "Tejas Networks"
+    ]
+  },
+  "Indian Institute of Tech (M)": {
+    "aliases": [
+      "Indian Institute of Tech (M)"
+    ]
+  },
+  "Asia Pacific Telecom": {
+    "aliases": [
+      "Asia Pacific Telecom"
+    ]
+  },
+  "Keysight": {
+    "aliases": [
+      "Keysight",
+      "Keysight Technologies",
+      "Keysight Technologies UK Ltd"
+    ]
+  },
+  "Beijing Xiaomi Mobile Software": {
+    "aliases": [
+      "Beijing Xiaomi Mobile Software"
+    ]
+  },
+  "BBC": {
+    "aliases": [
+      "BBC"
+    ]
+  },
+  "ASTRI": {
+    "aliases": [
+      "ASTRI",
+      "Astri"
+    ]
+  },
+  "Asia Pacific Telecom co. Ltd": {
+    "aliases": [
+      "Asia Pacific Telecom co. Ltd"
+    ]
+  },
+  "Langbo": {
+    "aliases": [
+      "Langbo"
+    ]
+  },
+  "Mavenir": {
+    "aliases": [
+      "Mavenir"
+    ]
+  },
+  "Rakuten": {
+    "aliases": [
+      "Rakuten Mobile",
+      "Rakuten Mobile Inc."
+    ]
+  },
+  "TD Tech": {
+    "aliases": [
+      "Chengdu TD TECH",
+      "Chengdu TD Tech",
+      "TD Tech",
+      "TD Tech Ltd"
+    ]
+  },
+  "Guangdong Genius": {
+    "aliases": [
+      "Guangdong Genius"
+    ]
+  },
+  "Tejas Networks Limited": {
+    "aliases": [
+      "Tejas Networks Limited"
+    ]
+  },
+  "EURECOM": {
+    "aliases": [
+      "EURECOM"
+    ]
+  },
+  "NICT": {
+    "aliases": [
+      "NICT"
+    ]
+  },
+  "Reliance Jio": {
+    "aliases": [
+      "Reliance Jio"
+    ]
+  },
+  "Quectel": {
+    "aliases": [
+      "Quectel"
+    ]
+  },
+  "EBU": {
+    "aliases": [
+      "EBU"
+    ]
+  },
+  "Sequans": {
+    "aliases": [
+      "Sequans"
+    ]
+  },
+  "New H3C": {
+    "aliases": [
+      "New H3C"
+    ]
+  },
+  "CHTTL": {
+    "aliases": [
+      "CHTTL"
+    ]
+  },
+  "Ruijie Network Co. Ltd": {
+    "aliases": [
+      "Ruijie Network Co. Ltd"
+    ]
+  },
+  "Ericsson Japan K.K": {
+    "aliases": [
+      "Ericsson Japan K.K."
+    ]
+  },
+  "Baicells": {
+    "aliases": [
+      "Baicells"
+    ]
+  },
+  "BJTU": {
+    "aliases": [
+      "BJTU"
+    ]
+  },
+  "National Instruments": {
+    "aliases": [
+      "National Instruments",
+      "National Instruments Corp.",
+      "National instruments"
+    ]
+  },
+  "Idaho National Laboratory": {
+    "aliases": [
+      "Idaho National Laboratory"
+    ]
+  },
+  "Cohere Technologies": {
+    "aliases": [
+      "Cohere Technologies"
+    ]
+  },
+  "CableLabs": {
+    "aliases": [
+      "CableLabs",
+      "Cablelabs"
+    ]
+  },
+  "ESA": {
+    "aliases": [
+      "ESA"
+    ]
+  },
+  "T-Mobile": {
+    "aliases": [
+      "T-Mobile US",
+      "T-Mobile USA",
+      "T-Mobile USA Inc."
+    ]
+  },
+  "SK Telecom": {
+    "aliases": [
+      "SK Telecom",
+      "SKT"
+    ]
+  },
+  "Continental Automotive": {
+    "aliases": [
+      "Continental Automotive"
+    ]
+  },
+  "Hyundai Motor Company": {
+    "aliases": [
+      "Hyundai Motor Company"
+    ]
+  },
+  "Ruijie Networks Co. Ltd": {
+    "aliases": [
+      "Ruijie Networks Co. Ltd"
+    ]
+  },
+  "DENSO CORPORATION": {
+    "aliases": [
+      "DENSO CORPORATION"
+    ]
+  },
+  "Shanghai Jiao Tong University": {
+    "aliases": [
+      "Shanghai Jiao Tong University"
+    ]
+  },
+  "Rohde & Schwarz": {
+    "aliases": [
+      "ROHDE & SCHWARZ",
+      "Rohde & Schwarz"
+    ]
+  },
+  "National Taiwan University": {
+    "aliases": [
+      "National Taiwan University"
+    ]
+  },
+  "Lekha Wireless Solutions": {
+    "aliases": [
+      "Lekha Wireless Solutions"
+    ]
+  },
+  "Beijing Xiaomi Software Tech": {
+    "aliases": [
+      "Beijing Xiaomi Software Tech"
+    ]
+  },
+  "Neul": {
+    "aliases": [
+      "Neul"
+    ]
+  },
+  "Rakuten Symphony": {
+    "aliases": [
+      "Rakuten Symphony"
+    ]
+  },
+  "TOYOTA InfoTechnology Center": {
+    "aliases": [
+      "TOYOTA InfoTechnology Center"
+    ]
+  },
+  "Innovative Technology Lab Co": {
+    "aliases": [
+      "Innovative Technology Lab Co."
+    ]
+  },
+  "Kyocera": {
+    "aliases": [
+      "Kyocera"
+    ]
+  },
+  "NTPU": {
+    "aliases": [
+      "NTPU"
+    ]
+  },
+  "Kyocera Corporation": {
+    "aliases": [
+      "Kyocera Corporation"
+    ]
+  },
+  "MTI": {
+    "aliases": [
+      "MTI"
+    ]
+  },
+  "Sprint": {
+    "aliases": [
+      "Sprint"
+    ]
+  },
+  "AT&T GNS Belgium SPRL": {
+    "aliases": [
+      "AT&T GNS Belgium SPRL"
+    ]
+  },
+  "ROBERT BOSCH GmbH": {
+    "aliases": [
+      "ROBERT BOSCH GmbH"
+    ]
+  },
+  "FirstNet": {
+    "aliases": [
+      "FirstNet",
+      "Firstnet"
+    ]
+  },
+  "Telstra": {
+    "aliases": [
+      "Telstra"
+    ]
+  },
+  "China Southern Power Grid": {
+    "aliases": [
+      "China Southern Power Grid"
+    ]
+  },
+  "HUGHES Network Systems Ltd": {
+    "aliases": [
+      "HUGHES Network Systems Ltd"
+    ]
+  },
+  "Fujitsu, MediaTek": {
+    "aliases": [
+      "Fujitsu, MediaTek"
+    ]
+  },
+  "Tiami Networks": {
+    "aliases": [
+      "Tiami Networks"
+    ]
+  },
+  "Samsung Electronics Co": {
+    "aliases": [
+      "Samsung Electronics Co."
+    ]
+  },
+  "Dish Network": {
+    "aliases": [
+      "DISH",
+      "DISH Network",
+      "Dish",
+      "Dish Network",
+      "Dish network"
+    ]
+  },
+  "HTC Corporation": {
+    "aliases": [
+      "HTC Corporation"
+    ]
+  },
+  "Coherent Logix": {
+    "aliases": [
+      "Coherent Logix"
+    ]
+  },
+  "Indian Institute of Tech (H)": {
+    "aliases": [
+      "Indian Institute of Tech (H)"
+    ]
+  },
+  "TOYOTA Info Technology Center": {
+    "aliases": [
+      "TOYOTA Info Technology Center"
+    ]
+  },
+  "Comba": {
+    "aliases": [
+      "Comba"
+    ]
+  },
+  "KRRI": {
+    "aliases": [
+      "KRRI"
+    ]
+  },
+  "Google Ireland Limited": {
+    "aliases": [
+      "Google Ireland Limited"
+    ]
+  },
+  "AccelerComm": {
+    "aliases": [
+      "AccelerComm",
+      "AccelerComm Ltd",
+      "Accelercomm"
+    ]
+  },
+  "Intel Coporation": {
+    "aliases": [
+      "Intel Coporation"
+    ]
+  },
+  "Nubia": {
+    "aliases": [
+      "Nubia"
+    ]
+  },
+  "Beijing Xiaomi Electronics": {
+    "aliases": [
+      "Beijing Xiaomi Electronics"
+    ]
+  },
+  "CHENGDU TD TECH LTD": {
+    "aliases": [
+      "CHENGDU TD TECH LTD."
+    ]
+  },
+  "Zhejiang Lab": {
+    "aliases": [
+      "Zhejiang Lab"
+    ]
+  },
+  "Nokia/Nokia Shanghai Bell": {
+    "aliases": [
+      "Nokia/Nokia Shanghai Bell"
+    ]
+  },
+  "Shenzhen Coolpad Technologies": {
+    "aliases": [
+      "Shenzhen Coolpad Technologies"
+    ]
+  },
+  "PANASONIC R&D Center Germany": {
+    "aliases": [
+      "PANASONIC R&D Center Germany"
+    ]
+  },
+  "Johns Hopkins University APL": {
+    "aliases": [
+      "Johns Hopkins University APL"
+    ]
+  },
+  "Qualcomm Europe Inc.(France)": {
+    "aliases": [
+      "Qualcomm Europe Inc.(France)"
+    ]
+  },
+  "GDCNI": {
+    "aliases": [
+      "GDCNI"
+    ]
+  },
+  "Meta": {
+    "aliases": [
+      "Meta"
+    ]
+  },
+  "Tongji University": {
+    "aliases": [
+      "Tongji University"
+    ]
+  },
+  "Ericsson Limited": {
+    "aliases": [
+      "Ericsson Limited"
+    ]
+  },
+  "Pengcheng Laboratory": {
+    "aliases": [
+      "Pengcheng Laboratory"
+    ]
+  },
+  "Continental Automotive GmbH": {
+    "aliases": [
+      "Continental Automotive GmbH"
+    ]
+  },
+  "SIA": {
+    "aliases": [
+      "SIA"
+    ]
+  },
+  "NTU": {
+    "aliases": [
+      "NTU"
+    ]
+  },
+  "HTC": {
+    "aliases": [
+      "HTC"
+    ]
+  },
+  "Virtuosys": {
+    "aliases": [
+      "Virtuosys"
+    ]
+  },
+  "General Motors": {
+    "aliases": [
+      "General Motors"
+    ]
+  },
+  "ABS": {
+    "aliases": [
+      "ABS"
+    ]
+  },
+  "WI rapporteur (Huawei)": {
+    "aliases": [
+      "WI rapporteur (Huawei)"
+    ]
+  },
+  "SEU": {
+    "aliases": [
+      "SEU"
+    ]
+  },
+  "Inmarsat": {
+    "aliases": [
+      "Inmarsat"
+    ]
+  },
+  "WI rapporteur (Qualcomm Incorporated)": {
+    "aliases": [
+      "WI rapporteur (Qualcomm Incorporated)"
+    ]
+  },
+  "Hyundai Motors": {
+    "aliases": [
+      "Hyundai Motors"
+    ]
+  },
+  "Telecom Italia": {
+    "aliases": [
+      "TELECOM ITALIA",
+      "Telecom Italia"
+    ]
+  },
+  "Sierra Wireless. S.A": {
+    "aliases": [
+      "Sierra Wireless. S.A."
+    ]
+  },
+  "Moderators (Ericsson, MediaTek)": {
+    "aliases": [
+      "Moderators (Ericsson, MediaTek)"
+    ]
+  },
+  "Everactive": {
+    "aliases": [
+      "Everactive"
+    ]
+  },
+  "NIST": {
+    "aliases": [
+      "NIST"
+    ]
+  },
+  "Iridium Satellite LLC": {
+    "aliases": [
+      "Iridium Satellite LLC"
+    ]
+  },
+  "NTT": {
+    "aliases": [
+      "NTT"
+    ]
+  },
+  "Nomor Research GmbH": {
+    "aliases": [
+      "Nomor Research GmbH"
+    ]
+  },
+  "PML": {
+    "aliases": [
+      "PML"
+    ]
+  },
+  "Huawei, HiSilicon": {
+    "aliases": [
+      "Huawei, HiSilicon"
+    ]
+  },
+  "WI rapporteur (Nokia)": {
+    "aliases": [
+      "WI rapporteur (Nokia)"
+    ]
+  },
+  "WI rapporteur (Ericsson)": {
+    "aliases": [
+      "WI rapporteur (Ericsson)"
+    ]
+  },
+  "CSCN": {
+    "aliases": [
+      "CSCN"
+    ]
+  },
+  "Viasat": {
+    "aliases": [
+      "Viasat"
+    ]
+  },
+  "HuaWei Technologies Co": {
+    "aliases": [
+      "HuaWei Technologies Co."
+    ]
+  },
+  "ALU": {
+    "aliases": [
+      "ALU"
+    ]
+  },
+  "Straight Path": {
+    "aliases": [
+      "Straight Path"
+    ]
+  },
+  "FiberHome": {
+    "aliases": [
+      "FiberHome",
+      "Fiberhome"
+    ]
+  },
+  "IRT": {
+    "aliases": [
+      "IRT"
+    ]
+  },
+  "Moderators (AT&T, NTT DOCOMO)": {
+    "aliases": [
+      "Moderators (AT&T, NTT DOCOMO)"
+    ]
+  },
+  "Lockheed Martin": {
+    "aliases": [
+      "Lockheed Martin"
+    ]
+  },
+  "Locaila": {
+    "aliases": [
+      "Locaila"
+    ]
+  },
+  "IITK": {
+    "aliases": [
+      "IITK"
+    ]
+  },
+  "Eutelsat Group": {
+    "aliases": [
+      "Eutelsat Group"
+    ]
+  },
+  "Reliance-jio": {
+    "aliases": [
+      "Reliance-jio"
+    ]
+  },
+  "Cohere": {
+    "aliases": [
+      "Cohere"
+    ]
+  },
+  "IMT": {
+    "aliases": [
+      "IMT"
+    ]
+  },
+  "ATT": {
+    "aliases": [
+      "ATT"
+    ]
+  },
+  "Comcast": {
+    "aliases": [
+      "Comcast"
+    ]
+  },
+  "SPRINT Corporation": {
+    "aliases": [
+      "SPRINT Corporation"
+    ]
+  },
+  "Eutelsat": {
+    "aliases": [
+      "Eutelsat"
+    ]
+  },
+  "Kookmin University": {
+    "aliases": [
+      "Kookmin University"
+    ]
+  },
+  "u-blox": {
+    "aliases": [
+      "u-blox"
+    ]
+  },
+  "Spirent": {
+    "aliases": [
+      "Spirent"
+    ]
+  },
+  "OnStar Europe": {
+    "aliases": [
+      "OnStar Europe"
+    ]
+  },
+  "CEA-LETI": {
+    "aliases": [
+      "CEA-LETI"
+    ]
+  },
+  "Telefonica": {
+    "aliases": [
+      "Telefonica",
+      "Telefónica"
+    ]
+  },
+  "CCU": {
+    "aliases": [
+      "CCU"
+    ]
+  },
+  "Semtech Neuchatel SA": {
+    "aliases": [
+      "Semtech Neuchatel SA"
+    ]
+  },
+  "Pengcheng laboratory": {
+    "aliases": [
+      "Pengcheng laboratory"
+    ]
+  },
+  "Hanbat National University": {
+    "aliases": [
+      "Hanbat National University"
+    ]
+  },
+  "Void": {
+    "aliases": [
+      "Void"
+    ]
+  },
+  "Acorn Technologies": {
+    "aliases": [
+      "Acorn Technologies"
+    ]
+  },
+  "BlackBerry": {
+    "aliases": [
+      "BlackBerry",
+      "Blackberry"
+    ]
+  }
+}

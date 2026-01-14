@@ -1,261 +1,13 @@
 {
-  "start_time": "2025-11-07T13:50:50.057056",
-  "total_files": 106049,
-  "docx_copied": 86630,
-  "doc_converted": 19275,
-  "skipped_already_converted": 103533,
+  "start_time": "2026-01-13T17:33:55.988097",
+  "total_files": 115498,
+  "docx_copied": 92313,
+  "doc_converted": 23158,
+  "skipped_already_converted": 115360,
   "errors": [],
   "conversion_errors": [
     {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_100_e/Docs/R1-2001386/__MACOSX/._R1- 2001386 NR_pos_LS_100e_final.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_100b_e/Docs/R1-2003061/__MACOSX/._R1-2003061.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_100b_e/Docs/R1-2002303/__MACOSX/._R1-2002303 Congestion control and QoS Management for NR-V2X.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_100b_e/Docs/R1-2003054/__MACOSX/._R1-2003054.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_101-e/Docs/R1-2004192/__MACOSX/._R1-2004192 TechPos.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_101-e/Docs/R1-2004190/__MACOSX/._R1-2004190 ScenPos.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_101-e/Docs/R1-2004191/__MACOSX/._R1-2004191 EvalPos.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_103-e/Docs/R1-2009506/__MACOSX/._R1-2009506 CR_L1SINR_ZP_NZP.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_103-e/Docs/R1-2009685/__MACOSX/._R1-2009685 CR_CBRA_BFR_with_track_change_r1.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_103-e/Docs/R1-2007831/__MACOSX/._R1-2007831 Evaluation of HST-SFN enhancement.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_103-e/Docs/R1-2009686/__MACOSX/._R1-2009686 CR_L1SINR_Measurement_Restriction_with_track_change_r1.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_104-e/Docs/R1-2101336/__MACOSX/._R1-2101336.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_104-e/Docs/R1-2102020/__MACOSX/._R1-2102020 CR for MB9.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_105-e/Docs/R1-2105785/__MACOSX/._R1-2105785 Channel access mechanisms for NR above 52 GHz v0.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_105-e/Docs/R1-2105784/__MACOSX/._R1-2105784 PDSCH-PUSCH enhancements for NR above 52 GHz v1 pp.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_105-e/Docs/R1-2105787/__MACOSX/._R1-2105787 Discussion on how to introduce the 52.6-71GHz frequency range v1.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_105-e/Docs/R1-2105786/__MACOSX/._R1-2105786 Further details of initial access for NR above 52.6 GHz v0.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_106-e/Docs/R1-2107112/__MACOSX/._R1-2107112 Further discussion of initial access for NR above 52.6 GHz v0.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_106-e/Docs/R1-2107111/__MACOSX/._R1-2107111 Channel access mechanisms for NR above 52 GHz v0.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_106-e/Docs/R1-2107121/__MACOSX/._R1-2107121.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_106b-e/Docs/R1-2110662/__MACOSX/._R1-2110662.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_106b-e/Docs/R1-2109452/__MACOSX/._R1-2109452.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_106b-e/Docs/R1-2110247/__MACOSX/._R1-2110247 Channel access mechanisms for NR above 52 GHz v0.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_107-e/Docs/R1-2111418/__MACOSX/._R1-2111418 Channel access mechanisms for NR above 52 GHz v0.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_107-e/Docs/R1-2111590/__MACOSX/._R1-2111590.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_109-e/Docs/R1-2204051/__MACOSX/._R1-2204051_CSI_enh_AI9222.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_110/Docs/R1-2207079/__MACOSX/._R1-2207079 Evaluation and power model for network energy savings .doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_110/Docs/R1-2207301/__MACOSX/._R1-2207301 Discussion on XR-specific capacity improvements.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_110/Docs/R1-2206495/__MACOSX/._R1-2206495 Power saving techniques for XR.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_110/Docs/R1-2207153/__MACOSX/._R1-2207153_CSI_other_aspects_AI9222_final.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_110/Docs/R1-2206250/__MACOSX/._R1-2206250 Evaluation of AI_ML based beam management.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_110b-e/Docs/R1-2209620/__MACOSX/._R1-2209620 Discussion on XR-specific capacity improvements.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_110b-e/Docs/R1-2209617/__MACOSX/._R1-2209617 Discussion on network energy savings performance.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_110b-e/Docs/R1-2210200/__MACOSX/._R1-2210200 Timing advance alignment with low latency.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_110b-e/Docs/R1-2209618/__MACOSX/._R1-2209618 Discussion on network energy saving techniques.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_110b-e/Docs/R1-2209613/__MACOSX/._R1-2209613 Evaluation of AI:ML based beam management.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_110b-e/Docs/R1-2209622/__MACOSX/._R1-2209622 Receiver architectures for low power WUS.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_110b-e/Docs/R1-2209619/__MACOSX/._R1-2209619 Power saving techniques for XR.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_110b-e/Docs/R1-2209641/__MACOSX/._R1-2209641_CSI_other_aspects_AI9222.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_110b-e/Docs/R1-2209621/__MACOSX/._R1-2209621 Discussion on low power WUS evaluation.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_111/Docs/R1-2212498/__MACOSX/._R1-2212498 draft reply LS to R1-2210804(R2-2210917).doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_111/Docs/R1-2211938/__MACOSX/._R1-2211938- Views on the scope for Rel-18 network energy saving techniques.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_111/Docs/R1-2211733/__MACOSX/._R1-2211733_CSI_other_aspects_AI9222.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_111/Docs/R1-2212315/__MACOSX/._R1-2212315 Discussion on network energy saving techniques.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_111/Docs/R1-2212316/__MACOSX/._R1-2212316 Evaluation of low power WUS.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_111/Docs/R1-2212318/__MACOSX/._R1-2212318 L1 signal design for low power WUS.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_111/Docs/R1-2212321/__MACOSX/._R1-2212321 Reduced latency for inter-cell beam management.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_111/Docs/R1-2212317/__MACOSX/._R1-2212317 Receiver architectures for low power WUS.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_112/Docs/R1-2301122/__MACOSX/._R1-2301122 Ericsson - [Draft] Reply LS on SL LBT failure indication and consistent SL LBT failure.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_112/Docs/R1-2301157/__MACOSX/._R1-2301157_CSI_other_aspects_AI9222.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_112/Docs/R1-2301120/__MACOSX/._R1-2301120 Ericsson - [Draft] Reply LS on CAPC for SL-U.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_112/Docs/R1-2301124/__MACOSX/._R1-2301124 Ericsson - [Draft] Reply LS on PSFCH configured power with multiple resource pools.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_112/Docs/R1-2301126/__MACOSX/._R1-2301126 Ericsson - [Draft] Reply LS on default CBR configuration.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_112b-e/Docs/R1-2303321/__MACOSX/._R1-2303321 Ericsson - [Draft] Reply LS on Comparison of SL-RSRP and SD-RSRP measurements.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_112b-e/Docs/R1-2303319/__MACOSX/._R1-2303319 Ericsson - [Draft] Reply LS on SL resource (re)selection.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_112b-e/Docs/R1-2302823/__MACOSX/._R1-2302823_CSI_other_aspects_AI9222_final.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_113/Docs/R1-2305920/__MACOSX/._R1-2305920 Ericsson - [Draft] Reply LS on RACH-less Handover.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_113/Docs/R1-2305220/__MACOSX/._R1-2305220.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_113/Docs/R1-2305221/__MACOSX/._R1-2305221.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_113/Docs/R1-2304780/__MACOSX/._R1-2304780_CSI_other_aspects_AI9222_final.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_113/Docs/R1-2305219/__MACOSX/._R1-2305219.doc",
-      "error": "Output file not created"
-    },
-    {
       "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_114/Docs/R1-2306811/R1-2306811/~$-2306809.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_114/Docs/R1-2307252/__MACOSX/._R1-2307252_CSI_other_aspects_AI9222.doc",
       "error": "Output file not created"
     },
     {
@@ -263,47 +15,7 @@
       "error": "Output file not created"
     },
     {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_114b/Docs/R1-2310217/__MACOSX/._R1-2310217 Ericsson - [Draft] Reply LS on SL RB set index and LBT failure indication for PSFCH.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_114b/Docs/R1-2309957/__MACOSX/._R1-2309957.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_114b/Docs/R1-2309956/__MACOSX/._R1-2309956_CSI_other_aspects_AI8142.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_114b/Docs/R1-2310216/__MACOSX/._R1-2310216 Ericsson - [Draft] Reply LS on frequencyInfo for NR SL RSRP measurements.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_114b/Docs/R1-2309814/__MACOSX/._R1-2309814.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_115/Docs/R1-2312175/__MACOSX/._R1-2312175 Ericsson - [Draft] Reply LS on RAN2 progress of NTN Self Evaluation.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_115/Docs/R1-2311540/__MACOSX/._R1-2311540_CSI_other_aspects_AI8142.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_115/Docs/R1-2311660/__MACOSX/._R1-2311660.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_118/Docs/R1-2406876/__MACOSX/._R1-2406876 Ericsson - [Draft] Reply LS on DL coverage enhancements.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_84/Docs/R1-160711/__MACOSX/._R1-160711_NBIoT_PBCH-less_carrier.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_84/Docs/R1-160710/__MACOSX/._R1-160710_NBIoT_flexible_duplex_gap_r4.doc",
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_84/Docs/R1-160281/R1-160281.doc",
       "error": "Output file not created"
     },
     {
@@ -315,31 +27,11 @@
       "error": "Output file not created"
     },
     {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_85/Docs/R1-164973/__MACOSX/._R1-164973_SB_NR_LTE_coex_r2.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_85/Docs/R1-164974/__MACOSX/._R1-164974_SB_feCoMP_scenario_r2.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_86b/Docs/R1-1608935/__MACOSX/._R1-1608935.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_86b/Docs/R1-1608936/__MACOSX/._R1-1608936.doc",
-      "error": "Output file not created"
-    },
-    {
       "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_87/Docs/R1-1612757/._R1-1612757 Reduced HARQ timing for NR.doc",
       "error": "Output file not created"
     },
     {
       "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_87/Docs/R1-1612756/._R1-1612756 IBFD.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_87/Docs/R1-1612626/__MACOSX/._R1-1612626.doc",
       "error": "Output file not created"
     },
     {
@@ -351,31 +43,11 @@
       "error": "Output file not created"
     },
     {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_87/Docs/R1-1612767/__MACOSX/._R1-1612767_SB_SRS_sw.doc",
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_88b/Docs/R1-1705660/._R1-1705660 On HARQ-ACK feedback for NR.doc",
       "error": "Output file not created"
     },
     {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_87/Docs/R1-1612766/__MACOSX/._R1-1612766_SB_sPT_TA.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_87/Docs/R1-1612768/__MACOSX/._R1-1612768_SB_NB-IoT_2HARQ.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_88/Docs/R1-1702759/__MACOSX/._R1-1702759.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_88/Docs/R1-1703979/__MACOSX/._R1-1703979.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_88/Docs/R1-1704077/__MACOSX/._R1-1704077.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_88/Docs/R1-1702762/__MACOSX/._R1-1702762.doc",
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_88b/Docs/R1-1705659/._R1-1705659 On UL power control for NR.doc",
       "error": "Output file not created"
     },
     {
@@ -387,79 +59,15 @@
       "error": "Output file not created"
     },
     {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_90b/Docs/R1-1717782/__MACOSX/._R1-1717782 Slot Format Indicator in Group-common PDCCH.v3.doc",
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_90/Docs/R1-1714768/R1-1714768/~$-1714768.doc",
       "error": "Output file not created"
     },
     {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_90b/Docs/R1-1717781/__MACOSX/._R1-1717781 Control Information for UE power saving.v3.doc",
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_91/Docs/R1-1721430/R1-1721430.doc",
       "error": "Output file not created"
     },
     {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_91/Docs/R1-1720118/__MACOSX/._R1-1720118 Slot Format Indicator in Group-common PDCCH.v2.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_91/Docs/R1-1721060/R1-1721060-draft CR36213 EPDCCH SSC10.doc",
-      "error": "TIMEOUT (30s) - process group killed"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_91/Docs/R1-1721053/__MACOSX/._R1-1721053_SB_Dynamic_TDD_r3.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_91/Docs/R1-1721329/R1-1721329 36213-e40_s06-s09_stti_fa2.doc",
-      "error": "TIMEOUT (30s) - process group killed"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_91/Docs/R1-1721341/R1-1721341 38211-130 (with change marks).doc",
-      "error": "TIMEOUT (30s) - process group killed"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_91/Docs/R1-1720546/__MACOSX/._R1-1720546 UE power saving with BWP of Size Zero.v2.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_91/Docs/R1-1721099/R1-1721099.doc",
-      "error": "TIMEOUT (30s) - process group killed"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_91/Docs/R1-1721064/R1-1721064-draft CR36213 EPDCCH SSC10.doc",
-      "error": "TIMEOUT (30s) - process group killed"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_91/Docs/R1-1721071/36213-e40_s06-s09_FECOMP_f2.doc",
-      "error": "TIMEOUT (30s) - process group killed"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_91/Docs/R1-1720774/__MACOSX/._R1-1720774_SB_Dynamic_TDD.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_92/Docs/R1-1801691/R1-1801691-draft CR36213-symPUSCH-UpPts-r14 PHICH Assignment .doc",
-      "error": "TIMEOUT (30s) - process group killed"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_92/Docs/R1-1801692/R1-1801692-draft CR36211-symPUSCH-UpPts-r14 PHICH Assignment.doc",
-      "error": "TIMEOUT (30s) - process group killed"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_92/Docs/R1-1803543/R1-1803543 CR 38.211 after RAN1_92.doc",
-      "error": "TIMEOUT (30s) - process group killed"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_92/Docs/R1-1802986/R1-1802986.doc",
-      "error": "TIMEOUT (30s) - process group killed"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_92/Docs/R1-1803185/R1-1803185.doc",
-      "error": "TIMEOUT (30s) - process group killed"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_92/Docs/R1-1803186/R1-1803186.doc",
-      "error": "TIMEOUT (30s) - process group killed"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_92/Docs/R1-1803179/R1-1803179.doc",
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_91/Docs/R1-1719594/R1-1719594-draft CR36213 EPDCCH SSC10.doc",
       "error": "TIMEOUT (30s) - process group killed"
     },
     {
@@ -475,129 +83,41 @@
       "error": "Output file not created"
     },
     {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_92b/Docs/R1-1804963/R1-1804963_Disscussion on UL multiplexing of transmissions with different reliability requirements.doc",
+      "error": "Output file not created"
+    },
+    {
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_93/Docs/R1-1807179/R1-1807179_Remaining issues on CSI reporting .doc",
+      "error": "Output file not created"
+    },
+    {
       "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_93/Docs/R1-1807169/._R1-1807169 Coding schemes for NOMA in mMTC.doc",
       "error": "Output file not created"
     },
     {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_94/Docs/R1-1809483/__MACOSX/._R1-1809483 NB-IoT_UEgroupWUS.doc",
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_94b/Docs/R1-1811092/R1-1811092_Discussion on support of unicast, groupcast and broadcast in NR V2X.doc",
       "error": "Output file not created"
     },
     {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_94/Docs/R1-1808347/__MACOSX/._R1-1808347 MTC_UEgroupWUS.doc",
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_94b/Docs/R1-1811094/R1-1811094_Discussion on UL inter UE Tx multiplexing.doc",
       "error": "Output file not created"
     },
     {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_94b/Docs/R1-1811137/__MACOSX/._R1-1811137 - eNRpsav.doc",
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_94b/Docs/R1-1811093/R1-1811093_Discussion on the resource allocation for NR-V2X.doc",
       "error": "Output file not created"
     },
     {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_94b/Docs/R1-1810648/__MACOSX/._R1-1810648 MTC_UEgroup.doc",
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_95/Docs/R1-1813387/R1-1813387_Discussion on CSI enhancement for MU-MIMO.doc",
       "error": "Output file not created"
     },
     {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_94b/Docs/R1-1811098/__MACOSX/._R1-1811098.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_94b/Docs/R1-1810646/__MACOSX/._R1-1810646 - NR Positioning req.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_94b/Docs/R1-1810647/__MACOSX/._R1-1810647 - NR OTDOA.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_95/Docs/R1-1812749/__MACOSX/._R1-1812749 - NRpowSav.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_95/Docs/R1-1813145/__MACOSX/._R1-1813145.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_95/Docs/R1-1813148/__MACOSX/._R1-1813148.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_96/Docs/R1-1902165/__MACOSX/._R1-1902165 - TwosRACH.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_96/Docs/R1-1903682/__MACOSX/._R1-1903682 Correction on physical downlink control channel_v6.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_96/Docs/R1-1903420/__MACOSX/R1-1903420/._R1-1903420 Correction on physical downlink control channel_v2.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_96/Docs/R1-1903566/__MACOSX/._R1-1903566 Correction on physical downlink control channel_v5.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_96b/Docs/R1-1905505/__MACOSX/._R1-1905505 Ericsson- Draft Reply LS reply on RLM and RLF for NR V2X in unicast.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_96b/Docs/R1-1904246/__MACOSX/._R1-1904246 - 2SpRACH.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_96b/Docs/R1-1905481/__MACOSX/._R1-1905481 Ericsson - On congestion control for NR SL.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_98/Docs/R1-1909600/__MACOSX/._R1-1909600 Correction on RA procedure triggered by higher layers_v1.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_98/Docs/R1-1908105/__MACOSX/._R1-1908105.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_98b/Docs/R1-1910434/__MACOSX/._R1-1910434 Enhancements for PBCH reception in the CAS.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_98b/Docs/R1-1910934/__MACOSX/._R1-1910934.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_98b/Docs/R1-1910367/__MACOSX/._R1-1910367.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_98b/Docs/R1-1910171/__MACOSX/._R1-1910171.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_98b/Docs/R1-1910172/__MACOSX/._R1-1910172.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_98b/Docs/R1-1910170/__MACOSX/._R1-1910170.doc",
-      "error": "Output file not created"
-    },
-    {
-      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_99/Docs/R1-1912769/__MACOSX/._R1-1912769.doc",
+      "file": "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_95/Docs/R1-1813388/R1-1813388_Views on inter-UE Prioritization and Multiplexing of UL Transmission.doc",
       "error": "Output file not created"
     }
   ],
   "timeout_files": [
-    "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_91/Docs/R1-1721060/R1-1721060-draft CR36213 EPDCCH SSC10.doc",
-    "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_91/Docs/R1-1721329/R1-1721329 36213-e40_s06-s09_stti_fa2.doc",
-    "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_91/Docs/R1-1721341/R1-1721341 38211-130 (with change marks).doc",
-    "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_91/Docs/R1-1721099/R1-1721099.doc",
-    "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_91/Docs/R1-1721064/R1-1721064-draft CR36213 EPDCCH SSC10.doc",
-    "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_91/Docs/R1-1721071/36213-e40_s06-s09_FECOMP_f2.doc",
-    "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_92/Docs/R1-1801691/R1-1801691-draft CR36213-symPUSCH-UpPts-r14 PHICH Assignment .doc",
-    "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_92/Docs/R1-1801692/R1-1801692-draft CR36211-symPUSCH-UpPts-r14 PHICH Assignment.doc",
-    "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_92/Docs/R1-1803543/R1-1803543 CR 38.211 after RAN1_92.doc",
-    "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_92/Docs/R1-1802986/R1-1802986.doc",
-    "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_92/Docs/R1-1803185/R1-1803185.doc",
-    "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_92/Docs/R1-1803186/R1-1803186.doc",
-    "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_92/Docs/R1-1803179/R1-1803179.doc"
+    "/home/sihyeon/workspace/spec-trace/data/data_extracted/meetings/RAN1/TSGR1_91/Docs/R1-1719594/R1-1719594-draft CR36213 EPDCCH SSC10.doc"
   ],
-  "end_time": "2025-11-07T14:48:12.283287",
-  "duration_seconds": 3442.226231
+  "end_time": "2026-01-13T17:34:56.254637",
+  "duration_seconds": 60.26654
 }
