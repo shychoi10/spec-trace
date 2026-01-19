@@ -14,13 +14,13 @@
 
 <http://3gpp.org/ontology/tdoc> a owl:Ontology ;
     dc:title "3GPP TDoc Ontology"@en ;
-    dc:description "Ontology for 3GPP RAN1 Technical Documents (TDoc) metadata with Final Report Decision support"@en ;
+    dc:description "Ontology for 3GPP RAN1 Technical Documents (TDoc) metadata"@en ;
     dc:creator "spec-trace project" ;
-    dc:date "2026-01-19" ;
-    owl:versionInfo "2.0.0" .
+    dc:date "2026-01-14" ;
+    owl:versionInfo "1.0.0" .
 
 # =============================================================================
-# Classes (17 classes)
+# Classes (11 classes)
 # =============================================================================
 
 # -----------------------------------------------------------------------------
@@ -40,39 +40,6 @@ tdoc:LS a owl:Class ;
     rdfs:subClassOf tdoc:Tdoc ;
     rdfs:label "Liaison Statement"@en ;
     rdfs:comment "Liaison Statement for official communication between Working Groups or external organizations"@en .
-
-tdoc:Summary a owl:Class ;
-    rdfs:subClassOf tdoc:Tdoc ;
-    rdfs:label "Summary"@en ;
-    rdfs:comment "FL Summary or Moderator Summary document from Final Report"@en .
-
-tdoc:SessionNotes a owl:Class ;
-    rdfs:subClassOf tdoc:Tdoc ;
-    rdfs:label "Session Notes"@en ;
-    rdfs:comment "Session notes for ad-hoc discussions from Final Report"@en .
-
-# -----------------------------------------------------------------------------
-# Decision Classes (Phase-3)
-# -----------------------------------------------------------------------------
-
-tdoc:Decision a owl:Class ;
-    rdfs:label "Decision"@en ;
-    rdfs:comment "Abstract base class for meeting decisions (Agreement, Conclusion, WorkingAssumption)"@en .
-
-tdoc:Agreement a owl:Class ;
-    rdfs:subClassOf tdoc:Decision ;
-    rdfs:label "Agreement"@en ;
-    rdfs:comment "Technical agreement reached in the meeting"@en .
-
-tdoc:Conclusion a owl:Class ;
-    rdfs:subClassOf tdoc:Decision ;
-    rdfs:label "Conclusion"@en ;
-    rdfs:comment "Discussion conclusion (may or may not have consensus)"@en .
-
-tdoc:WorkingAssumption a owl:Class ;
-    rdfs:subClassOf tdoc:Decision ;
-    rdfs:label "Working Assumption"@en ;
-    rdfs:comment "Tentative assumption that may be promoted to Agreement"@en .
 
 # -----------------------------------------------------------------------------
 # Reference Classes
@@ -113,7 +80,7 @@ tdoc:WorkingGroup a owl:Class ;
     rdfs:comment "3GPP Working Group (e.g., RAN1, RAN2, SA2)"@en .
 
 # =============================================================================
-# Object Properties (22 properties)
+# Object Properties (14 properties)
 # =============================================================================
 
 # -----------------------------------------------------------------------------
@@ -216,79 +183,8 @@ tdoc:originalLS a owl:ObjectProperty ;
     rdfs:domain tdoc:LS ;
     rdfs:range tdoc:Tdoc .
 
-tdoc:originatedFrom a owl:ObjectProperty ;
-    rdfs:label "originated from"@en ;
-    rdfs:comment "Working Group that originated/sent this LS"@en ;
-    rdfs:domain tdoc:LS ;
-    rdfs:range tdoc:WorkingGroup .
-
-# -----------------------------------------------------------------------------
-# Summary-specific Object Property (1)
-# -----------------------------------------------------------------------------
-
-tdoc:moderatedBy a owl:ObjectProperty ;
-    rdfs:label "moderated by"@en ;
-    rdfs:comment "Company whose employee moderated this Summary discussion"@en ;
-    rdfs:domain tdoc:Summary ;
-    rdfs:range tdoc:Company .
-
-# -----------------------------------------------------------------------------
-# SessionNotes-specific Object Property (1)
-# -----------------------------------------------------------------------------
-
-tdoc:chairedBy a owl:ObjectProperty ;
-    rdfs:label "chaired by"@en ;
-    rdfs:comment "Company whose employee chaired this session"@en ;
-    rdfs:domain tdoc:SessionNotes ;
-    rdfs:range tdoc:Company .
-
-# -----------------------------------------------------------------------------
-# Company-specific Object Property (1)
-# -----------------------------------------------------------------------------
-
-tdoc:rapporteurOf a owl:ObjectProperty ;
-    rdfs:label "rapporteur of"@en ;
-    rdfs:comment "Work Item(s) for which this company serves as rapporteur"@en ;
-    rdfs:domain tdoc:Company ;
-    rdfs:range tdoc:WorkItem .
-
-# -----------------------------------------------------------------------------
-# Decision Object Properties (5)
-# -----------------------------------------------------------------------------
-
-tdoc:references a owl:ObjectProperty ;
-    rdfs:label "references"@en ;
-    rdfs:comment "TDoc(s) referenced in this Decision content"@en ;
-    rdfs:domain tdoc:Decision ;
-    rdfs:range tdoc:Tdoc .
-
-tdoc:decisionBelongsTo a owl:ObjectProperty ;
-    rdfs:label "decision belongs to"@en ;
-    rdfs:comment "Agenda Item under which this Decision was made"@en ;
-    rdfs:domain tdoc:Decision ;
-    rdfs:range tdoc:AgendaItem .
-
-tdoc:madeAt a owl:ObjectProperty ;
-    rdfs:label "made at"@en ;
-    rdfs:comment "Meeting where this Decision was made"@en ;
-    rdfs:domain tdoc:Decision ;
-    rdfs:range tdoc:Meeting .
-
-tdoc:hasDecisions a owl:ObjectProperty ;
-    rdfs:label "has decisions"@en ;
-    rdfs:comment "Decisions made under this AgendaItem"@en ;
-    rdfs:domain tdoc:AgendaItem ;
-    rdfs:range tdoc:Decision ;
-    owl:inverseOf tdoc:decisionBelongsTo .
-
-tdoc:promotedTo a owl:ObjectProperty ;
-    rdfs:label "promoted to"@en ;
-    rdfs:comment "Agreement that this WorkingAssumption was promoted to"@en ;
-    rdfs:domain tdoc:WorkingAssumption ;
-    rdfs:range tdoc:Agreement .
-
 # =============================================================================
-# Data Properties (50 properties)
+# Data Properties (30 properties)
 # =============================================================================
 
 # -----------------------------------------------------------------------------
@@ -522,173 +418,5 @@ tdoc:wgName a owl:DatatypeProperty ;
     rdfs:range xsd:string .
 
 # =============================================================================
-# Phase-3: New Data Properties (19 properties)
-# =============================================================================
-
-# -----------------------------------------------------------------------------
-# Summary Data Properties (2)
-# -----------------------------------------------------------------------------
-
-tdoc:summaryType a owl:DatatypeProperty ;
-    rdfs:label "summary type"@en ;
-    rdfs:comment "Type of summary: FL (Feature Lead) or Moderator"@en ;
-    rdfs:domain tdoc:Summary ;
-    rdfs:range xsd:string .
-
-tdoc:roundNumber a owl:DatatypeProperty ;
-    rdfs:label "round number"@en ;
-    rdfs:comment "Round number for the summary (0, 1, 2, ...)"@en ;
-    rdfs:domain tdoc:Summary ;
-    rdfs:range xsd:integer .
-
-# -----------------------------------------------------------------------------
-# Decision Data Properties (4)
-# -----------------------------------------------------------------------------
-
-tdoc:decisionId a owl:DatatypeProperty ;
-    rdfs:label "decision ID"@en ;
-    rdfs:comment "Unique identifier for the decision (e.g., AGR-112-8.1-001)"@en ;
-    rdfs:domain tdoc:Decision ;
-    rdfs:range xsd:string .
-
-tdoc:content a owl:DatatypeProperty ;
-    rdfs:label "content"@en ;
-    rdfs:comment "Full text content of the decision"@en ;
-    rdfs:domain tdoc:Decision ;
-    rdfs:range xsd:string .
-
-tdoc:sessionContext a owl:DatatypeProperty ;
-    rdfs:label "session context"@en ;
-    rdfs:comment "Session information (e.g., 'Friday session', 'Online')"@en ;
-    rdfs:domain tdoc:Decision ;
-    rdfs:range xsd:string .
-
-tdoc:note a owl:DatatypeProperty ;
-    rdfs:label "note"@en ;
-    rdfs:comment "Additional note attached to the decision"@en ;
-    rdfs:domain tdoc:Decision ;
-    rdfs:range xsd:string .
-
-# -----------------------------------------------------------------------------
-# Agreement Data Properties (2)
-# -----------------------------------------------------------------------------
-
-tdoc:hasFFS a owl:DatatypeProperty ;
-    rdfs:label "has FFS"@en ;
-    rdfs:comment "Whether the agreement contains 'For Further Study' marker"@en ;
-    rdfs:domain tdoc:Agreement ;
-    rdfs:range xsd:boolean .
-
-tdoc:hasTBD a owl:DatatypeProperty ;
-    rdfs:label "has TBD"@en ;
-    rdfs:comment "Whether the agreement contains 'To Be Determined' marker"@en ;
-    rdfs:domain tdoc:Agreement ;
-    rdfs:range xsd:boolean .
-
-# -----------------------------------------------------------------------------
-# Conclusion Data Property (1)
-# -----------------------------------------------------------------------------
-
-tdoc:hasConsensus a owl:DatatypeProperty ;
-    rdfs:label "has consensus"@en ;
-    rdfs:comment "Whether consensus was reached for this conclusion"@en ;
-    rdfs:domain tdoc:Conclusion ;
-    rdfs:range xsd:boolean .
-
-# -----------------------------------------------------------------------------
-# Meeting Data Properties Extension (4)
-# -----------------------------------------------------------------------------
-
-tdoc:meetingId a owl:DatatypeProperty ;
-    rdfs:label "meeting ID"@en ;
-    rdfs:comment "Meeting identifier (e.g., RAN1#112)"@en ;
-    rdfs:domain tdoc:Meeting ;
-    rdfs:range xsd:string .
-
-tdoc:location a owl:DatatypeProperty ;
-    rdfs:label "location"@en ;
-    rdfs:comment "Meeting location (e.g., Athens, Greece)"@en ;
-    rdfs:domain tdoc:Meeting ;
-    rdfs:range xsd:string .
-
-tdoc:startDate a owl:DatatypeProperty ;
-    rdfs:label "start date"@en ;
-    rdfs:comment "Meeting start date"@en ;
-    rdfs:domain tdoc:Meeting ;
-    rdfs:range xsd:date .
-
-tdoc:endDate a owl:DatatypeProperty ;
-    rdfs:label "end date"@en ;
-    rdfs:comment "Meeting end date"@en ;
-    rdfs:domain tdoc:Meeting ;
-    rdfs:range xsd:date .
-
-tdoc:isVirtual a owl:DatatypeProperty ;
-    rdfs:label "is virtual"@en ;
-    rdfs:comment "Whether the meeting was held online/virtually"@en ;
-    rdfs:domain tdoc:Meeting ;
-    rdfs:range xsd:boolean .
-
-# -----------------------------------------------------------------------------
-# Company Data Property Extension (1)
-# -----------------------------------------------------------------------------
-
-tdoc:companyId a owl:DatatypeProperty ;
-    rdfs:label "company ID"@en ;
-    rdfs:comment "Normalized company identifier"@en ;
-    rdfs:domain tdoc:Company ;
-    rdfs:range xsd:string .
-
-# -----------------------------------------------------------------------------
-# Contact Data Property Extension (1)
-# -----------------------------------------------------------------------------
-
-tdoc:email a owl:DatatypeProperty ;
-    rdfs:label "email"@en ;
-    rdfs:comment "Contact email address"@en ;
-    rdfs:domain tdoc:Contact ;
-    rdfs:range xsd:string .
-
-# -----------------------------------------------------------------------------
-# WorkItem Data Property Extension (1)
-# -----------------------------------------------------------------------------
-
-tdoc:wiTitle a owl:DatatypeProperty ;
-    rdfs:label "work item title"@en ;
-    rdfs:comment "Full title of the Work Item"@en ;
-    rdfs:domain tdoc:WorkItem ;
-    rdfs:range xsd:string .
-
-# -----------------------------------------------------------------------------
-# Release Data Property Extension (1)
-# -----------------------------------------------------------------------------
-
-tdoc:releaseId a owl:DatatypeProperty ;
-    rdfs:label "release ID"@en ;
-    rdfs:comment "Release identifier (e.g., Rel-18)"@en ;
-    rdfs:domain tdoc:Release ;
-    rdfs:range xsd:string .
-
-# -----------------------------------------------------------------------------
-# Spec Data Property Extension (1)
-# -----------------------------------------------------------------------------
-
-tdoc:specType a owl:DatatypeProperty ;
-    rdfs:label "spec type"@en ;
-    rdfs:comment "Specification type: TS (Technical Specification) or TR (Technical Report)"@en ;
-    rdfs:domain tdoc:Spec ;
-    rdfs:range xsd:string .
-
-# -----------------------------------------------------------------------------
-# WorkingGroup Data Property Extension (1)
-# -----------------------------------------------------------------------------
-
-tdoc:groupId a owl:DatatypeProperty ;
-    rdfs:label "group ID"@en ;
-    rdfs:comment "Working Group identifier (e.g., RAN1)"@en ;
-    rdfs:domain tdoc:WorkingGroup ;
-    rdfs:range xsd:string .
-
-# =============================================================================
-# End of TDoc Ontology v2.0.0 (Phase-3)
+# End of TDoc Ontology
 # =============================================================================
