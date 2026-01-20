@@ -596,7 +596,7 @@
     | 항목 | 1단계 (기존) | 2단계 (신규) | 합계 |
     | --- | --- | --- | --- |
     | 클래스 | 11개 | +6개 | **17개** |
-    | 관계 (Object Property) | 14개 | +8개 | **22개** |
+    | 관계 (Object Property) | 14개 | +9개 | **23개** |
     
     ---
     
@@ -804,7 +804,7 @@
     | 관계명 | Range | Cardinality | 설명 |
     | --- | --- | --- | --- |
     | references | Tdoc | 0..* | 참조 문서 |
-    | belongsTo | AgendaItem | 1 | 소속 안건 |
+    | decisionBelongsTo | AgendaItem | 1 | 소속 안건 |
     | madeAt | Meeting | 1 | 결정 회의 |
     
     ---
@@ -903,11 +903,11 @@
     | 9 | modifies | CR | Spec | 변경 대상 규격 |
     | 10 | sentTo | LS | WorkingGroup | LS 수신 WG |
     | 11 | ccTo | LS | WorkingGroup | LS 참조 WG |
-    | 12 | originatedFrom | LS | WorkingGroup | LS 발신 WG |
+    | 12 | originalLS | LS | Tdoc | LS in의 원본 LS 문서 |
     | 13 | replyTo | LS | Tdoc | 회신 대상 문서 |
     | 14 | replyIn | LS | Tdoc | 회신 문서 |
     
-    ### 2단계 신규 관계 (8개) ⭐
+    ### 2단계 신규 관계 (9개) ⭐
     
     | # | 관계명 | Domain | Range | 설명 |
     | --- | --- | --- | --- | --- |
@@ -915,10 +915,11 @@
     | 16 | chairedBy | SessionNotes | Company | Chair 소속 회사 |
     | 17 | rapporteurOf | Company | WorkItem | Rapporteur 담당 WI |
     | 18 | references | Decision | Tdoc | 결정에서 참조하는 문서 |
-    | 19 | belongsTo | Decision | AgendaItem | 결정의 소속 안건 |
+    | 19 | decisionBelongsTo | Decision | AgendaItem | 결정의 소속 안건 |
     | 20 | madeAt | Decision | Meeting | 결정이 내려진 회의 |
-    | 21 | hasDecisions | AgendaItem | Decision | 안건에 속한 결정들 (역관계) |
+    | 21 | hasDecisions | AgendaItem | Decision | 안건에 속한 결정들 (역관계, decisionBelongsTo의 역) |
     | 22 | promotedTo | WorkingAssumption | Agreement | WA→Agreement 전환 |
+    | 23 | originatedFrom | LS | WorkingGroup | LS 발신 WG |
     
     ---
     
@@ -930,7 +931,7 @@
                                         └────┬────┘
                                              │ madeAt
                                              ▼
-    ┌──────────┐   belongsTo   ┌─────────────┴─────────────┐                 ┌───────┐
+    ┌──────────┐   decisionBelongsTo   ┌─────────────┴─────────────┐                 ┌───────┐
     │AgendaItem│◄─────────────│         Decision          │                 │ Tdoc  │
     └──────────┘               │  ┌─────────────────────┐  │────references──►├───────┤
          │                     │  │ Agreement           │  │                 │  CR   │
@@ -1005,7 +1006,7 @@
     | **Phase 0** | Final Minutes 실제 데이터 분석 | Agreement 1,009개, Conclusion 150개, WA 27개 구조 파악 |
     | **Phase 1** | 1단계 클래스 확장 검토 | Summary (FL+Moderator 통합), SessionNotes 추가 결정 |
     | **Phase 2** | 2단계 신규 클래스 확정 | Decision 계층 (Agreement, Conclusion, WA) 추가 결정 |
-    | **Phase 3** | 계층 구조 설계 | 17개 클래스, 22개 관계 확정, 클래스별 정의서 작성 |
+    | **Phase 3** | 계층 구조 설계 | 17개 클래스, 23개 관계 확정, 클래스별 정의서 작성 |
     
     ## Step 5: 속성(Slot) 정의
     
@@ -1030,7 +1031,7 @@
     | 항목 | 1단계 (기존) | 2단계 (신규) | 합계 |
     | --- | --- | --- | --- |
     | Data Property | 41개 | +9개 | **50개** |
-    | Object Property | 14개 | +8개 | **22개** |
+    | Object Property | 14개 | +9개 | **23개** |
     
     ---
     
@@ -1224,7 +1225,7 @@
     | 관계명 | Range | Cardinality | 설명 |
     | --- | --- | --- | --- |
     | references | Tdoc | 0..* | 참조 문서 |
-    | belongsTo | AgendaItem | 1 | 소속 안건 |
+    | decisionBelongsTo | AgendaItem | 1 | 소속 안건 |
     | madeAt | Meeting | 1 | 결정 회의 |
     
     ---
@@ -1411,7 +1412,7 @@
     | WorkingGroup | 2 | WorkingGroup |
     | **합계** | **50개** |  |
     
-    ### Object Property (22개)
+    ### Object Property (23개)
     
     | # | 관계명 | Domain | Range |
     | --- | --- | --- | --- |
@@ -1426,17 +1427,18 @@
     | 9 | modifies | CR | Spec |
     | 10 | sentTo | LS | WorkingGroup |
     | 11 | ccTo | LS | WorkingGroup |
-    | 12 | originatedFrom | LS | WorkingGroup |
+    | 12 | originalLS | LS | Tdoc |
     | 13 | replyTo | LS | Tdoc |
     | 14 | replyIn | LS | Tdoc |
     | 15 | moderatedBy | Summary | Company |
     | 16 | chairedBy | SessionNotes | Company |
     | 17 | rapporteurOf | Company | WorkItem |
     | 18 | references | Decision | Tdoc |
-    | 19 | belongsTo | Decision | AgendaItem |
+    | 19 | decisionBelongsTo | Decision | AgendaItem |
     | 20 | madeAt | Decision | Meeting |
     | 21 | hasDecisions | AgendaItem | Decision |
     | 22 | promotedTo | WorkingAssumption | Agreement |
+    | 23 | originatedFrom | LS | WorkingGroup |
     
     ## Step 6: 제약조건(Facet) 정의
     
@@ -1463,7 +1465,7 @@
     | 항목 | 개수 | Functional | 필수 |
     | --- | --- | --- | --- |
     | Data Property | 50개 | - | 23개 |
-    | Object Property | 22개 | 13개 | 9개 |
+    | Object Property | 23개 | 14개 | 9개 |
     
     ---
     
@@ -1614,7 +1616,7 @@
     
     ## 6.3 Object Property Facet
     
-    ### 6.3.1 전체 Object Property (22개)
+    ### 6.3.1 전체 Object Property (23개)
     
     | # | 관계명 | Domain | Range | Cardinality | Functional | Inverse |
     | --- | --- | --- | --- | --- | --- | --- |
@@ -1629,21 +1631,22 @@
     | 9 | modifies | CR | Spec | 1 | ✅ | - |
     | 10 | sentTo | LS | WorkingGroup | 1..* | ❌ | - |
     | 11 | ccTo | LS | WorkingGroup | 0..* | ❌ | - |
-    | 12 | originatedFrom | LS | WorkingGroup | 0..1 | ✅ | - |
+    | 12 | originalLS | LS | Tdoc | 0..1 | ✅ | - |
     | 13 | replyTo | LS | Tdoc | 0..1 | ✅ | replyIn |
     | 14 | replyIn | LS | Tdoc | 0..1 | ✅ | replyTo |
     | 15 | moderatedBy | Summary | Company | 1 | ✅ | - |
     | 16 | chairedBy | SessionNotes | Company | 1 | ✅ | - |
     | 17 | rapporteurOf | Company | WorkItem | 0..* | ❌ | - |
     | 18 | references | Decision | Tdoc | 0..* | ❌ | - |
-    | 19 | belongsTo | Decision | AgendaItem | 1 | ✅ | hasDecisions |
+    | 19 | decisionBelongsTo | Decision | AgendaItem | 1 | ✅ | hasDecisions |
     | 20 | madeAt | Decision | Meeting | 1 | ✅ | - |
     | 21 | hasDecisions | AgendaItem | Decision | 0..* | ❌ | belongsTo |
     | 22 | promotedTo | WorkingAssumption | Agreement | 0..1 | ✅ | - |
+    | 23 | originatedFrom | LS | WorkingGroup | 0..1 | ✅ | - |
     
     ---
     
-    ### 6.3.2 Functional Property (13개)
+    ### 6.3.2 Functional Property (14개)
     
     단일값만 허용하는 속성:
     
@@ -1654,14 +1657,15 @@
     | isRevisionOf | Tdoc | Tdoc | 이전 버전은 하나 |
     | revisedTo | Tdoc | Tdoc | 다음 버전은 하나 |
     | modifies | CR | Spec | CR은 하나의 Spec만 변경 |
-    | originatedFrom | LS | WorkingGroup | LS 발신처는 하나 |
+    | originalLS | LS | Tdoc | LS in의 원본 LS 문서 |
     | replyTo | LS | Tdoc | 회신 대상은 하나 |
     | replyIn | LS | Tdoc | 회신 문서는 하나 |
     | moderatedBy | Summary | Company | Moderator는 한 회사 |
     | chairedBy | SessionNotes | Company | Chair는 한 회사 |
-    | belongsTo | Decision | AgendaItem | 결정은 하나의 안건에만 속함 |
+    | decisionBelongsTo | Decision | AgendaItem | 결정은 하나의 안건에만 속함 |
     | madeAt | Decision | Meeting | 결정은 하나의 회의에서만 |
     | promotedTo | WorkingAssumption | Agreement | WA→Agreement는 1:1 |
+    | originatedFrom | LS | WorkingGroup | LS 발신처는 하나 |
     
     ---
     
@@ -1671,7 +1675,7 @@
     | --- | --- | --- |
     | isRevisionOf | revisedTo | Tdoc 버전 관계 |
     | replyTo | replyIn | LS 회신 관계 |
-    | belongsTo (Decision) | hasDecisions | Decision ↔ AgendaItem |
+    | decisionBelongsTo | hasDecisions | Decision ↔ AgendaItem |
     
     ---
     
@@ -1686,7 +1690,7 @@
     | 5 | sentTo | LS | 1..* | 최소 1개 WG |
     | 6 | moderatedBy | Summary | 1 | 반드시 Moderator 지정 |
     | 7 | chairedBy | SessionNotes | 1 | 반드시 Chair 지정 |
-    | 8 | belongsTo | Decision | 1 | 반드시 안건 지정 |
+    | 8 | decisionBelongsTo | Decision | 1 | 반드시 안건 지정 |
     | 9 | madeAt | Decision | 1 | 반드시 회의 지정 |
     
     ---
@@ -1717,10 +1721,10 @@
     
     | 구분 | 전체 | Functional | 필수 |
     | --- | --- | --- | --- |
-    | Tdoc 계층 | 16개 | 10개 | 7개 |
+    | Tdoc 계층 | 17개 | 11개 | 7개 |
     | Decision 계층 | 4개 | 3개 | 2개 |
     | 독립 클래스 | 2개 | 0개 | 0개 |
-    | **합계** | **22개** | **13개** | **9개** |
+    | **합계** | **23개** | **14개** | **9개** |
     
     ## Step 7: 인스턴스 생성 명세
     
@@ -1913,7 +1917,7 @@
     | 관계 | 소스 | 변환 규칙 |
     | --- | --- | --- |
     | references → Tdoc | content 내 참조 | R1-XXXXXXX 패턴 추출 |
-    | belongsTo → AgendaItem | 섹션 헤더 | Agenda 번호 추출 |
+    | decisionBelongsTo → AgendaItem | 섹션 헤더 | Agenda 번호 추출 |
     | madeAt → Meeting | 문서 메타 | 회의 번호 |
     
     ### Agreement 추가 매핑
@@ -2012,7 +2016,9 @@
       "type": "LS in",
       "direction": "in",
       "submittedBy": { "@id": "company:ran1-chair" },
-      "sentTo": [s
+      "sentTo": [
+        { "@id": "workinggroup:RAN1" }
+      ],
       "originatedFrom": { "@id": "workinggroup:RAN4" },
       "presentedAt": { "@id": "meeting:RAN1#112" }
     }
@@ -2066,7 +2072,7 @@
         { "@id": "tdoc:R1-2302088" },
         { "@id": "tdoc:R1-2302089" }
       ],
-      "belongsTo": { "@id": "agenda:8.1" },
+      "decisionBelongsTo": { "@id": "agenda:8.1" },
       "madeAt": { "@id": "meeting:RAN1#112" }
     }
     
@@ -2080,7 +2086,7 @@
       "decisionId": "CON-112-9.2-001",
       "content": "It is RAN1 understanding that any combination of TCI states is allowed for the configured TCI states",
       "hasConsensus": true,
-      "belongsTo": { "@id": "agenda:9.2" },
+      "decisionBelongsTo": { "@id": "agenda:9.2" },
       "madeAt": { "@id": "meeting:RAN1#112" }
     }
     
@@ -2094,7 +2100,7 @@
       "decisionId": "WA-112-8.1-001",
       "content": "For RAN1#111 agreement of the antenna ports indication, the UE behavior is defined as follows...",
       "sessionContext": "Online",
-      "belongsTo": { "@id": "agenda:8.1" },
+      "decisionBelongsTo": { "@id": "agenda:8.1" },
       "madeAt": { "@id": "meeting:RAN1#112" },
       "promotedTo": { "@id": "decision:AGR-113-8.1-005" }
     }
@@ -2207,7 +2213,7 @@
     | chairedBy | ~47 | ~900 |
     | rapporteurOf | ~27 | ~500 |
     | references | ~420 | ~8,000 |
-    | belongsTo (Decision) | ~1,186 | ~23,500 |
+    | decisionBelongsTo | ~1,186 | ~23,500 |
     | madeAt | ~1,186 | ~23,500 |
     | hasDecisions | ~1,186 | ~23,500 |
     | promotedTo | ~5 | ~100 |
@@ -2215,7 +2221,7 @@
     
     ---
     
-    ## 7.6 전체 Object Property 매핑 요약 (22개)
+    ## 7.6 전체 Object Property 매핑 요약 (23개)
     
     | # | 관계 | Domain | Range | 데이터 소스 | 단계 |
     | --- | --- | --- | --- | --- | --- |
@@ -2230,17 +2236,18 @@
     | 9 | modifies | CR | Spec | Spec | 1단계 |
     | 10 | sentTo | LS | WorkingGroup | To | 1단계 |
     | 11 | ccTo | LS | WorkingGroup | Cc | 1단계 |
-    | 12 | originatedFrom | LS | WorkingGroup | Original LS | 1단계 |
+    | 12 | originalLS | LS | Tdoc  | Original LS | 1단계 |
     | 13 | replyTo | LS | Tdoc | Reply to | 1단계 |
     | 14 | replyIn | LS | Tdoc | Reply in | 1단계 |
     | 15 | moderatedBy | Summary | Company | "Moderator (Company)" | 2단계 ⭐ |
     | 16 | chairedBy | SessionNotes | Company | "Ad-hoc Chair (Company)" | 2단계 ⭐ |
     | 17 | rapporteurOf | Company | WorkItem | "Rapporteur (Company)" | 2단계 ⭐ |
     | 18 | references | Decision | Tdoc | content 내 R1- 패턴 | 2단계 ⭐ |
-    | 19 | belongsTo | Decision | AgendaItem | 섹션 헤더 | 2단계 ⭐ |
+    | 19 | decisionBelongsTo | Decision | AgendaItem | 섹션 헤더 | 2단계 ⭐ |
     | 20 | madeAt | Decision | Meeting | 문서 메타 | 2단계 ⭐ |
     | 21 | hasDecisions | AgendaItem | Decision | (역관계, 자동) | 2단계 ⭐ |
     | 22 | promotedTo | WorkingAssumption | Agreement | "changed to agreement" 패턴 | 2단계 ⭐ |
+    | 23 | originatedFrom | LS | WorkingGroup | Final Minutes 내 LS 발신 WG | 2단계 ⭐ |
     
     ---
     
