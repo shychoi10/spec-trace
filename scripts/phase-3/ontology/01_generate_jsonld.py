@@ -18,7 +18,7 @@ from datetime import datetime
 
 
 # Paths
-PARSED_DIR = Path(__file__).parent.parent.parent.parent / "ontology" / "output" / "parsed_reports" / "v2"
+PARSED_DIR = Path(__file__).parent.parent.parent.parent / "ontology" / "output" / "parsed_reports"
 OUTPUT_DIR = Path(__file__).parent.parent.parent.parent / "ontology" / "output" / "instances" / "phase-3"
 
 # JSON-LD Context (Spec: Resolution terminology per Section 4.1)

@@ -3,8 +3,8 @@
 Parse all 58 Final Reports with TOC-based agenda mapping.
 
 Outputs:
-- ontology/output/parsed_reports/v2/*.json (58 files)
-- ontology/output/parsed_reports/v2/_summary_report.json
+- ontology/output/parsed_reports/*.json (58 files)
+- ontology/output/parsed_reports/_summary_report.json
 """
 
 import json
@@ -21,7 +21,7 @@ from report_parser import parse_report, save_report
 
 # Paths
 INPUT_DIR = Path(__file__).parent.parent.parent.parent / "ontology" / "input" / "meetings" / "RAN1" / "Final_Report"
-OUTPUT_DIR = Path(__file__).parent.parent.parent.parent / "ontology" / "output" / "parsed_reports" / "v2"
+OUTPUT_DIR = Path(__file__).parent.parent.parent.parent / "ontology" / "output" / "parsed_reports"
 
 
 def get_all_reports() -> list[Path]:

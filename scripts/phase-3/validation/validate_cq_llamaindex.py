@@ -39,7 +39,7 @@ from llama_index.core import Settings
 
 # Paths
 BASE_DIR = Path(__file__).parent.parent.parent.parent
-TEST_DATASET = BASE_DIR / "logs" / "phase-3" / "cq_test_dataset_100_v4.json"
+TEST_DATASET = BASE_DIR / "logs" / "phase-3" / "cq_test_dataset.json"
 OUTPUT_DIR = BASE_DIR / "logs" / "phase-3"
 
 # Neo4j connection

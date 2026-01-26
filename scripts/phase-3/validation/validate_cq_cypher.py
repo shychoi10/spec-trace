@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-CQ v4.0: IP/특허 담당자 실무 관점 100개 질문 검증
+CQ Validation: IP/특허 담당자 실무 관점 100개 질문 검증
 - 직접 Cypher 쿼리로 Neo4j 검증
 - 상세 답변 포함 리포트 생성
 """
@@ -344,7 +344,7 @@ def run_validation():
     results = []
     
     print("=" * 80)
-    print("CQ v4.0: IP/특허 담당자 실무 관점 100개 질문 검증")
+    print("CQ Validation: IP/특허 담당자 실무 관점 100개 질문 검증")
     print("=" * 80)
     print(f"시작 시간: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print()
@@ -430,7 +430,7 @@ def run_validation():
         print(f"  {cat}: PASS {counts['pass']}/{total}, NO_DATA {counts['no_data']}, FAIL {counts['fail']}")
     
     # 결과 저장
-    output_path = Path("/home/sihyeon/workspace/spec-trace/logs/phase-3/cq_v4_results.json")
+    output_path = Path("/home/sihyeon/workspace/spec-trace/logs/phase-3/cq_cypher_results.json")
     output_path.parent.mkdir(parents=True, exist_ok=True)
     
     with open(output_path, 'w', encoding='utf-8') as f:
