@@ -1,6 +1,6 @@
 # spec-trace - Progress
 
-Last Updated: 2026-01-14
+Last Updated: 2026-01-21
 
 ---
 
@@ -336,13 +336,15 @@ Last Updated: 2026-01-14
 
 ---
 
-## Phase-2: 🔄 In Progress
+## Phase-2: ✅ COMPLETE
 
 **Goal**: Knowledge Graph 구축 (Ontology Design → Instance Generation → DB Construction)
 
 **Documentation**: [Phase-2 README](docs/phase-2/README.md)
 
-### Step 1: Ontology 구축 ✅ COMPLETE (2025-01-14)
+**Overall Progress**: 3/3 Steps Complete (100%) ✅
+
+### Step 1: Ontology 구축 ✅ COMPLETE (2026-01-14)
 
 **Objective**: 3GPP TDoc 메타데이터를 기반으로 Knowledge Graph Ontology 설계 및 인스턴스 생성
 
@@ -351,13 +353,6 @@ Last Updated: 2026-01-14
 - **Data Validation**: 59개 미팅, 122,257 TDocs 검증 완료
 - **Instance Generation**: 125,480 인스턴스 생성 (84.6 MB JSON-LD)
 - **Validation**: 모든 검증 통과 ✅
-
-**Sub-steps**:
-| Sub-step | 내용 | 상태 |
-|----------|------|------|
-| 1-1 | Ontology 설계 (7단계) | ✅ 완료 |
-| 1-2 | 데이터 검증 (Spec vs 실제) | ✅ 완료 |
-| 1-3 | 인스턴스 생성 (4-Phase) | ✅ 완료 |
 
 **Instance Summary**:
 | 클래스 | 수 |
@@ -377,24 +372,127 @@ Last Updated: 2026-01-14
 
 **Output**: `ontology/output/instances/*.jsonld` (9개 파일, 84.6 MB)
 
-**Documentation**:
-- 📘 [Step-1 상세](docs/phase-2/step1_ontology.md)
-- 📋 [TDoc Ontology Spec](docs/phase-2/specs/tdoc-ontology-spec.md)
-- 📋 [검증 리포트](ontology/output/VALIDATION_REPORT.md)
+---
+
+### Step 2: Database Construction ✅ COMPLETE (2026-01-19)
+
+**Objective**: JSON-LD 인스턴스를 Neo4j에 적재
+
+**Results**:
+- **n10s 적재**: JSON-LD → Neo4j 직접 임포트 완료
+- **CQ 검증**: 25개 Competency Questions 100% 통과
+
+**Node Summary**:
+| 노드 타입 | 수 |
+|-----------|-----|
+| Tdoc | 122,257 |
+| Meeting | 59 |
+| Company | 222 |
+| AgendaItem | 1,335 |
+| WorkItem | 419 |
+| **총계** | **~125,000** |
 
 ---
 
-### Step 2: Database Construction ⬜ Not Started
+### Step 3: Query Interface ✅ COMPLETE (2026-01-19)
 
-**Planned**: Knowledge Graph를 Neo4j 또는 RDF Triple Store에 적재
+**Objective**: RAG 기반 자연어 QA 인터페이스 구축
+
+**Results**:
+- **LlamaIndex 연동**: Neo4j + LlamaIndex 통합 완료
+- **자연어 QA**: Cypher 자동 생성 기능 검증 완료
 
 ---
 
-**Previous Attempt**: Archived to `_archived/phase-2-v1/` (2025-01-13)
-- LangGraph 기반 파서 시도 → 방향성 재검토 후 Ontology 우선 접근으로 전환
+## Phase-3: ✅ COMPLETE
+
+**Goal**: Final Report 파싱 및 2단계 온톨로지 확장 (Decision + Role)
+
+**Documentation**: [Phase-3 Spec](docs/phase-3/specs/tdoc_ontology_specs(Final_report))
+
+**Overall Progress**: 4/4 Steps Complete (100%) ✅
+
+### Step 1: TOC-based Parsing ✅ COMPLETE (2026-01-21)
+
+**Objective**: Final Report에서 Decision/Role 정보 추출
+
+**Results**:
+- **58개 Final Report 파싱 완료**
+- **24,114 Decisions 추출** (20,063 Agreements + 2,495 Conclusions + 792 WAs)
+- **4,032 Roles 추출** (3,370 Summaries + 662 SessionNotes)
+- **TOC 기반 Agenda 매핑**: 97.3% 정확도
+
+**Output**: `ontology/output/parsed_reports/v2/*.json` (58개 파일)
 
 ---
 
-## Phase-3: ⬜ Not Started
+### Step 2: JSON-LD Generation ✅ COMPLETE (2026-01-21)
 
-**Planned**: Analysis and Insights
+**Objective**: 파싱 결과를 JSON-LD 인스턴스로 변환
+
+**Results**:
+- **5개 JSON-LD 파일 생성** (15.6 MB)
+  - `decisions_agreements.jsonld` (17.3 MB)
+  - `decisions_conclusions.jsonld` (1.8 MB)
+  - `decisions_working_assumptions.jsonld` (0.7 MB)
+  - `summaries.jsonld` (1.1 MB)
+  - `session_notes.jsonld` (0.2 MB)
+
+---
+
+### Step 3: Neo4j Loading ✅ COMPLETE (2026-01-21)
+
+**Objective**: Phase-3 인스턴스를 Neo4j에 적재
+
+**Results**:
+| 노드 타입 | 수 |
+|-----------|-----|
+| Agreement | 20,063 |
+| Conclusion | 2,495 |
+| WorkingAssumption | 792 |
+| Summary | 3,370 |
+| SessionNotes | 662 |
+| AgendaItem | 23,350 |
+| **총 신규 노드** | **~27,000** |
+
+| 관계 타입 | 수 |
+|-----------|-----|
+| MADE_AT | 15,844 |
+| DECISION_BELONGS_TO | 23,350 |
+| REFERENCES | 15,993 |
+| MODERATED_BY | 2,713 |
+| CHAIRED_BY | 649 |
+| PRESENTED_AT | 3,764 |
+| **총 신규 관계** | **~62,000** |
+
+---
+
+### Step 4: CQ Validation ✅ COMPLETE (2026-01-21)
+
+**Objective**: 24개 Competency Questions 검증
+
+**Results**:
+- **Pass Rate**: 91.7% (22/24)
+- **Pass + Partial**: 95.8% (23/24)
+
+| CQ 그룹 | 통과 | 실패 |
+|---------|------|------|
+| CQ1: Resolution 조회 | 8/8 | - |
+| CQ2: Tdoc ↔ Resolution | 2/4 | 2 (데이터 한계) |
+| CQ3: 회사별 기여도 | 4/4 | - |
+| CQ4: 역할 분석 | 5/5 | - |
+| CQ6: 트렌드/비교 | 3/3 | - |
+
+**Output**: `logs/phase-3/cq_validation_results.json`
+
+---
+
+## Ontology Version History
+
+| 버전 | Phase | 변경 사항 |
+|------|-------|----------|
+| v1.0.0 | Phase-2 | 초기 온톨로지 (11 클래스, 44 속성) |
+| v2.0.0 | Phase-3 | Decision/Role 확장 (+5 클래스, +8 속성) |
+
+**현재 버전**: v2.0.0 (`ontology/tdoc-ontology.ttl`)
+**버전 히스토리**: `ontology/versions/`

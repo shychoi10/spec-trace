@@ -1,4 +1,4 @@
-## Step-1: Domain과 Spoce 결정
+## Step-1: Domain과 Scope 결정
 
 ### 1.1 기본 정의
 
@@ -532,12 +532,42 @@ WorkingGroup
 
 ### 5.6 기타 클래스 속성
 
-### Meeting (2개)
+### Meeting (3개)
 
 | 속성명 | Type | 데이터 소스 | 설명 |
 | --- | --- | --- | --- |
-| meetingNumber | String | 파일명 | 회의 번호 (예: RAN1#120). 형식: {WG}#{회차} |
+| meetingNumber | String | 파일명 | 회의 번호 원본 (예: RAN1#120, RAN1#101-e). 형식: {WG}#{회차}[-e] |
+| canonicalMeetingNumber | String | meetingNumber에서 정규화 | 정규화된 회의 번호. `-e` suffix 제거 |
 | workingGroup | String | 파일명 | 회의를 주관하는 Working Group (예: RAN1) |
+
+**Meeting ID 정규화 규칙:**
+
+| 원본 | 정규화 | 설명 |
+| --- | --- | --- |
+| RAN1#101-e | RAN1#101 | e-meeting suffix 제거 |
+| RAN1#112bis-e | RAN1#112bis | e-meeting suffix만 제거, bis 유지 |
+| RAN1#120 | RAN1#120 | 변경 없음 |
+- `e` suffix: e-meeting 표시로, 정규화 시 제거
+- `bis`, `ter`, `b` suffix: 회차 구분이므로 유지
+
+### COVID-era e-meeting 특이사항
+
+COVID-19로 인해 RAN1#100 대면 회의가 중단되고, RAN1#100-e로 e-meeting 재개되어 완료된 사례가 있습니다.
+
+| 대면 회의 | e-meeting | 상태 |
+| --- | --- | --- |
+| RAN1#100 | RAN1#100-e | 대면 회의 중단 → e-meeting으로 완료 |
+
+**데이터 특성:**
+
+- **Final Report**: RAN1#100-e에만 존재 (RAN1#100 + RAN1#100-e 내용 모두 포함)
+- **Tdoc**: 두 Meeting 모두에 존재 가능
+
+**처리 원칙:**
+
+1. 두 Meeting 노드 모두 유지 (별도 노드)
+2. canonicalMeetingNumber 동일 (`"RAN1#100"`)
+3. 2단계 Resolution은 canonicalMeetingNumber로 매칭되어 **두 Meeting 모두에 연결됨**
 
 ### Company (1개)
 
@@ -757,8 +787,14 @@ WorkingGroup
 
 | 속성명 | Domain | Type | Cardinality | 필수 | 설명 |
 | --- | --- | --- | --- | --- | --- |
-| meetingNumber | Meeting | String | 1 | ✅ | 회의의 고유 식별자. 형식: {WG}#{회차} (예: RAN1#120) |
+| meetingNumber | Meeting | String | 1 | ✅ | 회의 번호 원본. 형식: {WG}#{회차}[-e] (예: RAN1#120, RAN1#101-e) |
+| canonicalMeetingNumber | Meeting | String | 1 | ✅ | 정규화된 회의 번호. `-e` suffix 제거 (예: RAN1#120, RAN1#101) |
 | workingGroup | Meeting | String | 1 | ✅ | 회의를 주관하는 Working Group |
+
+**제약조건:**
+
+- `canonicalMeetingNumber`는 `meetingNumber`에서 파생 (자동 생성)
+- `canonicalMeetingNumber`는 2단계 Resolution 연결 시 매칭 키로 사용
 
 ### Company
 
@@ -979,13 +1015,26 @@ WorkingGroup
 | 항목 | 내용 |
 | --- | --- |
 | 소스 | 파일명 (TDoc_List_Meeting_RAN1_120_final_.xlsx) |
-| ID | `{WG}#{회차}` (예: RAN1#120) |
-| 인스턴스 수 | 1개 |
+| ID | `meetingNumber` 원본 값 (예: RAN1#120, RAN1#101-e) |
+| 인스턴스 수 | 59개 (RAN1#84 ~ RAN1#122b) |
 
-| 속성 | 소스 | 예시 |
+| 속성 | 소스 | 변환 규칙 | 예시 |
+| --- | --- | --- | --- |
+| meetingNumber | 파일명에서 추출 | 원본 그대로 | "RAN1#101-e" |
+| canonicalMeetingNumber | meetingNumber | `-e` suffix 제거 | "RAN1#101" |
+| workingGroup | 파일명에서 추출 | `#` 앞부분 | "RAN1" |
+
+**정규화 예시:**
+
+| 파일명 | meetingNumber | canonicalMeetingNumber |
 | --- | --- | --- |
-| meetingNumber | 파일명에서 추출 | "RAN1#120" |
-| workingGroup | 파일명에서 추출 | "RAN1" |
+| TDoc_List_Meeting_RAN1_101-e_final_.xlsx | RAN1#101-e | RAN1#101 |
+| TDoc_List_Meeting_RAN1_112bis-e_final_.xlsx | RAN1#112bis-e | RAN1#112bis |
+| TDoc_List_Meeting_RAN1_120_final_.xlsx | RAN1#120 | RAN1#120 |
+| TDoc_List_Meeting_RAN1_100_final_.xlsx | RAN1#100 | RAN1#100 |
+| TDoc_List_Meeting_RAN1_100-e_final_.xlsx | RAN1#100-e | RAN1#100 |
+
+참고: RAN1#100과 RAN1#100-e는 동일한 canonicalMeetingNumber를 가지며, COVID-19로 인한 특수 케이스임 (Step 5 참조)
 
 ---
 

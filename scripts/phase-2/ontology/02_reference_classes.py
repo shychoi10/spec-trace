@@ -124,17 +124,24 @@ def generate_meetings(files: List[Path]) -> Dict[str, dict]:
     """Meeting 인스턴스 생성
 
     Spec 7.3.1: 파일명에서 추출
-    속성: meetingNumber, workingGroup
+    속성: meetingNumber, workingGroup, canonicalMeetingNumber
+
+    canonicalMeetingNumber: -e suffix 제거 (COVID e-meeting 매칭용)
+    예: RAN1#101-e → RAN1#101, RAN1#112bis-e → RAN1#112bis
     """
     meetings = {}
 
     for filepath in files:
         meeting_id, wg = extract_meeting_from_filename(filepath.name)
         if meeting_id and meeting_id not in meetings:
+            # canonicalMeetingNumber: -e suffix 제거 (Spec Section 5.6, 7.3.1)
+            canonical = meeting_id[:-2] if meeting_id.endswith('-e') else meeting_id
+
             meetings[meeting_id] = {
                 "@id": f"tdoc:meeting/{meeting_id.replace('#', '_')}",
                 "@type": "tdoc:Meeting",
                 "tdoc:meetingNumber": meeting_id,
+                "tdoc:canonicalMeetingNumber": canonical,
                 "tdoc:workingGroup": wg
             }
 

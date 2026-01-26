@@ -30,12 +30,22 @@ INTERMEDIATE_DIR = BASE_DIR / "intermediate"
 OUTPUT_DIR = BASE_DIR / "output" / "instances"
 
 # JSON-LD 컨텍스트
+# Note: Relations must have "@type": "@id" to be recognized as relationships by n10s
 CONTEXT = {
     "@context": {
         "tdoc": "http://3gpp.org/ontology/tdoc#",
         "dc": "http://purl.org/dc/elements/1.1/",
         "foaf": "http://xmlns.com/foaf/0.1/",
-        "xsd": "http://www.w3.org/2001/XMLSchema#"
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        # Relations - must be @id type for n10s to create relationships
+        "modifies": {"@id": "tdoc:modifies", "@type": "@id"},
+        "replyTo": {"@id": "tdoc:replyTo", "@type": "@id"},
+        "sentTo": {"@id": "tdoc:sentTo", "@type": "@id"},
+        "hasContact": {"@id": "tdoc:hasContact", "@type": "@id"},
+        "belongsTo": {"@id": "tdoc:belongsTo", "@type": "@id"},
+        "presentedAt": {"@id": "tdoc:presentedAt", "@type": "@id"},
+        "submittedBy": {"@id": "tdoc:submittedBy", "@type": "@id"},
+        "originatedFrom": {"@id": "tdoc:originatedFrom", "@type": "@id"},
     }
 }
 
@@ -302,13 +312,13 @@ def create_tdoc_instance(row: pd.Series, meeting_id: str, company_map: Dict[str,
     # Issue #1, #5 해결: WG와 Company를 분리
     companies, working_groups = parse_submitters(row.get('Source', ''), company_map)
     if companies:
-        instance["tdoc:submittedBy"] = [f"tdoc:company/{re.sub(r'[^a-zA-Z0-9]', '_', c)}" for c in companies]
+        instance["submittedBy"] = [f"tdoc:company/{re.sub(r'[^a-zA-Z0-9]', '_', c)}" for c in companies]
     if working_groups:
-        instance["tdoc:originatedFrom"] = [f"tdoc:wg/{wg}" for wg in working_groups]
+        instance["originatedFrom"] = [f"tdoc:wg/{wg}" for wg in working_groups]
 
     # 관계: hasContact (Contact)
     if contact_id := safe_string(row.get('Contact ID', '')):
-        instance["tdoc:hasContact"] = f"tdoc:contact/{re.sub(r'[^a-zA-Z0-9]', '_', contact_id)}"
+        instance["hasContact"] = f"tdoc:contact/{re.sub(r'[^a-zA-Z0-9]', '_', contact_id)}"
 
     # 관계: relatedTo (WorkItem)
     work_items = parse_work_items(row.get('Related WIs', ''))
@@ -317,14 +327,14 @@ def create_tdoc_instance(row: pd.Series, meeting_id: str, company_map: Dict[str,
 
     # 관계: belongsTo (AgendaItem)
     if agenda := safe_string(row.get('Agenda item', '')):
-        instance["tdoc:belongsTo"] = f"tdoc:agenda/{re.sub(r'[^a-zA-Z0-9.]', '_', agenda)}"
+        instance["belongsTo"] = f"tdoc:agenda/{re.sub(r'[^a-zA-Z0-9.]', '_', agenda)}"
 
     # 관계: targetRelease (Release)
     if release := safe_string(row.get('Release', '')):
         instance["tdoc:targetRelease"] = f"tdoc:release/{release.replace('-', '_')}"
 
     # 관계: presentedAt (Meeting)
-    instance["tdoc:presentedAt"] = f"tdoc:meeting/{meeting_id.replace('#', '_')}"
+    instance["presentedAt"] = f"tdoc:meeting/{meeting_id.replace('#', '_')}"
 
     # 관계: isRevisionOf, revisedTo, replyTo, replyIn (Tdoc → Tdoc)
     if is_revision_of := safe_string(row.get('Is revision of', '')):
@@ -334,7 +344,7 @@ def create_tdoc_instance(row: pd.Series, meeting_id: str, company_map: Dict[str,
         instance["tdoc:revisedTo"] = f"tdoc:{revised_to}"
 
     if reply_to := safe_string(row.get('Reply to', '')):
-        instance["tdoc:replyTo"] = f"tdoc:{reply_to}"
+        instance["replyTo"] = f"tdoc:{reply_to}"
 
     if reply_in := safe_string(row.get('Reply in', '')):
         instance["tdoc:replyIn"] = f"tdoc:{reply_in}"
@@ -383,7 +393,7 @@ def create_cr_instance(row: pd.Series, meeting_id: str, company_map: Dict[str, s
 
     # 관계: modifies (Spec) - CR 전용
     if spec := safe_string(row.get('Spec', '')):
-        instance["tdoc:modifies"] = f"tdoc:spec/{spec.replace('.', '_')}"
+        instance["modifies"] = f"tdoc:spec/{spec.replace('.', '_')}"
 
     return instance
 
@@ -411,7 +421,7 @@ def create_ls_instance(row: pd.Series, meeting_id: str, company_map: Dict[str, s
     # 관계: sentTo (WorkingGroup)
     to_wgs = parse_working_groups(row.get('To', ''))
     if to_wgs:
-        instance["tdoc:sentTo"] = [f"tdoc:wg/{re.sub(r'[^a-zA-Z0-9]', '_', wg)}" for wg in to_wgs]
+        instance["sentTo"] = [f"tdoc:wg/{re.sub(r'[^a-zA-Z0-9]', '_', wg)}" for wg in to_wgs]
 
     # 관계: ccTo (WorkingGroup)
     cc_wgs = parse_working_groups(row.get('Cc', ''))

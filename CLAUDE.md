@@ -39,6 +39,9 @@
 - **같은 목적의 파일 중복 생성 금지**: 동일한 목적의 파일이 이미 있다면 새로 만들지 않음
 - **기존 파일 업데이트 우선**: 새 파일 생성보다 기존 파일 수정을 우선적으로 고려
 - **대답은 항상 한국어로**
+- **LLM 설정**: OpenRouter를 통해 Gemini 사용 중 (OPENROUTER_API_KEY 환경변수 설정됨)
+  - Phase-2 CQ 검증, Phase-3 Decision 추출 등에서 활용
+  - 새 LLM 클라이언트 작성 시 OpenRouter 호환으로 구현할 것
 - **성능 최적화 원칙**: 모든 장기 실행 작업(다운로드, 변환, 파싱)은 안전한 범위에서 최대한 병렬화
   - ProcessPoolExecutor/ThreadPoolExecutor 적극 활용
   - Meeting/File 레벨 병렬 처리
