@@ -33,7 +33,7 @@ Phase-3: Resolution Ontology Construction
 │
 └── Step-3: CQ Validation                         ✅ 완료
     ├── 3-1: LlamaIndex Text2Cypher 연동          ✅ 완료
-    └── 3-2: 100개 테스트 케이스 검증             ✅ 완료 (99%)
+    └── 3-2: 100개 테스트 케이스 검증             ✅ 완료 (100%)
 ```
 
 ## 문서 구조
@@ -67,7 +67,7 @@ ontology/output/instances/phase-3/  # JSON-LD 인스턴스
 |------|------|------|
 | Step-1 | ✅ 완료 | 58개 Final Report 파싱, 28,432 인스턴스 생성 |
 | Step-2 | ✅ 완료 | Neo4j 적재, 관계 100% 연결 |
-| Step-3 | ✅ 완료 | LlamaIndex CQ 검증 99% 성공 |
+| Step-3 | ✅ 완료 | LlamaIndex CQ 검증 100% 성공 |
 
 ## 주요 통계
 
@@ -83,11 +83,24 @@ ontology/output/instances/phase-3/  # JSON-LD 인스턴스
 | - Summary | 3,370개 |
 | Neo4j MADE_AT 관계 | 24,646개 (100%) |
 | Neo4j PRESENTED_AT 관계 | 4,032개 (100%) |
-| CQ 검증 성공률 | 67% (67/100, 쿼리성공률 100%) |
+| CQ 검증 성공률 | 100% (100/100) |
 
-## 최근 업데이트 (2026-01-26)
+## 최근 업데이트 (2026-01-27)
 
-### canonicalMeetingNumber 속성 추가
+### CQ 검증 버그 수정 (100% 성공 달성)
+
+CQ 검증 과정에서 발견된 버그들을 수정하여 100% 성공률 달성:
+
+| 버그 유형 | 수정 전 | 수정 후 |
+|-----------|---------|---------|
+| 관계명 오류 | `MADEAT`, `SUBMITTEDBY`, `PRESENTEDAT` | `MADE_AT`, `SUBMITTED_BY`, `PRESENTED_AT` |
+| 속성명 오류 | `c.uri`, `t.tdocId`, `t.decision` | `c.id`, `t.tdocNumber`, `t.status` |
+| 경로 오류 | `Agreement→Meeting→Tdoc` | `Agreement→Tdoc`, `Agreement→Meeting` |
+| Meeting ID 형식 | underscore 유지 | underscore → hash 변환 |
+
+**상세 보고서**: [logs/phase-3/cq_bugfix_report.md](../../logs/phase-3/cq_bugfix_report.md)
+
+### canonicalMeetingNumber 속성 추가 (2026-01-26)
 
 COVID-era e-meeting 처리를 위한 Meeting 노드 속성 추가:
 

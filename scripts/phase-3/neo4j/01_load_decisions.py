@@ -64,19 +64,19 @@ def create_resolution_nodes(tx, resolutions: list[dict], resolution_type: str):
 def create_resolution_relationships(tx, resolutions: list[dict]):
     """Create relationships for resolutions."""
     # MADE_AT relationship (Resolution -> Meeting)
-    # DB format: meetingNumber = 'RAN1#100' or 'RAN1#100-e' (string, -e suffix for e-meetings)
-    # JSON-LD format: madeAt = 'tdoc:meeting/RAN1_100' (underscore)
-    # Fix: Use STARTS WITH to handle -e suffix mismatch
+    # DB format: canonicalMeetingNumber = 'RAN1#100' (hash format, from Phase-2 JSON-LD)
+    # JSON-LD format: madeAt = 'tdoc:meeting/RAN1_100' (underscore format)
+    # Fix: Convert underscore to hash to match canonicalMeetingNumber
     tx.run("""
         UNWIND $resolutions AS r
         MATCH (res:Resolution {resolutionId: r.resolutionId})
-        MATCH (m:Meeting) WHERE m.meetingNumber = r.meetingNum OR m.meetingNumber STARTS WITH r.meetingNum + '-'
+        MATCH (m:Meeting {canonicalMeetingNumber: r.canonicalMeetingNum})
         MERGE (res)-[:MADE_AT]->(m)
     """, resolutions=[
         {
             "resolutionId": r["resolutionId"],
-            # Convert "tdoc:meeting/RAN1_100" -> "RAN1#100" (underscore to hash)
-            "meetingNum": r["madeAt"].replace("tdoc:meeting/", "").replace("_", "#")
+            # Extract "RAN1_100" from "tdoc:meeting/RAN1_100" → convert to "RAN1#100"
+            "canonicalMeetingNum": r["madeAt"].replace("tdoc:meeting/", "").replace("_", "#")
         }
         for r in resolutions if "madeAt" in r
     ])

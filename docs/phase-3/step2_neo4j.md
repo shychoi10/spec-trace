@@ -116,6 +116,38 @@ RETURN m.meetingNumber, m.canonicalMeetingNumber
 // 결과: 둘 다 canonicalMeetingNumber = 'RAN1#100'
 ```
 
+## Bug Fix: Meeting ID 형식 변환 (2026-01-27)
+
+### 문제
+
+Phase-3 JSON-LD의 `madeAt`에서 추출한 Meeting ID가 underscore 형식(`RAN1_100`)인데,
+Phase-2 JSON-LD의 `canonicalMeetingNumber`는 hash 형식(`RAN1#100`):
+
+```
+Phase-3 JSON-LD: madeAt = "tdoc:meeting/RAN1_100" → 추출: "RAN1_100"
+Phase-2 Meeting: canonicalMeetingNumber = "RAN1#100"
+```
+
+### 해결
+
+underscore를 hash로 변환:
+
+```python
+# Before
+"canonicalMeetingNum": r["madeAt"].replace("tdoc:meeting/", "")
+
+# After
+"canonicalMeetingNum": r["madeAt"].replace("tdoc:meeting/", "").replace("_", "#")
+```
+
+### 결과
+
+| 관계 | Before | After |
+|------|--------|-------|
+| MADE_AT (Resolution) | 0개 | 24,646개 (100%) |
+
+**수정 파일**: `scripts/phase-3/neo4j/01_load_decisions.py`
+
 ## 변경 이력
 
 | 날짜 | 변경 내용 |
@@ -125,3 +157,4 @@ RETURN m.meetingNumber, m.canonicalMeetingNumber
 | 2026-01-22 | Meeting ID 형식 불일치 수정 (STARTS WITH 매칭) |
 | 2026-01-22 | 관계 100% 연결 완료 |
 | 2026-01-26 | **canonicalMeetingNumber 속성 추가 (Spec Section 5.6, 7.3.1)** |
+| 2026-01-27 | **Meeting ID 형식 변환 버그 수정 (underscore → hash)** |

@@ -8,7 +8,7 @@ import time
 from neo4j import GraphDatabase
 
 # Neo4j connection settings (different port for cypher instance)
-URI = "bolt://localhost:7688"
+URI = "bolt://localhost:7687"
 AUTH = ("neo4j", "password123")
 
 
@@ -57,17 +57,19 @@ def main():
 
         # 2.1 Meetings
         run_query(driver, """
-            CALL apoc.load.json("file:///import/output/instances/meetings.jsonld") YIELD value
+            CALL apoc.load.json("file:///import/output/instances/phase-2/meetings.jsonld") YIELD value
             UNWIND value['@graph'] AS item
             MERGE (m:Meeting {id: item['@id']})
             SET m.meetingNumber = item['tdoc:meetingNumber'],
+                m.canonicalMeetingNumber = item['tdoc:canonicalMeetingNumber'],
+                m.meetingNumberInt = item['tdoc:meetingNumberInt'],
                 m.workingGroup = item['tdoc:workingGroup']
             RETURN count(m) AS count
         """, "Meetings loaded", True)
 
         # 2.2 Releases
         run_query(driver, """
-            CALL apoc.load.json("file:///import/output/instances/releases.jsonld") YIELD value
+            CALL apoc.load.json("file:///import/output/instances/phase-2/releases.jsonld") YIELD value
             UNWIND value['@graph'] AS item
             MERGE (r:Release {id: item['@id']})
             SET r.releaseName = item['tdoc:releaseName']
@@ -76,7 +78,7 @@ def main():
 
         # 2.3 Specs
         run_query(driver, """
-            CALL apoc.load.json("file:///import/output/instances/specs.jsonld") YIELD value
+            CALL apoc.load.json("file:///import/output/instances/phase-2/specs.jsonld") YIELD value
             UNWIND value['@graph'] AS item
             MERGE (s:Spec {id: item['@id']})
             SET s.specNumber = item['tdoc:specNumber'],
@@ -86,7 +88,7 @@ def main():
 
         # 2.4 Working Groups
         run_query(driver, """
-            CALL apoc.load.json("file:///import/output/instances/working_groups.jsonld") YIELD value
+            CALL apoc.load.json("file:///import/output/instances/phase-2/working_groups.jsonld") YIELD value
             UNWIND value['@graph'] AS item
             MERGE (w:WorkingGroup {id: item['@id']})
             SET w.wgName = item['tdoc:wgName']
@@ -95,7 +97,7 @@ def main():
 
         # 2.5 Companies
         run_query(driver, """
-            CALL apoc.load.json("file:///import/output/instances/companies.jsonld") YIELD value
+            CALL apoc.load.json("file:///import/output/instances/phase-2/companies.jsonld") YIELD value
             UNWIND value['@graph'] AS item
             MERGE (c:Company {id: item['@id']})
             SET c.companyName = item['tdoc:companyName'],
@@ -105,7 +107,7 @@ def main():
 
         # 2.6 Work Items
         run_query(driver, """
-            CALL apoc.load.json("file:///import/output/instances/work_items.jsonld") YIELD value
+            CALL apoc.load.json("file:///import/output/instances/phase-2/work_items.jsonld") YIELD value
             UNWIND value['@graph'] AS item
             MERGE (w:WorkItem {id: item['@id']})
             SET w.workItemCode = item['tdoc:workItemCode']
@@ -114,7 +116,7 @@ def main():
 
         # 2.7 Contacts
         run_query(driver, """
-            CALL apoc.load.json("file:///import/output/instances/contacts.jsonld") YIELD value
+            CALL apoc.load.json("file:///import/output/instances/phase-2/contacts.jsonld") YIELD value
             UNWIND value['@graph'] AS item
             MERGE (c:Contact {id: item['@id']})
             SET c.contactName = item['tdoc:contactName'],
@@ -124,7 +126,7 @@ def main():
 
         # 2.8 Agenda Items
         run_query(driver, """
-            CALL apoc.load.json("file:///import/output/instances/agenda_items.jsonld") YIELD value
+            CALL apoc.load.json("file:///import/output/instances/phase-2/agenda_items.jsonld") YIELD value
             UNWIND value['@graph'] AS item
             MERGE (a:AgendaItem {id: item['@id']})
             SET a.agendaNumber = item['tdoc:agendaNumber'],
@@ -138,7 +140,7 @@ def main():
         # 3.1 Create Tdoc nodes
         run_query(driver, """
             CALL apoc.periodic.iterate(
-                "CALL apoc.load.json('file:///import/output/instances/tdocs.jsonld') YIELD value
+                "CALL apoc.load.json('file:///import/output/instances/phase-2/tdocs.jsonld') YIELD value
                  UNWIND value['@graph'] AS item RETURN item",
                 "WITH item
                  MERGE (t:Tdoc {id: item['@id']})
@@ -160,21 +162,21 @@ def main():
                      t.affectsRAN = item['tdoc:affectsRAN'],
                      t.affectsCN = item['tdoc:affectsCN'],
                      t.direction = item['tdoc:direction'],
-                     t._submittedBy = item['tdoc:submittedBy'],
-                     t._hasContact = item['tdoc:hasContact'],
-                     t._belongsTo = item['tdoc:belongsTo'],
-                     t._presentedAt = item['tdoc:presentedAt'],
-                     t._targetRelease = item['tdoc:targetRelease'],
-                     t._relatedTo = item['tdoc:relatedTo'],
-                     t._modifies = item['tdoc:modifies'],
-                     t._isRevisionOf = item['tdoc:isRevisionOf'],
-                     t._revisedTo = item['tdoc:revisedTo'],
-                     t._replyTo = item['tdoc:replyTo'],
-                     t._replyIn = item['tdoc:replyIn'],
-                     t._sentTo = item['tdoc:sentTo'],
-                     t._ccTo = item['tdoc:ccTo'],
-                     t._originalLS = item['tdoc:originalLS'],
-                    t._originatedFrom = item['tdoc:originatedFrom']
+                     t._submittedBy = item['submittedBy'],
+                     t._hasContact = item['hasContact'],
+                     t._belongsTo = item['belongsTo'],
+                     t._presentedAt = item['presentedAt'],
+                     t._targetRelease = item['targetRelease'],
+                     t._relatedTo = item['relatedTo'],
+                     t._modifies = item['modifies'],
+                     t._isRevisionOf = item['isRevisionOf'],
+                     t._revisedTo = item['revisedTo'],
+                     t._replyTo = item['replyTo'],
+                     t._replyIn = item['replyIn'],
+                     t._sentTo = item['sentTo'],
+                     t._ccTo = item['ccTo'],
+                     t._originalLS = item['originalLS'],
+                    t._originatedFrom = item['originatedFrom']
                  WITH item, t
                  CALL apoc.do.case([
                      item['@type'] = 'tdoc:CR', 'SET t:CR',
