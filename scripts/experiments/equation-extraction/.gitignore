@@ -1,0 +1,5 @@
+# Generated output files (large JSON, reproducible by running scripts)
+output/
+
+# Python cache
+__pycache__/
