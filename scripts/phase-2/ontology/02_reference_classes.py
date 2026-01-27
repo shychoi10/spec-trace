@@ -124,10 +124,13 @@ def generate_meetings(files: List[Path]) -> Dict[str, dict]:
     """Meeting 인스턴스 생성
 
     Spec 7.3.1: 파일명에서 추출
-    속성: meetingNumber, workingGroup, canonicalMeetingNumber
+    속성: meetingNumber, workingGroup, canonicalMeetingNumber, meetingNumberInt
 
     canonicalMeetingNumber: -e suffix 제거 (COVID e-meeting 매칭용)
     예: RAN1#101-e → RAN1#101, RAN1#112bis-e → RAN1#112bis
+
+    meetingNumberInt: 숫자 정렬용 (Spec CQ 결과 규칙)
+    예: RAN1#122 → 122, RAN1#122b → 122
     """
     meetings = {}
 
@@ -137,11 +140,17 @@ def generate_meetings(files: List[Path]) -> Dict[str, dict]:
             # canonicalMeetingNumber: -e suffix 제거 (Spec Section 5.6, 7.3.1)
             canonical = meeting_id[:-2] if meeting_id.endswith('-e') else meeting_id
 
+            # meetingNumberInt: 숫자 부분 추출 (정렬용)
+            # RAN1#122 → 122, RAN1#122b → 122, RAN1#84bis → 84
+            num_match = re.search(r'#(\d+)', meeting_id)
+            meeting_num_int = int(num_match.group(1)) if num_match else 0
+
             meetings[meeting_id] = {
                 "@id": f"tdoc:meeting/{meeting_id.replace('#', '_')}",
                 "@type": "tdoc:Meeting",
                 "tdoc:meetingNumber": meeting_id,
                 "tdoc:canonicalMeetingNumber": canonical,
+                "tdoc:meetingNumberInt": meeting_num_int,
                 "tdoc:workingGroup": wg
             }
 

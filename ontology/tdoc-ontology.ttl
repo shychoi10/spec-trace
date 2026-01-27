@@ -433,6 +433,12 @@ tdoc:canonicalMeetingNumber a owl:DatatypeProperty ;
     rdfs:domain tdoc:Meeting ;
     rdfs:range xsd:string .
 
+tdoc:meetingNumberInt a owl:DatatypeProperty ;
+    rdfs:label "meeting number integer"@en ;
+    rdfs:comment "Numeric part of meeting number for proper sorting (e.g., RAN1#122 → 122, RAN1#122b → 122). Extracted via regex #(\\d+)."@en ;
+    rdfs:domain tdoc:Meeting ;
+    rdfs:range xsd:integer .
+
 # -----------------------------------------------------------------------------
 # Company Data Properties (2)
 # -----------------------------------------------------------------------------

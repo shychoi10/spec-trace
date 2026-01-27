@@ -1,10 +1,8 @@
 services:
-  # Neo4j with n10s plugin for RDF/JSON-LD import
-  neo4j-n10s:
-    build:
-      context: .
-      dockerfile: Dockerfile.n10s
-    container_name: neo4j-n10s
+  # Single Neo4j instance for Cypher-based import
+  neo4j:
+    image: neo4j:5.26.0
+    container_name: neo4j-tdoc
     ports:
       - "7474:7474"   # HTTP
       - "7687:7687"   # Bolt
@@ -14,41 +12,13 @@ services:
       - NEO4J_apoc_export_file_enabled=true
       - NEO4J_apoc_import_file_enabled=true
       - NEO4J_apoc_import_file_use__neo4j__config=true
-      - NEO4J_dbms_security_procedures_unrestricted=apoc.*,n10s.*
-      - NEO4J_dbms_security_procedures_allowlist=apoc.*,n10s.*
+      - NEO4J_dbms_security_procedures_unrestricted=apoc.*
+      - NEO4J_dbms_security_procedures_allowlist=apoc.*
       - NEO4J_server_memory_heap_initial__size=2G
       - NEO4J_server_memory_heap_max__size=4G
     volumes:
-      - neo4j-n10s-data:/data
-      - neo4j-n10s-logs:/logs
-      - ../../../ontology:/import:ro
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:7474"]
-      interval: 10s
-      timeout: 5s
-      retries: 10
-      start_period: 30s
-
-  # Neo4j with APOC only for direct Cypher import
-  neo4j-cypher:
-    image: neo4j:5.26.0
-    container_name: neo4j-cypher
-    ports:
-      - "7475:7474"   # HTTP (different port)
-      - "7688:7687"   # Bolt (different port)
-    environment:
-      - NEO4J_AUTH=neo4j/password123
-      - NEO4J_PLUGINS=["apoc"]
-      - NEO4J_apoc_export_file_enabled=true
-      - NEO4J_apoc_import_file_enabled=true
-      - NEO4J_apoc_import_file_use__neo4j__config=true
-      - NEO4J_dbms_security_procedures_unrestricted=apoc.*
-      - NEO4J_dbms_security_procedures_allowlist=apoc.*
-      - NEO4J_server_memory_heap_initial__size=1G
-      - NEO4J_server_memory_heap_max__size=2G
-    volumes:
-      - neo4j-cypher-data:/data
-      - neo4j-cypher-logs:/logs
+      - neo4j-data:/data
+      - neo4j-logs:/logs
       - ../../../ontology:/import:ro
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:7474"]
@@ -58,7 +28,5 @@ services:
       start_period: 30s
 
 volumes:
-  neo4j-n10s-data:
-  neo4j-n10s-logs:
-  neo4j-cypher-data:
-  neo4j-cypher-logs:
+  neo4j-data:
+  neo4j-logs:

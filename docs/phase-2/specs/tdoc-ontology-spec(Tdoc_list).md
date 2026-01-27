@@ -67,6 +67,31 @@
 | 24 | 이번 회의에서 우리 회사 기고 결과 요약은? |
 | 25 | 특정 Agenda Item에서 아직 미결(not treated)인 Tdoc은? |
 
+---
+
+### CQ 결과 규칙
+
+### 정렬 기준 (Default Sort Order)
+
+| CQ 그룹 | Primary Sort | Secondary Sort | 구현 속성 |
+| --- | --- | --- | --- |
+| Tdoc 기본 검색 (#1-9) | Meeting 번호 DESC | Agenda 번호 ASC, TDoc 번호 ASC | `meetingNumberInt DESC` |
+| Tdoc 관계 추적 (#10-16) | TDoc 번호 ASC | - | `tdocNumber ASC` |
+| 회사/경쟁사 분석 (#17-22) | Count DESC (많은 순) | Company 이름 ASC | `count DESC` |
+| 히스토리/요약 (#23-25) | Meeting 번호 DESC | TDoc 번호 ASC | `meetingNumberInt DESC` |
+
+*참고: "Meeting 번호 DESC"는 `meetingNumberInt` 속성으로 정렬해야 숫자 기반 정렬이 보장됨 (문자열 정렬 시 #99 > #122 문제 발생)*
+
+### 결과 개수 (Default Limit)
+
+| CQ 유형 | 기본값 | 적용 CQ |
+| --- | --- | --- |
+| 목록 조회 | 10 | #1-5, #9-12, #15-18, #21, #23, #25 |
+| 단일 조회 | 1 | #6-8, #13-14 |
+| 집계/순위 | 10 | #19-20, #22, #24 |
+
+*참고: Limit은 쿼리 시 파라미터로 조정 가능*
+
 ## Competency Questions vs Tdoc 메타데이터 검증
 
 ## 검증 결과
@@ -532,12 +557,13 @@ WorkingGroup
 
 ### 5.6 기타 클래스 속성
 
-### Meeting (3개)
+### Meeting (4개)
 
 | 속성명 | Type | 데이터 소스 | 설명 |
 | --- | --- | --- | --- |
 | meetingNumber | String | 파일명 | 회의 번호 원본 (예: RAN1#120, RAN1#101-e). 형식: {WG}#{회차}[-e] |
 | canonicalMeetingNumber | String | meetingNumber에서 정규화 | 정규화된 회의 번호. `-e` suffix 제거 |
+| meetingNumberInt | Integer | canonicalMeetingNumber에서 추출 | 정렬용 숫자값. CQ 결과의 "Meeting 번호 DESC" 정렬에 사용 |
 | workingGroup | String | 파일명 | 회의를 주관하는 Working Group (예: RAN1) |
 
 **Meeting ID 정규화 규칙:**
@@ -549,6 +575,17 @@ WorkingGroup
 | RAN1#120 | RAN1#120 | 변경 없음 |
 - `e` suffix: e-meeting 표시로, 정규화 시 제거
 - `bis`, `ter`, `b` suffix: 회차 구분이므로 유지
+
+### meetingNumberInt 추출 규칙
+
+| canonicalMeetingNumber | meetingNumberInt | 설명 |
+| --- | --- | --- |
+| RAN1#122 | 122 | 숫자만 추출 |
+| RAN1#99 | 99 | 숫자만 추출 |
+| RAN1#112bis | 112 | suffix(bis, ter, b) 제외, 숫자만 |
+| RAN1#100 | 100 | 숫자만 추출 |
+
+**추출 로직**: `canonicalMeetingNumber`에서 `#` 뒤의 숫자만 추출 (정규식: `#(\\d+)`)
 
 ### COVID-era e-meeting 특이사항
 
@@ -789,12 +826,15 @@ COVID-19로 인해 RAN1#100 대면 회의가 중단되고, RAN1#100-e로 e-meeti
 | --- | --- | --- | --- | --- | --- |
 | meetingNumber | Meeting | String | 1 | ✅ | 회의 번호 원본. 형식: {WG}#{회차}[-e] (예: RAN1#120, RAN1#101-e) |
 | canonicalMeetingNumber | Meeting | String | 1 | ✅ | 정규화된 회의 번호. `-e` suffix 제거 (예: RAN1#120, RAN1#101) |
+| meetingNumberInt | Meeting | Integer | 1 | ✅ | 정렬용 숫자값. `canonicalMeetingNumber`에서 파생 |
 | workingGroup | Meeting | String | 1 | ✅ | 회의를 주관하는 Working Group |
 
 **제약조건:**
 
 - `canonicalMeetingNumber`는 `meetingNumber`에서 파생 (자동 생성)
+- `meetingNumberInt`는 `canonicalMeetingNumber`에서 파생 (자동 생성, 정규식: `#(\\d+)`)
 - `canonicalMeetingNumber`는 2단계 Resolution 연결 시 매칭 키로 사용
+- `meetingNumberInt`는 CQ 결과 정렬 시 사용 (`ORDER BY meetingNumberInt DESC`)
 
 ### Company
 
